@@ -38,7 +38,7 @@ export function CookieBanner() {
       role="region"
       aria-label="Preferenze sui cookie"
       data-open={state}
-      className="cookie-banner fixed inset-x-3 bottom-3 z-[var(--z-cookie)] border border-[var(--line-dark)] bg-ink/95 p-4 text-ivory shadow-[0_24px_60px_-20px_rgb(0_0_0/0.7)] backdrop-blur-md sm:inset-x-auto sm:bottom-5 sm:left-5 sm:max-w-[26rem] sm:p-5 lg:bottom-auto lg:left-auto lg:right-5 lg:top-[calc(var(--header-h)+var(--announce-h)+0.75rem)]"
+      className="cookie-banner fixed inset-x-3 top-[calc(var(--header-h)+var(--announce-h)+0.5rem)] z-[var(--z-cookie)] border border-[var(--line-dark)] bg-ink/95 p-4 text-ivory shadow-[0_24px_60px_-20px_rgb(0_0_0/0.7)] backdrop-blur-md sm:left-auto sm:right-5 sm:max-w-[26rem] sm:p-5"
     >
       <p className="font-display text-lg leading-tight sm:text-xl">Prima che si alzi il sipario</p>
       <p className="mt-1.5 text-sm leading-relaxed text-ivory-dim sm:text-[0.9375rem]">

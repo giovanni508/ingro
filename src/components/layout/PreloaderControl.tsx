@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { markStageReady } from "@/lib/stage";
 
 /** Time (ms) at which the curtains start to part in the CSS timeline. */
-const OPEN_AT = 1250;
+const OPEN_AT = 1450;
 
 /**
  * Wires the CSS preloader to the page: tells the stage when the curtains

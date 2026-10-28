@@ -50,7 +50,7 @@ export function NotFoundStage() {
     <section ref={root} className="surface-ink grain relative isolate flex min-h-[100svh] items-center overflow-hidden pt-header" aria-labelledby="nf-title">
       <div ref={spot} className="nf-spot" aria-hidden="true" />
       <div className="wrap relative z-[2] py-20">
-        <p className="font-display text-[clamp(7rem,4rem+18vw,22rem)] leading-[0.8] text-[rgb(243_234_226/0.12)] [-webkit-text-stroke:1px_rgb(243_234_226/0.35)]" aria-hidden="true">
+        <p className="opsz-auto font-display text-[clamp(7rem,4rem+18vw,22rem)] leading-[0.8] text-[rgb(243_234_226/0.12)] [-webkit-text-stroke:1px_rgb(243_234_226/0.35)]" aria-hidden="true">
           404
         </p>
         <h1 id="nf-title" className="t-display mt-6 max-w-[16ch] text-ivory">

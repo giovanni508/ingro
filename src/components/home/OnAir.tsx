@@ -72,11 +72,7 @@ export function OnAir() {
       <div className="wrap">
         <div className="grid grid-cols-1 gap-10 md:grid-cols-12 md:items-end md:gap-x-[var(--gutter)]">
           <div className="md:col-span-7">
-            <div data-onair className="onair" aria-hidden="true">
-              <span className="onair-lamp" />
-              ON AIR
-            </div>
-            <SplitReveal as="h2" id="tv-title" className="t-display mt-8 text-ivory">
+            <SplitReveal as="h2" id="tv-title" className="t-display text-ivory">
               {t.title}
             </SplitReveal>
           </div>
@@ -88,9 +84,15 @@ export function OnAir() {
         <div className="mt-16 grid grid-cols-1 gap-14 lg:mt-20 lg:grid-cols-12 lg:gap-x-[var(--gutter)]">
           {/* Weekly schedule */}
           <div className="lg:col-span-8" data-timeline>
-            <div className="flex items-center gap-3 text-ivory">
-              <Television size={22} aria-hidden="true" />
-              <h3 className="font-display text-2xl">{t.scheduleTitle}</h3>
+            <div className="flex flex-wrap items-center justify-between gap-4">
+              <div className="flex items-center gap-3 text-ivory">
+                <Television size={22} aria-hidden="true" />
+                <h3 className="font-display text-2xl">{t.scheduleTitle}</h3>
+              </div>
+              <div data-onair className="onair" aria-hidden="true">
+                <span className="onair-lamp" />
+                ON AIR
+              </div>
             </div>
             <p className="mt-2 max-w-[52ch] text-sm text-ivory-dim">{t.scheduleNote}</p>
 

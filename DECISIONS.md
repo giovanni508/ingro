@@ -63,3 +63,10 @@ Ogni scelta presa in autonomia durante il restyling, con il motivo. Le domande a
 - **Cursore faro** aggiunto al cursore di sistema (non lo sostituisce): niente perdita di precisione né problemi di accessibilità.
 - **Etichette del cursore e bottoni al "voi"** ("Scoprite", "Guardate", "Scriveteci"); "Portami lì" resta in prima persona come sul vecchio sito, perché è la voce del cliente.
 - **YouTube:** nessun iframe; il video della collezione Laura Biagiotti è un link esterno, e in pagina ci sono i due video del negozio, ospitati sul sito, muti e con pausa.
+
+## Dopo la revisione indipendente
+
+- **Banner cookie in alto** (sotto l'header) invece che in basso: alla prima visita non copre mai il titolo e i bottoni della hero. Resta non modale, con "Rifiuta" e "Accetta" identici.
+- **Bodoni Moda a dimensione ottica fissa (`opsz 14`) sotto i corpi display:** il taglio "testo" ha filetti più robusti, leggibili anche su schermi a densità 1x; i titoli grandi usano la dimensione ottica automatica.
+- **Cataloghi a ritmo editoriale:** foto guida grande, 8 capi, "Mostrate tutti". Le altre foto non vengono caricate finché non servono.
+- **Hero dei reparti su mobile a tutto schermo:** Chrome non considera LCP le immagini grandi quanto il viewport, quindi la foto a schermo pieno non rallenta la metrica (verificato: LCP 1,1 s).

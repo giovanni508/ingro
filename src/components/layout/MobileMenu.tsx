@@ -81,7 +81,7 @@ export function MobileMenu({ open, onClose, pathname }: { open: boolean; onClose
               <Link
                 href={item.href}
                 onClick={onClose}
-                className="menu-item font-display text-[clamp(2.6rem,11vw,4.5rem)] leading-[1.08] text-ivory"
+                className="menu-item opsz-auto font-display text-[clamp(2.6rem,11vw,4.5rem)] leading-[1.08] text-ivory"
                 style={{ ["--i" as string]: i }}
                 aria-current={pathname === item.href ? "page" : undefined}
               >

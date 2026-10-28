@@ -665,18 +665,18 @@
   }
   .pl-left {
     left: 0;
-    animation: pl-open-left 0.95s var(--ease-curtain) 1.25s forwards;
+    animation: pl-open-left 0.75s var(--ease-curtain) 1.45s forwards;
   }
   .pl-right {
     right: 0;
-    animation: pl-open-right 0.95s var(--ease-curtain) 1.25s forwards;
+    animation: pl-open-right 0.75s var(--ease-curtain) 1.45s forwards;
   }
   .pl-stage {
     position: absolute;
     inset: 0;
     display: grid;
     place-items: center;
-    animation: pl-stage-out 0.4s var(--ease-out) 1.2s forwards;
+    animation: pl-stage-out 0.3s var(--ease-out) 1.45s forwards;
   }
   .pl-beam {
     position: absolute;
@@ -685,7 +685,7 @@
     clip-path: polygon(44% -2%, 56% -2%, 82% 100%, 18% 100%);
     mix-blend-mode: screen;
     opacity: 0;
-    animation: pl-lamp 0.7s steps(1, end) 0.12s forwards, pl-beam-on 0.6s var(--ease-out) 0.18s forwards;
+    animation: pl-lamp 0.55s steps(1, end) 0.08s forwards, pl-beam-on 0.5s var(--ease-out) 0.12s forwards;
   }
   .pl-pool {
     position: absolute;
@@ -713,11 +713,11 @@
   }
   .pl-word {
     opacity: 0;
-    animation: pl-word-in 0.65s var(--ease-out) 0.4s forwards;
+    animation: pl-word-in 0.5s var(--ease-out) 0.25s forwards;
   }
   .pl-m {
     clip-path: inset(100% 0 0 0);
-    animation: pl-brush 0.5s cubic-bezier(0.55, 0, 0.2, 1) 0.68s forwards;
+    animation: pl-brush 0.4s cubic-bezier(0.55, 0, 0.2, 1) 0.42s forwards;
   }
   .pl-skip-btn {
     position: absolute;
@@ -1413,5 +1413,84 @@
   }
   .cookie-banner[data-open="false"] {
     display: none;
+  }
+}
+
+/* Bodoni Moda below display sizes: pin a text optical size so hairlines
+   survive at 1x DPR ("c" must not read as "e"). Large display keeps auto. */
+@layer base {
+  .font-display,
+  .t-quote,
+  .t-title,
+  .prose-legal h2,
+  .pl-skip-btn {
+    font-variation-settings: "opsz" 14;
+  }
+  .t-quote {
+    font-weight: 500;
+  }
+  .t-hero,
+  .t-display,
+  .opsz-auto {
+    font-variation-settings: normal;
+    font-optical-sizing: auto;
+  }
+}
+
+@layer base {
+  @media (prefers-reduced-motion: reduce) and (min-width: 1024px) {
+    .cer-seq ol > li:last-child {
+      padding-left: 0;
+    }
+  }
+}
+
+/* Department opening: one title, one photo, areas that move with the viewport */
+@layer base {
+  .dept-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      "photo"
+      "body";
+    row-gap: 2.5rem;
+  }
+  .dept-photo {
+    grid-area: photo;
+    position: relative;
+    height: 100svh;
+    min-height: 34rem;
+    margin-inline: calc(var(--margin) * -1);
+  }
+  .dept-title {
+    grid-area: photo;
+    align-self: end;
+    position: relative;
+    z-index: 2;
+    padding-bottom: 1.5rem;
+  }
+  .dept-body {
+    grid-area: body;
+  }
+  @media (min-width: 1024px) {
+    .dept-hero {
+      grid-template-columns: repeat(12, minmax(0, 1fr));
+      grid-template-areas:
+        "title title title title title title title . photo photo photo photo"
+        "body body body body body body body . photo photo photo photo";
+      grid-template-rows: auto 1fr;
+      column-gap: var(--gutter);
+      row-gap: 2rem;
+    }
+    .dept-photo {
+      height: auto;
+      min-height: 0;
+      margin-inline: 0;
+      align-self: start;
+    }
+    .dept-title {
+      grid-area: title;
+      padding-bottom: 0;
+    }
   }
 }

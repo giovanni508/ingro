@@ -17,7 +17,7 @@ export function Footer() {
 
       <Marquee label="La firma di Ingromoda" className="relative z-[2] select-none border-y border-[var(--line-dark)] py-5 md:py-7" speed={46}>
         {Array.from({ length: 3 }).map((_, i) => (
-          <span key={i} className="flex items-center whitespace-nowrap pr-[0.6em] font-display text-[clamp(3rem,9vw,8.5rem)] italic leading-none text-transparent [-webkit-text-stroke:1px_rgb(243_234_226/0.5)]">
+          <span key={i} className="flex items-center whitespace-nowrap pr-[0.6em] opsz-auto font-display text-[clamp(3rem,9vw,8.5rem)] italic leading-none text-transparent [-webkit-text-stroke:1px_rgb(243_234_226/0.5)]">
             …elegante tutto l&apos;anno…
             <span className="mx-[0.4em] inline-block size-[0.16em] rotate-45 bg-magenta not-italic" aria-hidden="true" />
           </span>

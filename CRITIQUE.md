@@ -56,3 +56,23 @@ Rilievi del detector mantenuti di proposito, perché chiesti dal brief o parte d
 - **corsivo Didone grande** nei titoli: è il registro editoriale e moda scelto (il logo è una Didone);
 - **marquee** nel footer: uno solo per pagina, si ferma al passaggio del mouse e al focus, ed è fermo con movimento ridotto;
 - **gradiente a strisce ripetute**: sono le pieghe del velluto del sipario e dei camerini, non una decorazione generica.
+
+## Giro 3 (revisione indipendente)
+
+Un revisore separato (agente `impeccable-finish-reviewer`, senza accesso alle mie conclusioni) ha giudicato le catture contro DESIGN.md e il "craft floor". Esito: **fix**, con questi punti da tenere: alternanza palco / luci di sala, cartamodello sul vestito, camerini con tende e foto vere, mappa luminosa, recensioni in corsivo Didone vero.
+
+| Rilievo del revisore | Decisione | Correzione |
+|---|---|---|
+| Il banner cookie copriva l'ultima riga del titolo e i bottoni della hero alla prima visita | accolto (il banner resta, il brief lo chiede) | banner compatto, in alto sotto l'header su ogni formato, a destra su desktop: titolo e bottoni sempre liberi |
+| Bodoni Moda sotto i 48px: filetti che spariscono a 1x ("classica" letto "elassica") | accolto | dimensione ottica fissata a `opsz 14` per il Bodoni di testo (citazioni, titoletti, giorni del palinsesto, didascalie), peso 500 per le citazioni; `opsz` automatico solo per i titoli display e i numeri grandi |
+| ON AIR come etichetta sopra il titolo (eyebrow vietato) | accolto | l'insegna ON AIR è ora accanto a "In onda su TVM CH19", dentro il palinsesto |
+| Reparti: decine di foto tutte uguali con la stessa pillola | accolto | ogni categoria si apre con testo e una grande foto guida affiancati, poi 8 capi, poi "Mostrate tutti"; la pillola "Chiedete" diventa un pulsante WhatsApp a icona sempre visibile sull'angolo della foto, con etichetta accessibile che nomina il capo |
+| Colonne della galleria sbilanciate a 1920 | in parte | con 8 capi per categoria e la foto guida fuori dalla griglia lo squilibrio si riduce; un vero bilanciamento per altezza richiederebbe JavaScript per ogni larghezza: non fatto |
+| Sequenza cerimonia (movimento ridotto): quinta foto orfana, paragrafo su tutta la larghezza | accolto | la nota delle personal shopper e "Prenotate una consulenza" diventano il sesto tassello, "Su misura per voi" |
+| Reparti su mobile: prima schermata solo testo, nessun capo | accolto | il capo occupa tutta la prima schermata con il titolo sul bordo scuro, come nella home; LCP invariato (1,1 s), Lighthouse 94-100 |
+| Preloader: logo visibile senza la M, sipario subito in apertura | accolto | la M viene pennellata entro 0,82 s e il logo completo resta in scena per oltre 0,6 s prima dell'apertura (sempre entro 2,2 s) |
+| PRODUCT.md citato ma assente | accolto | scritto, con i fatti dedotti marcati |
+| Suggerimento di togliere il banner globale e chiedere il consenso solo sulla mappa | non accolto | il brief chiede esplicitamente il banner; resta, ma non copre più la scena d'apertura |
+| "Tetto" creativo: palinsesto più da insegna luminosa, finale della cerimonia a scala di manifesto, luce fucsia sui capi | annotato | proposte per un'iterazione successiva, insieme alle nuove foto del cliente |
+
+Verifica dopo le correzioni: catture con movimento (logo completo nel fascio di luce, sipario, pin della cerimonia, tende socchiuse e aperte al passaggio, ON AIR nel palinsesto), catture statiche dei reparti a 390 e 1440 px, Lighthouse dei reparti (Donna 100, Uomo 94, Bambino 100; LCP 0,9-1,1 s).

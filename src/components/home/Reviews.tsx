@@ -26,7 +26,7 @@ export function Reviews() {
           </SplitReveal>
           <div className="md:col-span-5 md:col-start-8">
             <p className="flex items-baseline gap-4 text-char">
-              <CountUp value={reviews.count} className="font-display text-[clamp(4rem,2.6rem+5vw,7.5rem)] leading-none" />
+              <CountUp value={reviews.count} className="opsz-auto font-display text-[clamp(4rem,2.6rem+5vw,7.5rem)] leading-none" />
               <span className="text-lg leading-tight">{r.countLabel}</span>
             </p>
             <p className="mt-3 flex items-center gap-3 text-char-dim">
@@ -46,7 +46,7 @@ export function Reviews() {
             return (
               <li key={q.author} className={PLACE[i % PLACE.length]}>
                 <FadeUp as="figure" className="relative">
-                  <span className="absolute -left-1 -top-14 font-display text-[7.5rem] leading-none text-magenta-text md:-left-16 md:-top-10 md:text-[9rem]" aria-hidden="true">
+                  <span className="opsz-auto absolute -left-1 -top-14 font-display text-[7.5rem] leading-none text-magenta-text md:-left-16 md:-top-10 md:text-[9rem]" aria-hidden="true">
                     “
                   </span>
                   <blockquote className="t-quote text-char">

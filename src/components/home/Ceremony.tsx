@@ -152,13 +152,16 @@ export function Ceremony() {
                 </li>
               );
             })}
+            <li className="flex flex-col justify-center gap-8 border-t border-[var(--line-dark)] pt-10 md:border-t-0 md:pt-0">
+              <p className="font-display text-[clamp(1.6rem,1.2rem+1.2vw,2.3rem)] italic leading-tight text-ivory">Su misura per voi</p>
+              <p className="measure text-ivory-dim">{c.note}</p>
+              <div>
+                <Button href={whatsappHref(c.cta.message)} variant="primary" icon={<CalendarCheck size={18} aria-hidden="true" />}>
+                  {c.cta.label}
+                </Button>
+              </div>
+            </li>
           </ol>
-          <p className="mt-12 text-ivory-dim">{c.note}</p>
-          <div className="mt-8">
-            <Button href={whatsappHref(c.cta.message)} variant="primary" icon={<CalendarCheck size={18} aria-hidden="true" />}>
-              {c.cta.label}
-            </Button>
-          </div>
         </div>
       </div>
     </section>
