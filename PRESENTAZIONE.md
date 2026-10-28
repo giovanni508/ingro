@@ -9,7 +9,7 @@
 7. **Il camerino a casa vostra.** La videochiamata WhatsApp con Loredana è spiegata in tre passi (scrivete, videochiamata, provate o ricevete a casa) e raggiungibile da ogni pagina, anche con il pulsante discreto che compare dopo la prima schermata.
 8. **Ogni capo si può chiedere.** Nelle pagine Donna, Uomo e Bambino ogni foto ha la sua descrizione e il suo "Chiedete" su WhatsApp, con il capo già indicato nel messaggio. Taglie in evidenza: donna 38-70, uomo 44-78, bambino 2-16 anni.
 9. **Le recensioni vere, grandi.** Le parole dei clienti diventano citazioni da rivista, accanto alle 513 recensioni su Google; senza il pesante widget esterno.
-10. **Veloce, accessibile, trovabile.** Punteggi Lighthouse mobile tra 90 e 100, navigazione da tastiera, rispetto di chi riduce le animazioni, testi alternativi in italiano, dati strutturati da negozio di abbigliamento con indirizzo e orari, immagine di condivisione con il negozio vero, redirect da tutte le vecchie pagine. Niente più form di login WordPress, niente tracciamento senza consenso.
+10. **Veloce, accessibile, trovabile.** Lighthouse su telefono: prestazioni 96-100, accessibilità, buone pratiche e SEO 100 su tutte le pagine, prima schermata in circa un secondo, navigazione da tastiera, rispetto di chi riduce le animazioni, testi alternativi in italiano, dati strutturati da negozio di abbigliamento con indirizzo e orari, immagine di condivisione con il negozio vero, redirect da tutte le vecchie pagine. Niente più form di login WordPress, niente tracciamento senza consenso.
 
 ## Come raccontare le scelte di design
 

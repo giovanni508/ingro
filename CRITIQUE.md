@@ -76,3 +76,27 @@ Un revisore separato (agente `impeccable-finish-reviewer`, senza accesso alle mi
 | "Tetto" creativo: palinsesto più da insegna luminosa, finale della cerimonia a scala di manifesto, luce fucsia sui capi | annotato | proposte per un'iterazione successiva, insieme alle nuove foto del cliente |
 
 Verifica dopo le correzioni: catture con movimento (logo completo nel fascio di luce, sipario, pin della cerimonia, tende socchiuse e aperte al passaggio, ON AIR nel palinsesto), catture statiche dei reparti a 390 e 1440 px, Lighthouse dei reparti (Donna 100, Uomo 94, Bambino 100; LCP 0,9-1,1 s).
+
+## Verifica finale
+
+- **Screenshot statici:** 10 pagine × 4 larghezze (390, 768, 1440, 1920), nessun overflow orizzontale, nessun errore di console, nessuna risorsa mancante (l'unico 404 è quello voluto della pagina inesistente). Ripetuti dopo gli ultimi ritocchi su reparti e Chi siamo.
+- **Ultimi ritocchi:** in Bambino la foto d'apertura non si ripete più come foto guida della categoria (regola generale nel catalogo); "Chiedete su WhatsApp" più corto nelle aperture dei reparti; Chi siamo a colonna singola fino a 1024 px.
+- **Lighthouse mobile (build di produzione, throttling predefinito):**
+
+| Pagina | Performance | Accessibility | Best Practices | SEO | LCP | CLS | TBT |
+|---|---|---|---|---|---|---|---|
+| Home | 97 | 100 | 100 | 100 | 1,1 s | 0 | 190 ms |
+| Donna | 100 | 100 | 100 | 100 | 1,1 s | 0 | 30 ms |
+| Uomo | 100 | 100 | 100 | 100 | 1,1 s | 0 | 40 ms |
+| Bambino | 96 | 100 | 100 | 100 | 0,9 s | 0 | 220 ms |
+| Chi siamo | 97 | 100 | 100 | 100 | 1,1 s | 0 | 170 ms |
+| Contatti | 100 | 100 | 100 | 100 | 0,9 s | 0 | 20 ms |
+| Privacy | 99 | 100 | 100 | 100 | 0,9 s | 0 | 40 ms |
+| Cookie | 99 | 100 | 100 | 100 | 0,9 s | 0 | 20 ms |
+| Accessibilità | 99 | 100 | 100 | 100 | 0,9 s | 0 | 40 ms |
+
+La 404 risponde con stato 404 e Lighthouse non la valuta; è stata verificata con gli screenshot.
+
+- **Link:** tutte le pagine interne rispondono 200, nessun `href` vuoto o "#", `tel:`, `mailto:` e `wa.me` ben formati, nessun residuo WordPress o Elementor nel markup.
+- **Navigazione e tastiera:** sipario tra pagine, tasto indietro, ridimensionamento, menu mobile (focus, Esc), occasioni con le frecce, validazione del modulo, redirect 301.
+- **Modulo contatti:** in sviluppo il messaggio va nella console del server; errori di validazione in italiano (422); honeypot scartato in silenzio; in produzione senza servizio email configurato risponde chiaramente e propone WhatsApp e telefono.

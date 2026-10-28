@@ -65,7 +65,7 @@ export function DepartmentHero({ d }: { d: Department }) {
               cursor="Scriveteci"
               icon={<WhatsappLogo size={18} aria-hidden="true" />}
             >
-              Chiedete disponibilità su WhatsApp
+              Chiedete su WhatsApp
             </Button>
           </div>
         </div>

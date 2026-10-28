@@ -146,7 +146,9 @@ function Item({ id, label, dept, sizes, eager = false, big = false }: { id: stri
 }
 
 function CategorySection({ c, d, dept, visible, all, onExpand }: { c: Category; d: Department; dept: string; visible: boolean; all: boolean; onExpand: () => void }) {
-  const [lead, ...rest] = c.images;
+  // Never open a category with the same photo the page hero just showed.
+  const images = c.images[0] === d.heroImage ? [...c.images.slice(1), c.images[0]] : c.images;
+  const [lead, ...rest] = images;
   const shown = all ? rest : rest.slice(0, INITIAL);
   const hiddenCount = rest.length - shown.length;
   const from = c.sizes ? c.sizes.from : d.sizes.from;

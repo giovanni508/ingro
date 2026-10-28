@@ -33,15 +33,15 @@ export default function ChiSiamoPage() {
     <PageShell>
       {/* Opening */}
       <section className="surface-ink grain relative overflow-hidden pt-header" aria-labelledby="cs-title">
-        <div className="wrap grid grid-cols-1 gap-10 pb-16 pt-12 md:grid-cols-12 md:gap-x-[var(--gutter)] md:pb-24 md:pt-20">
-          <div className="md:col-span-6 md:self-end">
+        <div className="wrap grid grid-cols-1 gap-10 pb-16 pt-12 md:pb-24 md:pt-20 lg:grid-cols-12 lg:gap-x-[var(--gutter)]">
+          <div className="lg:col-span-6 lg:self-end">
             <SplitReveal as="h1" id="cs-title" trigger="stage" className="t-hero text-ivory">
               Chi <span className="italic text-magenta-glow">siamo</span>
             </SplitReveal>
             <p className="mt-8 max-w-[24ch] font-display text-[clamp(1.6rem,1.2rem+1.4vw,2.4rem)] italic leading-tight text-ivory">{c.hero.lead}</p>
             <p className="t-lead mt-6 max-w-[44ch] text-ivory-dim">{c.hero.intro}</p>
           </div>
-          <div className="ml-auto w-1/2 md:col-span-6 md:w-full">
+          <div className="ml-auto w-1/2 md:w-[60%] lg:col-span-6 lg:w-full">
             <SpotlightReveal src={hero.src} alt={hero.alt} loading="eager" fetchPriority="high" sizes="(min-width: 768px) 46vw, 50vw" frameClassName="aspect-[4/5] w-full" spot={1} />
           </div>
         </div>
@@ -49,11 +49,11 @@ export default function ChiSiamoPage() {
 
       {/* Story */}
       <section className="surface-light section" aria-labelledby="story-title">
-        <div className="wrap grid grid-cols-1 gap-14 md:grid-cols-12 md:gap-x-[var(--gutter)]">
-          <div className="md:col-span-5">
+        <div className="wrap grid grid-cols-1 gap-14 lg:grid-cols-12 lg:gap-x-[var(--gutter)]">
+          <div className="mx-auto w-full max-w-[32rem] lg:col-span-5 lg:max-w-none">
             <ParallaxImage src={story.src} alt={story.alt} sizes="(min-width: 768px) 40vw, 92vw" frameClassName="aspect-[3/4] w-full" amount={14} />
           </div>
-          <div className="md:col-span-6 md:col-start-7 md:self-center">
+          <div className="lg:col-span-6 lg:col-start-7 lg:self-center">
             <SplitReveal as="h2" id="story-title" className="t-display text-char">
               {c.story.title}
             </SplitReveal>
@@ -81,11 +81,11 @@ export default function ChiSiamoPage() {
 
       {/* Team */}
       <section className="surface-light section" aria-labelledby="team-title">
-        <div className="wrap grid grid-cols-1 gap-10 md:grid-cols-12 md:gap-x-[var(--gutter)]">
-          <SplitReveal as="h2" id="team-title" className="t-display text-char md:col-span-5">
+        <div className="wrap grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-x-[var(--gutter)]">
+          <SplitReveal as="h2" id="team-title" className="t-display text-char lg:col-span-5">
             {c.team.title}
           </SplitReveal>
-          <FadeUp stagger className="space-y-5 text-char-dim md:col-span-6 md:col-start-7">
+          <FadeUp stagger className="space-y-5 text-char-dim lg:col-span-6 lg:col-start-7">
             {c.team.paragraphs.map((p) => (
               <p key={p.slice(0, 20)} className="t-lead measure text-char-dim">
                 {p}
@@ -97,8 +97,8 @@ export default function ChiSiamoPage() {
 
       {/* Online and TV */}
       <section className="surface-ink grain section relative overflow-hidden" aria-labelledby="online-title">
-        <div className="wrap grid grid-cols-1 gap-14 md:grid-cols-12 md:gap-x-[var(--gutter)]">
-          <div className="md:col-span-6">
+        <div className="wrap grid grid-cols-1 gap-14 lg:grid-cols-12 lg:gap-x-[var(--gutter)]">
+          <div className="lg:col-span-6">
             <SplitReveal as="h2" id="online-title" className="t-display text-ivory">
               {c.online.title}
             </SplitReveal>
@@ -115,7 +115,7 @@ export default function ChiSiamoPage() {
               </Link>
             </p>
           </div>
-          <ul className="grid grid-cols-1 gap-px self-end border border-[var(--line-dark)] bg-[var(--line-dark)] sm:grid-cols-2 md:col-span-5 md:col-start-8">
+          <ul className="grid grid-cols-1 gap-px self-end border border-[var(--line-dark)] bg-[var(--line-dark)] sm:grid-cols-2 lg:col-span-5 lg:col-start-8">
             {c.online.facts.map((f, i) => {
               const Icon = FACT_ICONS[i];
               return (
