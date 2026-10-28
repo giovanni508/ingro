@@ -9,6 +9,9 @@ import { FadeUp } from "@/components/motion/FadeUp";
 import { ParallaxImage } from "@/components/motion/ParallaxImage";
 import { SpotlightReveal } from "@/components/motion/SpotlightReveal";
 import { CountUp } from "@/components/motion/CountUp";
+import { Pin } from "@/components/motion/Pin";
+import { Marquee } from "@/components/motion/Marquee";
+import { SectionTitle } from "@/components/ui/SectionTitle";
 import { getMedia } from "@/lib/media";
 
 export const metadata: Metadata = {
@@ -133,6 +136,31 @@ export default function StyleguidePage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="surface-light section">
+        <div className="wrap">
+          <SectionTitle tone="light" italic="con coda in corsivo">SectionTitle</SectionTitle>
+        </div>
+      </section>
+
+      <section className="surface-ink">
+        <Pin length={1} className="grid min-h-[100svh] place-items-center">
+          <div className="wrap text-center">
+            <p className="t-display">Pin</p>
+            <p className="mt-4 text-ivory-dim">Questa scena resta ferma per una schermata su desktop; su telefono e con movimento ridotto scorre normalmente.</p>
+          </div>
+        </Pin>
+      </section>
+
+      <section className="surface-dark py-10">
+        <Marquee label="Esempio di marquee" speed={30}>
+          {["Matrimonio", "Comunione", "Laurea", "18 anni", "Elegante", "Casual"].map((w) => (
+            <span key={w} className="px-8 font-display text-5xl italic text-ivory">
+              {w}
+            </span>
+          ))}
+        </Marquee>
       </section>
 
       <section className="surface-dark section">

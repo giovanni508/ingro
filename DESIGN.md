@@ -118,8 +118,8 @@ Principi:
 
 - `Button` (primary / ghost / light, opzione magnetica, label che scorre, luce che sale): `src/components/ui/Button.tsx`.
 - `TextLink` (sottolineatura che si disegna): `src/components/ui/TextLink.tsx`.
-- `SplitReveal`, `FadeUp`, `ParallaxImage`, `Marquee`, `CountUp`, `SpotlightReveal`, pin (scena cerimonia): `src/components/motion/`.
-- `Cursor`, `Magnetic`, `Media`, `OpeningHours`: `src/components/ui/`.
+- `SplitReveal`, `FadeUp`, `ParallaxImage`, `Marquee`, `Pin`, `CountUp`, `SpotlightReveal`, `FabricLight` (shader opzionale): `src/components/motion/`.
+- `SectionTitle`, `Cursor`, `Magnetic`, `Media`, `OpeningHours`, `OpenNow` (dietro flag): `src/components/ui/`.
 - `Header`, `MobileMenu`, `Footer`, `Preloader`, `CookieBanner`, `StickyWhatsApp`, `RouteCurtain`, `PageShell`, `AnnouncementBar` (nell'header): `src/components/layout/`.
 - `Logo` (tracciati vettoriali condivisi via `<use>`): `src/components/brand/`.
 
@@ -133,3 +133,10 @@ Principi:
 ## Cosa non fare
 
 Niente caroselli generici, card tutte uguali con ombra, hero centrata con due bottoni, emoji come icone, etichette maiuscole sopra ogni titolo, numeri di sezione, gradienti nel testo, trattini lunghi nei testi, stock evidenti.
+
+## Note tecniche per chi mantiene il sistema
+
+- **Cascata CSS:** tutte le classi custom (`.btn`, `.room-*`, `.pl-*`, `.dept-hero`…) stanno in `@layer base` di `globals.css`, così le utility Tailwind le sovrascrivono sempre (`hidden md:inline-flex` funziona anche su un `.btn`). Tailwind 4 elimina le dichiarazioni d'ordine dei layer e appiattisce `@layer components`: non usarlo.
+- **Bodoni a dimensione ottica:** il Bodoni di testo usa `font-variation-settings: "opsz" 14`; i titoli display (`.t-hero`, `.t-display`) e i numeri grandi (classe `.opsz-auto`) usano la dimensione ottica automatica.
+- **Token di movimento** doppi: `--ease-*` e `--dur-*` in CSS, `EASE`, `DUR`, `STAGGER` in `src/lib/gsap.ts`. Cambiarli in entrambi i posti.
+- **Scena pronta:** la coreografia sopra la piega aspetta `onStageReady()` (apertura del sipario) e non si ripete se la scena era già illuminata (`stageAlreadyReady()`).
