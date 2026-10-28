@@ -1,0 +1,46 @@
+{
+  "_note": "Recensioni Google reali, come mostrate dal widget del vecchio sito (content/raw/reviews.json). 'excerpt' è il testo originale, accorciato solo con '…'; i nomi delle commesse diverse da Loredana sono omessi in attesa di consenso. 'full' è il testo integrale, invariato.",
+  "source": "Google",
+  "count": 513,
+  "countAsPrinted": "In base a 513 recensioni",
+  "ratingLabelAsPrinted": "ECCELLENTE",
+  "averageRating": null,
+  "items": [
+    {
+      "author": "Maria Solito",
+      "rating": 5,
+      "date": "2026-09-05",
+      "excerpt": "Abbiamo visto questo negozio tramite social e TV.... Ci servivano 3 abiti da cerimonia due donna e uno uomo, siamo riusciti a vestirci tutti e 3!!!!",
+      "full": "Abbiamo visto questo negozio tramite social e TV.... Ci servivano 3 abiti da cerimonia due donna e uno uomo, siamo riusciti a vestirci tutti e 3!!!! La commessa Barbara è stata gentilissima, paziente e brava nel saperci consigliare, ma in generale lo staff molto accogliente.... Ci siamo trovati benissimo!!! Sicuramente, dovessimo avere altre occasioni.... Ritorneremo!!!! Lo consiglio!!!!"
+    },
+    {
+      "author": "Denise Pizzo",
+      "rating": 5,
+      "date": "2026-08-28",
+      "excerpt": "Ho comprato qui da Ingromoda il tailleur per la mia laurea e sono stata più che soddisfatta … per non parlare degli abiti di super qualità presenti in negozio",
+      "full": "Ho comprato qui da Ingromoda il tailleur per la mia laurea e sono stata più che soddisfatta sia di Barbara che mi ha consigliato, sia del proprietario del negozio che è stato davvero gentilissimo, per non parlare degli abiti di super qualità presenti in negozio, tornerò sicuramente per altri eventi"
+    },
+    {
+      "author": "Francesco Di Stefano",
+      "rating": 5,
+      "date": "2026-08-16",
+      "excerpt": "Esperienza magnifica. La ricerca e la scelta di un abito non è mai facile, ma grazie all’aiuto del personale (gentilissimo, cordiale e professionale) è stato veramente un piacere.",
+      "full": "Esperienza magnifica. La ricerca e la scelta di un abito non è mai facile, ma grazie all’aiuto del personale (gentilissimo, cordiale e professionale) è stato veramente un piacere. Straconsigliato!"
+    },
+    {
+      "author": "Fabio",
+      "rating": 5,
+      "date": "2026-09-22",
+      "excerpt": "… ero alla ricerca di un abito da indossare in occasione del 18^ compleanno di mia figlia … Sono rimasto molto soddisfatto dell’ottimo rapporto qualità/prezzo, nonché dell’ambiente, cordiale ed accogliente.",
+      "full": "Lo scorso sabato sono stato per la prima volta in questo negozio, ero alla ricerca di un abito da indossare in occasione del 18^ compleanno di mia figlia; siamo stati accolti da una giovane commessa che ci ha subito affidati alla sua collega Gabriella, quest’ultima, dotata di grande esperienza e capacità, ha subito compreso le mie esigenze e, dopo avermi fatto provare tre alternative, è stata molto paziente e professionale nel guidarmi nella scelta, in un clima di assoluta serenità.\nSono rimasto molto soddisfatto dell’ottimo rapporto qualità/prezzo, nonché dell’ambiente, cordiale ed accogliente.\nTornerò sicuramente in negozio al bisogno di nuovi acquisti."
+    },
+    {
+      "author": "Maria Faraci",
+      "authorAsPrinted": "maria faraci",
+      "rating": 5,
+      "date": "2026-08-28",
+      "excerpt": "Grazie infinite mi sono trovata benissimo grazie alla professionalità di Loredana complimenti",
+      "full": "Grazie infinite mi sono trovata benissimo grazie alla professionalità di Loredana complimenti"
+    }
+  ]
+}

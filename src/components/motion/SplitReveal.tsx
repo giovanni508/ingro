@@ -2,7 +2,7 @@
 
 import { useRef, type ElementType, type ReactNode } from "react";
 import { gsap, SplitText, ScrollTrigger, useGSAP, EASE, DUR, STAGGER, MOTION_OK } from "@/lib/gsap";
-import { onStageReady } from "@/lib/stage";
+import { onStageReady, stageAlreadyReady } from "@/lib/stage";
 
 type Props = {
   as?: ElementType;
@@ -27,6 +27,8 @@ export function SplitReveal({ as: Tag = "div", children, className, trigger = "s
     () => {
       const el = ref.current;
       if (!el) return;
+      // Above-the-fold text that is already lit stays put: no hide-and-replay.
+      if (trigger === "stage" && stageAlreadyReady()) return;
       const mm = gsap.matchMedia();
       mm.add(MOTION_OK, () => {
         let cancel: (() => void) | undefined;

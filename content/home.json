@@ -1,0 +1,87 @@
+{
+  "_note": "Testi della home, scena per scena. Riscritti col 'voi' a partire dai testi originali del vecchio sito (vedi content/raw/home.json). Le immagini sono id di content/media.json.",
+  "seo": {
+    "title": "Abiti da cerimonia e moda a Palermo | Ingromoda",
+    "description": "Boutique a Palermo per donna, uomo e bambino: abiti da cerimonia unici, casual e sportswear, taglie comode, personal shopper e videochiamate WhatsApp. Viale Regione Siciliana 4325."
+  },
+  "hero": {
+    "title": "Abiti alla moda per tutte le occasioni a Palermo",
+    "subtitle": "Da generazioni curiamo il vostro look.",
+    "image": "hero-palco",
+    "primary": { "label": "Scoprite i reparti", "href": "#reparti" },
+    "secondary": { "label": "Videochiamata WhatsApp", "message": "Ciao Loredana, vorrei una videochiamata per vedere alcuni capi." }
+  },
+  "generations": {
+    "title": "Dal cartamodello alla tendenza",
+    "illuminated": "I nostri capi uniscono l'eleganza classica delle linee sartoriali italiane alle tendenze di oggi, per un look sempre ricercato e attuale.",
+    "body": "La nostra proposta va dall'elegante al casual fino allo sportswear, con capi a prezzi convenienti e accessibili a tutti, anche nelle taglie calibrate.",
+    "image": "gen-celeste",
+    "patternLabels": ["CORPINO DAVANTI", "TAGLIARE 2 IN TESSUTO", "GONNA", "DRITTOFILO", "PINCE", "MARGINE DI CUCITURA 1,5 CM"]
+  },
+  "occasions": {
+    "title": "Per quale occasione?",
+    "intro": "Sceglietene una: vi mostriamo da dove partire, e su WhatsApp vi rispondiamo noi.",
+    "items": [
+      { "id": "matrimonio", "label": "Matrimonio e cerimonia", "short": "Matrimonio", "text": "Per chi si sposa, per i testimoni, per gli invitati: abiti lunghi e corti, tailleur e completi di alta sartoria, con gli accessori giusti.", "image": "occ-matrimonio", "message": "Ciao, cerco un abito per un matrimonio." },
+      { "id": "comunione", "label": "Comunione", "short": "Comunione", "text": "Abiti da cerimonia per bambine e bambini dai 2 ai 16 anni, e per tutta la famiglia che li accompagna.", "image": "occ-comunione", "message": "Ciao, cerco un abito per una comunione." },
+      { "id": "laurea", "label": "Laurea", "short": "Laurea", "text": "Il tailleur o il completo per il giorno della proclamazione, e per la festa che viene dopo.", "image": "occ-laurea", "message": "Ciao, cerco un abito per una laurea." },
+      { "id": "diciotto", "label": "18 anni", "short": "18 anni", "text": "Per chi compie diciotto anni e per chi festeggia con lei o con lui: l'abito della serata, scelto con calma.", "image": "occ-diciotto", "message": "Ciao, cerco un abito per una festa di 18 anni." },
+      { "id": "elegante", "label": "Elegante", "short": "Elegante", "text": "Smoking, completi e giacche per serate ed eventi formali, curati in ogni dettaglio, dalla cravatta al pantalone.", "image": "occ-elegante", "message": "Ciao, cerco un look elegante." },
+      { "id": "casual", "label": "Casual e sportswear", "short": "Casual", "text": "Jeans, camicie di lino, t-shirt e felpe: capi comodi e pratici, belli da indossare tutti i giorni.", "image": "occ-casual", "message": "Ciao, cerco qualcosa di casual." }
+    ]
+  },
+  "ceremony": {
+    "title": "Gli abiti da cerimonia",
+    "lead": "Ciò che ci contraddistingue: capi unici e originali, per ogni occasione speciale.",
+    "steps": [
+      { "image": "cer-tailleur", "title": "Dai semplici tailleur", "text": "Si parte dalla linea pulita di un tailleur, nel colore che vi sta meglio." },
+      { "image": "cer-fiori", "title": "ai dettagli unici", "text": "Ricami, applicazioni, fiori in tessuto: dettagli scelti stagione per stagione." },
+      { "image": "cer-turchese", "title": "agli abiti lunghi e corti", "text": "Selezionati in base alle tendenze del momento e alla stagione corrente." },
+      { "image": "cer-raso", "title": "in raso, pizzo e chiffon", "text": "Materiali di eccellente qualità e la massima cura dei dettagli, per un look davvero impeccabile." },
+      { "image": "cer-splendente", "title": "fino all'abito splendente", "text": "Strass e paillettes per la sera in cui tutti gli occhi sono su di voi." }
+    ],
+    "note": "Le nostre personal shopper tengono conto dell'occasione, del vostro stile e della vostra fisicità, per valorizzare la vostra silhouette.",
+    "cta": { "label": "Prenotate una consulenza", "message": "Ciao, vorrei prenotare una consulenza per un abito da cerimonia." }
+  },
+  "departments": {
+    "title": "Tre camerini, un solo negozio",
+    "intro": "Abbigliamento per tutta la famiglia, dalla cerimonia allo sportswear.",
+    "items": [
+      { "href": "/donna", "title": "Donna", "text": "Dai look di tutti i giorni agli abiti da cerimonia. Dalla taglia 38 alla 70.", "image": "rep-donna" },
+      { "href": "/uomo", "title": "Uomo", "text": "Casual, sportswear e alta sartoria. Dalla taglia 44 alla 78.", "image": "rep-uomo" },
+      { "href": "/bambino", "title": "Bambino", "text": "Abiti da cerimonia dai 2 ai 16 anni, per comunioni, matrimoni e compleanni.", "image": "rep-bambino" }
+    ]
+  },
+  "shopper": {
+    "title": "Il camerino a casa vostra",
+    "lead": "Non riuscite a passare in negozio? Vi mostriamo i capi in videochiamata su WhatsApp.",
+    "body": "Le nostre personal shopper ideano look curati e alla moda, e il nostro staff qualificato vi guida nella scelta come se foste in camerino, tenendo conto della vostra personalità e del vostro stile.",
+    "image": "shopper-collana",
+    "steps": [
+      { "icon": "chat", "title": "Scrivete a Loredana", "text": "Su WhatsApp: raccontateci l'occasione, la taglia e cosa avete in mente." },
+      { "icon": "video", "title": "Videochiamata", "text": "Vi mostriamo i capi dal vivo, con i consigli delle personal shopper." },
+      { "icon": "bag", "title": "Provate o ricevete", "text": "Venite a provarli in negozio, oppure ve li spediamo in tutta Italia ed Europa." }
+    ],
+    "cta": { "label": "Videochiamata con Loredana", "message": "Ciao Loredana, vorrei una videochiamata per vedere alcuni capi." }
+  },
+  "tv": {
+    "title": "Seguiteci su TVM CH19",
+    "lead": "Ci trovate in TV tutti i giorni. Il martedì e il venerdì siamo in diretta su Facebook: scegliete i capi che amate e ve li spediamo a casa.",
+    "scheduleTitle": "In onda su TVM CH19",
+    "scheduleNote": "Orari delle messe in onda in TV, come comunicati dall'emittente. Non sono gli orari del negozio.",
+    "facebookTitle": "Dirette Facebook",
+    "facebookText": "Martedì e venerdì dalle 17:00",
+    "facebookCta": "Seguiteci su Facebook"
+  },
+  "reviews": {
+    "title": "Dicono di noi",
+    "countLabel": "recensioni su Google",
+    "ratingLabel": "Giudizio complessivo: eccellente",
+    "cta": "Tutte le recensioni su Google"
+  },
+  "visit": {
+    "title": "Venite a trovarci",
+    "lead": "Il nostro store è facilmente raggiungibile e ha un ampio parcheggio interno privato.",
+    "cta": "Portami lì"
+  }
+}

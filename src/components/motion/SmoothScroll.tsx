@@ -2,7 +2,7 @@
 
 import Lenis from "lenis";
 import { usePathname } from "next/navigation";
-import { createContext, useContext, useEffect, useRef, useState, type ReactNode } from "react";
+import { createContext, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { gsap, ScrollTrigger, REDUCED } from "@/lib/gsap";
 
 type ScrollApi = {
@@ -30,7 +30,7 @@ export const useSmoothScroll = () => useContext(ScrollContext);
 export function SmoothScroll({ children }: { children: ReactNode }) {
   const [lenis, setLenis] = useState<Lenis | null>(null);
   const pathname = usePathname();
-  const first = useRef(true);
+  const lastPath = useRef(pathname);
 
   useEffect(() => {
     const mq = window.matchMedia(REDUCED);
@@ -50,6 +50,8 @@ export function SmoothScroll({ children }: { children: ReactNode }) {
       gsap.ticker.add(tick);
       gsap.ticker.lagSmoothing(0);
       document.documentElement.classList.add("lenis-on");
+      // Handle for automated visual checks (scripts/shots.mjs).
+      (window as unknown as { __lenis?: Lenis }).__lenis = instance;
       setLenis(instance);
     };
 
@@ -72,10 +74,8 @@ export function SmoothScroll({ children }: { children: ReactNode }) {
 
   // New route: jump to top (or to the hash) and re-measure every trigger.
   useEffect(() => {
-    if (first.current) {
-      first.current = false;
-      return;
-    }
+    if (lastPath.current === pathname) return;
+    lastPath.current = pathname;
     const hash = window.location.hash;
     const target = hash ? document.querySelector<HTMLElement>(hash) : null;
     if (lenis) {
@@ -85,7 +85,7 @@ export function SmoothScroll({ children }: { children: ReactNode }) {
     return () => window.clearTimeout(id);
   }, [pathname, lenis]);
 
-  const api: ScrollApi = {
+  const api = useMemo<ScrollApi>(() => ({
     lenis,
     lock: () => {
       lenis?.stop();
@@ -106,7 +106,7 @@ export function SmoothScroll({ children }: { children: ReactNode }) {
         el.scrollIntoView({ block: "start" });
       }
     },
-  };
+  }), [lenis]);
 
   return <ScrollContext.Provider value={api}>{children}</ScrollContext.Provider>;
 }

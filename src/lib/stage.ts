@@ -30,3 +30,12 @@ export function onStageReady(cb: () => void): () => void {
     subs.delete(cb);
   };
 }
+
+/**
+ * True when the stage was already lit before this component mounted (no
+ * preloader this session, or it has finished). Entrance choreography above
+ * the fold is skipped in that case so nothing visible is hidden and replayed.
+ */
+export function stageAlreadyReady() {
+  return ready || isReadyFromDom();
+}
