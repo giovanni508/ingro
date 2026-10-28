@@ -145,7 +145,7 @@ export function Hero() {
         </SplitReveal>
         <div ref={rest} className="mt-6 flex flex-col gap-7 md:mt-8 lg:flex-row lg:items-end lg:justify-between">
           <p className="t-lead max-w-[30ch] text-ivory">{h.subtitle}</p>
-          <div className="flex flex-col gap-3 sm:flex-row">
+          <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <Button href={h.primary.href} variant="light" magnetic cursor="Scoprite" icon={<ArrowDown size={18} aria-hidden="true" />}>
               {h.primary.label}
             </Button>

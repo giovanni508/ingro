@@ -38,21 +38,21 @@ export function CookieBanner() {
       role="region"
       aria-label="Preferenze sui cookie"
       data-open={state}
-      className="cookie-banner fixed inset-x-3 bottom-3 z-[var(--z-cookie)] max-w-[30rem] border border-[var(--line-dark)] bg-ink/95 p-5 text-ivory shadow-[0_24px_60px_-20px_rgb(0_0_0/0.7)] backdrop-blur-md sm:inset-x-auto sm:left-5 sm:bottom-5 md:p-6"
+      className="cookie-banner fixed inset-x-3 bottom-3 z-[var(--z-cookie)] border border-[var(--line-dark)] bg-ink/95 p-4 text-ivory shadow-[0_24px_60px_-20px_rgb(0_0_0/0.7)] backdrop-blur-md sm:inset-x-auto sm:bottom-5 sm:left-5 sm:max-w-[26rem] sm:p-5 lg:bottom-auto lg:left-auto lg:right-5 lg:top-[calc(var(--header-h)+var(--announce-h)+0.75rem)]"
     >
-      <p className="font-display text-xl leading-tight">Prima che si alzi il sipario</p>
-      <p className="mt-2 text-[0.9375rem] leading-relaxed text-ivory-dim">
+      <p className="font-display text-lg leading-tight sm:text-xl">Prima che si alzi il sipario</p>
+      <p className="mt-1.5 text-sm leading-relaxed text-ivory-dim sm:text-[0.9375rem]">
         Usiamo solo cookie tecnici, necessari al sito. Con il vostro consenso carichiamo anche contenuti di terze parti, come la mappa di Google Maps. Niente pubblicità, niente profilazione.{" "}
         <Link href="/cookie" className="inline-link text-ivory">
           Cookie policy
         </Link>
       </p>
-      <div className="mt-5 grid grid-cols-2 gap-3">
-        <button type="button" onClick={() => choose(false)} className="btn btn-ghost !min-h-12 !px-4">
+      <div className="mt-4 grid grid-cols-2 gap-3">
+        <button type="button" onClick={() => choose(false)} className="btn btn-ghost !min-h-11 !px-4">
           <span className="btn-fill" aria-hidden="true" />
           <span className="btn-label">Rifiuta</span>
         </button>
-        <button type="button" onClick={() => choose(true)} className="btn btn-ghost !min-h-12 !px-4">
+        <button type="button" onClick={() => choose(true)} className="btn btn-ghost !min-h-11 !px-4">
           <span className="btn-fill" aria-hidden="true" />
           <span className="btn-label">Accetta</span>
         </button>

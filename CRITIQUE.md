@@ -34,3 +34,25 @@ Lighthouse mobile (prima delle correzioni): home 94/94/100/100, 1 errore di acce
 Cosa regge già bene: la hero come locandina con il faro sui tre abiti, il cartamodello che combacia col vestito, i camerini con le tende, la linea del tempo TV, le citazioni editoriali, la mappa luminosa, il ritmo palco / luci di sala.
 
 Cosa resta debole (non risolvibile senza il cliente): alcune foto sono a bassa risoluzione (768 px: negozio e abiti indossati) e su schermi grandi si vedono morbide; le foto di taglie comode hanno l'aspetto di immagini generate. Entrambi i punti sono in `content/TODO-cliente.md`.
+
+## Giro 2 (movimento attivo, audit di navigazione, detector impeccable)
+
+Screenshot a scene con movimento attivo (home a 1440 e 390 px, 18 e 24 stati, compresi inizio, metà e fine del pin della cerimonia), audit di navigazione con Playwright (`scripts/nav-check.mjs`), detector `impeccable detect` sulle pagine servite.
+
+| Problema | Dove | Correzione |
+|---|---|---|
+| Titolo "Gli abiti da cerimonia" più largo della sua colonna durante il pin: finiva sotto la foto | scena 4, desktop | corpo ridotto nel layout pinnato |
+| Testi dei passi sovrapposti a metà transizione | scena 4 | prima esce il testo vecchio, poi entra il nuovo, senza sovrapposizione |
+| Su desktop le tende chiuse non invitavano a passarci sopra | scena 5 | tende socchiuse: una fessura di luce lascia intravedere la foto |
+| Messaggi del modulo lato server al "tu" ("Scrivi il tuo nome", "scrivici") | API contatti | portati al "voi" |
+| Contrasto 4,3:1 della nota bianca all'85% sul fucsia | Contatti | testo pieno, 5,6:1 |
+| Righe da 87-100 caratteri: `62ch` in Jost (carattere stretto) sono troppi | testi e pagine legali | `.measure` 52ch, testi legali 56ch (circa 75 caratteri) |
+| Interlinea 1,18 delle citazioni | recensioni | 1,28 |
+| LCP di Chi siamo 3,9-4,3 s: su mobile l'elemento LCP era la foto, che nella simulazione Lighthouse condivide la banda con font e JavaScript | Chi siamo | il paragrafo d'apertura passa nella prima schermata e la foto diventa un riquadro a metà larghezza su mobile: LCP 1,1 s, punteggio 99 |
+
+Audit di navigazione superato: preloader che sparisce, sipario tra pagine, tasto indietro (titolo della home di nuovo visibile, scroll a zero), nessun overflow dopo resize e rotazione, menu mobile con focus su "Chiudi" ed Esc, occasioni selezionabili con le frecce, validazione del modulo con focus sul primo errore, redirect 301 (`/privacy-policy/` → `/privacy`, `/donna/` → `/donna`, `/wp-login.php` → `/`).
+
+Rilievi del detector mantenuti di proposito, perché chiesti dal brief o parte del concetto:
+- **corsivo Didone grande** nei titoli: è il registro editoriale e moda scelto (il logo è una Didone);
+- **marquee** nel footer: uno solo per pagina, si ferma al passaggio del mouse e al focus, ed è fermo con movimento ridotto;
+- **gradiente a strisce ripetute**: sono le pieghe del velluto del sipario e dei camerini, non una decorazione generica.

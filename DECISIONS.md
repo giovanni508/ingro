@@ -48,3 +48,18 @@ Ogni scelta presa in autonomia durante il restyling, con il motivo. Le domande a
 - **Tema unico vs sezioni alternate:** la skill vieta di alternare chiaro/scuro; il brief chiede sezioni chiare editoriali alternate. L'alternanza segue la metafora "palco / luci di sala" ed è documentata in DESIGN.md.
 - **Titoli giganti oltre 6rem:** solo l'H1 della home, come richiesto dal brief.
 - **Palette cipria:** la skill vieta il "beige+ottone" di default; qui l'avorio è richiesto dal brief e il secondo colore è il fucsia del logo, non ottone.
+
+## Decisioni tecniche
+
+- **Next.js 16.4 con Cache Components:** tutte le pagine sono prerenderizzate statiche; solo `/api/contact` è dinamica. Nessun `new Date()` nei componenti server: annuncio, "aperto ora" e "prossima messa in onda" si calcolano nel browser.
+- **CSS custom nel layer `base`:** Tailwind 4 scarta la dichiarazione dell'ordine dei layer e "srotola" `@layer components`; mettendo i componenti in `base` le utility Tailwind vincono sempre (così `hidden md:inline-flex` funziona anche su `.btn`).
+- **Preloader solo CSS:** la timeline (2,2 s) parte al primo paint, senza aspettare l'idratazione; uno script inline prima del paint lo salta se già visto nella sessione o con movimento ridotto. Il JavaScript serve solo per "Salta" e per dare il via alla coreografia della hero.
+- **Banner cookie renderizzato lato server** e mostrato dallo stesso script inline: nessun salto di layout e nessun LCP ritardato.
+- **Immagini LCP:** `loading="eager"` + `fetchPriority="high"` (in Next 16 `priority` è deprecato).
+- **Redirect 301 espliciti** (`statusCode: 301`) con `skipTrailingSlashRedirect`, così anche gli slash finali di WordPress rispondono 301 e non 308.
+- **Modulo contatti:** destinatario solo da `CONTACT_TO`; invio tramite Resend se configurato; in sviluppo il messaggio va in console; in produzione senza configurazione il modulo lo dice chiaramente e propone WhatsApp e telefono.
+- **Nessuna statistica** installata: il vecchio sito aveva Google Analytics; se il cliente la vuole va aggiunta con consenso (TODO).
+- **Shader "luce su tessuto":** WebGL puro (nessuna libreria), solo desktop con puntatore fine, almeno 4 core e senza movimento ridotto; si ferma fuori schermo; disattivabile con `fabricShader` in `content/features.json`. Su mobile non viene nemmeno inizializzato, quindi non pesa sui punteggi mobile.
+- **Cursore faro** aggiunto al cursore di sistema (non lo sostituisce): niente perdita di precisione né problemi di accessibilità.
+- **Etichette del cursore e bottoni al "voi"** ("Scoprite", "Guardate", "Scriveteci"); "Portami lì" resta in prima persona come sul vecchio sito, perché è la voce del cliente.
+- **YouTube:** nessun iframe; il video della collezione Laura Biagiotti è un link esterno, e in pagina ci sono i due video del negozio, ospitati sul sito, muti e con pausa.

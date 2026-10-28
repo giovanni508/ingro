@@ -307,6 +307,8 @@
     text-transform: uppercase;
     white-space: nowrap;
     overflow: hidden;
+    flex-shrink: 0;
+    max-width: 100%;
     cursor: pointer;
     transition:
       color var(--dur-fast) var(--ease-out),

@@ -9,14 +9,10 @@ import { SpotlightReveal } from "@/components/motion/SpotlightReveal";
 import { Reviews } from "@/components/home/Reviews";
 import { Visit } from "@/components/home/Visit";
 import { getMedia } from "@/lib/media";
+import { pageMeta } from "@/lib/seo";
 import c from "../../../content/chi-siamo.json";
 
-export const metadata: Metadata = {
-  title: c.seo.title,
-  description: c.seo.description,
-  alternates: { canonical: "/chi-siamo" },
-  openGraph: { title: `${c.seo.title} | Ingromoda`, description: c.seo.description, url: "/chi-siamo" },
-};
+export const metadata: Metadata = pageMeta({ title: c.seo.title, description: c.seo.description, path: "/chi-siamo" });
 
 const FACT_ICONS = [Television, FacebookLogo, WhatsappLogo, Package];
 const GALLERY = [
@@ -42,10 +38,11 @@ export default function ChiSiamoPage() {
             <SplitReveal as="h1" id="cs-title" trigger="stage" className="t-hero text-ivory">
               Chi <span className="italic text-magenta-glow">siamo</span>
             </SplitReveal>
-            <p className="t-lead mt-8 max-w-[30ch] text-ivory">{c.hero.lead}</p>
+            <p className="mt-8 max-w-[24ch] font-display text-[clamp(1.6rem,1.2rem+1.4vw,2.4rem)] italic leading-tight text-ivory">{c.hero.lead}</p>
+            <p className="t-lead mt-6 max-w-[44ch] text-ivory-dim">{c.hero.intro}</p>
           </div>
-          <div className="md:col-span-6">
-            <SpotlightReveal src={hero.src} alt={hero.alt} loading="eager" fetchPriority="high" sizes="(min-width: 768px) 46vw, 92vw" frameClassName="aspect-[4/5] w-full" spot={1} />
+          <div className="ml-auto w-1/2 md:col-span-6 md:w-full">
+            <SpotlightReveal src={hero.src} alt={hero.alt} loading="eager" fetchPriority="high" sizes="(min-width: 768px) 46vw, 50vw" frameClassName="aspect-[4/5] w-full" spot={1} />
           </div>
         </div>
       </section>

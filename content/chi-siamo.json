@@ -7,12 +7,12 @@
   "hero": {
     "title": "Chi siamo",
     "lead": "Un'esperienza di abbigliamento completa, per tutta la famiglia.",
-    "image": "cs-palco"
+    "image": "cs-palco",
+    "intro": "Ingromoda opera a Palermo nel mercato dell'abbigliamento per uomo, donna e bambino. Da diversi anni offriamo un'ampia gamma di proposte di moda, dalla cerimonia allo sportswear, anche nelle taglie calibrate."
   },
   "story": {
     "title": "Una realtà nuova, per tutta la famiglia",
     "paragraphs": [
-      "Ingromoda opera a Palermo nel mercato dell'abbigliamento per uomo, donna e bambino. Da diversi anni offriamo un'ampia gamma di proposte di moda, dalla cerimonia allo sportswear, anche nelle taglie calibrate.",
       "La nostra missione è da sempre creare una realtà nuova, con una vasta scelta di abbigliamento di alta qualità per tutta la famiglia. Abbiamo puntato, e continuiamo a farlo, sulla qualità dei prodotti e dei servizi: capi e accessori di un certo spessore, a prezzi convenienti e accessibili.",
       "Dagli abiti per gli eventi speciali al casual di tutti i giorni, teniamo conto delle diverse fisicità e ci impegniamo a soddisfare ogni esigenza di stile."
     ],
@@ -37,14 +37,35 @@
       "Seguite le dirette programmate, selezionate i capi che più amate e in men che non si dica il vostro ordine arriverà a casa vostra, grazie al nostro servizio di spedizioni attivo in tutta Italia ed Europa. E ogni giorno ci trovate in TV, su TVM CH19."
     ],
     "facts": [
-      { "title": "TVM CH19", "text": "In TV tutti i giorni" },
-      { "title": "Facebook", "text": "In diretta martedì e venerdì dalle 17:00" },
-      { "title": "WhatsApp", "text": "Videochiamate con Loredana" },
-      { "title": "Spedizioni", "text": "In tutta Italia ed Europa" }
+      {
+        "title": "TVM CH19",
+        "text": "In TV tutti i giorni"
+      },
+      {
+        "title": "Facebook",
+        "text": "In diretta martedì e venerdì dalle 17:00"
+      },
+      {
+        "title": "WhatsApp",
+        "text": "Videochiamate con Loredana"
+      },
+      {
+        "title": "Spedizioni",
+        "text": "In tutta Italia ed Europa"
+      }
     ]
   },
   "gallery": {
     "title": "Il negozio, da vicino",
-    "images": ["cs-salottino", "cs-sposa", "cs-collane", "cs-giara", "cs-papillon", "cs-perline", "cs-scarpe", "cs-terrazza"]
+    "images": [
+      "cs-salottino",
+      "cs-sposa",
+      "cs-collane",
+      "cs-giara",
+      "cs-papillon",
+      "cs-perline",
+      "cs-scarpe",
+      "cs-terrazza"
+    ]
   }
 }

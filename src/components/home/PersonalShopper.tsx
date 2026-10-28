@@ -77,7 +77,7 @@ export function PersonalShopper() {
             })}
           </ol>
 
-          <div className="mt-12 flex flex-col items-start gap-4 sm:flex-row sm:items-center">
+          <div className="mt-12 flex flex-col items-start gap-4 sm:flex-row sm:flex-wrap sm:items-center">
             <Button href={whatsappHref(s.cta.message)} variant="primary" magnetic cursor="Scriveteci" icon={<WhatsappLogo size={18} aria-hidden="true" />}>
               {s.cta.label}
             </Button>

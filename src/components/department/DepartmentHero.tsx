@@ -13,9 +13,9 @@ export function DepartmentHero({ d }: { d: Department }) {
   const unit = d.sizes.unit ?? "taglia";
   return (
     <section className="surface-ink grain relative overflow-hidden pt-header" aria-labelledby="dept-title">
-      <div className="wrap grid grid-cols-1 gap-12 pb-20 pt-12 md:grid-cols-12 md:gap-x-[var(--gutter)] md:pb-28 md:pt-20">
-        <div className="md:col-span-7 md:self-end">
-          <SplitReveal as="h1" id="dept-title" trigger="stage" className="t-display text-ivory md:text-[clamp(3rem,1.4rem+6vw,7.5rem)]">
+      <div className="wrap grid grid-cols-1 gap-12 pb-20 pt-12 md:pb-28 md:pt-20 lg:grid-cols-12 lg:gap-x-[var(--gutter)]">
+        <div className="lg:col-span-7 lg:self-end">
+          <SplitReveal as="h1" id="dept-title" trigger="stage" className="t-display text-ivory lg:text-[clamp(3rem,0.6rem+6vw,7.5rem)]">
             {first} <span className="italic text-magenta-glow">{rest.join(" ")}</span>
           </SplitReveal>
           <p className="t-lead mt-8 max-w-[44ch] text-ivory">{d.intro}</p>
@@ -43,14 +43,14 @@ export function DepartmentHero({ d }: { d: Department }) {
             </Button>
           </div>
         </div>
-        <div className="md:col-span-5">
+        <div className="w-full max-w-[34rem] lg:col-span-5 lg:max-w-none">
           <SpotlightReveal
             src={img.src}
             alt={img.alt}
             loading="eager"
             fetchPriority="high"
-            sizes="(min-width: 768px) 40vw, 92vw"
-            frameClassName="aspect-[4/5] w-full md:aspect-[3/4]"
+            sizes="(min-width: 1024px) 40vw, (min-width: 640px) 34rem, 92vw"
+            frameClassName="aspect-[4/5] w-full lg:aspect-[3/4]"
             spot={1}
           />
         </div>

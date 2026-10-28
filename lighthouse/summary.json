@@ -1,151 +1,18 @@
 [
   {
-    "page": "/",
-    "performance": 96,
-    "accessibility": 100,
-    "best-practices": 100,
-    "seo": 100,
-    "LCP": "1.1 s",
-    "CLS": "0",
-    "TBT": "200 ms",
-    "SI": "2.9 s",
-    "failing": [
-      "max-potential-fid=0.2 (380 ms)",
-      "interactive=0.8 (4.7 s)",
-      "mainthread-work-breakdown=0 (2.7 s)",
-      "unused-javascript=0.5 (Est savings of 26 KiB)",
-      "cache-insight=0.5 (Est savings of 1 KiB)",
-      "forced-reflow-insight=0",
-      "image-delivery-insight=0.5 (Est savings of 6 KiB)",
-      "legacy-javascript-insight=0.5 (Est savings of 14 KiB)",
-      "network-dependency-tree-insight=0",
-      "render-blocking-insight=0 (Est savings of 150 ms)"
-    ]
-  },
-  {
-    "page": "/donna",
+    "page": "/chi-siamo",
     "performance": 99,
     "accessibility": 100,
     "best-practices": 100,
     "seo": 100,
     "LCP": "1.1 s",
     "CLS": "0",
-    "TBT": "40 ms",
-    "SI": "3.1 s",
+    "TBT": "90 ms",
+    "SI": "2.9 s",
     "failing": [
-      "interactive=0.79 (4.7 s)",
-      "unused-javascript=0.5 (Est savings of 48 KiB)",
-      "cache-insight=0.5 (Est savings of 11 KiB)",
-      "image-delivery-insight=0.5 (Est savings of 38 KiB)",
-      "legacy-javascript-insight=0.5 (Est savings of 14 KiB)",
-      "network-dependency-tree-insight=0",
-      "render-blocking-insight=0 (Est savings of 150 ms)"
-    ]
-  },
-  {
-    "page": "/uomo",
-    "performance": 95,
-    "accessibility": 100,
-    "best-practices": 100,
-    "seo": 100,
-    "LCP": "1.2 s",
-    "CLS": "0",
-    "TBT": "230 ms",
-    "SI": "3.3 s",
-    "failing": [
-      "total-blocking-time=0.87 (230 ms)",
-      "max-potential-fid=0.37 (290 ms)",
-      "interactive=0.76 (5.1 s)",
-      "mainthread-work-breakdown=0 (3.2 s)",
-      "unused-javascript=0.5 (Est savings of 47 KiB)",
-      "cache-insight=0.5 (Est savings of 1 KiB)",
-      "image-delivery-insight=0.5 (Est savings of 6 KiB)",
-      "legacy-javascript-insight=0.5 (Est savings of 14 KiB)",
-      "network-dependency-tree-insight=0",
-      "render-blocking-insight=0 (Est savings of 190 ms)"
-    ]
-  },
-  {
-    "page": "/bambino",
-    "performance": 97,
-    "accessibility": 100,
-    "best-practices": 100,
-    "seo": 100,
-    "LCP": "0.9 s",
-    "CLS": "0",
-    "TBT": "190 ms",
-    "SI": "2.8 s",
-    "failing": [
-      "max-potential-fid=0.76 (170 ms)",
-      "interactive=0.85 (4.2 s)",
-      "mainthread-work-breakdown=0 (2.2 s)",
-      "unused-javascript=0.5 (Est savings of 48 KiB)",
-      "cache-insight=0.5 (Est savings of 1 KiB)",
-      "image-delivery-insight=0.5 (Est savings of 6 KiB)",
-      "legacy-javascript-insight=0.5 (Est savings of 14 KiB)",
-      "network-dependency-tree-insight=0",
-      "render-blocking-insight=0 (Est savings of 150 ms)"
-    ]
-  },
-  {
-    "page": "/chi-siamo",
-    "performance": 84,
-    "accessibility": 100,
-    "best-practices": 100,
-    "seo": 100,
-    "LCP": "3.8 s",
-    "CLS": "0",
-    "TBT": "240 ms",
-    "SI": "2.7 s",
-    "failing": [
-      "largest-contentful-paint=0.54 (3.8 s)",
-      "total-blocking-time=0.86 (240 ms)",
-      "max-potential-fid=0.7 (190 ms)",
-      "interactive=0.85 (4.2 s)",
-      "mainthread-work-breakdown=0 (2.5 s)",
-      "unused-javascript=0 (Est savings of 68 KiB)",
-      "cache-insight=0.5 (Est savings of 1 KiB)",
-      "forced-reflow-insight=0",
-      "image-delivery-insight=0.5 (Est savings of 6 KiB)",
-      "lcp-discovery-insight=0",
-      "legacy-javascript-insight=0.5 (Est savings of 14 KiB)",
-      "network-dependency-tree-insight=0",
-      "render-blocking-insight=0 (Est savings of 150 ms)"
-    ]
-  },
-  {
-    "page": "/contatti",
-    "performance": 100,
-    "accessibility": 100,
-    "best-practices": 100,
-    "seo": 100,
-    "LCP": "0.9 s",
-    "CLS": "0",
-    "TBT": "40 ms",
-    "SI": "2.7 s",
-    "failing": [
-      "unused-javascript=0.5 (Est savings of 68 KiB)",
-      "cache-insight=0.5 (Est savings of 2 KiB)",
-      "image-delivery-insight=0.5 (Est savings of 6 KiB)",
-      "legacy-javascript-insight=0.5 (Est savings of 14 KiB)",
-      "network-dependency-tree-insight=0",
-      "render-blocking-insight=0 (Est savings of 150 ms)"
-    ]
-  },
-  {
-    "page": "/privacy",
-    "performance": 96,
-    "accessibility": 100,
-    "best-practices": 100,
-    "seo": 100,
-    "LCP": "0.9 s",
-    "CLS": "0",
-    "TBT": "220 ms",
-    "SI": "2.7 s",
-    "failing": [
-      "total-blocking-time=0.88 (220 ms)",
-      "max-potential-fid=0.57 (230 ms)",
-      "unused-javascript=0.5 (Est savings of 77 KiB)",
+      "max-potential-fid=0.75 (180 ms)",
+      "interactive=0.86 (4.1 s)",
+      "unused-javascript=0.5 (Est savings of 67 KiB)",
       "cache-insight=0.5 (Est savings of 1 KiB)",
       "forced-reflow-insight=0",
       "image-delivery-insight=0.5 (Est savings of 6 KiB)",
@@ -153,51 +20,5 @@
       "network-dependency-tree-insight=0",
       "render-blocking-insight=0 (Est savings of 150 ms)"
     ]
-  },
-  {
-    "page": "/cookie",
-    "performance": 100,
-    "accessibility": 100,
-    "best-practices": 100,
-    "seo": 100,
-    "LCP": "0.9 s",
-    "CLS": "0",
-    "TBT": "20 ms",
-    "SI": "2.6 s",
-    "failing": [
-      "unused-javascript=0.5 (Est savings of 77 KiB)",
-      "cache-insight=0.5 (Est savings of 1 KiB)",
-      "image-delivery-insight=0.5 (Est savings of 6 KiB)",
-      "legacy-javascript-insight=0.5 (Est savings of 14 KiB)",
-      "network-dependency-tree-insight=0",
-      "render-blocking-insight=0 (Est savings of 150 ms)"
-    ]
-  },
-  {
-    "page": "/accessibilita",
-    "performance": 100,
-    "accessibility": 100,
-    "best-practices": 100,
-    "seo": 100,
-    "LCP": "0.9 s",
-    "CLS": "0",
-    "TBT": "20 ms",
-    "SI": "2.6 s",
-    "failing": [
-      "unused-javascript=0.5 (Est savings of 77 KiB)",
-      "cache-insight=0.5 (Est savings of 1 KiB)",
-      "image-delivery-insight=0.5 (Est savings of 6 KiB)",
-      "legacy-javascript-insight=0.5 (Est savings of 14 KiB)",
-      "network-dependency-tree-insight=0",
-      "render-blocking-insight=0 (Est savings of 150 ms)"
-    ]
-  },
-  {
-    "page": "/pagina-inesistente",
-    "performance": 0,
-    "accessibility": 0,
-    "best-practices": 0,
-    "seo": 0,
-    "failing": []
   }
 ]

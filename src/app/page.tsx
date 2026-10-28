@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { PageShell } from "@/components/layout/PageShell";
 import { Hero } from "@/components/home/Hero";
 import { Generations } from "@/components/home/Generations";
@@ -11,12 +12,7 @@ import { Reviews } from "@/components/home/Reviews";
 import { Visit } from "@/components/home/Visit";
 import home from "../../content/home.json";
 
-export const metadata: Metadata = {
-  title: { absolute: home.seo.title },
-  description: home.seo.description,
-  alternates: { canonical: "/" },
-  openGraph: { title: home.seo.title, description: home.seo.description, url: "/" },
-};
+export const metadata: Metadata = pageMeta({ title: home.seo.title, description: home.seo.description, path: "/", absoluteTitle: true });
 
 export default function HomePage() {
   return (

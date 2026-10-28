@@ -8,14 +8,13 @@ import { MapEmbed } from "@/components/contact/MapEmbed";
 import { StoreMap } from "@/components/home/StoreMap";
 import { OpeningHours } from "@/components/ui/OpeningHours";
 import { site, whatsappHref } from "@/lib/site";
+import { pageMeta } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "Contatti e orari del negozio a Palermo",
-  description:
-    "Ingromoda, Viale Regione Siciliana S.E. 4325, Palermo: telefono 091 445 150, WhatsApp e videochiamate con Loredana, email, orari del negozio e parcheggio privato.",
-  alternates: { canonical: "/contatti" },
-  openGraph: { title: "Contatti | Ingromoda Palermo", url: "/contatti" },
-};
+  description: "Ingromoda, Viale Regione Siciliana S.E. 4325, Palermo: telefono 091 445 150, WhatsApp e videochiamate con Loredana, email, orari del negozio e parcheggio privato.",
+  path: "/contatti",
+});
 
 const DOORS = [
   { href: whatsappHref("Ciao Loredana, vorrei qualche informazione."), icon: WhatsappLogo, title: "WhatsApp", value: site.whatsapp.display, note: `Chat e videochiamate con ${site.whatsapp.contactName}`, external: true, primary: true },

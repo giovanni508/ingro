@@ -12,6 +12,7 @@ import { SmoothScroll } from "@/components/motion/SmoothScroll";
 import { Cursor } from "@/components/ui/Cursor";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { features, site } from "@/lib/site";
+import { OG_IMAGE } from "@/lib/seo";
 
 const bodoni = Bodoni_Moda({
   subsets: ["latin"],
@@ -41,7 +42,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "it_IT",
     siteName: "Ingromoda",
-    images: [{ url: "/og/ingromoda-palermo.jpg", width: 1200, height: 630, alt: "Abiti da cerimonia in negozio da Ingromoda, Palermo" }],
+    images: [OG_IMAGE],
   },
   twitter: { card: "summary_large_image" },
   robots: { index: true, follow: true },
