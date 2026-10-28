@@ -1,0 +1,50 @@
+{
+  "_note": "Testi dalla pagina Chi siamo del vecchio sito (content/raw/chi-siamo.json) e dalla filosofia in home, uniformati al 'voi'. Nessuna data o tappa storica: non sono pubblicate (vedi TODO-cliente.md).",
+  "seo": {
+    "title": "Chi siamo: la boutique Ingromoda a Palermo",
+    "description": "Ingromoda è una boutique di abbigliamento donna, uomo e bambino a Palermo: abiti da cerimonia, personal shopper, dirette social, TV su TVM CH19 e spedizioni in Italia ed Europa."
+  },
+  "hero": {
+    "title": "Chi siamo",
+    "lead": "Un'esperienza di abbigliamento completa, per tutta la famiglia.",
+    "image": "cs-palco"
+  },
+  "story": {
+    "title": "Una realtà nuova, per tutta la famiglia",
+    "paragraphs": [
+      "Ingromoda opera a Palermo nel mercato dell'abbigliamento per uomo, donna e bambino. Da diversi anni offriamo un'ampia gamma di proposte di moda, dalla cerimonia allo sportswear, anche nelle taglie calibrate.",
+      "La nostra missione è da sempre creare una realtà nuova, con una vasta scelta di abbigliamento di alta qualità per tutta la famiglia. Abbiamo puntato, e continuiamo a farlo, sulla qualità dei prodotti e dei servizi: capi e accessori di un certo spessore, a prezzi convenienti e accessibili.",
+      "Dagli abiti per gli eventi speciali al casual di tutti i giorni, teniamo conto delle diverse fisicità e ci impegniamo a soddisfare ogni esigenza di stile."
+    ],
+    "image": "cs-serata",
+    "quote": "Oggi Ingromoda è un punto di riferimento a Palermo, e non solo."
+  },
+  "philosophy": {
+    "quote": "La nostra filosofia? Diffondere una moda che unisca tradizione e innovazione.",
+    "text": "I nostri capi coniugano l'eleganza classica delle linee sartoriali italiane alle moderne tendenze stilistiche, per un look sempre ricercato e attuale."
+  },
+  "team": {
+    "title": "Uno staff che vi mette al centro",
+    "paragraphs": [
+      "Grazie alla nostra esperienza nel settore e a un team preparato, disponibile e competente, abbiamo conquistato il cuore dei nostri clienti.",
+      "Le nostre personal shopper sono sempre informate sulle ultime tendenze: sanno consigliare i look che valorizzano la vostra personalità, aiutandovi a creare uno stile unico e inimitabile. Vi guidano nella scelta dell'abito perfetto, con consigli preziosi su come vestire alla moda, facendovi sentire sempre al centro dell'attenzione."
+    ]
+  },
+  "online": {
+    "title": "In negozio, in TV, in diretta",
+    "paragraphs": [
+      "Le vendite non avvengono soltanto nel nostro punto vendita: da qualche anno siamo presenti anche nel mondo digitale, con le dirette sui social, un modo divertente e coinvolgente per far scoprire le nostre novità anche a chi è lontano.",
+      "Seguite le dirette programmate, selezionate i capi che più amate e in men che non si dica il vostro ordine arriverà a casa vostra, grazie al nostro servizio di spedizioni attivo in tutta Italia ed Europa. E ogni giorno ci trovate in TV, su TVM CH19."
+    ],
+    "facts": [
+      { "title": "TVM CH19", "text": "In TV tutti i giorni" },
+      { "title": "Facebook", "text": "In diretta martedì e venerdì dalle 17:00" },
+      { "title": "WhatsApp", "text": "Videochiamate con Loredana" },
+      { "title": "Spedizioni", "text": "In tutta Italia ed Europa" }
+    ]
+  },
+  "gallery": {
+    "title": "Il negozio, da vicino",
+    "images": ["cs-salottino", "cs-sposa", "cs-collane", "cs-giara", "cs-papillon", "cs-perline", "cs-scarpe", "cs-terrazza"]
+  }
+}
