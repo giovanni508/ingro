@@ -30,6 +30,9 @@ export function StickyWhatsApp() {
     return () => st.kill();
   }, [pathname]);
 
+  // The contact page is all doors already.
+  if (pathname === "/contatti") return null;
+
   return (
     <a
       ref={ref}

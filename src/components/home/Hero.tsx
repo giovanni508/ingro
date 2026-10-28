@@ -126,7 +126,7 @@ export function Hero() {
           src={img.src}
           alt={img.alt}
           fill
-          priority
+          loading="eager"
           fetchPriority="high"
           quality={75}
           sizes="(min-width: 1024px) 54vw, 100vw"

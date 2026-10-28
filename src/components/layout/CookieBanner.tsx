@@ -14,16 +14,18 @@ export function CookieBanner() {
   const consent = useConsent();
   const [forced, setForced] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
+  // undefined = not hydrated yet: the boot script (html.needs-consent) decides.
   const visible = consent === null || forced;
+  const state = consent === undefined && !forced ? undefined : visible ? "true" : "false";
 
   useEffect(() => onConsentPanelOpen(() => setForced(true)), []);
 
   useEffect(() => {
+    if (consent === undefined && !forced) return;
     document.documentElement.classList.toggle("has-cookie-banner", visible);
+    document.documentElement.classList.toggle("needs-consent", visible);
     if (visible && forced) ref.current?.querySelector<HTMLButtonElement>("button")?.focus();
-  }, [visible, forced]);
-
-  if (!visible) return null;
+  }, [visible, forced, consent]);
 
   const choose = (external: boolean) => {
     saveConsent(external);
@@ -35,7 +37,8 @@ export function CookieBanner() {
       ref={ref}
       role="region"
       aria-label="Preferenze sui cookie"
-      className="fixed inset-x-3 bottom-3 z-[var(--z-cookie)] max-w-[30rem] border border-[var(--line-dark)] bg-ink/95 p-5 text-ivory shadow-[0_24px_60px_-20px_rgb(0_0_0/0.7)] backdrop-blur-md sm:inset-x-auto sm:left-5 sm:bottom-5 md:p-6"
+      data-open={state}
+      className="cookie-banner fixed inset-x-3 bottom-3 z-[var(--z-cookie)] max-w-[30rem] border border-[var(--line-dark)] bg-ink/95 p-5 text-ivory shadow-[0_24px_60px_-20px_rgb(0_0_0/0.7)] backdrop-blur-md sm:inset-x-auto sm:left-5 sm:bottom-5 md:p-6"
     >
       <p className="font-display text-xl leading-tight">Prima che si alzi il sipario</p>
       <p className="mt-2 text-[0.9375rem] leading-relaxed text-ivory-dim">

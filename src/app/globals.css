@@ -230,24 +230,30 @@
   /* ---------- Type scale (fluid) ---------- */
 
   .t-hero {
+    font-family: var(--font-display);
+    font-optical-sizing: auto;
     font-size: clamp(2.6rem, 0.9rem + 7.4vw, 8.75rem);
     line-height: 0.94;
     letter-spacing: -0.022em;
     font-weight: 500;
   }
   .t-display {
+    font-family: var(--font-display);
+    font-optical-sizing: auto;
     font-size: clamp(2.35rem, 1.3rem + 4.4vw, 6rem);
     line-height: 0.98;
     letter-spacing: -0.018em;
   }
   .t-title {
+    font-family: var(--font-display);
+    font-optical-sizing: auto;
     font-size: clamp(1.85rem, 1.3rem + 2.3vw, 3.6rem);
     line-height: 1.04;
   }
   .t-quote {
     font-family: var(--font-display);
     font-size: clamp(1.45rem, 1.05rem + 1.7vw, 2.6rem);
-    line-height: 1.18;
+    line-height: 1.28;
     font-style: italic;
     font-weight: 400;
   }
@@ -268,7 +274,8 @@
     font-weight: 500;
   }
   .measure {
-    max-width: 62ch;
+    /* Jost is narrow: 52ch is about 75 characters per line */
+    max-width: 52ch;
   }
   .italic-d {
     font-style: italic;
@@ -946,7 +953,8 @@
   .wa-float[data-visible="true"] {
     transform: translateY(0);
   }
-  .has-cookie-banner .wa-float {
+  .has-cookie-banner .wa-float,
+  .needs-consent .wa-float {
     transform: translateY(160%);
   }
 
@@ -1072,6 +1080,12 @@
   .room.is-open .room-light,
   .room:focus-visible .room-light {
     opacity: 1;
+  }
+  @media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+    /* Desktop: the curtains are left ajar, a slit of light invites the hover. */
+    .room-curtain {
+      transform: scaleX(0.9);
+    }
   }
   @media (hover: hover) and (pointer: fine) {
     .room:hover .room-curtain-l,
@@ -1258,7 +1272,7 @@
 /* Legal prose */
 @layer base {
   .prose-legal {
-    max-width: 68ch;
+    max-width: 56ch;
     color: var(--char);
   }
   .prose-legal h2 {
@@ -1383,5 +1397,19 @@
     pointer-events: none;
     z-index: 1;
     will-change: transform;
+  }
+}
+
+/* Cookie banner: server-rendered, shown before first paint by the boot script */
+@layer base {
+  .cookie-banner {
+    display: none;
+  }
+  .needs-consent .cookie-banner,
+  .cookie-banner[data-open="true"] {
+    display: block;
+  }
+  .cookie-banner[data-open="false"] {
+    display: none;
   }
 }

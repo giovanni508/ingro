@@ -38,10 +38,10 @@ export async function POST(req: Request) {
   const consent = body.consent === true;
 
   const errors: Record<string, string> = {};
-  if (name.length < 2) errors.name = "Scrivi il tuo nome.";
-  if (!EMAIL_RE.test(email)) errors.email = "Controlla l'indirizzo email: sembra incompleto.";
-  if (message.length < 10) errors.message = "Raccontaci qualcosa in più (almeno 10 caratteri).";
-  if (!consent) errors.consent = "Per risponderti ci serve il tuo consenso al trattamento dei dati.";
+  if (name.length < 2) errors.name = "Scrivete il vostro nome.";
+  if (!EMAIL_RE.test(email)) errors.email = "L'indirizzo email sembra incompleto: controllate la chiocciola e il dominio.";
+  if (message.length < 10) errors.message = "Raccontateci qualcosa in più (almeno 10 caratteri).";
+  if (!consent) errors.consent = "Per rispondervi ci serve il consenso al trattamento dei dati.";
   if (Object.keys(errors).length > 0) {
     return NextResponse.json({ ok: false, errors }, { status: 422 });
   }
@@ -62,7 +62,7 @@ export async function POST(req: Request) {
       return NextResponse.json({ ok: true });
     } catch (err) {
       console.error("[contact] invio fallito", err);
-      return NextResponse.json({ ok: false, error: "Non siamo riusciti a inviare il messaggio. Riprova tra poco o scrivici su WhatsApp." }, { status: 502 });
+      return NextResponse.json({ ok: false, error: "Non siamo riusciti a inviare il messaggio. Riprovate tra poco o scriveteci su WhatsApp." }, { status: 502 });
     }
   }
 
@@ -72,7 +72,7 @@ export async function POST(req: Request) {
   }
 
   return NextResponse.json(
-    { ok: false, error: "Il modulo non è ancora attivo. Nel frattempo scrivici su WhatsApp o chiamaci: rispondiamo volentieri." },
+    { ok: false, error: "Il modulo non è ancora attivo. Nel frattempo scriveteci su WhatsApp o chiamateci: rispondiamo volentieri." },
     { status: 503 },
   );
 }

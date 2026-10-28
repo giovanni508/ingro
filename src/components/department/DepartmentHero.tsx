@@ -47,7 +47,8 @@ export function DepartmentHero({ d }: { d: Department }) {
           <SpotlightReveal
             src={img.src}
             alt={img.alt}
-            priority
+            loading="eager"
+            fetchPriority="high"
             sizes="(min-width: 768px) 40vw, 92vw"
             frameClassName="aspect-[4/5] w-full md:aspect-[3/4]"
             spot={1}

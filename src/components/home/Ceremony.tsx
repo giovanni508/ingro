@@ -55,8 +55,8 @@ export function Ceremony() {
             .to(frames[i - 1], { autoAlpha: 0, duration: 0.35 }, at)
             .fromTo(frames[i], { autoAlpha: 0, scale: 1.08 }, { autoAlpha: 1, scale: 1, duration: 0.45, ease: EASE.out }, at)
             .to(spot, { scale: 1, autoAlpha: 1, duration: 0.35 }, at + 0.15)
-            .to(texts[i - 1], { autoAlpha: 0, y: -40, duration: 0.3 }, at)
-            .to(texts[i], { autoAlpha: 1, y: 0, duration: 0.4, ease: EASE.out }, at + 0.1);
+            .to(texts[i - 1], { autoAlpha: 0, y: -30, duration: 0.2 }, at - 0.05)
+            .to(texts[i], { autoAlpha: 1, y: 0, duration: 0.35, ease: EASE.out }, at + 0.2);
         }
         tl.fromTo(dot, { top: "0%" }, { top: "100%", duration: n - 0.5, ease: "none" }, 0);
         tl.to({}, { duration: 0.4 });
@@ -84,7 +84,7 @@ export function Ceremony() {
       <div ref={pinRef} className="cer-pin relative hidden h-[100svh] min-h-[640px] overflow-hidden lg:block">
         <div className="wrap grid h-full grid-cols-12 items-center gap-x-[var(--gutter)] pt-header">
           <div className="col-span-4 self-center">
-            <SplitReveal as="h2" id="cer-title" className="t-display text-ivory">
+            <SplitReveal as="h2" id="cer-title" className="t-display text-ivory lg:!text-[clamp(2.6rem,0.6rem+3.2vw,4.6rem)]">
               {c.title}
             </SplitReveal>
             <p className="t-lead mt-6 max-w-[28ch] text-ivory-dim">{c.lead}</p>
@@ -136,11 +136,11 @@ export function Ceremony() {
             {c.title}
           </h2>
           <p className="t-lead mt-5 text-ivory-dim">{c.lead}</p>
-          <ol className="mt-12 space-y-14">
+          <ol className="mt-12 space-y-14 md:grid md:grid-cols-2 md:gap-x-[var(--gutter)] md:gap-y-16 md:space-y-0">
             {c.steps.map((s, i) => {
               const m = getMedia(s.image);
               return (
-                <li key={s.title} data-mframe className={`grid gap-5 ${i % 2 ? "pl-[12%]" : "pr-[12%]"}`}>
+                <li key={s.title} data-mframe className={`grid content-start gap-5 ${i % 2 ? "pl-[12%] md:pl-0 md:pt-24" : "pr-[12%] md:pr-0"}`}>
                   <div className="relative aspect-[4/5] overflow-hidden">
                     <Image src={m.src} alt={m.alt} fill sizes="(min-width: 768px) 70vw, 88vw" className="object-cover" placeholder="blur" blurDataURL={m.blur} />
                     <div data-mdark className="absolute inset-0 bg-[radial-gradient(60%_50%_at_50%_40%,rgb(13_7_10/0.15),rgb(13_7_10/0.9))] opacity-40" aria-hidden="true" />

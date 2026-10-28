@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useRef } from "react";
 import { ArrowUpRight } from "@phosphor-icons/react";
 import { SplitReveal } from "@/components/motion/SplitReveal";
+import { FabricLight } from "@/components/motion/FabricLight";
 import { gsap, useGSAP, ScrollTrigger } from "@/lib/gsap";
 import { getMedia } from "@/lib/media";
 import home from "../../../content/home.json";
@@ -46,7 +47,8 @@ export function Departments() {
 
   return (
     <section ref={root} id="reparti" className="surface-dark grain section relative scroll-mt-16 overflow-hidden" aria-labelledby="rep-title">
-      <div className="wrap">
+      <FabricLight />
+      <div className="wrap relative z-[2]">
         <div className="max-w-[46rem]">
           <SplitReveal as="h2" id="rep-title" className="t-display text-ivory">
             {d.title}

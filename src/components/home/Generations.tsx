@@ -33,7 +33,7 @@ export function Generations() {
   const img = getMedia(g.image);
   const root = useRef<HTMLElement>(null);
   const visual = useRef<HTMLDivElement>(null);
-  const words = useRef<HTMLParagraphElement>(null);
+  const words = useRef<HTMLSpanElement>(null);
 
   useGSAP(
     () => {
@@ -72,10 +72,10 @@ export function Generations() {
         // Words light up as they are read.
         let split: SplitText | null = null;
         if (words.current) {
-          split = SplitText.create(words.current, { type: "words", aria: "auto" });
+          split = SplitText.create(words.current, { type: "words", aria: "none" });
           gsap.fromTo(
             split.words,
-            { opacity: 0.16 },
+            { opacity: 0.6 },
             {
               opacity: 1,
               ease: "none",
@@ -136,8 +136,11 @@ export function Generations() {
           <h2 id="gen-title" className="t-display text-char">
             Dal cartamodello <span className="italic">alla tendenza</span>
           </h2>
-          <p ref={words} className="mt-8 font-display text-[clamp(1.45rem,1.1rem+1.2vw,2.15rem)] leading-[1.3] text-char">
-            {g.illuminated}
+          <p className="mt-8 font-display text-[clamp(1.45rem,1.1rem+1.2vw,2.15rem)] leading-[1.3] text-char">
+            <span className="sr-only">{g.illuminated}</span>
+            <span ref={words} aria-hidden="true" className="block">
+              {g.illuminated}
+            </span>
           </p>
           <p className="t-lead measure mt-8 text-char-dim">{g.body}</p>
         </div>

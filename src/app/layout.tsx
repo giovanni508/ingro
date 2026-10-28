@@ -58,7 +58,7 @@ export const viewport: Viewport = {
  * inside its dates, so neither causes a layout shift after hydration.
  */
 const a = features.announcement;
-const bootScript = `(function(){var d=document.documentElement;try{var rm=matchMedia('(prefers-reduced-motion: reduce)').matches;if(sessionStorage.getItem('ingromoda-pl')||rm){d.classList.add('pl-off');d.dataset.stage='ready';}else{sessionStorage.setItem('ingromoda-pl','1');}}catch(e){}try{var on=${a.enabled ? "true" : "false"},n=Date.now(),s=Date.parse('${a.start}'),e=Date.parse('${a.end}');if(on&&n>=s&&n<=e&&sessionStorage.getItem('ingromoda-announce')!=='closed'){d.classList.add('has-announce');}}catch(e){}})();`;
+const bootScript = `(function(){var d=document.documentElement;try{var rm=matchMedia('(prefers-reduced-motion: reduce)').matches;if(sessionStorage.getItem('ingromoda-pl')||rm){d.classList.add('pl-off');d.dataset.stage='ready';}else{sessionStorage.setItem('ingromoda-pl','1');}}catch(e){}try{if(!localStorage.getItem('ingromoda-consent'))d.classList.add('needs-consent');}catch(e){d.classList.add('needs-consent');}try{var on=${a.enabled ? "true" : "false"},n=Date.now(),s=Date.parse('${a.start}'),e=Date.parse('${a.end}');if(on&&n>=s&&n<=e&&sessionStorage.getItem('ingromoda-announce')!=='closed'){d.classList.add('has-announce');}}catch(e){}})();`;
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (

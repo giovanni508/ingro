@@ -52,7 +52,7 @@ export default function ContattiPage() {
                   <span>
                     <span className="block font-display text-2xl">{d.title}</span>
                     <span className="tnum mt-1 block break-words">{d.value}</span>
-                    <span className={`mt-1 block text-sm ${d.primary ? "text-[#fff8f3]/85" : "text-ivory-dim"}`}>{d.note}</span>
+                    <span className={`mt-1 block text-sm ${d.primary ? "text-[#fff8f3]" : "text-ivory-dim"}`}>{d.note}</span>
                   </span>
                 </a>
               </li>

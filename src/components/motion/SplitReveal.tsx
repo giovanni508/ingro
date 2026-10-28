@@ -22,10 +22,14 @@ type Props = {
  */
 export function SplitReveal({ as: Tag = "div", children, className, trigger = "scroll", by = "lines", delay = 0, id }: Props) {
   const ref = useRef<HTMLElement>(null);
+  // Headings may carry the aria-label SplitText adds; other elements may not,
+  // so they get a screen-reader copy and an aria-hidden visual layer instead.
+  const isHeading = typeof Tag === "string" && /^h[1-6]$/.test(Tag);
+  const Comp: ElementType = Tag;
 
   useGSAP(
     () => {
-      const el = ref.current;
+      const el = isHeading ? ref.current : ref.current?.querySelector<HTMLElement>("[data-split]");
       if (!el) return;
       // Above-the-fold text that is already lit stays put: no hide-and-replay.
       if (trigger === "stage" && stageAlreadyReady()) return;
@@ -39,7 +43,7 @@ export function SplitReveal({ as: Tag = "div", children, className, trigger = "s
           mask: "lines",
           linesClass: "split-line",
           autoSplit: true,
-          aria: "auto",
+          aria: isHeading ? "auto" : "none",
           onSplit(self) {
             const targets = by === "lines" ? self.lines : self.words;
             const tween = gsap.from(targets, {
@@ -82,9 +86,19 @@ export function SplitReveal({ as: Tag = "div", children, className, trigger = "s
     { scope: ref },
   );
 
+  if (isHeading) {
+    return (
+      <Comp ref={ref} className={className} id={id}>
+        {children}
+      </Comp>
+    );
+  }
   return (
-    <Tag ref={ref} className={className} id={id}>
-      {children}
-    </Tag>
+    <Comp ref={ref} className={className} id={id}>
+      <span className="sr-only">{children}</span>
+      <span data-split aria-hidden="true" className="block">
+        {children}
+      </span>
+    </Comp>
   );
 }

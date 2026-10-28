@@ -1,36 +1,116 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ingromoda: nuovo sito "Sotto i riflettori"
 
-## Getting Started
+Sito vetrina di Ingromoda srl, boutique di abbigliamento donna, uomo e bambino a Palermo (Viale Regione Siciliana S.E. 4325), specializzata in abiti da cerimonia.
 
-First, run the development server:
+- **Stack:** Next.js 16 (App Router, Cache Components, Turbopack), React 19, TypeScript, Tailwind CSS 4, GSAP 3 (ScrollTrigger, SplitText, CustomEase) con Lenis, `next/image`, `next/font`.
+- **Pagine:** home (9 scene), `/donna`, `/uomo`, `/bambino`, `/chi-siamo`, `/contatti`, `/privacy`, `/cookie`, `/accessibilita`, 404, `/styleguide` (interna, non indicizzata).
+- **Documenti:** [DESIGN.md](DESIGN.md) (sistema visivo e motion), [DECISIONS.md](DECISIONS.md) (scelte e motivi), [AUDIT.md](AUDIT.md) (vecchio sito), [PROGRESS.md](PROGRESS.md), [CRITIQUE.md](CRITIQUE.md), [PRESENTAZIONE.md](PRESENTAZIONE.md), [content/TODO-cliente.md](content/TODO-cliente.md).
+
+## Avvio in locale
+
+Serve Node.js 20.9 o superiore (testato con Node 24).
+
+```bash
+npm install
+```
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Il sito è su http://localhost:3000. Per provare la versione di produzione:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run start
+```
 
-## Learn More
+Controlli di qualità:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run lint
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run typecheck
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Variabili d'ambiente
 
-## Deploy on Vercel
+Copiate `.env.example` in `.env.local` (in locale) o impostatele su Vercel. Nessuna è obbligatoria per vedere il sito.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Variabile | A cosa serve |
+|---|---|
+| `CONTACT_TO` | Destinatario/i dei messaggi del modulo contatti (separati da virgola). Mai scritto nel codice. |
+| `CONTACT_FROM` | Mittente verificato presso il servizio di invio, es. `Sito Ingromoda <sito@ingromoda.com>`. |
+| `RESEND_API_KEY` | Chiave del servizio [Resend](https://resend.com) usato per inviare le email del modulo. |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Comportamento del modulo (`src/app/api/contact/route.ts`):
+- **in sviluppo**, senza servizio configurato, il messaggio viene scritto nella console del server (nessun invio reale);
+- **in produzione** con le tre variabili impostate, il messaggio parte via email;
+- **in produzione senza configurazione** il modulo risponde con un messaggio chiaro che invita a usare WhatsApp o il telefono (nessun messaggio va perso in silenzio).
+
+Protezioni: campo trappola invisibile (honeypot), tempo minimo di compilazione, validazione lato client e lato server, messaggi d'errore in italiano.
+
+## Aggiornare i contenuti
+
+Tutti i testi e i dati sono in `content/`, in file JSON e Markdown leggibili, pensati per essere poi alimentati da un CMS (per esempio WordPress via REST API, mappando un file per tipo di contenuto).
+
+| File | Contenuto |
+|---|---|
+| `content/site.json` | Dati aziendali: indirizzo, telefono, WhatsApp, email, social, orari del negozio, P. IVA |
+| `content/home.json` | Testi delle 9 scene della home |
+| `content/departments.json` | Reparti Donna, Uomo, Bambino: testi, taglie, categorie, foto, messaggi WhatsApp |
+| `content/chi-siamo.json` | Pagina Chi siamo |
+| `content/reviews.json` | Recensioni Google mostrate (testo originale) e conteggio |
+| `content/tv.json` | Palinsesto TVM CH19 e dirette Facebook |
+| `content/features.json` | Interruttori: barra annunci (testo e date), "prossima messa in onda", "aperto ora" |
+| `content/legal/*.md` | Privacy, cookie, accessibilità |
+| `content/media-map.json` | Elenco curato delle immagini: file sorgente, nome finale, testo alternativo |
+| `content/raw/` | Estrazione integrale del vecchio sito (solo archivio) |
+
+**Barra degli annunci:** in `content/features.json` impostate `enabled`, `start`, `end` (formato ISO con fuso orario), `text`, `linkLabel`, `href`. Fuori dalle date sparisce da sola, senza rifare il deploy.
+
+**Immagini:** mettete l'originale in `assets/library/` (o `assets/original/`), aggiungete una voce in `content/media-map.json` con `id`, `from`, `to`, `alt` in italiano, poi:
+
+```bash
+npm run media
+```
+
+Lo script ridimensiona, comprime, ritaglia le bande nere degli screenshot (`"crop": true`) e aggiorna `content/media.json`. Nei testi si usa poi l'`id`.
+
+**Mappa:** è disegnata da dati OpenStreetMap con `node scripts/map.mjs` (rigenerare solo se cambia indirizzo).
+
+## Deploy di anteprima su Vercel
+
+1. Create un progetto su Vercel collegato a questo repository (framework: Next.js, impostazioni predefinite).
+2. Aggiungete le variabili d'ambiente (sopra) per gli ambienti Preview e Production.
+3. Ogni push crea un'anteprima con un URL dedicato; il dominio `www.ingromoda.com` va collegato solo dopo l'approvazione del cliente.
+
+In alternativa, da terminale:
+
+```bash
+npx vercel
+```
+
+I redirect 301 dalle vecchie URL WordPress (`/donna/`, `/privacy-policy/`, `/cookie-policy/`, `/wp-login.php`…) sono in `next.config.ts` e funzionano su qualsiasi hosting Node.
+
+## Verifiche
+
+- `node scripts/shots.mjs <url> <cartella> static|scenes`: screenshot reali con Playwright a 390, 768, 1440, 1920 px (`static` = movimento ridotto, pagine intere; `scenes` = movimento attivo, una schermata per scena) e controllo automatico di overflow orizzontale, errori di console e richieste fallite.
+- `node scripts/lighthouse.mjs <url> / /donna …`: Lighthouse mobile, report in `lighthouse/`.
+
+## Struttura
+
+```
+src/app/             pagine, API del modulo, sitemap, robots, manifest, icone
+src/components/      brand, layout, home, department, contact, legal, motion, ui, seo
+src/lib/             gsap e token di movimento, consenso, palinsesto, contenuti
+content/             testi e dati
+assets/              originali delle immagini (non pubblicati)
+public/media/        immagini ottimizzate, video, mappa
+scripts/             media, mappa, screenshot, Lighthouse
+```

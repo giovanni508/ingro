@@ -45,7 +45,7 @@ export default function ChiSiamoPage() {
             <p className="t-lead mt-8 max-w-[30ch] text-ivory">{c.hero.lead}</p>
           </div>
           <div className="md:col-span-6">
-            <SpotlightReveal src={hero.src} alt={hero.alt} priority sizes="(min-width: 768px) 46vw, 92vw" frameClassName="aspect-[4/5] w-full" spot={1} />
+            <SpotlightReveal src={hero.src} alt={hero.alt} loading="eager" fetchPriority="high" sizes="(min-width: 768px) 46vw, 92vw" frameClassName="aspect-[4/5] w-full" spot={1} />
           </div>
         </div>
       </section>

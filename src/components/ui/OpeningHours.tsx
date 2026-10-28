@@ -1,4 +1,5 @@
-import { site } from "@/lib/site";
+import { features, site } from "@/lib/site";
+import { OpenNow } from "./OpenNow";
 
 /**
  * Store opening hours, as published on the old Contatti page. Always labelled
@@ -10,7 +11,9 @@ export function OpeningHours({ className = "", tone = "dark" }: { className?: st
   const fmt = (slots: string[][]) => slots.map(([a, b]) => `${a.replace(/^0/, "")}-${b}`).join(" · ");
   return (
     <div className={className}>
-      <p className={`t-label ${dim}`}>Orari del negozio</p>
+      <p className={`t-label flex items-center gap-4 ${dim}`}>
+        Orari del negozio {features.openNow ? <OpenNow /> : null}
+      </p>
       <dl className="mt-3 grid grid-cols-[auto_1fr] gap-x-5 gap-y-1.5 text-[0.9375rem]">
         <dt className={dim}>Lun - Sab</dt>
         <dd className="tnum">{fmt(h.weekdays.slots)}</dd>

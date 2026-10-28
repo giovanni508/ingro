@@ -144,7 +144,7 @@ export function Occasions() {
             })}
             <div data-flare className="pointer-events-none absolute left-1/2 top-[34%] z-[3] size-[70%] -translate-x-1/2 -translate-y-1/2 rounded-full opacity-0" style={{ background: "radial-gradient(closest-side, rgb(255 236 214 / 0.85), rgb(255 236 214 / 0.25) 45%, transparent)" }} aria-hidden="true" />
           </div>
-          <div className="mt-7 grid gap-6 md:grid-cols-[1fr_auto] md:items-end" aria-live="polite">
+          <div className="mt-7 grid gap-6 xl:grid-cols-[1fr_auto] xl:items-end" aria-live="polite">
             <div>
               <p className="font-display text-2xl italic text-ivory">{item.label}</p>
               <p className="mt-2 max-w-[44ch] text-ivory-dim">{item.text}</p>

@@ -5,7 +5,7 @@ import { gsap, FINE_POINTER, REDUCED } from "@/lib/gsap";
 
 /**
  * "Faro": a soft pool of light that trails a fine pointer and names the
- * action under it (data-cursor="Scopri" | "Guarda" | "Scrivici"). The system
+ * action under it (data-cursor="Scoprite" | "Guardate" | "Scriveteci"). The system
  * cursor stays visible: the light accompanies it, never replaces it.
  * Mounted only with hover + fine pointer and without reduced motion.
  */

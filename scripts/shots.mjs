@@ -43,7 +43,7 @@ for (const w of widths) {
         const r = el.getBoundingClientRect();
         const cs = getComputedStyle(el);
         if (cs.position === "fixed" || r.width === 0) return;
-        const clipped = (() => { for (let a = el.parentElement; a && a !== document.body; a = a.parentElement) { const o = getComputedStyle(a); if (/(hidden|clip)/.test(o.overflowX + o.overflow)) return true; } return false; })();
+        const clipped = (() => { for (let a = el.parentElement; a && a !== document.body; a = a.parentElement) { const o = getComputedStyle(a); if (/(hidden|clip|auto|scroll)/.test(o.overflowX)) return true; } return false; })();
         if (r.right > W + 1 && !clipped && !el.closest(".marquee,[data-allow-overflow]")) bad.push(`${el.tagName.toLowerCase()}.${String(el.className).slice(0, 40)} right=${Math.round(r.right)}`);
       });
       return { scrollW: document.documentElement.scrollWidth, W, bad: bad.slice(0, 5) };

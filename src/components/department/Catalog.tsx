@@ -111,7 +111,7 @@ export function Catalog({ d }: { d: Department }) {
               </div>
 
               {c.images.length > 0 ? (
-                <ul className="mt-14 columns-2 gap-[var(--gutter)] md:mt-20 md:columns-3 xl:columns-4">
+                <ul className={`mt-14 columns-2 gap-[var(--gutter)] md:mt-20 md:columns-3 ${c.images.length > 8 ? "xl:columns-4" : ""}`}>
                   {c.images.map((id, i) => {
                     const m = getMedia(id);
                     return (
@@ -130,7 +130,7 @@ export function Catalog({ d }: { d: Department }) {
                             />
                             <span className="item-sheen" aria-hidden="true" />
                           </div>
-                          <figcaption className="mt-3 flex items-start justify-between gap-3">
+                          <figcaption className="mt-3 flex flex-col items-start gap-2.5">
                             <span className="text-[0.875rem] leading-snug text-char-dim">{m.alt}</span>
                             <a
                               href={whatsappHref(`Ciao, ho visto sul sito questo capo (${dept}, ${c.label.toLowerCase()}): "${m.alt}". È disponibile?`)}
