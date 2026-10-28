@@ -1,0 +1,1289 @@
+{
+  "slug": "uomo",
+  "url": "https://www.ingromoda.com/uomo/",
+  "fetchedAt": "2026-10-28T15:38:33.703Z",
+  "titleTag": "Uomo - Ingromoda",
+  "metaDescription": "Il nostro assortimento per uomo è pensato sia per chi ama vestire seguendo una moda casual, caratterizzata da capi comodi e pratici, perfetti per tutti i",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "canonical": "https://www.ingromoda.com/uomo/",
+  "og": {
+    "og:locale": "it_IT",
+    "og:type": "article",
+    "og:title": "Uomo - Ingromoda",
+    "og:description": "Il nostro assortimento per uomo è pensato sia per chi ama vestire seguendo una moda casual, caratterizzata da capi comodi e pratici, perfetti per tutti i",
+    "og:url": "https://www.ingromoda.com/uomo/",
+    "og:site_name": "Ingromoda",
+    "og:updated_time": "2026-05-26T13:38:36+02:00",
+    "og:image": "https://www.ingromoda.com/wp-content/uploads/2023/11/logo-ingromoda-1.png",
+    "og:image:secure_url": "https://www.ingromoda.com/wp-content/uploads/2023/11/logo-ingromoda-1.png",
+    "og:image:width": "1821",
+    "og:image:height": "909",
+    "og:image:alt": "logo ingromoda 1",
+    "og:image:type": "image/png"
+  },
+  "twitter": {
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Uomo - Ingromoda",
+    "twitter:description": "Il nostro assortimento per uomo è pensato sia per chi ama vestire seguendo una moda casual, caratterizzata da capi comodi e pratici, perfetti per tutti i",
+    "twitter:image": "https://www.ingromoda.com/wp-content/uploads/2023/11/logo-ingromoda-1.png"
+  },
+  "articleMeta": {
+    "article:published_time": "2023-11-06T12:34:27+01:00",
+    "article:modified_time": "2026-05-26T13:38:36+02:00"
+  },
+  "jsonLd": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": [
+            "Person",
+            "Organization"
+          ],
+          "@id": "https://www.ingromoda.com/#person",
+          "name": "Ingromoda",
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://www.ingromoda.com/#logo",
+            "url": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+            "contentUrl": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+            "caption": "Ingromoda",
+            "inLanguage": "it-IT",
+            "width": "1820",
+            "height": "907"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://www.ingromoda.com/#logo",
+            "url": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+            "contentUrl": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+            "caption": "Ingromoda",
+            "inLanguage": "it-IT",
+            "width": "1820",
+            "height": "907"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.ingromoda.com/#website",
+          "url": "https://www.ingromoda.com",
+          "name": "Ingromoda",
+          "alternateName": "Ingromoda Srl",
+          "publisher": {
+            "@id": "https://www.ingromoda.com/#person"
+          },
+          "inLanguage": "it-IT"
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.ingromoda.com/wp-content/uploads/2023/11/logo-ingromoda-1-120x60.png",
+          "url": "https://www.ingromoda.com/wp-content/uploads/2023/11/logo-ingromoda-1-120x60.png",
+          "width": "200",
+          "height": "200",
+          "inLanguage": "it-IT"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.ingromoda.com/uomo/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": "1",
+              "item": {
+                "@id": "https://www.ingromoda.com",
+                "name": "Home"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": "2",
+              "item": {
+                "@id": "https://www.ingromoda.com/uomo/",
+                "name": "Uomo"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.ingromoda.com/uomo/#webpage",
+          "url": "https://www.ingromoda.com/uomo/",
+          "name": "Uomo - Ingromoda",
+          "datePublished": "2023-11-06T12:34:27+01:00",
+          "dateModified": "2026-05-26T13:38:36+02:00",
+          "isPartOf": {
+            "@id": "https://www.ingromoda.com/#website"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://www.ingromoda.com/wp-content/uploads/2023/11/logo-ingromoda-1-120x60.png"
+          },
+          "inLanguage": "it-IT",
+          "breadcrumb": {
+            "@id": "https://www.ingromoda.com/uomo/#breadcrumb"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://www.ingromoda.com/author/ingromodasrl/",
+          "name": "ingromodasrl",
+          "url": "https://www.ingromoda.com/author/ingromodasrl/",
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://secure.gravatar.com/avatar/23c6823ea3ed3b0c116a69f8de99dad0e2782c69f5fcc04c9b6979708197b273?s=96&amp;d=mm&amp;r=g",
+            "url": "https://secure.gravatar.com/avatar/23c6823ea3ed3b0c116a69f8de99dad0e2782c69f5fcc04c9b6979708197b273?s=96&amp;d=mm&amp;r=g",
+            "caption": "ingromodasrl",
+            "inLanguage": "it-IT"
+          },
+          "sameAs": [
+            "https://www.ingromoda.com/"
+          ]
+        },
+        {
+          "@type": "Article",
+          "headline": "Uomo - Ingromoda",
+          "datePublished": "2023-11-06T12:34:27+01:00",
+          "dateModified": "2026-05-26T13:38:36+02:00",
+          "author": {
+            "@id": "https://www.ingromoda.com/author/ingromodasrl/",
+            "name": "ingromodasrl"
+          },
+          "publisher": {
+            "@id": "https://www.ingromoda.com/#person"
+          },
+          "description": "Il nostro assortimento per uomo è pensato sia per chi ama vestire seguendo una moda casual, caratterizzata da capi comodi e pratici, perfetti per tutti i",
+          "name": "Uomo - Ingromoda",
+          "@id": "https://www.ingromoda.com/uomo/#richSnippet",
+          "isPartOf": {
+            "@id": "https://www.ingromoda.com/uomo/#webpage"
+          },
+          "image": {
+            "@id": "https://www.ingromoda.com/wp-content/uploads/2023/11/logo-ingromoda-1-120x60.png"
+          },
+          "inLanguage": "it-IT",
+          "mainEntityOfPage": {
+            "@id": "https://www.ingromoda.com/uomo/#webpage"
+          }
+        }
+      ]
+    }
+  ],
+  "favicons": [
+    {
+      "rel": "icon",
+      "sizes": "32x32",
+      "href": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-favicon-ingromoda-32x32.jpg"
+    },
+    {
+      "rel": "icon",
+      "sizes": "192x192",
+      "href": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-favicon-ingromoda-192x192.jpg"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": null,
+      "href": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-favicon-ingromoda-180x180.jpg"
+    }
+  ],
+  "generator": [
+    "WordPress 7.1.3",
+    "Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap"
+  ],
+  "rest": {
+    "id": 576,
+    "title": "Uomo",
+    "date": "2023-11-06T12:34:27",
+    "modified": "2026-05-26T13:38:36",
+    "template": null,
+    "link": "https://www.ingromoda.com/uomo/",
+    "parent": 0,
+    "menu_order": 0
+  },
+  "bodyClasses": [
+    "wp-singular",
+    "page-template-default",
+    "page",
+    "page-id-576",
+    "wp-custom-logo",
+    "wp-embed-responsive",
+    "wp-theme-astra",
+    "wp-child-theme-astra-child",
+    "ast-desktop",
+    "ast-page-builder-template",
+    "ast-no-sidebar",
+    "astra-4.14.1",
+    "ast-single-post",
+    "ast-inherit-site-logo-transparent",
+    "ast-hfb-header",
+    "ast-full-width-primary-header",
+    "ast-full-width-layout",
+    "ast-sticky-main-shrink",
+    "ast-sticky-below-shrink",
+    "ast-sticky-header-shrink",
+    "ast-inherit-site-logo-sticky",
+    "ast-primary-sticky-enabled",
+    "elementor-default",
+    "elementor-kit-362",
+    "elementor-page",
+    "elementor-page-576",
+    "astra-addon-4.13.5"
+  ],
+  "builder": "elementor",
+  "pageTitleH1FromTheme": null,
+  "sections": [
+    {
+      "index": 1,
+      "anchorId": null,
+      "elementorId": "1d623520",
+      "elementType": "section",
+      "backgroundImages": [
+        {
+          "elementId": "1d623520",
+          "media": "all",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/portrait-handsome-stylish-hipster-lambersexual-model-1.jpg",
+          "originalFilename": "portrait-handsome-stylish-hipster-lambersexual-model-1.jpg",
+          "width": 1555,
+          "height": 1166,
+          "mediaAlt": "portrait handsome stylish hipster lambersexual model 1"
+        }
+      ],
+      "headings": [
+        {
+          "level": 4,
+          "text": "INGROMODA"
+        },
+        {
+          "level": 1,
+          "text": "Abbigliamento Uomo"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "INGROMODA",
+          "links": []
+        },
+        {
+          "type": "heading",
+          "level": 1,
+          "text": "Abbigliamento Uomo",
+          "links": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "anchorId": null,
+      "elementorId": "7da982ca",
+      "elementType": "section",
+      "paragraphs": [
+        "Il nostro assortimento per uomo è pensato sia per chi ama vestire seguendo una moda casual, caratterizzata da capi comodi e pratici, perfetti per tutti i giorni; sia per chi ricerca un modo di vestire raffinato, curando ogni dettaglio, dalla cravatta al pantalone, conciliando ogni elemento; sia per chi invece desidera trovare un abbigliamento sportswear che includa t-shirt, felpe, pantaloni da jogging o capi pensati per il mondo dello sport. L’abbigliamento da cerimonia, con inclusi gli accessori quali gemelli, cravatte o papillon, vanta infine una qualità eccezionale!",
+        "Tutti i nostri capi sono disponibili dalla taglia 44 alla 78, anche nei vari drop, ovvero nei diversi tipi di vestibilità. Con il supporto del nostro staff, altamente competente e preparato, potrete scoprire quali sono gli abiti che più si avvicinano al vostro modo di essere e alla vostra personalità."
+      ],
+      "images": [
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/logo-ingromoda-1.png",
+          "alt": "logo ingromoda 1",
+          "originalFilename": "logo-ingromoda-1.png",
+          "width": 1821,
+          "height": 909,
+          "linkHref": null,
+          "widget": "image"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/logo-ingromoda-1.png",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2023/11/logo-ingromoda-1-120x60.png",
+          "alt": "logo ingromoda 1",
+          "originalFilename": "logo-ingromoda-1.png",
+          "width": 1821,
+          "height": 909,
+          "mediaId": 13,
+          "linkHref": null,
+          "widget": "image",
+          "hiddenOn": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Il nostro assortimento per uomo è pensato sia per chi ama vestire seguendo una moda casual, caratterizzata da capi comodi e pratici, perfetti per tutti i giorni; sia per chi ricerca un modo di vestire raffinato, curando ogni dettaglio, dalla cravatta al pantalone, conciliando ogni elemento; sia per chi invece desidera trovare un abbigliamento sportswear che includa t-shirt, felpe, pantaloni da jogging o capi pensati per il mondo dello sport. L’abbigliamento da cerimonia, con inclusi gli accessori quali gemelli, cravatte o papillon, vanta infine una qualità eccezionale!"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tutti i nostri capi sono disponibili dalla taglia 44 alla 78, anche nei vari drop, ovvero nei diversi tipi di vestibilità. Con il supporto del nostro staff, altamente competente e preparato, potrete scoprire quali sono gli abiti che più si avvicinano al vostro modo di essere e alla vostra personalità."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "anchorId": null,
+      "elementorId": "26229377",
+      "elementType": "section",
+      "buttons": [
+        {
+          "text": "CERIMONIA",
+          "href": "#cerimonia"
+        },
+        {
+          "text": "CASUAL",
+          "href": "#casual"
+        },
+        {
+          "text": "TAGLIE COMODE",
+          "href": "#comode"
+        },
+        {
+          "text": "SCARPE",
+          "href": "#scarpe"
+        },
+        {
+          "text": "ACCESSORI",
+          "href": "#accessori"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "button",
+          "text": "CERIMONIA",
+          "href": "#cerimonia"
+        },
+        {
+          "type": "button",
+          "text": "CASUAL",
+          "href": "#casual"
+        },
+        {
+          "type": "button",
+          "text": "TAGLIE COMODE",
+          "href": "#comode"
+        },
+        {
+          "type": "button",
+          "text": "SCARPE",
+          "href": "#scarpe"
+        },
+        {
+          "type": "button",
+          "text": "ACCESSORI",
+          "href": "#accessori"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "anchorId": "cerimonia",
+      "elementorId": "660cf9ab",
+      "elementType": "section",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Cerimonia"
+        }
+      ],
+      "paragraphs": [
+        "L’abbigliamento da cerimonia maschile è un must-have per ogni uomo che voglia apparire elegante e raffinato in occasioni speciali, come matrimoni, battesimi, comunioni o eventi formali. I nostri abiti di alta sartoria sono in grado di soddisfare ogni esigenza di stile e comfort, adattandosi al contesto dell’evento e alla personalità dell’uomo che li indossa: dallo spezzato al classico completo, per finire con uno splendido e fresco completo di lino."
+      ],
+      "images": [
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-27.jpeg",
+          "alt": "",
+          "originalFilename": "ingromoda-27.jpeg",
+          "width": 1080,
+          "height": 1377,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-28.jpeg",
+          "alt": "",
+          "originalFilename": "ingromoda-28.jpeg",
+          "width": 922,
+          "height": 1146,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-29.jpeg",
+          "alt": "",
+          "originalFilename": "ingromoda-29.jpeg",
+          "width": 922,
+          "height": 1146,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-30.jpeg",
+          "alt": "",
+          "originalFilename": "ingromoda-30.jpeg",
+          "width": 922,
+          "height": 1146,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-38.jpeg",
+          "alt": "",
+          "originalFilename": "ingromoda-38.jpeg",
+          "width": 922,
+          "height": 1146,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-accessori-11.jpeg",
+          "alt": "",
+          "originalFilename": "ingromoda-accessori-11.jpeg",
+          "width": 922,
+          "height": 1152,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/cerimonia-uomo-3.jpeg",
+          "alt": "",
+          "originalFilename": "cerimonia-uomo-3.jpeg",
+          "width": 1024,
+          "height": 1536,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/cerimonia-uomo-4.jpeg",
+          "alt": "",
+          "originalFilename": "cerimonia-uomo-4.jpeg",
+          "width": 1024,
+          "height": 1536,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/cerimonia-uomo-5.jpeg",
+          "alt": "",
+          "originalFilename": "cerimonia-uomo-5.jpeg",
+          "width": 1024,
+          "height": 1536,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/cerimonia-uomo7.jpg",
+          "alt": "",
+          "originalFilename": "cerimonia-uomo7.jpg",
+          "width": 848,
+          "height": 1264,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Cerimonia",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "L’abbigliamento da cerimonia maschile è un must-have per ogni uomo che voglia apparire elegante e raffinato in occasioni speciali, come matrimoni, battesimi, comunioni o eventi formali. I nostri abiti di alta sartoria sono in grado di soddisfare ogni esigenza di stile e comfort, adattandosi al contesto dell’evento e alla personalità dell’uomo che li indossa: dallo spezzato al classico completo, per finire con uno splendido e fresco completo di lino."
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-27.jpeg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-27.jpeg",
+          "alt": "",
+          "originalFilename": "ingromoda-27.jpeg",
+          "width": 1080,
+          "height": 1377,
+          "mediaId": 1258,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-28.jpeg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-28.jpeg",
+          "alt": "",
+          "originalFilename": "ingromoda-28.jpeg",
+          "width": 922,
+          "height": 1146,
+          "mediaId": 1259,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-29.jpeg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-29.jpeg",
+          "alt": "",
+          "originalFilename": "ingromoda-29.jpeg",
+          "width": 922,
+          "height": 1146,
+          "mediaId": 1260,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-30.jpeg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-30.jpeg",
+          "alt": "",
+          "originalFilename": "ingromoda-30.jpeg",
+          "width": 922,
+          "height": 1146,
+          "mediaId": 1261,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-38.jpeg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-38.jpeg",
+          "alt": "",
+          "originalFilename": "ingromoda-38.jpeg",
+          "width": 922,
+          "height": 1146,
+          "mediaId": 1262,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-accessori-11.jpeg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-accessori-11.jpeg",
+          "alt": "",
+          "originalFilename": "ingromoda-accessori-11.jpeg",
+          "width": 922,
+          "height": 1152,
+          "mediaId": 1263,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/cerimonia-uomo-3.jpeg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2026/05/cerimonia-uomo-3.jpeg",
+          "alt": "",
+          "originalFilename": "cerimonia-uomo-3.jpeg",
+          "width": 1024,
+          "height": 1536,
+          "mediaId": 1293,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/cerimonia-uomo-4.jpeg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2026/05/cerimonia-uomo-4.jpeg",
+          "alt": "",
+          "originalFilename": "cerimonia-uomo-4.jpeg",
+          "width": 1024,
+          "height": 1536,
+          "mediaId": 1294,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/cerimonia-uomo-5.jpeg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2026/05/cerimonia-uomo-5.jpeg",
+          "alt": "",
+          "originalFilename": "cerimonia-uomo-5.jpeg",
+          "width": 1024,
+          "height": 1536,
+          "mediaId": 1295,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/cerimonia-uomo7.jpg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2026/05/cerimonia-uomo7.jpg",
+          "alt": "",
+          "originalFilename": "cerimonia-uomo7.jpg",
+          "width": 848,
+          "height": 1264,
+          "mediaId": 1307,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "anchorId": "casual",
+      "elementorId": "4d6f8976",
+      "elementType": "section",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Casual"
+        }
+      ],
+      "paragraphs": [
+        "Ingromoda propone un’ampia gamma di capi per l’abbigliamento casual, che spazia da modelli classici a modelli più moderni. Tutti i capi sono realizzati con tessuti di alta qualità e sono comodi e pratici da indossare. Dai classici jeans in denim, t-shirt in cotone o camice in lino, fino a capi più attuali come jeans strappati o pantaloni cargo oversize. Qualunque sia il vostro stile, da Ingromoda troverete l’abbigliamento casual perfetto per voi."
+      ],
+      "images": [
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-9.jpeg",
+          "alt": "",
+          "originalFilename": "ingromoda-9.jpeg",
+          "width": 922,
+          "height": 1146,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-17.jpeg",
+          "alt": "",
+          "originalFilename": "ingromoda-17.jpeg",
+          "width": 922,
+          "height": 1152,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-31.jpeg",
+          "alt": "",
+          "originalFilename": "ingromoda-31.jpeg",
+          "width": 922,
+          "height": 1146,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/cerimonia-uomo-6.jpeg",
+          "alt": "",
+          "originalFilename": "cerimonia-uomo-6.jpeg",
+          "width": 1024,
+          "height": 1536,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/cerimonia-uomo-2.jpeg",
+          "alt": "",
+          "originalFilename": "cerimonia-uomo-2.jpeg",
+          "width": 1024,
+          "height": 1536,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/cerimonia-uomo-1.jpeg",
+          "alt": "",
+          "originalFilename": "cerimonia-uomo-1.jpeg",
+          "width": 1024,
+          "height": 1536,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Casual",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Ingromoda propone un’ampia gamma di capi per l’abbigliamento casual, che spazia da modelli classici a modelli più moderni. Tutti i capi sono realizzati con tessuti di alta qualità e sono comodi e pratici da indossare. Dai classici jeans in denim, t-shirt in cotone o camice in lino, fino a capi più attuali come jeans strappati o pantaloni cargo oversize. Qualunque sia il vostro stile, da Ingromoda troverete l’abbigliamento casual perfetto per voi."
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-9.jpeg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-9.jpeg",
+          "alt": "",
+          "originalFilename": "ingromoda-9.jpeg",
+          "width": 922,
+          "height": 1146,
+          "mediaId": 1264,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-17.jpeg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-17.jpeg",
+          "alt": "",
+          "originalFilename": "ingromoda-17.jpeg",
+          "width": 922,
+          "height": 1152,
+          "mediaId": 1265,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-31.jpeg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-31.jpeg",
+          "alt": "",
+          "originalFilename": "ingromoda-31.jpeg",
+          "width": 922,
+          "height": 1146,
+          "mediaId": 1266,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/cerimonia-uomo-6.jpeg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2026/05/cerimonia-uomo-6.jpeg",
+          "alt": "",
+          "originalFilename": "cerimonia-uomo-6.jpeg",
+          "width": 1024,
+          "height": 1536,
+          "mediaId": 1296,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/cerimonia-uomo-2.jpeg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2026/05/cerimonia-uomo-2.jpeg",
+          "alt": "",
+          "originalFilename": "cerimonia-uomo-2.jpeg",
+          "width": 1024,
+          "height": 1536,
+          "mediaId": 1292,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/cerimonia-uomo-1.jpeg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2026/05/cerimonia-uomo-1.jpeg",
+          "alt": "",
+          "originalFilename": "cerimonia-uomo-1.jpeg",
+          "width": 1024,
+          "height": 1536,
+          "mediaId": 1291,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "anchorId": "comode",
+      "elementorId": "2569db89",
+      "elementType": "section",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Taglie Comode"
+        }
+      ],
+      "paragraphs": [
+        "Ingromoda si impegna a rendere la moda accessibile a tutti, indipendentemente dalla taglia. Per questo motivo, la nostra proposta comprende una sezione dedicata alle taglie comode. Maglieria, camicie, pantaloni o completi eleganti pensati per far sentire a proprio agio chi li indossa, valorizzando la propria fisicità e mettendo in risalto le qualità di ognuno."
+      ],
+      "images": [
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/UOSPORTIVO1-1920w.webp",
+          "alt": "UOSPORTIVO1 1920w",
+          "originalFilename": "UOSPORTIVO1-1920w.webp",
+          "width": 629,
+          "height": 960,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/SPORTUOP6-1920w.webp",
+          "alt": "SPORTUOP6 1920w",
+          "originalFilename": "SPORTUOP6-1920w.webp",
+          "width": 648,
+          "height": 960,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/SPORTUO9-1920w.webp",
+          "alt": "SPORTUO9 1920w",
+          "originalFilename": "SPORTUO9-1920w.webp",
+          "width": 445,
+          "height": 600,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/SPORT4UO-1920w.webp",
+          "alt": "SPORT4UO 1920w",
+          "originalFilename": "SPORT4UO-1920w.webp",
+          "width": 719,
+          "height": 960,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/SPORTIVOUO2-1920w.webp",
+          "alt": "SPORTIVOUO2 1920w",
+          "originalFilename": "SPORTIVOUO2-1920w.webp",
+          "width": 604,
+          "height": 960,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/SPORT3UO-1920w.webp",
+          "alt": "SPORT3UO 1920w",
+          "originalFilename": "SPORT3UO-1920w.webp",
+          "width": 625,
+          "height": 960,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/SPORTUO7-1920w.webp",
+          "alt": "SPORTUO7 1920w",
+          "originalFilename": "SPORTUO7-1920w.webp",
+          "width": 445,
+          "height": 600,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/SPORTUO8-1920w.webp",
+          "alt": "SPORTUO8 1920w",
+          "originalFilename": "SPORTUO8-1920w.webp",
+          "width": 445,
+          "height": 600,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Taglie Comode",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Ingromoda si impegna a rendere la moda accessibile a tutti, indipendentemente dalla taglia. Per questo motivo, la nostra proposta comprende una sezione dedicata alle taglie comode. Maglieria, camicie, pantaloni o completi eleganti pensati per far sentire a proprio agio chi li indossa, valorizzando la propria fisicità e mettendo in risalto le qualità di ognuno."
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/UOSPORTIVO1-1920w.webp",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2023/11/UOSPORTIVO1-1920w.webp",
+          "alt": "UOSPORTIVO1 1920w",
+          "originalFilename": "UOSPORTIVO1-1920w.webp",
+          "width": 629,
+          "height": 960,
+          "mediaId": 604,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/SPORTUOP6-1920w.webp",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2023/11/SPORTUOP6-1920w.webp",
+          "alt": "SPORTUOP6 1920w",
+          "originalFilename": "SPORTUOP6-1920w.webp",
+          "width": 648,
+          "height": 960,
+          "mediaId": 603,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/SPORTUO9-1920w.webp",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2023/11/SPORTUO9-1920w.webp",
+          "alt": "SPORTUO9 1920w",
+          "originalFilename": "SPORTUO9-1920w.webp",
+          "width": 445,
+          "height": 600,
+          "mediaId": 602,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/SPORT4UO-1920w.webp",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2023/11/SPORT4UO-1920w.webp",
+          "alt": "SPORT4UO 1920w",
+          "originalFilename": "SPORT4UO-1920w.webp",
+          "width": 719,
+          "height": 960,
+          "mediaId": 601,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/SPORTIVOUO2-1920w.webp",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2023/11/SPORTIVOUO2-1920w.webp",
+          "alt": "SPORTIVOUO2 1920w",
+          "originalFilename": "SPORTIVOUO2-1920w.webp",
+          "width": 604,
+          "height": 960,
+          "mediaId": 600,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/SPORT3UO-1920w.webp",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2023/11/SPORT3UO-1920w.webp",
+          "alt": "SPORT3UO 1920w",
+          "originalFilename": "SPORT3UO-1920w.webp",
+          "width": 625,
+          "height": 960,
+          "mediaId": 599,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/SPORTUO7-1920w.webp",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2023/11/SPORTUO7-1920w.webp",
+          "alt": "SPORTUO7 1920w",
+          "originalFilename": "SPORTUO7-1920w.webp",
+          "width": 445,
+          "height": 600,
+          "mediaId": 598,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/SPORTUO8-1920w.webp",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2023/11/SPORTUO8-1920w.webp",
+          "alt": "SPORTUO8 1920w",
+          "originalFilename": "SPORTUO8-1920w.webp",
+          "width": 445,
+          "height": 600,
+          "mediaId": 597,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "anchorId": "scarpe",
+      "elementorId": "41747a6c",
+      "elementType": "section",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Scarpe"
+        }
+      ],
+      "paragraphs": [
+        "Per rendere un look completo abbiamo pensato ad ampliare la nostra offerta e fornire una vasta gamma di scarpe: eleganti, da ginnastica, sportive o casual. Ogni outfit merita di essere curato in ogni dettaglio."
+      ],
+      "images": [
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2024/04/Accessori-ingromoda-45.jpg",
+          "alt": "Accessori ingromoda 45",
+          "originalFilename": "Accessori-ingromoda-45.jpg",
+          "width": 1000,
+          "height": 800,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2024/04/Accessori-ingromoda-40.jpg",
+          "alt": "Accessori ingromoda 40",
+          "originalFilename": "Accessori-ingromoda-40.jpg",
+          "width": 1000,
+          "height": 800,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2024/04/Accessori-ingromoda-41.jpg",
+          "alt": "Accessori ingromoda 41",
+          "originalFilename": "Accessori-ingromoda-41.jpg",
+          "width": 1000,
+          "height": 800,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2024/04/Accessori-ingromoda-35.jpg",
+          "alt": "Accessori ingromoda 35",
+          "originalFilename": "Accessori-ingromoda-35.jpg",
+          "width": 1000,
+          "height": 800,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2024/04/Accessori-ingromoda-36.jpg",
+          "alt": "Accessori ingromoda 36",
+          "originalFilename": "Accessori-ingromoda-36.jpg",
+          "width": 1000,
+          "height": 800,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2024/04/Accessori-ingromoda-3.jpg",
+          "alt": "Accessori ingromoda 3",
+          "originalFilename": "Accessori-ingromoda-3.jpg",
+          "width": 1000,
+          "height": 800,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Scarpe",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Per rendere un look completo abbiamo pensato ad ampliare la nostra offerta e fornire una vasta gamma di scarpe: eleganti, da ginnastica, sportive o casual. Ogni outfit merita di essere curato in ogni dettaglio."
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2024/04/Accessori-ingromoda-45.jpg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2024/04/Accessori-ingromoda-45.jpg",
+          "alt": "Accessori ingromoda 45",
+          "originalFilename": "Accessori-ingromoda-45.jpg",
+          "width": 1000,
+          "height": 800,
+          "mediaId": 1071,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2024/04/Accessori-ingromoda-40.jpg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2024/04/Accessori-ingromoda-40.jpg",
+          "alt": "Accessori ingromoda 40",
+          "originalFilename": "Accessori-ingromoda-40.jpg",
+          "width": 1000,
+          "height": 800,
+          "mediaId": 1066,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2024/04/Accessori-ingromoda-41.jpg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2024/04/Accessori-ingromoda-41.jpg",
+          "alt": "Accessori ingromoda 41",
+          "originalFilename": "Accessori-ingromoda-41.jpg",
+          "width": 1000,
+          "height": 800,
+          "mediaId": 1067,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2024/04/Accessori-ingromoda-35.jpg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2024/04/Accessori-ingromoda-35.jpg",
+          "alt": "Accessori ingromoda 35",
+          "originalFilename": "Accessori-ingromoda-35.jpg",
+          "width": 1000,
+          "height": 800,
+          "mediaId": 1061,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2024/04/Accessori-ingromoda-36.jpg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2024/04/Accessori-ingromoda-36.jpg",
+          "alt": "Accessori ingromoda 36",
+          "originalFilename": "Accessori-ingromoda-36.jpg",
+          "width": 1000,
+          "height": 800,
+          "mediaId": 1062,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2024/04/Accessori-ingromoda-3.jpg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2024/04/Accessori-ingromoda-3.jpg",
+          "alt": "Accessori ingromoda 3",
+          "originalFilename": "Accessori-ingromoda-3.jpg",
+          "width": 1000,
+          "height": 800,
+          "mediaId": 1055,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "anchorId": "accessori",
+      "elementorId": "42752f21",
+      "elementType": "section",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Accessori"
+        }
+      ],
+      "paragraphs": [
+        "Il tocco finale per un look impeccabile sono loro, gli accessori. Foulard, cravatte, gemelli, papillon, cinture o occhiali da sole. Una vasta scelta è disponibile presso Ingromoda."
+      ],
+      "images": [
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-7.jpeg",
+          "alt": "",
+          "originalFilename": "ingromoda-7.jpeg",
+          "width": 922,
+          "height": 1146,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-8.jpeg",
+          "alt": "",
+          "originalFilename": "ingromoda-8.jpeg",
+          "width": 922,
+          "height": 1146,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-accessori-12.jpeg",
+          "alt": "",
+          "originalFilename": "ingromoda-accessori-12.jpeg",
+          "width": 922,
+          "height": 1152,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-accessori-13.jpeg",
+          "alt": "",
+          "originalFilename": "ingromoda-accessori-13.jpeg",
+          "width": 922,
+          "height": 1152,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-accessori-20.jpeg",
+          "alt": "",
+          "originalFilename": "ingromoda-accessori-20.jpeg",
+          "width": 922,
+          "height": 1152,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Accessori",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Il tocco finale per un look impeccabile sono loro, gli accessori. Foulard, cravatte, gemelli, papillon, cinture o occhiali da sole. Una vasta scelta è disponibile presso Ingromoda."
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-7.jpeg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-7.jpeg",
+          "alt": "",
+          "originalFilename": "ingromoda-7.jpeg",
+          "width": 922,
+          "height": 1146,
+          "mediaId": 1267,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-8.jpeg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-8.jpeg",
+          "alt": "",
+          "originalFilename": "ingromoda-8.jpeg",
+          "width": 922,
+          "height": 1146,
+          "mediaId": 1268,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-accessori-12.jpeg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-accessori-12.jpeg",
+          "alt": "",
+          "originalFilename": "ingromoda-accessori-12.jpeg",
+          "width": 922,
+          "height": 1152,
+          "mediaId": 1269,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-accessori-13.jpeg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-accessori-13.jpeg",
+          "alt": "",
+          "originalFilename": "ingromoda-accessori-13.jpeg",
+          "width": 922,
+          "height": 1152,
+          "mediaId": 1270,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-accessori-20.jpeg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2026/05/ingromoda-accessori-20.jpeg",
+          "alt": "",
+          "originalFilename": "ingromoda-accessori-20.jpeg",
+          "width": 922,
+          "height": 1152,
+          "mediaId": 1271,
+          "linkHref": "#",
+          "widget": "ha-justified-gallery",
+          "hiddenOn": []
+        }
+      ]
+    }
+  ]
+}

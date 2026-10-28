@@ -1,0 +1,491 @@
+{
+  "slug": "contatti",
+  "url": "https://www.ingromoda.com/contatti/",
+  "fetchedAt": "2026-10-28T15:38:33.796Z",
+  "titleTag": "Contatti - Ingromoda",
+  "metaDescription": "Apertura la prima domenica di ogni mese (esclusi i mesi di agosto e settembre) dalle ore 10:00 alle ore 13:00 e dalle 16:00 alle 20:00. Aperture straordinarie",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "canonical": "https://www.ingromoda.com/contatti/",
+  "og": {
+    "og:locale": "it_IT",
+    "og:type": "article",
+    "og:title": "Contatti - Ingromoda",
+    "og:description": "Apertura la prima domenica di ogni mese (esclusi i mesi di agosto e settembre) dalle ore 10:00 alle ore 13:00 e dalle 16:00 alle 20:00. Aperture straordinarie",
+    "og:url": "https://www.ingromoda.com/contatti/",
+    "og:site_name": "Ingromoda",
+    "og:updated_time": "2026-06-09T12:19:43+02:00",
+    "og:image": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+    "og:image:secure_url": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+    "og:image:width": "1820",
+    "og:image:height": "907",
+    "og:image:alt": "cropped logo ingromoda 1",
+    "og:image:type": "image/png"
+  },
+  "twitter": {
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Contatti - Ingromoda",
+    "twitter:description": "Apertura la prima domenica di ogni mese (esclusi i mesi di agosto e settembre) dalle ore 10:00 alle ore 13:00 e dalle 16:00 alle 20:00. Aperture straordinarie",
+    "twitter:image": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png"
+  },
+  "articleMeta": {
+    "article:published_time": "2022-06-17T07:32:11+02:00",
+    "article:modified_time": "2026-06-09T12:19:43+02:00"
+  },
+  "jsonLd": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": [
+            "Person",
+            "Organization"
+          ],
+          "@id": "https://www.ingromoda.com/#person",
+          "name": "Ingromoda",
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://www.ingromoda.com/#logo",
+            "url": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+            "contentUrl": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+            "caption": "Ingromoda",
+            "inLanguage": "it-IT",
+            "width": "1820",
+            "height": "907"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://www.ingromoda.com/#logo",
+            "url": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+            "contentUrl": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+            "caption": "Ingromoda",
+            "inLanguage": "it-IT",
+            "width": "1820",
+            "height": "907"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.ingromoda.com/#website",
+          "url": "https://www.ingromoda.com",
+          "name": "Ingromoda",
+          "alternateName": "Ingromoda Srl",
+          "publisher": {
+            "@id": "https://www.ingromoda.com/#person"
+          },
+          "inLanguage": "it-IT"
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+          "url": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+          "width": "1820",
+          "height": "907",
+          "caption": "cropped logo ingromoda 1",
+          "inLanguage": "it-IT"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.ingromoda.com/contatti/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": "1",
+              "item": {
+                "@id": "https://www.ingromoda.com",
+                "name": "Home"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": "2",
+              "item": {
+                "@id": "https://www.ingromoda.com/contatti/",
+                "name": "Contatti"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.ingromoda.com/contatti/#webpage",
+          "url": "https://www.ingromoda.com/contatti/",
+          "name": "Contatti - Ingromoda",
+          "datePublished": "2022-06-17T07:32:11+02:00",
+          "dateModified": "2026-06-09T12:19:43+02:00",
+          "isPartOf": {
+            "@id": "https://www.ingromoda.com/#website"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png"
+          },
+          "inLanguage": "it-IT",
+          "breadcrumb": {
+            "@id": "https://www.ingromoda.com/contatti/#breadcrumb"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://www.ingromoda.com/author/ingromodasrl/",
+          "name": "ingromodasrl",
+          "url": "https://www.ingromoda.com/author/ingromodasrl/",
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://secure.gravatar.com/avatar/23c6823ea3ed3b0c116a69f8de99dad0e2782c69f5fcc04c9b6979708197b273?s=96&amp;d=mm&amp;r=g",
+            "url": "https://secure.gravatar.com/avatar/23c6823ea3ed3b0c116a69f8de99dad0e2782c69f5fcc04c9b6979708197b273?s=96&amp;d=mm&amp;r=g",
+            "caption": "ingromodasrl",
+            "inLanguage": "it-IT"
+          },
+          "sameAs": [
+            "https://www.ingromoda.com/"
+          ]
+        },
+        {
+          "@type": "Article",
+          "headline": "Contatti - Ingromoda",
+          "datePublished": "2022-06-17T07:32:11+02:00",
+          "dateModified": "2026-06-09T12:19:43+02:00",
+          "author": {
+            "@id": "https://www.ingromoda.com/author/ingromodasrl/",
+            "name": "ingromodasrl"
+          },
+          "publisher": {
+            "@id": "https://www.ingromoda.com/#person"
+          },
+          "description": "Apertura la prima domenica di ogni mese (esclusi i mesi di agosto e settembre) dalle ore 10:00 alle ore 13:00 e dalle 16:00 alle 20:00. Aperture straordinarie",
+          "name": "Contatti - Ingromoda",
+          "@id": "https://www.ingromoda.com/contatti/#richSnippet",
+          "isPartOf": {
+            "@id": "https://www.ingromoda.com/contatti/#webpage"
+          },
+          "image": {
+            "@id": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png"
+          },
+          "inLanguage": "it-IT",
+          "mainEntityOfPage": {
+            "@id": "https://www.ingromoda.com/contatti/#webpage"
+          }
+        }
+      ]
+    }
+  ],
+  "favicons": [
+    {
+      "rel": "icon",
+      "sizes": "32x32",
+      "href": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-favicon-ingromoda-32x32.jpg"
+    },
+    {
+      "rel": "icon",
+      "sizes": "192x192",
+      "href": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-favicon-ingromoda-192x192.jpg"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": null,
+      "href": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-favicon-ingromoda-180x180.jpg"
+    }
+  ],
+  "generator": [
+    "WordPress 7.1.3",
+    "Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap"
+  ],
+  "rest": {
+    "id": 22,
+    "title": "Contatti",
+    "date": "2022-06-17T07:32:11",
+    "modified": "2026-06-09T12:19:43",
+    "template": null,
+    "link": "https://www.ingromoda.com/contatti/",
+    "parent": 0,
+    "menu_order": 0
+  },
+  "bodyClasses": [
+    "wp-singular",
+    "page-template-default",
+    "page",
+    "page-id-22",
+    "wp-custom-logo",
+    "wp-embed-responsive",
+    "wp-theme-astra",
+    "wp-child-theme-astra-child",
+    "ast-desktop",
+    "ast-page-builder-template",
+    "ast-no-sidebar",
+    "astra-4.14.1",
+    "ast-single-post",
+    "ast-inherit-site-logo-transparent",
+    "ast-hfb-header",
+    "ast-full-width-primary-header",
+    "ast-full-width-layout",
+    "ast-sticky-main-shrink",
+    "ast-sticky-below-shrink",
+    "ast-sticky-header-shrink",
+    "ast-inherit-site-logo-sticky",
+    "ast-primary-sticky-enabled",
+    "elementor-default",
+    "elementor-kit-362",
+    "elementor-page",
+    "elementor-page-22",
+    "astra-addon-4.13.5"
+  ],
+  "builder": "elementor",
+  "pageTitleH1FromTheme": null,
+  "sections": [
+    {
+      "index": 1,
+      "anchorId": null,
+      "elementorId": "306ddbb",
+      "elementType": "section",
+      "headings": [
+        {
+          "level": 1,
+          "text": "I nostri contatti"
+        }
+      ],
+      "paragraphs": [
+        "Apertura la prima domenica di ogni mese (esclusi i mesi di agosto e settembre) dalle ore 10:00 alle ore 13:00 e dalle 16:00 alle 20:00.\nAperture straordinarie per festività: contattaci per informazioni."
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 1,
+          "text": "I nostri contatti",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Apertura la prima domenica di ogni mese (esclusi i mesi di agosto e settembre) dalle ore 10:00 alle ore 13:00 e dalle 16:00 alle 20:00.\nAperture straordinarie per festività: contattaci per informazioni."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "anchorId": null,
+      "elementorId": "4df4a7f",
+      "elementType": "section",
+      "headings": [
+        {
+          "level": 4,
+          "text": "I nostri contatti"
+        },
+        {
+          "level": 2,
+          "text": "Loredana: per videochiamate WhatsApp"
+        },
+        {
+          "level": 4,
+          "text": "Orari di apertura"
+        },
+        {
+          "level": 4,
+          "text": "Seguici tutti i giorni su TVM CH19"
+        },
+        {
+          "level": 4,
+          "text": "Seguici nelle dirette il martedì e venerdì dalle 17.00 suFacebook"
+        },
+        {
+          "level": 4,
+          "text": "Ampio parcheggio interno privato"
+        }
+      ],
+      "paragraphs": [
+        "LUN – SAB 08,30 -13,00 | 15,30 – 20,00\n\nDOMENICA:\nAperti solo la prima domenica del mese",
+        "LUN. ORE 12,00 -14,00 -22,30\nMAR. ORE 14,00 -18,00 -22,30\nMER. ORE 14,00 -18,00 -22,30\nGIO. ORE 12,00 -14,00 – 22,30\nVEN. ORE 12,00 -14,00 – 22,30\nSAB. ORE 14,00 -18,00 – 22,30\nDOM. ORE 12,00 -14,00 – 22,30"
+      ],
+      "listItems": [
+        "+39 091 445 150",
+        "+39 3760096564",
+        "ingromoda@gmail.com",
+        "Viale Regione Siciliana S.E. 4325"
+      ],
+      "links": [
+        {
+          "text": "+39 091 445 150",
+          "href": "tel:091445150",
+          "target": "_blank",
+          "inList": true
+        },
+        {
+          "text": "+39 3760096564",
+          "href": "tel:3760096564",
+          "target": "_blank",
+          "inList": true
+        },
+        {
+          "text": "ingromoda@gmail.com",
+          "href": "mailto:ingromoda@gmail.com",
+          "target": "_blank",
+          "inList": true
+        },
+        {
+          "text": "Viale Regione Siciliana S.E. 4325",
+          "href": "https://maps.app.goo.gl/spZBRF3R9h3C8s9z5",
+          "target": "_blank",
+          "inList": true
+        },
+        {
+          "text": "Facebook",
+          "href": "https://facebook.com/Ingromoda-srl-105357362908636",
+          "kind": "social"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://instagram.com/ingromoda/",
+          "kind": "social"
+        },
+        {
+          "text": "Tiktok",
+          "href": "https://www.tiktok.com/@ingromoda?_t=8hBdSY58yzQ&_r=1",
+          "kind": "social"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "I nostri contatti",
+          "links": []
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            {
+              "text": "+39 091 445 150",
+              "links": [
+                {
+                  "text": "+39 091 445 150",
+                  "href": "tel:091445150",
+                  "target": "_blank"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Loredana: per videochiamate WhatsApp",
+          "links": []
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            {
+              "text": "+39 3760096564",
+              "links": [
+                {
+                  "text": "+39 3760096564",
+                  "href": "tel:3760096564",
+                  "target": "_blank"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            {
+              "text": "ingromoda@gmail.com",
+              "links": [
+                {
+                  "text": "ingromoda@gmail.com",
+                  "href": "mailto:ingromoda@gmail.com",
+                  "target": "_blank"
+                }
+              ]
+            },
+            {
+              "text": "Viale Regione Siciliana S.E. 4325",
+              "links": [
+                {
+                  "text": "Viale Regione Siciliana S.E. 4325",
+                  "href": "https://maps.app.goo.gl/spZBRF3R9h3C8s9z5",
+                  "target": "_blank"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "Orari di apertura",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "LUN – SAB 08,30 -13,00 | 15,30 – 20,00\n\nDOMENICA:\nAperti solo la prima domenica del mese"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "Seguici tutti i giorni su TVM CH19",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "LUN. ORE 12,00 -14,00 -22,30\nMAR. ORE 14,00 -18,00 -22,30\nMER. ORE 14,00 -18,00 -22,30\nGIO. ORE 12,00 -14,00 – 22,30\nVEN. ORE 12,00 -14,00 – 22,30\nSAB. ORE 14,00 -18,00 – 22,30\nDOM. ORE 12,00 -14,00 – 22,30"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "Seguici nelle dirette il martedì e venerdì dalle 17.00 suFacebook",
+          "links": []
+        },
+        {
+          "type": "social",
+          "text": "Facebook",
+          "href": "https://facebook.com/Ingromoda-srl-105357362908636",
+          "target": "_blank",
+          "network": "facebook"
+        },
+        {
+          "type": "social",
+          "text": "Instagram",
+          "href": "https://instagram.com/ingromoda/",
+          "target": "_blank",
+          "network": "instagram"
+        },
+        {
+          "type": "social",
+          "text": "Tiktok",
+          "href": "https://www.tiktok.com/@ingromoda?_t=8hBdSY58yzQ&_r=1",
+          "target": "_blank",
+          "network": "tiktok"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "Ampio parcheggio interno privato",
+          "links": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "anchorId": null,
+      "elementorId": "98bc1a5",
+      "elementType": "section",
+      "iframes": [
+        {
+          "src": "https://maps.google.com/maps?q=ingromoda%20palermo&t=m&z=10&output=embed&iwloc=near",
+          "title": "ingromoda palermo"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "iframe",
+          "src": "https://maps.google.com/maps?q=ingromoda%20palermo&t=m&z=10&output=embed&iwloc=near",
+          "title": "ingromoda palermo",
+          "width": null,
+          "height": null
+        }
+      ]
+    }
+  ]
+}

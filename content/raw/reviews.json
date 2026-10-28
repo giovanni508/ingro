@@ -1,0 +1,169 @@
+{
+  "source": "Trustindex WordPress plugin widget (\"Widgets for Google Reviews\" v14.2), rendered server-side inside <pre class=\"ti-widget\"> on /  and /chi-siamo/",
+  "fetchedAt": "2026-10-28T15:41:02.891Z",
+  "pages": [
+    "home",
+    "chi-siamo"
+  ],
+  "identicalOnBothPages": true,
+  "summary": {
+    "ratingLabelAsPrinted": "ECCELLENTE",
+    "reviewCountStringAsPrinted": "In base a 513 recensioni",
+    "reviewCountHtml": "<strong>513 recensioni</strong>",
+    "surroundingStringExact": "ECCELLENTE ★★★★★ In base a 513 recensioni [logo Google]",
+    "reviewCount": 513,
+    "averageRatingAsPrinted": null,
+    "averageRatingNote": "No numeric average is printed anywhere. The widget shows the word \"ECCELLENTE\" and 5 filled star icons (0 half, 0 empty). The Trustindex verified-badge disclaimer implies a score above 4.5 over the last 12 months but gives no number.",
+    "headerStars": {
+      "filled": 5,
+      "half": 0,
+      "empty": 0
+    },
+    "verifiedBadgeTextAsPrinted": "Verificato da Trustindex Il badge verificato di Trustindex è il Simbolo Universale di Fiducia. Solo le migliori aziende possono ottenere il badge verificato con un punteggio di recensione superiore a 4.5, basato sulle recensioni dei clienti degli ultimi 12 mesi. Per saperne di più",
+    "averageOfEmbeddedReviews": 4.71
+  },
+  "embeddedReviewsCount": 7,
+  "completeness": "These 7 reviews are ALL the review markup present in the HTML. The widget is the self-hosted WP variant (data-pid=\"wp-widget\", no external widget id); cdn.trustindex.io/loader.js only styles/animates the slider and does not fetch further reviews, so there is no public endpoint to GET more. The other ~506 Google reviews are only on Google Maps.",
+  "widgetAttributes": {
+    "style": "opacity: 0;height: 0 !important;overflow: hidden !important",
+    "data-css-url": "https://www.ingromoda.com/wp-content/uploads/trustindex-google-widget.css?1790942659",
+    "class": " ti-widget  ti-goog ti-review-text-mode-readmore ti-text-align-left",
+    "data-no-translation": "true",
+    "data-time-locale": "%d %s fa|oggi|giorno|giorni|settimana|settimane|mese|mesi|anno|anni",
+    "data-plugin-version": "14.2",
+    "data-layout-id": "5",
+    "data-layout-category": "slider",
+    "data-set-id": "light-background",
+    "data-pid": "wp-widget",
+    "data-language": "it",
+    "data-close-locale": "Chiudi",
+    "data-review-target-width": "275",
+    "data-css-version": "2",
+    "data-reply-by-locale": "Risposta dal proprietario",
+    "data-only-rating-locale": "Questo utente ha lasciato solo una valutazione.",
+    "data-pager-autoplay-timeout": "6"
+  },
+  "reviews": [
+    {
+      "position": 1,
+      "author": "Fabio",
+      "rating": 5,
+      "ratingSource": "count of filled star icons (f.svg) out of 5",
+      "text": "Lo scorso sabato sono stato per la prima volta in questo negozio, ero alla ricerca di un abito da indossare in occasione del 18^ compleanno di mia figlia; siamo stati accolti da una giovane commessa che ci ha subito affidati alla sua collega Gabriella, quest’ultima, dotata di grande esperienza e capacità, ha subito compreso le mie esigenze e, dopo avermi fatto provare tre alternative, è stata molto paziente e professionale nel guidarmi nella scelta, in un clima di assoluta serenità.\nSono rimasto molto soddisfatto dell’ottimo rapporto qualità/prezzo, nonché dell’ambiente, cordiale ed accogliente.\nTornerò sicuramente in negozio al bisogno di nuovi acquisti.",
+      "paragraphs": [
+        "Lo scorso sabato sono stato per la prima volta in questo negozio, ero alla ricerca di un abito da indossare in occasione del 18^ compleanno di mia figlia; siamo stati accolti da una giovane commessa che ci ha subito affidati alla sua collega Gabriella, quest’ultima, dotata di grande esperienza e capacità, ha subito compreso le mie esigenze e, dopo avermi fatto provare tre alternative, è stata molto paziente e professionale nel guidarmi nella scelta, in un clima di assoluta serenità.",
+        "Sono rimasto molto soddisfatto dell’ottimo rapporto qualità/prezzo, nonché dell’ambiente, cordiale ed accogliente.",
+        "Tornerò sicuramente in negozio al bisogno di nuovi acquisti."
+      ],
+      "date": "2026-09-22",
+      "dateSource": "data-time unix timestamp on .ti-review-item (the visible .ti-date is empty and filled client-side as relative time, e.g. \"%d %s fa\")",
+      "dataTime": 1790035200,
+      "platform": "Google",
+      "verifiedTooltip": "Trustindex verifica che la fonte originale della recensione sia Google.",
+      "avatarUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUmqIEf96FanFsBy6kuI26WPYvgz47KoVbGoq-SVyyzOJfBE2-8=w80-h80-c-rp-mo-br100",
+      "ownerReply": null
+    },
+    {
+      "position": 2,
+      "author": "Marcella Guadagna",
+      "rating": 3,
+      "ratingSource": "count of filled star icons (f.svg) out of 5",
+      "text": "Negozio fornito di bellissimi capi e su questo nulla da dire...ma abbiamo conosciuto una commessa poco empatica con noi clienti,già Appena abbiamo messo piede al negozio ci guardava dalla testa ai piedi, è stata scortese facendoci sentire non in altezza di acquistare un capo che costava 400 Euro, non si fa! Non mi conosce,non può giudicare una cliente per come arriva vestita in negozio, se può permettersi o no un abito! Peccato, il personale è fondamentale, bisogna saperlo scegliere! Una cliente ,perché lo sono stata, non torna più così!",
+      "paragraphs": [
+        "Negozio fornito di bellissimi capi e su questo nulla da dire...ma abbiamo conosciuto una commessa poco empatica con noi clienti,già Appena abbiamo messo piede al negozio ci guardava dalla testa ai piedi, è stata scortese facendoci sentire non in altezza di acquistare un capo che costava 400 Euro, non si fa! Non mi conosce,non può giudicare una cliente per come arriva vestita in negozio, se può permettersi o no un abito! Peccato, il personale è fondamentale, bisogna saperlo scegliere! Una cliente ,perché lo sono stata, non torna più così!"
+      ],
+      "date": "2026-09-21",
+      "dateSource": "data-time unix timestamp on .ti-review-item (the visible .ti-date is empty and filled client-side as relative time, e.g. \"%d %s fa\")",
+      "dataTime": 1789948800,
+      "platform": "Google",
+      "verifiedTooltip": "Trustindex verifica che la fonte originale della recensione sia Google.",
+      "avatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocKZSTdnImyHx6OY43640DsXIPn9whUhl5ipe9CcuHpwS3OArg=w80-h80-c-rp-mo-br100",
+      "ownerReply": null
+    },
+    {
+      "position": 3,
+      "author": "Maria Solito",
+      "rating": 5,
+      "ratingSource": "count of filled star icons (f.svg) out of 5",
+      "text": "Abbiamo visto questo negozio tramite social e TV.... Ci servivano 3 abiti da cerimonia due donna e uno uomo, siamo riusciti a vestirci tutti e 3!!!! La commessa Barbara è stata gentilissima, paziente e brava nel saperci consigliare, ma in generale lo staff molto accogliente.... Ci siamo trovati benissimo!!! Sicuramente, dovessimo avere altre occasioni.... Ritorneremo!!!! Lo consiglio!!!!",
+      "paragraphs": [
+        "Abbiamo visto questo negozio tramite social e TV.... Ci servivano 3 abiti da cerimonia due donna e uno uomo, siamo riusciti a vestirci tutti e 3!!!! La commessa Barbara è stata gentilissima, paziente e brava nel saperci consigliare, ma in generale lo staff molto accogliente.... Ci siamo trovati benissimo!!! Sicuramente, dovessimo avere altre occasioni.... Ritorneremo!!!! Lo consiglio!!!!"
+      ],
+      "date": "2026-09-05",
+      "dateSource": "data-time unix timestamp on .ti-review-item (the visible .ti-date is empty and filled client-side as relative time, e.g. \"%d %s fa\")",
+      "dataTime": 1788566400,
+      "platform": "Google",
+      "verifiedTooltip": "Trustindex verifica che la fonte originale della recensione sia Google.",
+      "avatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocJXN_1AXHeqrvTDvH1SmyxVeJFGmBWJuWlMtHjO38FJKAr4Bg=w80-h80-c-rp-mo-ba12-br100",
+      "ownerReply": null
+    },
+    {
+      "position": 4,
+      "author": "maria faraci",
+      "rating": 5,
+      "ratingSource": "count of filled star icons (f.svg) out of 5",
+      "text": "Grazie infinite mi sono trovata benissimo grazie alla professionalità di Loredana complimenti",
+      "paragraphs": [
+        "Grazie infinite mi sono trovata benissimo grazie alla professionalità di Loredana complimenti"
+      ],
+      "date": "2026-08-28",
+      "dateSource": "data-time unix timestamp on .ti-review-item (the visible .ti-date is empty and filled client-side as relative time, e.g. \"%d %s fa\")",
+      "dataTime": 1787875200,
+      "platform": "Google",
+      "verifiedTooltip": "Trustindex verifica che la fonte originale della recensione sia Google.",
+      "avatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocLcNICphn3OtfW6r2CG94nAEg4F7L--yFK92JUpaeTwacK5Bw=w80-h80-c-rp-mo-br100",
+      "ownerReply": null
+    },
+    {
+      "position": 5,
+      "author": "Denise Pizzo",
+      "rating": 5,
+      "ratingSource": "count of filled star icons (f.svg) out of 5",
+      "text": "Ho comprato qui da Ingromoda il tailleur per la mia laurea e sono stata più che soddisfatta sia di Barbara che mi ha consigliato, sia del proprietario del negozio che è stato davvero gentilissimo, per non parlare degli abiti di super qualità presenti in negozio, tornerò sicuramente per altri eventi",
+      "paragraphs": [
+        "Ho comprato qui da Ingromoda il tailleur per la mia laurea e sono stata più che soddisfatta sia di Barbara che mi ha consigliato, sia del proprietario del negozio che è stato davvero gentilissimo, per non parlare degli abiti di super qualità presenti in negozio, tornerò sicuramente per altri eventi"
+      ],
+      "date": "2026-08-28",
+      "dateSource": "data-time unix timestamp on .ti-review-item (the visible .ti-date is empty and filled client-side as relative time, e.g. \"%d %s fa\")",
+      "dataTime": 1787875200,
+      "platform": "Google",
+      "verifiedTooltip": "Trustindex verifica che la fonte originale della recensione sia Google.",
+      "avatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocLsBPf-w7j1Fc0d57Y7lumuI87kNavhEexIRDapHS3FZjDvvA=w80-h80-c-rp-mo-br100",
+      "ownerReply": null
+    },
+    {
+      "position": 6,
+      "author": "Francesco Di Stefano",
+      "rating": 5,
+      "ratingSource": "count of filled star icons (f.svg) out of 5",
+      "text": "Esperienza magnifica. La ricerca e la scelta di un abito non è mai facile, ma grazie all’aiuto del personale (gentilissimo, cordiale e professionale) è stato veramente un piacere. Straconsigliato!",
+      "paragraphs": [
+        "Esperienza magnifica. La ricerca e la scelta di un abito non è mai facile, ma grazie all’aiuto del personale (gentilissimo, cordiale e professionale) è stato veramente un piacere. Straconsigliato!"
+      ],
+      "date": "2026-08-16",
+      "dateSource": "data-time unix timestamp on .ti-review-item (the visible .ti-date is empty and filled client-side as relative time, e.g. \"%d %s fa\")",
+      "dataTime": 1786838400,
+      "platform": "Google",
+      "verifiedTooltip": "Trustindex verifica che la fonte originale della recensione sia Google.",
+      "avatarUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUgxu9bTqH8Rfxesa-Z_lVkFfyoF0vkhuZqvkR6s1fc3r1NaNcd=w80-h80-c-rp-mo-br100",
+      "ownerReply": null
+    },
+    {
+      "position": 7,
+      "author": "Isabella Pagano",
+      "rating": 5,
+      "ratingSource": "count of filled star icons (f.svg) out of 5",
+      "text": "Negozio ben fornito e commesse molto gentili e disponibili, in particolar modo la sign.ra Barbara",
+      "paragraphs": [
+        "Negozio ben fornito e commesse molto gentili e disponibili, in particolar modo la sign.ra Barbara"
+      ],
+      "date": "2026-08-12",
+      "dateSource": "data-time unix timestamp on .ti-review-item (the visible .ti-date is empty and filled client-side as relative time, e.g. \"%d %s fa\")",
+      "dataTime": 1786492800,
+      "platform": "Google",
+      "verifiedTooltip": "Trustindex verifica che la fonte originale della recensione sia Google.",
+      "avatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocL7YnAhHnZXATC1lc02VQbAOPY8BU0p9DpIvY-uSCxgWuJt9w=w80-h80-c-rp-mo-br100",
+      "ownerReply": null
+    }
+  ]
+}

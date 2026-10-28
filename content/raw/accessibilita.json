@@ -1,0 +1,466 @@
+{
+  "slug": "accessibilita",
+  "url": "https://www.ingromoda.com/accessibilita/",
+  "fetchedAt": "2026-10-28T15:38:33.845Z",
+  "titleTag": "Accessibilità - Ingromoda",
+  "metaDescription": "Ingromoda srl si impegna costantemente a rendere il proprio sito web accessibile, conformemente alla legge 9 gennaio 2004, n. 4. La presente dichiarazione di",
+  "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "canonical": "https://www.ingromoda.com/accessibilita/",
+  "og": {
+    "og:locale": "it_IT",
+    "og:type": "article",
+    "og:title": "Accessibilità - Ingromoda",
+    "og:description": "Ingromoda srl si impegna costantemente a rendere il proprio sito web accessibile, conformemente alla legge 9 gennaio 2004, n. 4. La presente dichiarazione di",
+    "og:url": "https://www.ingromoda.com/accessibilita/",
+    "og:site_name": "Ingromoda",
+    "og:updated_time": "2025-08-22T17:38:33+02:00",
+    "og:image": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+    "og:image:secure_url": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+    "og:image:width": "1820",
+    "og:image:height": "907",
+    "og:image:alt": "cropped logo ingromoda 1",
+    "og:image:type": "image/png"
+  },
+  "twitter": {
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Accessibilità - Ingromoda",
+    "twitter:description": "Ingromoda srl si impegna costantemente a rendere il proprio sito web accessibile, conformemente alla legge 9 gennaio 2004, n. 4. La presente dichiarazione di",
+    "twitter:image": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png"
+  },
+  "articleMeta": {
+    "article:published_time": "2025-06-20T17:36:50+02:00",
+    "article:modified_time": "2025-08-22T17:38:33+02:00"
+  },
+  "jsonLd": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": [
+            "Person",
+            "Organization"
+          ],
+          "@id": "https://www.ingromoda.com/#person",
+          "name": "Ingromoda",
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://www.ingromoda.com/#logo",
+            "url": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+            "contentUrl": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+            "caption": "Ingromoda",
+            "inLanguage": "it-IT",
+            "width": "1820",
+            "height": "907"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://www.ingromoda.com/#logo",
+            "url": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+            "contentUrl": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+            "caption": "Ingromoda",
+            "inLanguage": "it-IT",
+            "width": "1820",
+            "height": "907"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.ingromoda.com/#website",
+          "url": "https://www.ingromoda.com",
+          "name": "Ingromoda",
+          "alternateName": "Ingromoda Srl",
+          "publisher": {
+            "@id": "https://www.ingromoda.com/#person"
+          },
+          "inLanguage": "it-IT"
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+          "url": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+          "width": "1820",
+          "height": "907",
+          "caption": "cropped logo ingromoda 1",
+          "inLanguage": "it-IT"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.ingromoda.com/accessibilita/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": "1",
+              "item": {
+                "@id": "https://www.ingromoda.com",
+                "name": "Home"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": "2",
+              "item": {
+                "@id": "https://www.ingromoda.com/accessibilita/",
+                "name": "Accessibilità"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.ingromoda.com/accessibilita/#webpage",
+          "url": "https://www.ingromoda.com/accessibilita/",
+          "name": "Accessibilità - Ingromoda",
+          "datePublished": "2025-06-20T17:36:50+02:00",
+          "dateModified": "2025-08-22T17:38:33+02:00",
+          "isPartOf": {
+            "@id": "https://www.ingromoda.com/#website"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png"
+          },
+          "inLanguage": "it-IT",
+          "breadcrumb": {
+            "@id": "https://www.ingromoda.com/accessibilita/#breadcrumb"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://www.ingromoda.com/author/ingromodasrl/",
+          "name": "ingromodasrl",
+          "url": "https://www.ingromoda.com/author/ingromodasrl/",
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://secure.gravatar.com/avatar/23c6823ea3ed3b0c116a69f8de99dad0e2782c69f5fcc04c9b6979708197b273?s=96&amp;d=mm&amp;r=g",
+            "url": "https://secure.gravatar.com/avatar/23c6823ea3ed3b0c116a69f8de99dad0e2782c69f5fcc04c9b6979708197b273?s=96&amp;d=mm&amp;r=g",
+            "caption": "ingromodasrl",
+            "inLanguage": "it-IT"
+          },
+          "sameAs": [
+            "https://www.ingromoda.com/"
+          ]
+        },
+        {
+          "@type": "Article",
+          "headline": "Accessibilità - Ingromoda",
+          "datePublished": "2025-06-20T17:36:50+02:00",
+          "dateModified": "2025-08-22T17:38:33+02:00",
+          "author": {
+            "@id": "https://www.ingromoda.com/author/ingromodasrl/",
+            "name": "ingromodasrl"
+          },
+          "publisher": {
+            "@id": "https://www.ingromoda.com/#person"
+          },
+          "description": "Ingromoda srl si impegna costantemente a rendere il proprio sito web accessibile, conformemente alla legge 9 gennaio 2004, n. 4. La presente dichiarazione di",
+          "name": "Accessibilità - Ingromoda",
+          "@id": "https://www.ingromoda.com/accessibilita/#richSnippet",
+          "isPartOf": {
+            "@id": "https://www.ingromoda.com/accessibilita/#webpage"
+          },
+          "image": {
+            "@id": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png"
+          },
+          "inLanguage": "it-IT",
+          "mainEntityOfPage": {
+            "@id": "https://www.ingromoda.com/accessibilita/#webpage"
+          }
+        }
+      ]
+    }
+  ],
+  "favicons": [
+    {
+      "rel": "icon",
+      "sizes": "32x32",
+      "href": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-favicon-ingromoda-32x32.jpg"
+    },
+    {
+      "rel": "icon",
+      "sizes": "192x192",
+      "href": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-favicon-ingromoda-192x192.jpg"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": null,
+      "href": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-favicon-ingromoda-180x180.jpg"
+    }
+  ],
+  "generator": [
+    "WordPress 7.1.3",
+    "Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap"
+  ],
+  "rest": {
+    "id": 1195,
+    "title": "Accessibilità",
+    "date": "2025-06-20T17:36:50",
+    "modified": "2025-08-22T17:38:33",
+    "template": null,
+    "link": "https://www.ingromoda.com/accessibilita/",
+    "parent": 0,
+    "menu_order": 0
+  },
+  "bodyClasses": [
+    "wp-singular",
+    "page-template-default",
+    "page",
+    "page-id-1195",
+    "wp-custom-logo",
+    "wp-embed-responsive",
+    "wp-theme-astra",
+    "wp-child-theme-astra-child",
+    "ast-desktop",
+    "ast-separate-container",
+    "ast-two-container",
+    "ast-right-sidebar",
+    "astra-4.14.1",
+    "ast-single-post",
+    "ast-inherit-site-logo-transparent",
+    "ast-hfb-header",
+    "ast-full-width-primary-header",
+    "ast-full-width-layout",
+    "ast-sticky-main-shrink",
+    "ast-sticky-below-shrink",
+    "ast-sticky-header-shrink",
+    "ast-inherit-site-logo-sticky",
+    "ast-primary-sticky-enabled",
+    "ast-normal-title-enabled",
+    "elementor-default",
+    "elementor-kit-362",
+    "astra-addon-4.13.5"
+  ],
+  "builder": "gutenberg/classic (no Elementor)",
+  "pageTitleH1FromTheme": "Accessibilità",
+  "sections": [
+    {
+      "index": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Accessibilità"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 1,
+          "text": "Accessibilità",
+          "note": "theme page title (Astra entry-title)"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "headings": [
+        {
+          "level": 3,
+          "text": "Introduzione"
+        }
+      ],
+      "paragraphs": [
+        "Ingromoda srl si impegna costantemente a rendere il proprio sito web accessibile, conformemente alla legge 9 gennaio 2004, n. 4. La presente dichiarazione di accessibilità si applica al sito web: https://www.ingromoda.com/",
+        "Rendere un sito accessibile significa consentire a chiunque di accedere pienamente ai contenuti, alle informazioni e ai servizi disponibili nel sito, indipendentemente dal sistema operativo, dagli strumenti di navigazione (dispositivi diversi da monitor, tastiera o mouse), dalle impostazioni del browser, e a prescindere dalla velocità di connessione di cui si dispone; l’accesso ai servizi e alle informazioni si estende quindi anche a coloro che a causa di disabilità necessitano di tecnologie assistive o configurazioni particolari.",
+        "Dal punto di vista tecnico, le strutture di layout sono realizzate in XHTML 1.0 Strict, sono state impaginate utilizzando esclusivamente fogli di stile CSS, non contengono frame e oggetti flash non accessibili, non sono state utilizzate tabelle annidate. Inoltre:",
+        "Il sito è stato testato con i seguenti browser:",
+        "Per fornire un servizio sempre migliore vi invitiamo a inviarci eventuali segnalazioni riguardanti il sito all’indirizzo indirizzo email: accessibilita@ingromoda.com",
+        "Stato di conformità",
+        "conforme",
+        "Questo sito web è conforme ai requisiti previsti dall’appendice A della norma UNI EN 301549:2021 (WCAG 2.1, livello AA) a causa dei casi di non conformità e/o delle deroghe elencate di seguito.",
+        "Redazione della dichiarazione di accessibilità",
+        "La presente dichiarazione è stata redatta il 20.06.2025.",
+        "Le informazioni sono state ricavate da un’autovalutazione effettuata internamente.",
+        "La dichiarazione è stata riesaminata e aggiornata l’ultima volta il 22.08.2025.",
+        "Modalità di invio delle segnalazioni e recapiti del soggetto erogatore",
+        "Per aiutarci a migliorare, invitiamo gli utenti a segnalare eventuali difficoltà o a richiedere informazioni sui contenuti non accessibili. È possibile inviare una segnalazione dettagliata al nostro Referente per l’Accessibilità tramite il seguente indirizzo email: accessibilita@ingromoda.com",
+        "Nella segnalazione si prega di indicare:",
+        "Referente per l’Accessibilità, gestirà le richieste e fornirà un riscontro entro 30 giorni."
+      ],
+      "listItems": [
+        "sono stati forniti gli equivalenti testuali che trasmettono all’utente le stesse informazioni dei contenuti non testuali (tutte le immagini di contenuto hanno una loro descrizione nell’attributo ALT, le immagini puramente decorative hanno un attributo ALT con contenuto nullo)testo e grafica sono comprensibili anche se visualizzati senza il colore",
+        "la struttura è stata realizzata utilizzando i marcatori necessari per essere interpretati correttamente da ogni sistema di navigazione",
+        "le pagine sono accessibili anche nel caso in cui i javascript non siano supportati o siano disabilitati nei sistemi di navigazione dell’utente",
+        "i caratteri sono stati impostati con dimensione relativa, compatibili con le preferenze specificate dall’utente sul proprio browser nell’opzione “dimensione caratteri”",
+        "i form sono impostati in modo da consentire agli utenti di accedere alle informazioni, riempire i campi e inviare i dati attraverso una molteplicità di dispositivi",
+        "per i browser che non interpretano correttamente i CSS2 è stata assicurata comunque la piena leggibilità dei contenuti",
+        "il sito è correttamente navigabile con strumenti di navigazione assistita.",
+        "Explorer versione 6 e successive",
+        "Mozilla Firefox e altri browser dotati di motore di rendering Gecko (Firefox, Netscape, Camino)",
+        "Safari",
+        "L’URL (indirizzo web) della pagina in cui si è riscontrato il problema.",
+        "Una descrizione chiara e sintetica del problema.",
+        "Il dispositivo, il sistema operativo e il browser utilizzati.",
+        "Eventuali tecnologie assistive utilizzate (es. screen reader, software di ingrandimento)."
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Introduzione",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Ingromoda srl si impegna costantemente a rendere il proprio sito web accessibile, conformemente alla legge 9 gennaio 2004, n. 4. La presente dichiarazione di accessibilità si applica al sito web: https://www.ingromoda.com/"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rendere un sito accessibile significa consentire a chiunque di accedere pienamente ai contenuti, alle informazioni e ai servizi disponibili nel sito, indipendentemente dal sistema operativo, dagli strumenti di navigazione (dispositivi diversi da monitor, tastiera o mouse), dalle impostazioni del browser, e a prescindere dalla velocità di connessione di cui si dispone; l’accesso ai servizi e alle informazioni si estende quindi anche a coloro che a causa di disabilità necessitano di tecnologie assistive o configurazioni particolari."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dal punto di vista tecnico, le strutture di layout sono realizzate in XHTML 1.0 Strict, sono state impaginate utilizzando esclusivamente fogli di stile CSS, non contengono frame e oggetti flash non accessibili, non sono state utilizzate tabelle annidate. Inoltre:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            {
+              "text": "sono stati forniti gli equivalenti testuali che trasmettono all’utente le stesse informazioni dei contenuti non testuali (tutte le immagini di contenuto hanno una loro descrizione nell’attributo ALT, le immagini puramente decorative hanno un attributo ALT con contenuto nullo)testo e grafica sono comprensibili anche se visualizzati senza il colore"
+            },
+            {
+              "text": "la struttura è stata realizzata utilizzando i marcatori necessari per essere interpretati correttamente da ogni sistema di navigazione"
+            },
+            {
+              "text": "le pagine sono accessibili anche nel caso in cui i javascript non siano supportati o siano disabilitati nei sistemi di navigazione dell’utente"
+            },
+            {
+              "text": "i caratteri sono stati impostati con dimensione relativa, compatibili con le preferenze specificate dall’utente sul proprio browser nell’opzione “dimensione caratteri”"
+            },
+            {
+              "text": "i form sono impostati in modo da consentire agli utenti di accedere alle informazioni, riempire i campi e inviare i dati attraverso una molteplicità di dispositivi"
+            },
+            {
+              "text": "per i browser che non interpretano correttamente i CSS2 è stata assicurata comunque la piena leggibilità dei contenuti"
+            },
+            {
+              "text": "il sito è correttamente navigabile con strumenti di navigazione assistita."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il sito è stato testato con i seguenti browser:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            {
+              "text": "Explorer versione 6 e successive"
+            },
+            {
+              "text": "Mozilla Firefox e altri browser dotati di motore di rendering Gecko (Firefox, Netscape, Camino)"
+            },
+            {
+              "text": "Safari"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Per fornire un servizio sempre migliore vi invitiamo a inviarci eventuali segnalazioni riguardanti il sito all’indirizzo indirizzo email: accessibilita@ingromoda.com"
+        },
+        {
+          "type": "paragraph",
+          "text": "Stato di conformità"
+        },
+        {
+          "type": "paragraph",
+          "text": "conforme"
+        },
+        {
+          "type": "paragraph",
+          "text": "Questo sito web è conforme ai requisiti previsti dall’appendice A della norma UNI EN 301549:2021 (WCAG 2.1, livello AA) a causa dei casi di non conformità e/o delle deroghe elencate di seguito."
+        },
+        {
+          "type": "paragraph",
+          "text": "Redazione della dichiarazione di accessibilità"
+        },
+        {
+          "type": "paragraph",
+          "text": "La presente dichiarazione è stata redatta il 20.06.2025."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le informazioni sono state ricavate da un’autovalutazione effettuata internamente."
+        },
+        {
+          "type": "paragraph",
+          "text": "La dichiarazione è stata riesaminata e aggiornata l’ultima volta il 22.08.2025."
+        },
+        {
+          "type": "paragraph",
+          "text": "Modalità di invio delle segnalazioni e recapiti del soggetto erogatore"
+        },
+        {
+          "type": "paragraph",
+          "text": "Per aiutarci a migliorare, invitiamo gli utenti a segnalare eventuali difficoltà o a richiedere informazioni sui contenuti non accessibili. È possibile inviare una segnalazione dettagliata al nostro Referente per l’Accessibilità tramite il seguente indirizzo email: accessibilita@ingromoda.com"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nella segnalazione si prega di indicare:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            {
+              "text": "L’URL (indirizzo web) della pagina in cui si è riscontrato il problema."
+            },
+            {
+              "text": "Una descrizione chiara e sintetica del problema."
+            },
+            {
+              "text": "Il dispositivo, il sistema operativo e il browser utilizzati."
+            },
+            {
+              "text": "Eventuali tecnologie assistive utilizzate (es. screen reader, software di ingrandimento)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Referente per l’Accessibilità, gestirà le richieste e fornirà un riscontro entro 30 giorni."
+        }
+      ]
+    }
+  ],
+  "fullText": "Introduzione\n\nIngromoda srl si impegna costantemente a rendere il proprio sito web accessibile, conformemente alla legge 9 gennaio 2004, n. 4. La presente dichiarazione di accessibilità si applica al sito web: https://www.ingromoda.com/\n\nRendere un sito accessibile significa consentire a chiunque di accedere pienamente ai contenuti, alle informazioni e ai servizi disponibili nel sito, indipendentemente dal sistema operativo, dagli strumenti di navigazione (dispositivi diversi da monitor, tastiera o mouse), dalle impostazioni del browser, e a prescindere dalla velocità di connessione di cui si dispone; l’accesso ai servizi e alle informazioni si estende quindi anche a coloro che a causa di disabilità necessitano di tecnologie assistive o configurazioni particolari.\n\nDal punto di vista tecnico, le strutture di layout sono realizzate in XHTML 1.0 Strict, sono state impaginate utilizzando esclusivamente fogli di stile CSS, non contengono frame e oggetti flash non accessibili, non sono state utilizzate tabelle annidate. Inoltre:\n\n- sono stati forniti gli equivalenti testuali che trasmettono all’utente le stesse informazioni dei contenuti non testuali (tutte le immagini di contenuto hanno una loro descrizione nell’attributo ALT, le immagini puramente decorative hanno un attributo ALT con contenuto nullo)testo e grafica sono comprensibili anche se visualizzati senza il colore\n- la struttura è stata realizzata utilizzando i marcatori necessari per essere interpretati correttamente da ogni sistema di navigazione\n- le pagine sono accessibili anche nel caso in cui i javascript non siano supportati o siano disabilitati nei sistemi di navigazione dell’utente\n- i caratteri sono stati impostati con dimensione relativa, compatibili con le preferenze specificate dall’utente sul proprio browser nell’opzione “dimensione caratteri”\n- i form sono impostati in modo da consentire agli utenti di accedere alle informazioni, riempire i campi e inviare i dati attraverso una molteplicità di dispositivi\n- per i browser che non interpretano correttamente i CSS2 è stata assicurata comunque la piena leggibilità dei contenuti\n- il sito è correttamente navigabile con strumenti di navigazione assistita.\n\nIl sito è stato testato con i seguenti browser:\n\n- Explorer versione 6 e successive\n- Mozilla Firefox e altri browser dotati di motore di rendering Gecko (Firefox, Netscape, Camino)\n- Safari\n\nPer fornire un servizio sempre migliore vi invitiamo a inviarci eventuali segnalazioni riguardanti il sito all’indirizzo indirizzo email: accessibilita@ingromoda.com\n\nStato di conformità\n\nconforme\n\nQuesto sito web è conforme ai requisiti previsti dall’appendice A della norma UNI EN 301549:2021 (WCAG 2.1, livello AA) a causa dei casi di non conformità e/o delle deroghe elencate di seguito.\n\nRedazione della dichiarazione di accessibilità\n\nLa presente dichiarazione è stata redatta il 20.06.2025.\n\nLe informazioni sono state ricavate da un’autovalutazione effettuata internamente.\n\nLa dichiarazione è stata riesaminata e aggiornata l’ultima volta il 22.08.2025.\n\nModalità di invio delle segnalazioni e recapiti del soggetto erogatore\n\nPer aiutarci a migliorare, invitiamo gli utenti a segnalare eventuali difficoltà o a richiedere informazioni sui contenuti non accessibili. È possibile inviare una segnalazione dettagliata al nostro Referente per l’Accessibilità tramite il seguente indirizzo email: accessibilita@ingromoda.com\n\nNella segnalazione si prega di indicare:\n\n- L’URL (indirizzo web) della pagina in cui si è riscontrato il problema.\n- Una descrizione chiara e sintetica del problema.\n- Il dispositivo, il sistema operativo e il browser utilizzati.\n- Eventuali tecnologie assistive utilizzate (es. screen reader, software di ingrandimento).\n\nReferente per l’Accessibilità, gestirà le richieste e fornirà un riscontro entro 30 giorni.",
+  "sidebarWidgets": [
+    {
+      "id": "block-2",
+      "text": "CercaCerca"
+    },
+    {
+      "id": "block-3",
+      "text": "Articoli recenti"
+    },
+    {
+      "id": "block-4",
+      "text": "Commenti recentiNessun commento da mostrare."
+    },
+    {
+      "id": "block-5",
+      "text": "ArchiviNessun archivio da mostrare."
+    },
+    {
+      "id": "block-6",
+      "text": "CategorieNessuna categoria"
+    },
+    {
+      "id": "block-7",
+      "text": "Recent Posts"
+    },
+    {
+      "id": "block-8",
+      "text": "Recent CommentsNessun commento da mostrare."
+    },
+    {
+      "id": "block-9",
+      "text": "ArchivesNessun archivio da mostrare."
+    },
+    {
+      "id": "block-10",
+      "text": "CategoriesNessuna categoria"
+    }
+  ]
+}

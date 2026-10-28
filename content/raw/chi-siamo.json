@@ -1,0 +1,425 @@
+{
+  "slug": "chi-siamo",
+  "url": "https://www.ingromoda.com/chi-siamo/",
+  "fetchedAt": "2026-10-28T15:38:33.764Z",
+  "titleTag": "Chi siamo - Ingromoda",
+  "metaDescription": "Ingromoda è un'azienda che opera a Palermo nel mercato dell'abbigliamento per uomo, donna e bambino. Da diversi anni, offriamo ai nostri clienti un'ampia",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "canonical": "https://www.ingromoda.com/chi-siamo/",
+  "og": {
+    "og:locale": "it_IT",
+    "og:type": "article",
+    "og:title": "Chi siamo - Ingromoda",
+    "og:description": "Ingromoda è un'azienda che opera a Palermo nel mercato dell'abbigliamento per uomo, donna e bambino. Da diversi anni, offriamo ai nostri clienti un'ampia",
+    "og:url": "https://www.ingromoda.com/chi-siamo/",
+    "og:site_name": "Ingromoda",
+    "og:updated_time": "2026-06-08T14:46:47+02:00",
+    "og:image": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+    "og:image:secure_url": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+    "og:image:width": "1820",
+    "og:image:height": "907",
+    "og:image:alt": "cropped logo ingromoda 1",
+    "og:image:type": "image/png"
+  },
+  "twitter": {
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Chi siamo - Ingromoda",
+    "twitter:description": "Ingromoda è un'azienda che opera a Palermo nel mercato dell'abbigliamento per uomo, donna e bambino. Da diversi anni, offriamo ai nostri clienti un'ampia",
+    "twitter:image": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png"
+  },
+  "articleMeta": {
+    "article:published_time": "2022-06-17T07:31:41+02:00",
+    "article:modified_time": "2026-06-08T14:46:47+02:00"
+  },
+  "jsonLd": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": [
+            "Person",
+            "Organization"
+          ],
+          "@id": "https://www.ingromoda.com/#person",
+          "name": "Ingromoda",
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://www.ingromoda.com/#logo",
+            "url": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+            "contentUrl": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+            "caption": "Ingromoda",
+            "inLanguage": "it-IT",
+            "width": "1820",
+            "height": "907"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://www.ingromoda.com/#logo",
+            "url": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+            "contentUrl": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+            "caption": "Ingromoda",
+            "inLanguage": "it-IT",
+            "width": "1820",
+            "height": "907"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.ingromoda.com/#website",
+          "url": "https://www.ingromoda.com",
+          "name": "Ingromoda",
+          "alternateName": "Ingromoda Srl",
+          "publisher": {
+            "@id": "https://www.ingromoda.com/#person"
+          },
+          "inLanguage": "it-IT"
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+          "url": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+          "width": "1820",
+          "height": "907",
+          "caption": "cropped logo ingromoda 1",
+          "inLanguage": "it-IT"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.ingromoda.com/chi-siamo/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": "1",
+              "item": {
+                "@id": "https://www.ingromoda.com",
+                "name": "Home"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": "2",
+              "item": {
+                "@id": "https://www.ingromoda.com/chi-siamo/",
+                "name": "Chi siamo"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.ingromoda.com/chi-siamo/#webpage",
+          "url": "https://www.ingromoda.com/chi-siamo/",
+          "name": "Chi siamo - Ingromoda",
+          "datePublished": "2022-06-17T07:31:41+02:00",
+          "dateModified": "2026-06-08T14:46:47+02:00",
+          "isPartOf": {
+            "@id": "https://www.ingromoda.com/#website"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png"
+          },
+          "inLanguage": "it-IT",
+          "breadcrumb": {
+            "@id": "https://www.ingromoda.com/chi-siamo/#breadcrumb"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://www.ingromoda.com/author/ingromodasrl/",
+          "name": "ingromodasrl",
+          "url": "https://www.ingromoda.com/author/ingromodasrl/",
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://secure.gravatar.com/avatar/23c6823ea3ed3b0c116a69f8de99dad0e2782c69f5fcc04c9b6979708197b273?s=96&amp;d=mm&amp;r=g",
+            "url": "https://secure.gravatar.com/avatar/23c6823ea3ed3b0c116a69f8de99dad0e2782c69f5fcc04c9b6979708197b273?s=96&amp;d=mm&amp;r=g",
+            "caption": "ingromodasrl",
+            "inLanguage": "it-IT"
+          },
+          "sameAs": [
+            "https://www.ingromoda.com/"
+          ]
+        },
+        {
+          "@type": "Article",
+          "headline": "Chi siamo - Ingromoda",
+          "datePublished": "2022-06-17T07:31:41+02:00",
+          "dateModified": "2026-06-08T14:46:47+02:00",
+          "author": {
+            "@id": "https://www.ingromoda.com/author/ingromodasrl/",
+            "name": "ingromodasrl"
+          },
+          "publisher": {
+            "@id": "https://www.ingromoda.com/#person"
+          },
+          "description": "Ingromoda è un&#039;azienda che opera a Palermo nel mercato dell&#039;abbigliamento per uomo, donna e bambino. Da diversi anni, offriamo ai nostri clienti un&#039;ampia",
+          "name": "Chi siamo - Ingromoda",
+          "@id": "https://www.ingromoda.com/chi-siamo/#richSnippet",
+          "isPartOf": {
+            "@id": "https://www.ingromoda.com/chi-siamo/#webpage"
+          },
+          "image": {
+            "@id": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png"
+          },
+          "inLanguage": "it-IT",
+          "mainEntityOfPage": {
+            "@id": "https://www.ingromoda.com/chi-siamo/#webpage"
+          }
+        }
+      ]
+    }
+  ],
+  "favicons": [
+    {
+      "rel": "icon",
+      "sizes": "32x32",
+      "href": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-favicon-ingromoda-32x32.jpg"
+    },
+    {
+      "rel": "icon",
+      "sizes": "192x192",
+      "href": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-favicon-ingromoda-192x192.jpg"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": null,
+      "href": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-favicon-ingromoda-180x180.jpg"
+    }
+  ],
+  "generator": [
+    "WordPress 7.1.3",
+    "Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap"
+  ],
+  "rest": {
+    "id": 20,
+    "title": "Chi siamo",
+    "date": "2022-06-17T07:31:41",
+    "modified": "2026-06-08T14:46:47",
+    "template": null,
+    "link": "https://www.ingromoda.com/chi-siamo/",
+    "parent": 0,
+    "menu_order": 0
+  },
+  "bodyClasses": [
+    "wp-singular",
+    "page-template-default",
+    "page",
+    "page-id-20",
+    "wp-custom-logo",
+    "wp-embed-responsive",
+    "wp-theme-astra",
+    "wp-child-theme-astra-child",
+    "ast-desktop",
+    "ast-page-builder-template",
+    "ast-no-sidebar",
+    "astra-4.14.1",
+    "ast-single-post",
+    "ast-inherit-site-logo-transparent",
+    "ast-hfb-header",
+    "ast-full-width-primary-header",
+    "ast-full-width-layout",
+    "ast-sticky-main-shrink",
+    "ast-sticky-below-shrink",
+    "ast-sticky-header-shrink",
+    "ast-inherit-site-logo-sticky",
+    "ast-primary-sticky-enabled",
+    "elementor-default",
+    "elementor-kit-362",
+    "elementor-page",
+    "elementor-page-20",
+    "astra-addon-4.13.5"
+  ],
+  "builder": "elementor",
+  "pageTitleH1FromTheme": null,
+  "sections": [
+    {
+      "index": 1,
+      "anchorId": null,
+      "elementorId": "20a373d",
+      "elementType": "section",
+      "backgroundImages": [
+        {
+          "elementId": "20a373d",
+          "media": "all",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/attractive-fashion-couple-posing-old-street-sunny-spring-pretty-beautiful-woman-her-handsome-stylish-boyfriend-hugging-outdoor-1.jpg",
+          "originalFilename": "attractive-fashion-couple-posing-old-street-sunny-spring-pretty-beautiful-woman-her-handsome-stylish-boyfriend-hugging-outdoor-1.jpg",
+          "width": 1290,
+          "height": 860,
+          "mediaAlt": "attractive fashion couple posing old street sunny spring pretty beautiful woman her handsome stylish boyfriend hugging outdoor 1"
+        }
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "Chi siamo"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 1,
+          "text": "Chi siamo",
+          "links": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "anchorId": null,
+      "elementorId": "c22f870",
+      "elementType": "section",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Ingromoda: un'esperienza di abbigliamento completa per tutta la famiglia"
+        }
+      ],
+      "paragraphs": [
+        "Ingromoda è un’azienda che opera a Palermo nel mercato dell’abbigliamento per uomo, donna e bambino. Da diversi anni, offriamo ai nostri clienti un’ampia gamma di proposte di moda, dalla cerimonia allo sportswear, anche nelle taglie calibrate.",
+        "La nostra mission è stata da sempre quella di creare una realtà nuova, che potesse offrire una vasta scelta di abbigliamento di alta qualità per tutta la famiglia. Abbiamo puntato, e continuiamo a farlo tutt’oggi, sulla qualità dei nostri prodotti e servizi, potendo fornire capi e accessori di un certo spessore, a prezzi convenienti e accessibili, per soddisfare ogni esigenza di stile. Dagli abiti pensati per gli eventi speciali all’abbigliamento casual da indossare ogni giorno, teniamo conto delle diverse fisicità e ci impegniamo a soddisfare ogni esigenza stilistica.",
+        "Grazie alla nostra esperienza nel settore e a un team preparato, disponibile e competente, siamo riusciti a conquistare il cuore dei nostri clienti. Oggi, Ingromoda è un punto di riferimento a Palermo e non solo!",
+        "Le vendite non avvengono soltanto nel nostro punto vendita fisico: da qualche anno abbiamo ampliato la nostra clientela rendendoci presenti nel mondo del digital, attraverso le dirette sui social, offrendo un modo divertente e coinvolgente per far scoprire le nostre ultime novità anche a chi è lontano!"
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ingromoda: un'esperienza di abbigliamento completa per tutta la famiglia",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Ingromoda è un’azienda che opera a Palermo nel mercato dell’abbigliamento per uomo, donna e bambino. Da diversi anni, offriamo ai nostri clienti un’ampia gamma di proposte di moda, dalla cerimonia allo sportswear, anche nelle taglie calibrate."
+        },
+        {
+          "type": "paragraph",
+          "text": "La nostra mission è stata da sempre quella di creare una realtà nuova, che potesse offrire una vasta scelta di abbigliamento di alta qualità per tutta la famiglia. Abbiamo puntato, e continuiamo a farlo tutt’oggi, sulla qualità dei nostri prodotti e servizi, potendo fornire capi e accessori di un certo spessore, a prezzi convenienti e accessibili, per soddisfare ogni esigenza di stile. Dagli abiti pensati per gli eventi speciali all’abbigliamento casual da indossare ogni giorno, teniamo conto delle diverse fisicità e ci impegniamo a soddisfare ogni esigenza stilistica."
+        },
+        {
+          "type": "paragraph",
+          "text": "Grazie alla nostra esperienza nel settore e a un team preparato, disponibile e competente, siamo riusciti a conquistare il cuore dei nostri clienti. Oggi, Ingromoda è un punto di riferimento a Palermo e non solo!"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le vendite non avvengono soltanto nel nostro punto vendita fisico: da qualche anno abbiamo ampliato la nostra clientela rendendoci presenti nel mondo del digital, attraverso le dirette sui social, offrendo un modo divertente e coinvolgente per far scoprire le nostre ultime novità anche a chi è lontano!"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "anchorId": null,
+      "elementorId": "237ce66",
+      "elementType": "section",
+      "backgroundImages": [
+        {
+          "elementId": "237ce66",
+          "media": "all",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/husband-clasping-suit-1.jpg",
+          "originalFilename": "husband-clasping-suit-1.jpg",
+          "width": 1188,
+          "height": 792,
+          "mediaAlt": "husband clasping suit 1"
+        }
+      ],
+      "blocks": []
+    },
+    {
+      "index": 4,
+      "anchorId": null,
+      "elementorId": "6fadcf8",
+      "elementType": "section",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Ingromoda: un'esperienza di abbigliamento completa, anche online"
+        }
+      ],
+      "paragraphs": [
+        "Il nostro store si trova in Viale Regione Siciliana, 4325, Palermo. È facilmente raggiungibile e dispone di un ampio parcheggio privato, per permettervi di sostare senza problemi. Le nostre personal shopper sono sempre preparate e informate sulle ultime tendenze di moda: sanno consigliare i look perfetti per valorizzare le vostre personalità, aiutandovi a creare uno stile unico e inimitabile.",
+        "Per mantenerci al passo con i tempi, abbiamo inoltre introdotto le dirette social, una novità entusiasmante che vi permette di acquistare i capi comodamente da casa.",
+        "Seguite le nostre dirette programmate, selezionate i capi che più amate e in men che non si dica il vostro ordine arriverà direttamente a casa vostra, grazie al nostro servizio di spedizioni attivo in tutta Italia ed Europa!"
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ingromoda: un'esperienza di abbigliamento completa, anche online",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Il nostro store si trova in Viale Regione Siciliana, 4325, Palermo. È facilmente raggiungibile e dispone di un ampio parcheggio privato, per permettervi di sostare senza problemi. Le nostre personal shopper sono sempre preparate e informate sulle ultime tendenze di moda: sanno consigliare i look perfetti per valorizzare le vostre personalità, aiutandovi a creare uno stile unico e inimitabile."
+        },
+        {
+          "type": "paragraph",
+          "text": "Per mantenerci al passo con i tempi, abbiamo inoltre introdotto le dirette social, una novità entusiasmante che vi permette di acquistare i capi comodamente da casa."
+        },
+        {
+          "type": "paragraph",
+          "text": "Seguite le nostre dirette programmate, selezionate i capi che più amate e in men che non si dica il vostro ordine arriverà direttamente a casa vostra, grazie al nostro servizio di spedizioni attivo in tutta Italia ed Europa!"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "anchorId": null,
+      "elementorId": "5e62b99e",
+      "elementType": "section",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Dicono di noi"
+        },
+        {
+          "level": 2,
+          "text": "La passione fa la differenza"
+        }
+      ],
+      "other": [
+        {
+          "type": "reviews-widget",
+          "provider": "Trustindex (Google reviews)",
+          "ratingLabel": "ECCELLENTE",
+          "summaryText": "In base a 513 recensioni",
+          "reviewsEmbedded": 7,
+          "verifiedBadgeText": "Verificato da Trustindex Il badge verificato di Trustindex è il Simbolo Universale di Fiducia. Solo le migliori aziende possono ottenere il badge verificato con un punteggio di recensione superiore a 4.5, basato sulle recensioni dei clienti degli ultimi 12 mesi. Per saperne di più",
+          "note": "full review data in content/raw/reviews.json"
+        },
+        {
+          "type": "testimonial-carousel",
+          "empty": true,
+          "text": null,
+          "note": "Elementor Pro testimonial-carousel widget renders empty (no slides) in both REST and full HTML"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Dicono di noi",
+          "links": []
+        },
+        {
+          "type": "reviews-widget",
+          "provider": "Trustindex (Google reviews)",
+          "ratingLabel": "ECCELLENTE",
+          "summaryText": "In base a 513 recensioni",
+          "reviewsEmbedded": 7,
+          "verifiedBadgeText": "Verificato da Trustindex Il badge verificato di Trustindex è il Simbolo Universale di Fiducia. Solo le migliori aziende possono ottenere il badge verificato con un punteggio di recensione superiore a 4.5, basato sulle recensioni dei clienti degli ultimi 12 mesi. Per saperne di più",
+          "note": "full review data in content/raw/reviews.json"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "La passione fa la differenza",
+          "links": []
+        },
+        {
+          "type": "testimonial-carousel",
+          "empty": true,
+          "text": null,
+          "note": "Elementor Pro testimonial-carousel widget renders empty (no slides) in both REST and full HTML"
+        }
+      ]
+    }
+  ]
+}

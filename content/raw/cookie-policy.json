@@ -1,0 +1,505 @@
+{
+  "slug": "cookie-policy",
+  "url": "https://www.ingromoda.com/cookie-policy/",
+  "fetchedAt": "2026-10-28T15:38:33.828Z",
+  "titleTag": "Cookie Policy - Ingromoda",
+  "metaDescription": "L'obiettivo della presente informativa contenente la politica sui cookie di Ingromoda s.r.l.  è quello di spiegarti l’uso dei cookie fatto dal nostro sito",
+  "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "canonical": "https://www.ingromoda.com/cookie-policy/",
+  "og": {
+    "og:locale": "it_IT",
+    "og:type": "article",
+    "og:title": "Cookie Policy - Ingromoda",
+    "og:description": "L'obiettivo della presente informativa contenente la politica sui cookie di Ingromoda s.r.l.  è quello di spiegarti l’uso dei cookie fatto dal nostro sito",
+    "og:url": "https://www.ingromoda.com/cookie-policy/",
+    "og:site_name": "Ingromoda",
+    "og:updated_time": "2024-07-29T08:59:33+02:00",
+    "og:image": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+    "og:image:secure_url": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+    "og:image:width": "1820",
+    "og:image:height": "907",
+    "og:image:alt": "cropped logo ingromoda 1",
+    "og:image:type": "image/png"
+  },
+  "twitter": {
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Cookie Policy - Ingromoda",
+    "twitter:description": "L'obiettivo della presente informativa contenente la politica sui cookie di Ingromoda s.r.l.  è quello di spiegarti l’uso dei cookie fatto dal nostro sito",
+    "twitter:image": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png"
+  },
+  "articleMeta": {
+    "article:published_time": "2024-01-12T09:27:06+01:00",
+    "article:modified_time": "2024-07-29T08:59:33+02:00"
+  },
+  "jsonLd": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": [
+            "Person",
+            "Organization"
+          ],
+          "@id": "https://www.ingromoda.com/#person",
+          "name": "Ingromoda",
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://www.ingromoda.com/#logo",
+            "url": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+            "contentUrl": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+            "caption": "Ingromoda",
+            "inLanguage": "it-IT",
+            "width": "1820",
+            "height": "907"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://www.ingromoda.com/#logo",
+            "url": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+            "contentUrl": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+            "caption": "Ingromoda",
+            "inLanguage": "it-IT",
+            "width": "1820",
+            "height": "907"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.ingromoda.com/#website",
+          "url": "https://www.ingromoda.com",
+          "name": "Ingromoda",
+          "alternateName": "Ingromoda Srl",
+          "publisher": {
+            "@id": "https://www.ingromoda.com/#person"
+          },
+          "inLanguage": "it-IT"
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+          "url": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+          "width": "1820",
+          "height": "907",
+          "caption": "cropped logo ingromoda 1",
+          "inLanguage": "it-IT"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.ingromoda.com/cookie-policy/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": "1",
+              "item": {
+                "@id": "https://www.ingromoda.com",
+                "name": "Home"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": "2",
+              "item": {
+                "@id": "https://www.ingromoda.com/cookie-policy/",
+                "name": "Cookie Policy"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.ingromoda.com/cookie-policy/#webpage",
+          "url": "https://www.ingromoda.com/cookie-policy/",
+          "name": "Cookie Policy - Ingromoda",
+          "datePublished": "2024-01-12T09:27:06+01:00",
+          "dateModified": "2024-07-29T08:59:33+02:00",
+          "isPartOf": {
+            "@id": "https://www.ingromoda.com/#website"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png"
+          },
+          "inLanguage": "it-IT",
+          "breadcrumb": {
+            "@id": "https://www.ingromoda.com/cookie-policy/#breadcrumb"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://www.ingromoda.com/author/ingromodasrl/",
+          "name": "ingromodasrl",
+          "url": "https://www.ingromoda.com/author/ingromodasrl/",
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://secure.gravatar.com/avatar/23c6823ea3ed3b0c116a69f8de99dad0e2782c69f5fcc04c9b6979708197b273?s=96&amp;d=mm&amp;r=g",
+            "url": "https://secure.gravatar.com/avatar/23c6823ea3ed3b0c116a69f8de99dad0e2782c69f5fcc04c9b6979708197b273?s=96&amp;d=mm&amp;r=g",
+            "caption": "ingromodasrl",
+            "inLanguage": "it-IT"
+          },
+          "sameAs": [
+            "https://www.ingromoda.com/"
+          ]
+        },
+        {
+          "@type": "Article",
+          "headline": "Cookie Policy - Ingromoda",
+          "datePublished": "2024-01-12T09:27:06+01:00",
+          "dateModified": "2024-07-29T08:59:33+02:00",
+          "author": {
+            "@id": "https://www.ingromoda.com/author/ingromodasrl/",
+            "name": "ingromodasrl"
+          },
+          "publisher": {
+            "@id": "https://www.ingromoda.com/#person"
+          },
+          "description": "L&#039;obiettivo della presente informativa contenente la politica sui cookie di Ingromoda s.r.l.  è quello di spiegarti l’uso dei cookie fatto dal nostro sito",
+          "name": "Cookie Policy - Ingromoda",
+          "@id": "https://www.ingromoda.com/cookie-policy/#richSnippet",
+          "isPartOf": {
+            "@id": "https://www.ingromoda.com/cookie-policy/#webpage"
+          },
+          "image": {
+            "@id": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png"
+          },
+          "inLanguage": "it-IT",
+          "mainEntityOfPage": {
+            "@id": "https://www.ingromoda.com/cookie-policy/#webpage"
+          }
+        }
+      ]
+    }
+  ],
+  "favicons": [
+    {
+      "rel": "icon",
+      "sizes": "32x32",
+      "href": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-favicon-ingromoda-32x32.jpg"
+    },
+    {
+      "rel": "icon",
+      "sizes": "192x192",
+      "href": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-favicon-ingromoda-192x192.jpg"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": null,
+      "href": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-favicon-ingromoda-180x180.jpg"
+    }
+  ],
+  "generator": [
+    "WordPress 7.1.3",
+    "Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap"
+  ],
+  "rest": {
+    "id": 754,
+    "title": "Cookie Policy",
+    "date": "2024-01-12T09:27:06",
+    "modified": "2024-07-29T08:59:33",
+    "template": null,
+    "link": "https://www.ingromoda.com/cookie-policy/",
+    "parent": 0,
+    "menu_order": 0
+  },
+  "bodyClasses": [
+    "wp-singular",
+    "page-template-default",
+    "page",
+    "page-id-754",
+    "wp-custom-logo",
+    "wp-embed-responsive",
+    "wp-theme-astra",
+    "wp-child-theme-astra-child",
+    "ast-desktop",
+    "ast-separate-container",
+    "ast-two-container",
+    "ast-right-sidebar",
+    "astra-4.14.1",
+    "ast-single-post",
+    "ast-inherit-site-logo-transparent",
+    "ast-hfb-header",
+    "ast-full-width-primary-header",
+    "ast-full-width-layout",
+    "ast-sticky-main-shrink",
+    "ast-sticky-below-shrink",
+    "ast-sticky-header-shrink",
+    "ast-inherit-site-logo-sticky",
+    "ast-primary-sticky-enabled",
+    "ast-normal-title-enabled",
+    "elementor-default",
+    "elementor-kit-362",
+    "astra-addon-4.13.5"
+  ],
+  "builder": "gutenberg/classic (no Elementor)",
+  "pageTitleH1FromTheme": "Cookie Policy",
+  "sections": [
+    {
+      "index": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Cookie Policy"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 1,
+          "text": "Cookie Policy",
+          "note": "theme page title (Astra entry-title)"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "headings": [
+        {
+          "level": 6,
+          "text": "Cookie Policy"
+        }
+      ],
+      "paragraphs": [
+        "L’obiettivo della presente informativa contenente la politica sui cookie di Ingromoda s.r.l. è quello di spiegarti l’uso dei cookie fatto dal nostro sito web, le loro finalità, nonché le opzioni a tua disposizione in qualità di utente per amministrarli; di conseguenza la presente informativa è suscettibile di modifiche periodiche"
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 6,
+          "text": "Cookie Policy",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "L’obiettivo della presente informativa contenente la politica sui cookie di Ingromoda s.r.l. è quello di spiegarti l’uso dei cookie fatto dal nostro sito web, le loro finalità, nonché le opzioni a tua disposizione in qualità di utente per amministrarli; di conseguenza la presente informativa è suscettibile di modifiche periodiche"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "headings": [
+        {
+          "level": 5,
+          "text": "Definizioni e funzioni"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 5,
+          "text": "Definizioni e funzioni",
+          "links": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "headings": [
+        {
+          "level": 4,
+          "text": "Che cosa sono i cookie"
+        }
+      ],
+      "paragraphs": [
+        "Il cookie è un piccolo file di testo contenente una certa quantità di informazioni scambiato tra un sito internet ed il tuo terminale ed è normalmente utilizzato dal gestore del sito internet per memorizzare le informazioni necessarie a migliorare la navigazione all’interno del sito ovvero per inviare messaggi pubblicitari in linea con le preferenze manifestate dall’utente nell’ambito della navigazione in rete. Quando si visita di nuovo lo stesso sito o qualunque altro sito, il dispositivo dell’utente verifica la presenza di un cookie riconosciuto, in modo da potere leggere le informazioni in esso contenute. I diversi cookie contengono informazioni diverse e sono utilizzati per scopi differenti (navigazione efficiente nelle pagine di un medesimo sito, profilazione al fine di inviare messaggi promozionali mirati, analisi sul numero delle visite al sito).",
+        "Tipicamente i cookie possono essere installati:",
+        "Questo sito web può utilizzare, anche in combinazione tra di loro, i seguenti tipi di cookie classificati in base alle indicazioni del Garante per la protezione dei dati personali e dagli Organismi Europei che si sono occupati della materia (Gruppo ex art. 29, oggi European Data Protection Board."
+      ],
+      "listItems": [
+        "direttamente dal proprietario e/o responsabile del sito web (c.d. cookie di prima parte);",
+        "da soggetti estranei al sito web visitato dall’utente (c.d. cookie di terza parte). Le regole relative al loro utilizzo, sia per quanto attiene alla informativa che alla eventuale acquisizione del Tuo consenso, ricadono integralmente nella responsabilità delle cd. terze parti."
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "Che cosa sono i cookie",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Il cookie è un piccolo file di testo contenente una certa quantità di informazioni scambiato tra un sito internet ed il tuo terminale ed è normalmente utilizzato dal gestore del sito internet per memorizzare le informazioni necessarie a migliorare la navigazione all’interno del sito ovvero per inviare messaggi pubblicitari in linea con le preferenze manifestate dall’utente nell’ambito della navigazione in rete. Quando si visita di nuovo lo stesso sito o qualunque altro sito, il dispositivo dell’utente verifica la presenza di un cookie riconosciuto, in modo da potere leggere le informazioni in esso contenute. I diversi cookie contengono informazioni diverse e sono utilizzati per scopi differenti (navigazione efficiente nelle pagine di un medesimo sito, profilazione al fine di inviare messaggi promozionali mirati, analisi sul numero delle visite al sito)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tipicamente i cookie possono essere installati:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            {
+              "text": "direttamente dal proprietario e/o responsabile del sito web (c.d. cookie di prima parte);"
+            },
+            {
+              "text": "da soggetti estranei al sito web visitato dall’utente (c.d. cookie di terza parte). Le regole relative al loro utilizzo, sia per quanto attiene alla informativa che alla eventuale acquisizione del Tuo consenso, ricadono integralmente nella responsabilità delle cd. terze parti."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Questo sito web può utilizzare, anche in combinazione tra di loro, i seguenti tipi di cookie classificati in base alle indicazioni del Garante per la protezione dei dati personali e dagli Organismi Europei che si sono occupati della materia (Gruppo ex art. 29, oggi European Data Protection Board."
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "headings": [
+        {
+          "level": 3,
+          "text": "Cookie tecnici"
+        }
+      ],
+      "paragraphs": [
+        "Sono i cookie, propri e di terze parti, che permettono lo svolgimento di attività strettamente legate al funzionamento del sito. Rientrano in questa categoria: i cookie di navigazione (cookie di sessione utilizzati per memorizzare le preferenze di navigazione sul sito e migliorare la stessa); i cookie di funzionalità (utilizzati per erogare specifici servizi del sito); i cookie analitici (che rientrano nella categoria dei cookie tecnici, laddove gli stessi raccolgono, in forma anonima e aggregata, informazioni statistiche sulle modalità di navigazione degli utenti: ad esempio, numero di pagine visitate e di accessi, tempo di permanenza nel sito).",
+        "L’utilizzo di queste tipologie di cookie non richiede l’acquisizione del consenso dell’utente, il quale può comunque decidere di disabilitarne l’utilizzo sul proprio browser (come illustrato al paragrafo successivo). In tal caso, alcune funzionalità del sito potrebbero non essere utilizzabili.",
+        "Cookie di profilazione",
+        "Navigando su questo Sito è inoltre possibile che siano installati sul proprio browser anche cookie di profilazione, propri e di terze parti, utilizzati per finalità di profilazione e marketing. Rientrano, a titolo esemplificativo, in questa categoria, i cookie analitici (laddove associati ad altre informazioni personali dell’utente ed utilizzati per la profilazione dello stesso); i cd. Widgets (componenti grafici di una interfaccia utente di un programma, che ha lo scopo di facilitare l’utente nell’interazione con il programma stesso – es: i cookie di Facebook, Google+, Twitter); i cd. advertising (cookie utilizzati per fare pubblicità all’interno di un sito); i cd. web beacons (frammenti di codice che consentono l’analisi dell’uso personale dei siti web, nonché attività di controllo e reportistica sulle pubblicità e la personalizzazione di pubblicità e contenuti).",
+        "L’utilizzo di queste tipologie di cookie non è permesso se non previo consenso dell’utente."
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Cookie tecnici",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Sono i cookie, propri e di terze parti, che permettono lo svolgimento di attività strettamente legate al funzionamento del sito. Rientrano in questa categoria: i cookie di navigazione (cookie di sessione utilizzati per memorizzare le preferenze di navigazione sul sito e migliorare la stessa); i cookie di funzionalità (utilizzati per erogare specifici servizi del sito); i cookie analitici (che rientrano nella categoria dei cookie tecnici, laddove gli stessi raccolgono, in forma anonima e aggregata, informazioni statistiche sulle modalità di navigazione degli utenti: ad esempio, numero di pagine visitate e di accessi, tempo di permanenza nel sito)."
+        },
+        {
+          "type": "paragraph",
+          "text": "L’utilizzo di queste tipologie di cookie non richiede l’acquisizione del consenso dell’utente, il quale può comunque decidere di disabilitarne l’utilizzo sul proprio browser (come illustrato al paragrafo successivo). In tal caso, alcune funzionalità del sito potrebbero non essere utilizzabili."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cookie di profilazione"
+        },
+        {
+          "type": "paragraph",
+          "text": "Navigando su questo Sito è inoltre possibile che siano installati sul proprio browser anche cookie di profilazione, propri e di terze parti, utilizzati per finalità di profilazione e marketing. Rientrano, a titolo esemplificativo, in questa categoria, i cookie analitici (laddove associati ad altre informazioni personali dell’utente ed utilizzati per la profilazione dello stesso); i cd. Widgets (componenti grafici di una interfaccia utente di un programma, che ha lo scopo di facilitare l’utente nell’interazione con il programma stesso – es: i cookie di Facebook, Google+, Twitter); i cd. advertising (cookie utilizzati per fare pubblicità all’interno di un sito); i cd. web beacons (frammenti di codice che consentono l’analisi dell’uso personale dei siti web, nonché attività di controllo e reportistica sulle pubblicità e la personalizzazione di pubblicità e contenuti)."
+        },
+        {
+          "type": "paragraph",
+          "text": "L’utilizzo di queste tipologie di cookie non è permesso se non previo consenso dell’utente."
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "headings": [
+        {
+          "level": 4,
+          "text": "Autorizzazione, Revoca e Cancellazione dei cookie"
+        }
+      ],
+      "paragraphs": [
+        "Quando navighi per la prima volta sul nostro sito web, vieni informato dell’utilizzo dei cookie, della possibilità di accertarne l’installazione o di rifiutare l’installazione di alcuni tipi di cookie, per esempio, cookie di analisi, di pubblicità e di terzi.",
+        "Potrai comunque e in qualsiasi momento accettare, bloccare o eliminare i cookie installati sul tuo terminale (sia di prime sia di terze parti) configurando le opzioni del browser installato sul tuo terminale o dalle opzioni di privacy del terminale da cui effettui la visita. Se opti per bloccare l’installazione dei cookie nel tuo browser, potresti non essere in grado di accedere a nessuna delle sezioni del nostro sito web."
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "Autorizzazione, Revoca e Cancellazione dei cookie",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Quando navighi per la prima volta sul nostro sito web, vieni informato dell’utilizzo dei cookie, della possibilità di accertarne l’installazione o di rifiutare l’installazione di alcuni tipi di cookie, per esempio, cookie di analisi, di pubblicità e di terzi."
+        },
+        {
+          "type": "paragraph",
+          "text": "Potrai comunque e in qualsiasi momento accettare, bloccare o eliminare i cookie installati sul tuo terminale (sia di prime sia di terze parti) configurando le opzioni del browser installato sul tuo terminale o dalle opzioni di privacy del terminale da cui effettui la visita. Se opti per bloccare l’installazione dei cookie nel tuo browser, potresti non essere in grado di accedere a nessuna delle sezioni del nostro sito web."
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "headings": [
+        {
+          "level": 3,
+          "text": "Consenso all’uso dei cookie di profilazione di prima parte"
+        }
+      ],
+      "paragraphs": [
+        "Sulla base delle regole attualmente vigenti, il consenso all’utilizzo dei cookie di profilazione viene prestato inizialmente attraverso le seguenti modalità: chiudendo il banner, scorrendo la pagina che ospita il banner o cliccando qualunque suo elemento (puoi vedere come funziona cliccando qui) e può essere revocato in ogni momento secondo quanto sopra indicato. Fermo quanto sopra, ed in esito all’esame della presente informativa “estesa”, per i cookie di profilazione utilizzati dalla nostra società ti offriamo la possibilità diretta di concedere o negare il tuo consenso.",
+        "Per accettare o meno l’utilizzo dei cookie di profilazione erogati da nostri server così come descritti nella presente informativa, effettua la seguente scelta:",
+        "ULTIMO AGGIORNAMENTO GENNAIO 2024"
+      ],
+      "listItems": [
+        "Accetto",
+        "Non Accetto"
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Consenso all’uso dei cookie di profilazione di prima parte",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Sulla base delle regole attualmente vigenti, il consenso all’utilizzo dei cookie di profilazione viene prestato inizialmente attraverso le seguenti modalità: chiudendo il banner, scorrendo la pagina che ospita il banner o cliccando qualunque suo elemento (puoi vedere come funziona cliccando qui) e può essere revocato in ogni momento secondo quanto sopra indicato. Fermo quanto sopra, ed in esito all’esame della presente informativa “estesa”, per i cookie di profilazione utilizzati dalla nostra società ti offriamo la possibilità diretta di concedere o negare il tuo consenso."
+        },
+        {
+          "type": "paragraph",
+          "text": "Per accettare o meno l’utilizzo dei cookie di profilazione erogati da nostri server così come descritti nella presente informativa, effettua la seguente scelta:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            {
+              "text": "Accetto"
+            },
+            {
+              "text": "Non Accetto"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "ULTIMO AGGIORNAMENTO GENNAIO 2024"
+        }
+      ]
+    }
+  ],
+  "fullText": "Cookie Policy\n\nL’obiettivo della presente informativa contenente la politica sui cookie di Ingromoda s.r.l. è quello di spiegarti l’uso dei cookie fatto dal nostro sito web, le loro finalità, nonché le opzioni a tua disposizione in qualità di utente per amministrarli; di conseguenza la presente informativa è suscettibile di modifiche periodiche\n\nDefinizioni e funzioni\n\nChe cosa sono i cookie\n\nIl cookie è un piccolo file di testo contenente una certa quantità di informazioni scambiato tra un sito internet ed il tuo terminale ed è normalmente utilizzato dal gestore del sito internet per memorizzare le informazioni necessarie a migliorare la navigazione all’interno del sito ovvero per inviare messaggi pubblicitari in linea con le preferenze manifestate dall’utente nell’ambito della navigazione in rete. Quando si visita di nuovo lo stesso sito o qualunque altro sito, il dispositivo dell’utente verifica la presenza di un cookie riconosciuto, in modo da potere leggere le informazioni in esso contenute. I diversi cookie contengono informazioni diverse e sono utilizzati per scopi differenti (navigazione efficiente nelle pagine di un medesimo sito, profilazione al fine di inviare messaggi promozionali mirati, analisi sul numero delle visite al sito).\n\nTipicamente i cookie possono essere installati:\n\n- direttamente dal proprietario e/o responsabile del sito web (c.d. cookie di prima parte);\n- da soggetti estranei al sito web visitato dall’utente (c.d. cookie di terza parte). Le regole relative al loro utilizzo, sia per quanto attiene alla informativa che alla eventuale acquisizione del Tuo consenso, ricadono integralmente nella responsabilità delle cd. terze parti.\n\nQuesto sito web può utilizzare, anche in combinazione tra di loro, i seguenti tipi di cookie classificati in base alle indicazioni del Garante per la protezione dei dati personali e dagli Organismi Europei che si sono occupati della materia (Gruppo ex art. 29, oggi European Data Protection Board.\n\nCookie tecnici\n\nSono i cookie, propri e di terze parti, che permettono lo svolgimento di attività strettamente legate al funzionamento del sito. Rientrano in questa categoria: i cookie di navigazione (cookie di sessione utilizzati per memorizzare le preferenze di navigazione sul sito e migliorare la stessa); i cookie di funzionalità (utilizzati per erogare specifici servizi del sito); i cookie analitici (che rientrano nella categoria dei cookie tecnici, laddove gli stessi raccolgono, in forma anonima e aggregata, informazioni statistiche sulle modalità di navigazione degli utenti: ad esempio, numero di pagine visitate e di accessi, tempo di permanenza nel sito).\n\nL’utilizzo di queste tipologie di cookie non richiede l’acquisizione del consenso dell’utente, il quale può comunque decidere di disabilitarne l’utilizzo sul proprio browser (come illustrato al paragrafo successivo). In tal caso, alcune funzionalità del sito potrebbero non essere utilizzabili.\n\nCookie di profilazione\n\nNavigando su questo Sito è inoltre possibile che siano installati sul proprio browser anche cookie di profilazione, propri e di terze parti, utilizzati per finalità di profilazione e marketing. Rientrano, a titolo esemplificativo, in questa categoria, i cookie analitici (laddove associati ad altre informazioni personali dell’utente ed utilizzati per la profilazione dello stesso); i cd. Widgets (componenti grafici di una interfaccia utente di un programma, che ha lo scopo di facilitare l’utente nell’interazione con il programma stesso – es: i cookie di Facebook, Google+, Twitter); i cd. advertising (cookie utilizzati per fare pubblicità all’interno di un sito); i cd. web beacons (frammenti di codice che consentono l’analisi dell’uso personale dei siti web, nonché attività di controllo e reportistica sulle pubblicità e la personalizzazione di pubblicità e contenuti).\n\nL’utilizzo di queste tipologie di cookie non è permesso se non previo consenso dell’utente.\n\nAutorizzazione, Revoca e Cancellazione dei cookie\n\nQuando navighi per la prima volta sul nostro sito web, vieni informato dell’utilizzo dei cookie, della possibilità di accertarne l’installazione o di rifiutare l’installazione di alcuni tipi di cookie, per esempio, cookie di analisi, di pubblicità e di terzi.\n\nPotrai comunque e in qualsiasi momento accettare, bloccare o eliminare i cookie installati sul tuo terminale (sia di prime sia di terze parti) configurando le opzioni del browser installato sul tuo terminale o dalle opzioni di privacy del terminale da cui effettui la visita. Se opti per bloccare l’installazione dei cookie nel tuo browser, potresti non essere in grado di accedere a nessuna delle sezioni del nostro sito web.\n\nConsenso all’uso dei cookie di profilazione di prima parte\n\nSulla base delle regole attualmente vigenti, il consenso all’utilizzo dei cookie di profilazione viene prestato inizialmente attraverso le seguenti modalità: chiudendo il banner, scorrendo la pagina che ospita il banner o cliccando qualunque suo elemento (puoi vedere come funziona cliccando qui) e può essere revocato in ogni momento secondo quanto sopra indicato. Fermo quanto sopra, ed in esito all’esame della presente informativa “estesa”, per i cookie di profilazione utilizzati dalla nostra società ti offriamo la possibilità diretta di concedere o negare il tuo consenso.\n\nPer accettare o meno l’utilizzo dei cookie di profilazione erogati da nostri server così come descritti nella presente informativa, effettua la seguente scelta:\n\n- Accetto\n- Non Accetto\n\nULTIMO AGGIORNAMENTO GENNAIO 2024",
+  "sidebarWidgets": [
+    {
+      "id": "block-2",
+      "text": "CercaCerca"
+    },
+    {
+      "id": "block-3",
+      "text": "Articoli recenti"
+    },
+    {
+      "id": "block-4",
+      "text": "Commenti recentiNessun commento da mostrare."
+    },
+    {
+      "id": "block-5",
+      "text": "ArchiviNessun archivio da mostrare."
+    },
+    {
+      "id": "block-6",
+      "text": "CategorieNessuna categoria"
+    },
+    {
+      "id": "block-7",
+      "text": "Recent Posts"
+    },
+    {
+      "id": "block-8",
+      "text": "Recent CommentsNessun commento da mostrare."
+    },
+    {
+      "id": "block-9",
+      "text": "ArchivesNessun archivio da mostrare."
+    },
+    {
+      "id": "block-10",
+      "text": "CategoriesNessuna categoria"
+    }
+  ]
+}

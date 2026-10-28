@@ -1,0 +1,102 @@
+{
+  "name": "Ingromoda",
+  "legalName": "Ingromoda srl",
+  "vat": "03761640824",
+  "url": "https://www.ingromoda.com",
+  "tagline": "Sotto i riflettori",
+  "address": {
+    "street": "Viale Regione Siciliana S.E. 4325",
+    "postalCode": "90125",
+    "city": "Palermo",
+    "region": "PA",
+    "regionName": "Sicilia",
+    "country": "IT"
+  },
+  "phone": {
+    "display": "+39 091 445 150",
+    "href": "tel:+39091445150",
+    "e164": "+39091445150"
+  },
+  "email": "ingromoda@gmail.com",
+  "whatsapp": {
+    "number": "393760096564",
+    "display": "+39 376 0096564",
+    "contactName": "Loredana",
+    "href": "https://wa.me/393760096564"
+  },
+  "maps": {
+    "href": "https://maps.app.goo.gl/spZBRF3R9h3C8s9z5",
+    "label": "Apri il percorso su Google Maps"
+  },
+  "social": [
+    {
+      "id": "facebook",
+      "label": "Facebook",
+      "href": "https://www.facebook.com/Ingromoda-srl-105357362908636"
+    },
+    {
+      "id": "instagram",
+      "label": "Instagram",
+      "href": "https://www.instagram.com/ingromoda"
+    },
+    {
+      "id": "tiktok",
+      "label": "TikTok",
+      "href": "https://www.tiktok.com/@ingromoda"
+    },
+    {
+      "id": "youtube",
+      "label": "YouTube",
+      "href": "https://www.youtube.com/@ingromodaSrl"
+    }
+  ],
+  "openingHours": {
+    "_note": "Riportati dalla pagina Contatti del vecchio sito. Da riconfermare col cliente (vedi TODO-cliente.md).",
+    "weekdays": {
+      "days": "Lunedì - Sabato",
+      "schema": [
+        "Mo",
+        "Tu",
+        "We",
+        "Th",
+        "Fr",
+        "Sa"
+      ],
+      "slots": [
+        [
+          "08:30",
+          "13:00"
+        ],
+        [
+          "15:30",
+          "20:00"
+        ]
+      ]
+    },
+    "sunday": {
+      "label": "Prima domenica del mese",
+      "detail": "esclusi agosto e settembre",
+      "slots": [
+        [
+          "10:00",
+          "13:00"
+        ],
+        [
+          "16:00",
+          "20:00"
+        ]
+      ]
+    },
+    "holidays": "Aperture straordinarie per festività: contattateci per informazioni."
+  },
+  "copyright": "© 2026 Ingromoda srl",
+  "geo": {
+    "lat": 38.0894474,
+    "lng": 13.3739767
+  },
+  "parking": "Ampio parcheggio interno privato",
+  "shipping": "Spedizioni in tutta Italia ed Europa",
+  "messenger": "https://m.me/ingromodasrl",
+  "accessibilityEmail": "accessibilita@ingromoda.com",
+  "rea": "PA-160643"
+}

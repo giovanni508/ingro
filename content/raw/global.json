@@ -1,0 +1,478 @@
+{
+  "source": "https://www.ingromoda.com/ (extracted from full rendered HTML of all 9 pages; header/footer identical on every page)",
+  "fetchedAt": "2026-10-28T15:41:02.840Z",
+  "site": {
+    "name": "Ingromoda",
+    "wpTitleSuffix": " - Ingromoda",
+    "language": "it-IT",
+    "platform": {
+      "cms": "WordPress WordPress 7.1.3",
+      "theme": "Astra (+ Astra Pro addon)",
+      "builder": "Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap",
+      "seoPlugin": "Rank Math"
+    }
+  },
+  "company": {
+    "names_as_written": [
+      {
+        "text": "Ingromoda srl",
+        "where": "footer copyright (all pages)"
+      },
+      {
+        "text": "Ingromoda s.r.l.",
+        "where": "privacy-policy, cookie-policy"
+      },
+      {
+        "text": "Ingromoda Srl",
+        "where": "privacy-policy (Titolare del Trattamento); JSON-LD WebSite.alternateName"
+      },
+      {
+        "text": "Ingromoda srl",
+        "where": "accessibilita (\"Ingromoda srl si impegna...\")"
+      }
+    ],
+    "vatNumber": "03761640824",
+    "vatAsWritten": {
+      "footer": "P. IVA 03761640824",
+      "privacy": "P.IVA: 03761640824"
+    },
+    "rea": "REA: PA – 160643",
+    "registroImpreseAsWritten": "Ufficio delle imprese Milano Monza Brianza Lodi",
+    "capitaleSociale": {
+      "deliberato": "Capitale sociale deliberato: 10.320,00",
+      "versato": "Capitale sociale versato: 10.320,00"
+    },
+    "sedeLegaleAsWritten": "Sede Legale: VIALE REGIONE SICILIANA S E 4325 CAP 90125",
+    "copyrightLine": "Copyright © 2026 Ingromoda srl | P. IVA 03761640824 | Privacy Policy | Cookie Policy | Accessibilità"
+  },
+  "contacts": {
+    "phone": {
+      "display": "+39 091 445 150",
+      "href": "tel:091445150",
+      "chatyHref": "tel:+39091445150",
+      "pages": [
+        "home",
+        "contatti"
+      ]
+    },
+    "whatsapp": {
+      "label": "Loredana: per videochiamate WhatsApp",
+      "display": "+39 3760096564",
+      "hrefOnPage": "tel:3760096564",
+      "note": "On the pages the WhatsApp number is linked as a plain tel: link, not a wa.me link. The floating Chaty widget uses the WhatsApp web URL below.",
+      "chatyWhatsappUrl": "https://web.whatsapp.com/send?phone=393760096564",
+      "waMeEquivalent": "https://wa.me/393760096564",
+      "pages": [
+        "home",
+        "contatti"
+      ]
+    },
+    "email": {
+      "display": "ingromoda@gmail.com",
+      "href": "mailto:ingromoda@gmail.com",
+      "pages": [
+        "home",
+        "contatti",
+        "privacy-policy"
+      ]
+    },
+    "accessibilityEmail": "accessibilita@ingromoda.com",
+    "facebookMessenger": "https://m.me/ingromodasrl"
+  },
+  "address": {
+    "asWritten": [
+      {
+        "text": "Viale Regione Siciliana S.E. 4325",
+        "where": "home + contatti contact block (linked to Google Maps)"
+      },
+      {
+        "text": "Il nostro store si trova in Viale Regione Siciliana, 4325, Palermo.",
+        "where": "chi-siamo"
+      },
+      {
+        "text": "VIALE REGIONE SICILIANA S.E, 4325 Palermo",
+        "where": "privacy-policy (Titolare)"
+      },
+      {
+        "text": "VIALE REGIONE SICILIANA S E 4325 CAP 90125",
+        "where": "privacy-policy (Sede Legale)"
+      },
+      {
+        "text": "Palermo, VIALE REGIONE SICILIANA S.E. 4325",
+        "where": "privacy-policy (richieste via posta)"
+      }
+    ],
+    "normalizedSuggestion": "Viale Regione Siciliana S.E. 4325, 90125 Palermo (PA)",
+    "parking": [
+      {
+        "text": "Ampio parcheggio interno privato",
+        "where": "contatti (h4)"
+      },
+      {
+        "text": "È facilmente raggiungibile e dispone di un ampio parcheggio privato, per permettervi di sostare senza problemi.",
+        "where": "chi-siamo"
+      }
+    ]
+  },
+  "googleMaps": {
+    "shortLink": "https://maps.app.goo.gl/spZBRF3R9h3C8s9z5",
+    "shortLinkResolvesTo": "https://www.google.com/maps/place/Ingromoda/@38.0894474,13.3714018,17z/data=!3m1!4b1!4m6!3m5!1s0x1319e571327cf731:0x24308fdb3488b763!8m2!3d38.0894474!4d13.3739767!16s%2Fg%2F1vqt27yp?entry=tts",
+    "coordinates": {
+      "lat": 38.0894474,
+      "lng": 13.3739767
+    },
+    "usedBy": [
+      "header button \"PORTAMI Lì\"",
+      "home button \"VIENI A TROVARCI\"",
+      "address link in contact block (home, contatti)"
+    ],
+    "embedIframe": {
+      "src": "https://maps.google.com/maps?q=ingromoda%20palermo&t=m&z=10&output=embed&iwloc=near",
+      "page": "contatti",
+      "note": "query-based embed at zoom 10 (city level)"
+    }
+  },
+  "openingHours": {
+    "exists": true,
+    "page": "contatti",
+    "heading": "Orari di apertura",
+    "textAsWritten": "LUN – SAB 08,30 -13,00 | 15,30 – 20,00\n\nDOMENICA:\nAperti solo la prima domenica del mese",
+    "sundayNoteAsWritten": "Apertura la prima domenica di ogni mese (esclusi i mesi di agosto e settembre) dalle ore 10:00 alle ore 13:00 e dalle 16:00 alle 20:00.\nAperture straordinarie per festività: contattaci per informazioni.",
+    "notInJsonLd": true
+  },
+  "tvSchedule": {
+    "headingAsWritten": "Seguici tutti i giorni su TVM CH19",
+    "textAsWritten": "LUN. ORE 12,00 -14,00 -22,30\nMAR. ORE 14,00 -18,00 -22,30\nMER. ORE 14,00 -18,00 -22,30\nGIO. ORE 12,00 -14,00 – 22,30\nVEN. ORE 12,00 -14,00 – 22,30\nSAB. ORE 14,00 -18,00 – 22,30\nDOM. ORE 12,00 -14,00 – 22,30",
+    "pages": [
+      "home",
+      "contatti"
+    ],
+    "identicalOnBothPages": true
+  },
+  "facebookLive": {
+    "asWritten": [
+      {
+        "text": "Seguici nelle dirette il martedì e venerdì dalle 17.00 su Facebook",
+        "page": "home"
+      },
+      {
+        "text": "Seguici nelle dirette il martedì e venerdì dalle 17.00 suFacebook",
+        "page": "contatti",
+        "note": "missing space: \"suFacebook\""
+      }
+    ],
+    "relatedCopy": [
+      {
+        "text": "Le vendite non avvengono soltanto nel nostro punto vendita fisico: da qualche anno abbiamo ampliato la nostra clientela rendendoci presenti nel mondo del digital, attraverso le dirette sui social, offrendo un modo divertente e coinvolgente per far scoprire le nostre ultime novità anche a chi è lontano!",
+        "page": "chi-siamo"
+      },
+      {
+        "text": "Per mantenerci al passo con i tempi, abbiamo inoltre introdotto le dirette social, una novità entusiasmante che vi permette di acquistare i capi comodamente da casa.",
+        "page": "chi-siamo"
+      },
+      {
+        "text": "Seguite le nostre dirette programmate, selezionate i capi che più amate e in men che non si dica il vostro ordine arriverà direttamente a casa vostra, grazie al nostro servizio di spedizioni attivo in tutta Italia ed Europa!",
+        "page": "chi-siamo"
+      }
+    ]
+  },
+  "social": {
+    "facebook": "https://facebook.com/Ingromoda-srl-105357362908636",
+    "instagram": "https://instagram.com/ingromoda/",
+    "tiktok": "https://www.tiktok.com/@ingromoda?_t=8hBdSY58yzQ&_r=1",
+    "tiktokClean": "https://www.tiktok.com/@ingromoda",
+    "youtubeChannel": "https://www.youtube.com/@ingromodaSrl",
+    "facebookMessenger": "https://m.me/ingromodasrl",
+    "where": {
+      "footerSocialIcons": [
+        {
+          "href": "https://facebook.com/Ingromoda-srl-105357362908636",
+          "ariaLabel": "Facebook",
+          "cssClass": "ast-facebook"
+        },
+        {
+          "href": "https://instagram.com/ingromoda/",
+          "ariaLabel": "Instagram",
+          "cssClass": "ast-instagram"
+        },
+        {
+          "href": "https://www.tiktok.com/@ingromoda?_t=8hBdSY58yzQ&_r=1",
+          "ariaLabel": "TikTok",
+          "cssClass": "ast-dribbble"
+        }
+      ],
+      "contentSocialIcons": [
+        "home (contact block)",
+        "contatti"
+      ],
+      "youtube": "only as embedded videos on /donna/ (channel author from oEmbed)",
+      "messenger": "only in the floating Chaty widget"
+    }
+  },
+  "header": {
+    "layout": "Astra header builder: left menu | centered logo | right menu + button; a second identical sticky copy (#ast-fixed-header) and a mobile off-canvas copy are also in the DOM",
+    "logo": {
+      "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/logo-ingromoda-1-120x60.png",
+      "srcset": "https://www.ingromoda.com/wp-content/uploads/2023/11/logo-ingromoda-1-120x60.png 1x, https://www.ingromoda.com/wp-content/uploads/2023/11/logo-ingromoda-1.png 2x",
+      "alt": "logo ingromoda 1",
+      "href": "https://www.ingromoda.com/"
+    },
+    "leftMenu": [
+      {
+        "text": "Donna",
+        "href": "https://www.ingromoda.com/donna/"
+      },
+      {
+        "text": "Uomo",
+        "href": "https://www.ingromoda.com/uomo/"
+      },
+      {
+        "text": "Bambino",
+        "href": "https://www.ingromoda.com/bambino/"
+      }
+    ],
+    "rightMenu": [
+      {
+        "text": "Chi siamo",
+        "href": "https://www.ingromoda.com/chi-siamo/"
+      },
+      {
+        "text": "Contatti",
+        "href": "https://www.ingromoda.com/contatti/"
+      }
+    ],
+    "button": {
+      "text": "PORTAMI Lì",
+      "href": "https://maps.app.goo.gl/spZBRF3R9h3C8s9z5",
+      "note": "button markup contains the label twice (desktop + mobile variants) so text appears as \"PORTAMI Lì PORTAMI Lì\" in plain-text extraction"
+    },
+    "mobileMenu": {
+      "menus": [
+        [
+          {
+            "text": "Chi siamo",
+            "href": "https://www.ingromoda.com/chi-siamo/"
+          },
+          {
+            "text": "Contatti",
+            "href": "https://www.ingromoda.com/contatti/"
+          }
+        ],
+        [
+          {
+            "text": "Donna",
+            "href": "https://www.ingromoda.com/donna/"
+          },
+          {
+            "text": "Uomo",
+            "href": "https://www.ingromoda.com/uomo/"
+          },
+          {
+            "text": "Bambino",
+            "href": "https://www.ingromoda.com/bambino/"
+          }
+        ]
+      ],
+      "htmlBlockImage": {
+        "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1-1-300x150.png",
+        "alt": "",
+        "httpStatus": 404,
+        "note": "broken image (404) inside the mobile menu drawer"
+      }
+    }
+  },
+  "footer": {
+    "copyrightText": "Copyright © 2026 Ingromoda srl | P. IVA 03761640824 | Privacy Policy | Cookie Policy | Accessibilità",
+    "links": [
+      {
+        "text": "Privacy Policy",
+        "href": "https://www.ingromoda.com/privacy-policy/",
+        "target": "_blank"
+      },
+      {
+        "text": "Cookie Policy",
+        "href": "https://www.ingromoda.com/cookie-policy/",
+        "target": "_blank"
+      },
+      {
+        "text": "Accessibilità",
+        "href": "https://www.ingromoda.com/accessibilita/",
+        "target": null
+      }
+    ],
+    "socialIcons": [
+      "https://facebook.com/Ingromoda-srl-105357362908636",
+      "https://instagram.com/ingromoda/",
+      "https://www.tiktok.com/@ingromoda?_t=8hBdSY58yzQ&_r=1"
+    ],
+    "hiddenWordPressLoginForm": {
+      "present": true,
+      "action": "https://www.ingromoda.com/wp-login.php",
+      "fields": [
+        "log",
+        "pwd",
+        "rememberme"
+      ],
+      "submitLabel": "Accedi",
+      "lostPasswordLink": "https://www.ingromoda.com/wp-login.php?action=lostpassword (label \"Lost your password?\" in English)"
+    }
+  },
+  "homeContactBlock": {
+    "note": "Contact block that sits at the bottom of home (Elementor section 8441e2b) and in contatti; it is page content, not the theme footer",
+    "logoImage": "https://www.ingromoda.com/wp-content/uploads/2023/11/logo-ingromoda-1.png",
+    "heading": "I nostri contatti",
+    "items": [
+      "+39 091 445 150",
+      "ingromoda@gmail.com",
+      "Viale Regione Siciliana S.E. 4325"
+    ],
+    "whatsappHeading": "Loredana: per videochiamate WhatsApp",
+    "whatsappNumber": "+39 3760096564"
+  },
+  "logos": [
+    {
+      "url": "https://www.ingromoda.com/wp-content/uploads/2023/11/logo-ingromoda-1.png",
+      "w": 1821,
+      "h": 909,
+      "use": "header logo (srcset 1x/2x), home contact block, department page intro logo"
+    },
+    {
+      "url": "https://www.ingromoda.com/wp-content/uploads/2023/11/logo-ingromoda-1-120x60.png",
+      "w": 120,
+      "h": 60,
+      "use": "src attribute of header logo (thumbnail)"
+    },
+    {
+      "url": "https://www.ingromoda.com/wp-content/uploads/2023/11/logo-ingromoda-1-1.png",
+      "w": 1821,
+      "h": 909,
+      "use": "home section 2 big logo (served as -1024x511)"
+    },
+    {
+      "url": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+      "w": 1820,
+      "h": 907,
+      "use": "og:image / twitter:image / JSON-LD logo (home, chi-siamo, contatti, legal pages)"
+    },
+    {
+      "url": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1-1-300x150.png",
+      "use": "mobile menu drawer",
+      "error": "404 Not Found"
+    },
+    {
+      "url": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-favicon-ingromoda.jpg",
+      "w": 512,
+      "h": 512,
+      "use": "favicon source (site icon); served as -32x32, -192x192, -180x180, -270x270"
+    },
+    {
+      "url": "https://www.ingromoda.com/wp-content/uploads/2023/11/favicon-ingromoda.jpg",
+      "w": 500,
+      "h": 500,
+      "use": "media library only (uncropped favicon)"
+    }
+  ],
+  "svgLogo": "None found: media library has no SVG and the header uses the PNG logo.",
+  "floatingWidgets": {
+    "chaty": {
+      "plugin": "Chaty",
+      "ctaText": "Contattaci",
+      "position": "right",
+      "color": "#A886CD",
+      "delaySeconds": "2",
+      "channels": [
+        {
+          "channel": "Phone",
+          "value": "+39091445150",
+          "url": "tel:+39091445150",
+          "hoverText": "Phone"
+        },
+        {
+          "channel": "Whatsapp",
+          "value": "393760096564",
+          "url": "https://web.whatsapp.com/send?phone=393760096564",
+          "hoverText": "WhatsApp"
+        },
+        {
+          "channel": "Facebook_Messenger",
+          "value": "https://m.me/ingromodasrl",
+          "url": "https://m.me/ingromodasrl",
+          "hoverText": "Facebook Messenger"
+        }
+      ]
+    },
+    "gtranslate": {
+      "plugin": "GTranslate (floating switcher)",
+      "settings": {
+        "default_language": "it",
+        "languages": [
+          "it",
+          "en"
+        ],
+        "url_structure": "none",
+        "flag_style": "2d",
+        "wrapper_selector": "#gt-wrapper-13336250",
+        "alt_flags": [],
+        "float_switcher_open_direction": "bottom",
+        "switcher_horizontal_position": "left",
+        "switcher_vertical_position": "top",
+        "flags_location": "/wp-content/plugins/gtranslate/flags/"
+      }
+    },
+    "cookieBanner": {
+      "plugin": "CookieYes (cookie-law-info)",
+      "title": "Diamo valore alla tua privacy",
+      "description": "Utilizziamo i cookie per migliorare la tua esperienza di navigazione, offrirti pubblicità o contenuti personalizzati e analizzare il nostro traffico. Cliccando “Accetta tutti”, acconsenti al nostro utilizzo dei cookie.",
+      "buttons": [
+        "Personalizza",
+        "Rifiuta tutto",
+        "Accettare tutto"
+      ],
+      "note": "description says “Accetta tutti” but the button label is “Accettare tutto”"
+    }
+  },
+  "announcementsOrBanners": "None. No announcement bar, promo banner or popup text found in any page (besides cookie banner and Chaty CTA \"Contattaci\").",
+  "otherClaims": [
+    {
+      "text": "Tutti i nostri capi sono disponibili dalla taglia 38 alla 70, anche nei vari drop, ovvero nei diversi tipi di vestibilità.",
+      "page": "donna"
+    },
+    {
+      "text": "Tutti i nostri capi sono disponibili dalla taglia 44 alla 78, anche nei vari drop, ovvero nei diversi tipi di vestibilità.",
+      "page": "uomo"
+    },
+    {
+      "text": "...un assortimento di abiti da cerimonia per bambini, dai 2 ai 16 anni...",
+      "page": "bambino"
+    },
+    {
+      "text": "...capi adatti per taglie comode, che vanno dalla taglia 44 alla 52...",
+      "page": "bambino"
+    },
+    {
+      "text": "...grazie al nostro servizio di spedizioni attivo in tutta Italia ed Europa!",
+      "page": "chi-siamo"
+    }
+  ],
+  "brandTokensFromOldTheme": {
+    "astraGlobalColors": {
+      "0": "#FF6A97",
+      "1": "#e5097f",
+      "2": "#2B161B",
+      "3": "#645659",
+      "4": "#F8F3F5",
+      "5": "#FFFFFF",
+      "6": "#000000",
+      "7": "#4B4F58",
+      "8": "#F6F7F8"
+    },
+    "fonts": {
+      "headings": "Gloock (serif)",
+      "body": "Roboto (Elementor kit), Roboto Slab (secondary)"
+    },
+    "chatyWidgetColor": "#A886CD"
+  },
+  "analytics": {
+    "googleTag": "G-J7SZTSN0EK (gtag.js)"
+  }
+}

@@ -1,0 +1,944 @@
+{
+  "slug": "home",
+  "url": "https://www.ingromoda.com/",
+  "fetchedAt": "2026-10-28T15:38:33.626Z",
+  "titleTag": "Home - Ingromoda",
+  "metaDescription": "Ingromoda, un’elegante boutique che da anni è il punto di riferimento per l'abbigliamento di alta qualità a Palermo.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "canonical": "https://www.ingromoda.com/",
+  "og": {
+    "og:locale": "it_IT",
+    "og:type": "website",
+    "og:title": "Home - Ingromoda",
+    "og:description": "Ingromoda, un’elegante boutique che da anni è il punto di riferimento per l'abbigliamento di alta qualità a Palermo.",
+    "og:url": "https://www.ingromoda.com/",
+    "og:site_name": "Ingromoda",
+    "og:updated_time": "2026-10-02T14:08:17+02:00",
+    "og:image": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+    "og:image:secure_url": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+    "og:image:width": "1820",
+    "og:image:height": "907",
+    "og:image:alt": "cropped logo ingromoda 1",
+    "og:image:type": "image/png"
+  },
+  "twitter": {
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Home - Ingromoda",
+    "twitter:description": "Ingromoda, un’elegante boutique che da anni è il punto di riferimento per l'abbigliamento di alta qualità a Palermo.",
+    "twitter:image": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png"
+  },
+  "articleMeta": {
+    "article:published_time": "2022-06-17T07:30:39+02:00",
+    "article:modified_time": "2026-10-02T14:08:17+02:00"
+  },
+  "jsonLd": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": [
+            "Person",
+            "Organization"
+          ],
+          "@id": "https://www.ingromoda.com/#person",
+          "name": "Ingromoda",
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://www.ingromoda.com/#logo",
+            "url": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+            "contentUrl": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+            "caption": "Ingromoda",
+            "inLanguage": "it-IT",
+            "width": "1820",
+            "height": "907"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://www.ingromoda.com/#logo",
+            "url": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+            "contentUrl": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-logo-ingromoda-1.png",
+            "caption": "Ingromoda",
+            "inLanguage": "it-IT",
+            "width": "1820",
+            "height": "907"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.ingromoda.com/#website",
+          "url": "https://www.ingromoda.com",
+          "name": "Ingromoda",
+          "alternateName": "Ingromoda Srl",
+          "publisher": {
+            "@id": "https://www.ingromoda.com/#person"
+          },
+          "inLanguage": "it-IT",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://www.ingromoda.com/?s={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.ingromoda.com/wp-content/uploads/2023/11/logo-ingromoda-1-1-1024x511.png",
+          "url": "https://www.ingromoda.com/wp-content/uploads/2023/11/logo-ingromoda-1-1-1024x511.png",
+          "width": "200",
+          "height": "200",
+          "inLanguage": "it-IT"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.ingromoda.com/#webpage",
+          "url": "https://www.ingromoda.com/",
+          "name": "Home - Ingromoda",
+          "datePublished": "2022-06-17T07:30:39+02:00",
+          "dateModified": "2026-10-02T14:08:17+02:00",
+          "about": {
+            "@id": "https://www.ingromoda.com/#person"
+          },
+          "isPartOf": {
+            "@id": "https://www.ingromoda.com/#website"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://www.ingromoda.com/wp-content/uploads/2023/11/logo-ingromoda-1-1-1024x511.png"
+          },
+          "inLanguage": "it-IT"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://www.ingromoda.com/author/ingromodasrl/",
+          "name": "ingromodasrl",
+          "url": "https://www.ingromoda.com/author/ingromodasrl/",
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://secure.gravatar.com/avatar/23c6823ea3ed3b0c116a69f8de99dad0e2782c69f5fcc04c9b6979708197b273?s=96&amp;d=mm&amp;r=g",
+            "url": "https://secure.gravatar.com/avatar/23c6823ea3ed3b0c116a69f8de99dad0e2782c69f5fcc04c9b6979708197b273?s=96&amp;d=mm&amp;r=g",
+            "caption": "ingromodasrl",
+            "inLanguage": "it-IT"
+          },
+          "sameAs": [
+            "https://www.ingromoda.com/"
+          ]
+        },
+        {
+          "@type": "Article",
+          "headline": "Home - Ingromoda",
+          "datePublished": "2022-06-17T07:30:39+02:00",
+          "dateModified": "2026-10-02T14:08:17+02:00",
+          "author": {
+            "@id": "https://www.ingromoda.com/author/ingromodasrl/",
+            "name": "ingromodasrl"
+          },
+          "publisher": {
+            "@id": "https://www.ingromoda.com/#person"
+          },
+          "description": "Ingromoda, un’elegante boutique che da anni è il punto di riferimento per l&#039;abbigliamento di alta qualità a Palermo.",
+          "name": "Home - Ingromoda",
+          "@id": "https://www.ingromoda.com/#richSnippet",
+          "isPartOf": {
+            "@id": "https://www.ingromoda.com/#webpage"
+          },
+          "image": {
+            "@id": "https://www.ingromoda.com/wp-content/uploads/2023/11/logo-ingromoda-1-1-1024x511.png"
+          },
+          "inLanguage": "it-IT",
+          "mainEntityOfPage": {
+            "@id": "https://www.ingromoda.com/#webpage"
+          }
+        }
+      ]
+    }
+  ],
+  "favicons": [
+    {
+      "rel": "icon",
+      "sizes": "32x32",
+      "href": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-favicon-ingromoda-32x32.jpg"
+    },
+    {
+      "rel": "icon",
+      "sizes": "192x192",
+      "href": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-favicon-ingromoda-192x192.jpg"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": null,
+      "href": "https://www.ingromoda.com/wp-content/uploads/2023/11/cropped-favicon-ingromoda-180x180.jpg"
+    }
+  ],
+  "generator": [
+    "WordPress 7.1.3",
+    "Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap"
+  ],
+  "rest": {
+    "id": 496,
+    "title": "Home",
+    "date": "2022-06-17T07:30:39",
+    "modified": "2026-10-02T14:08:17",
+    "template": null,
+    "link": "https://www.ingromoda.com/",
+    "parent": 0,
+    "menu_order": 0
+  },
+  "bodyClasses": [
+    "home",
+    "wp-singular",
+    "page-template-default",
+    "page",
+    "page-id-496",
+    "wp-custom-logo",
+    "wp-embed-responsive",
+    "wp-theme-astra",
+    "wp-child-theme-astra-child",
+    "ast-desktop",
+    "ast-page-builder-template",
+    "ast-no-sidebar",
+    "astra-4.14.1",
+    "ast-single-post",
+    "ast-inherit-site-logo-transparent",
+    "ast-hfb-header",
+    "ast-full-width-primary-header",
+    "ast-full-width-layout",
+    "ast-sticky-main-shrink",
+    "ast-sticky-below-shrink",
+    "ast-sticky-header-shrink",
+    "ast-inherit-site-logo-sticky",
+    "ast-primary-sticky-enabled",
+    "elementor-default",
+    "elementor-kit-362",
+    "elementor-page",
+    "elementor-page-496",
+    "astra-addon-4.13.5"
+  ],
+  "builder": "elementor",
+  "pageTitleH1FromTheme": null,
+  "sections": [
+    {
+      "index": 1,
+      "anchorId": null,
+      "elementorId": "3e3df3f",
+      "elementType": "section",
+      "backgroundImages": [
+        {
+          "elementId": "3e3df3f",
+          "media": "all",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2024/01/ingromoda-hero-principale.jpg",
+          "originalFilename": "ingromoda-hero-principale.jpg",
+          "width": 1600,
+          "height": 1067,
+          "mediaAlt": "ingromoda hero principale"
+        },
+        {
+          "elementId": "3e3df3f",
+          "media": "@media(max-width:767px)",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/beautiful-young-woman-elegant-fashion-looking-camera-generated-by-ai-1.jpg",
+          "originalFilename": "beautiful-young-woman-elegant-fashion-looking-camera-generated-by-ai-1.jpg",
+          "width": 1820,
+          "height": 1040,
+          "mediaAlt": "beautiful young woman elegant fashion looking camera generated by ai 1"
+        }
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Abiti alla moda per tutte le occasioni a Palermo"
+        }
+      ],
+      "paragraphs": [
+        "Ingromoda, un’elegante boutique che da anni è il punto di riferimento per l’abbigliamento di alta qualità a Palermo."
+      ],
+      "buttons": [
+        {
+          "text": "Scopri gli articoli",
+          "href": "#donna"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Abiti alla moda per tutte le occasioni a Palermo",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Ingromoda, un’elegante boutique che da anni è il punto di riferimento per l’abbigliamento di alta qualità a Palermo."
+        },
+        {
+          "type": "button",
+          "text": "Scopri gli articoli",
+          "href": "#donna"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "anchorId": null,
+      "elementorId": "3818483",
+      "elementType": "section",
+      "backgroundImages": [
+        {
+          "elementId": "ce70596",
+          "media": "all",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/young-woman-standing-fashionable-clothing-boutique-generative-ai.jpg",
+          "originalFilename": "young-woman-standing-fashionable-clothing-boutique-generative-ai.jpg",
+          "width": 1820,
+          "height": 1040,
+          "mediaAlt": "young woman standing fashionable clothing boutique generative ai"
+        }
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Da generazioni curiamo il vostro look"
+        }
+      ],
+      "paragraphs": [
+        "La nostra filosofia? Diffondere una moda che unisca tradizione e innovazione! I nostri capi coniugano l’eleganza classica delle linee sartoriali italiane alle moderne tendenze stilistiche, per un look sempre ricercato e attuale. La nostra proposta spazia da stili eleganti a casual fino allo sportswear, per soddisfare ogni esigenza, offrendo capi a prezzi convenienti e accessibili a tutti, includendo anche le taglie calibrate.",
+        "Ma ciò che ci contraddistingue sono gli abiti da cerimonia, unici ed originali.",
+        "Ingromoda offre un’ampia selezione di capi perfetti per ogni occasione speciale, dai semplici tailleur ad abiti raffinati e splendenti, adatti a tutte le esigenze, realizzati con materiali di eccellente qualità e con la massima cura dei dettagli, per garantire un look davvero impeccabile!",
+        "A garantire un’esperienza d’acquisto unica e personalizzata, è il nostro staff altamente qualificato, che vi saprà guidare nella scelta dell’abito perfetto, tenendo conto della vostra personalità e del vostro stile, fornendovi preziosi consigli su come vestire alla moda e facendovi sentire sempre al centro dell’attenzione!"
+      ],
+      "buttons": [
+        {
+          "text": "VIENI A TROVARCI",
+          "href": "https://maps.app.goo.gl/spZBRF3R9h3C8s9z5"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/logo-ingromoda-1-1.png",
+          "alt": "logo ingromoda 1 1",
+          "originalFilename": "logo-ingromoda-1-1.png",
+          "width": 1821,
+          "height": 909,
+          "linkHref": null,
+          "widget": "image"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/logo-ingromoda-1-1.png",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2023/11/logo-ingromoda-1-1-1024x511.png",
+          "alt": "logo ingromoda 1 1",
+          "originalFilename": "logo-ingromoda-1-1.png",
+          "width": 1821,
+          "height": 909,
+          "mediaId": 521,
+          "linkHref": null,
+          "widget": "image",
+          "hiddenOn": []
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Da generazioni curiamo il vostro look",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "La nostra filosofia? Diffondere una moda che unisca tradizione e innovazione! I nostri capi coniugano l’eleganza classica delle linee sartoriali italiane alle moderne tendenze stilistiche, per un look sempre ricercato e attuale. La nostra proposta spazia da stili eleganti a casual fino allo sportswear, per soddisfare ogni esigenza, offrendo capi a prezzi convenienti e accessibili a tutti, includendo anche le taglie calibrate."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ma ciò che ci contraddistingue sono gli abiti da cerimonia, unici ed originali."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ingromoda offre un’ampia selezione di capi perfetti per ogni occasione speciale, dai semplici tailleur ad abiti raffinati e splendenti, adatti a tutte le esigenze, realizzati con materiali di eccellente qualità e con la massima cura dei dettagli, per garantire un look davvero impeccabile!"
+        },
+        {
+          "type": "paragraph",
+          "text": "A garantire un’esperienza d’acquisto unica e personalizzata, è il nostro staff altamente qualificato, che vi saprà guidare nella scelta dell’abito perfetto, tenendo conto della vostra personalità e del vostro stile, fornendovi preziosi consigli su come vestire alla moda e facendovi sentire sempre al centro dell’attenzione!"
+        },
+        {
+          "type": "button",
+          "text": "VIENI A TROVARCI",
+          "href": "https://maps.app.goo.gl/spZBRF3R9h3C8s9z5",
+          "target": "_blank"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "anchorId": "donna",
+      "elementorId": "717c7d7",
+      "elementType": "section",
+      "headings": [
+        {
+          "level": 4,
+          "text": "INGROMODA"
+        },
+        {
+          "level": 2,
+          "text": "Abbigliamento donna"
+        }
+      ],
+      "paragraphs": [
+        "Sentirsi sicure di sé è un obiettivo che tutte le donne perseguono: con look curati e alla moda, ideati dalle nostre personal shopper, potrete trasformare il vostro stile sentendovi belle, affascinanti e sempre al passo con le ultime tendenze!"
+      ],
+      "buttons": [
+        {
+          "text": "DONNA",
+          "href": "https://www.ingromoda.com/donna"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/fashion-portrait-young-elegant-woman-1.jpg",
+          "alt": "fashion portrait young elegant woman 1",
+          "originalFilename": "fashion-portrait-young-elegant-woman-1.jpg",
+          "width": 1188,
+          "height": 792,
+          "linkHref": null,
+          "widget": "image",
+          "hiddenOn": [
+            "tablet",
+            "mobile"
+          ]
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2024/01/abbigliamento-donna-ingromoda.jpg",
+          "alt": "abbigliamento donna ingromoda",
+          "originalFilename": "abbigliamento-donna-ingromoda.jpg",
+          "width": 1000,
+          "height": 546,
+          "linkHref": null,
+          "widget": "image"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/fashion-portrait-young-elegant-woman-1.jpg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2023/11/fashion-portrait-young-elegant-woman-1.jpg",
+          "alt": "fashion portrait young elegant woman 1",
+          "originalFilename": "fashion-portrait-young-elegant-woman-1.jpg",
+          "width": 1188,
+          "height": 792,
+          "mediaId": 530,
+          "linkHref": null,
+          "widget": "image",
+          "hiddenOn": [
+            "tablet",
+            "mobile"
+          ]
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2024/01/abbigliamento-donna-ingromoda.jpg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2024/01/abbigliamento-donna-ingromoda.jpg",
+          "alt": "abbigliamento donna ingromoda",
+          "originalFilename": "abbigliamento-donna-ingromoda.jpg",
+          "width": 1000,
+          "height": 546,
+          "mediaId": 781,
+          "linkHref": null,
+          "widget": "image",
+          "hiddenOn": []
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "INGROMODA",
+          "links": []
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Abbigliamento donna",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Sentirsi sicure di sé è un obiettivo che tutte le donne perseguono: con look curati e alla moda, ideati dalle nostre personal shopper, potrete trasformare il vostro stile sentendovi belle, affascinanti e sempre al passo con le ultime tendenze!"
+        },
+        {
+          "type": "button",
+          "text": "DONNA",
+          "href": "https://www.ingromoda.com/donna"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "anchorId": null,
+      "elementorId": "90662db",
+      "elementType": "section",
+      "headings": [
+        {
+          "level": 4,
+          "text": "INGROMODA"
+        },
+        {
+          "level": 2,
+          "text": "Abbigliamento Uomo"
+        }
+      ],
+      "paragraphs": [
+        "Da Ingromoda, ogni uomo può trovare il look perfetto per sé, indipendentemente dal proprio stile. Con un vasto assortimento pensato sia per chi ama vestire casual o che per chi invece sogna ogni giorno di sfoggiare abiti raffinati, il nostro store esaudisce i desideri di tutti."
+      ],
+      "buttons": [
+        {
+          "text": "UOMO",
+          "href": "https://www.ingromoda.com/uomo"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/142358874_lel-1920w-copia.jpg",
+          "alt": "142358874 lel 1920w copia",
+          "originalFilename": "142358874_lel-1920w-copia.jpg",
+          "width": 1920,
+          "height": 1280,
+          "linkHref": null,
+          "widget": "image"
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2024/01/ingromoda-abbigliamento-uomo.jpg",
+          "alt": "ingromoda abbigliamento uomo",
+          "originalFilename": "ingromoda-abbigliamento-uomo.jpg",
+          "width": 800,
+          "height": 600,
+          "linkHref": null,
+          "widget": "image",
+          "hiddenOn": [
+            "mobile"
+          ]
+        }
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "INGROMODA",
+          "links": []
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Abbigliamento Uomo",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Da Ingromoda, ogni uomo può trovare il look perfetto per sé, indipendentemente dal proprio stile. Con un vasto assortimento pensato sia per chi ama vestire casual o che per chi invece sogna ogni giorno di sfoggiare abiti raffinati, il nostro store esaudisce i desideri di tutti."
+        },
+        {
+          "type": "button",
+          "text": "UOMO",
+          "href": "https://www.ingromoda.com/uomo"
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/142358874_lel-1920w-copia.jpg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2023/11/142358874_lel-1920w-copia.jpg",
+          "alt": "142358874 lel 1920w copia",
+          "originalFilename": "142358874_lel-1920w-copia.jpg",
+          "width": 1920,
+          "height": 1280,
+          "mediaId": 661,
+          "linkHref": null,
+          "widget": "image",
+          "hiddenOn": []
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2024/01/ingromoda-abbigliamento-uomo.jpg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2024/01/ingromoda-abbigliamento-uomo.jpg",
+          "alt": "ingromoda abbigliamento uomo",
+          "originalFilename": "ingromoda-abbigliamento-uomo.jpg",
+          "width": 800,
+          "height": 600,
+          "mediaId": 792,
+          "linkHref": null,
+          "widget": "image",
+          "hiddenOn": [
+            "mobile"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "anchorId": null,
+      "elementorId": "cdba9cb",
+      "elementType": "section",
+      "headings": [
+        {
+          "level": 4,
+          "text": "Reparto outlet"
+        },
+        {
+          "level": 2,
+          "text": "Abbigliamento bambino"
+        }
+      ],
+      "paragraphs": [
+        "Ingromoda pensa anche ai più piccoli, con una linea di abbigliamento totalmente dedicata: una collezione interamente scelta per le occasioni più particolari, con abiti da cerimonia sofisticati ed eleganti. Da Ingromoda, lo stile non ha età!"
+      ],
+      "buttons": [
+        {
+          "text": "BAMBINO",
+          "href": "https://www.ingromoda.com/bambino"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/children-getting-ready-their-first-communion-1.jpg",
+          "alt": "children getting ready their first communion 1",
+          "originalFilename": "children-getting-ready-their-first-communion-1.jpg",
+          "width": 1512,
+          "height": 1008,
+          "linkHref": null,
+          "widget": "image",
+          "hiddenOn": [
+            "mobile"
+          ]
+        },
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/19-1920w.webp",
+          "alt": "19 1920w",
+          "originalFilename": "19-1920w.webp",
+          "width": 1090,
+          "height": 866,
+          "linkHref": null,
+          "widget": "image"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/children-getting-ready-their-first-communion-1.jpg",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2023/11/children-getting-ready-their-first-communion-1.jpg",
+          "alt": "children getting ready their first communion 1",
+          "originalFilename": "children-getting-ready-their-first-communion-1.jpg",
+          "width": 1512,
+          "height": 1008,
+          "mediaId": 537,
+          "linkHref": null,
+          "widget": "image",
+          "hiddenOn": [
+            "mobile"
+          ]
+        },
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/19-1920w.webp",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2023/11/19-1920w.webp",
+          "alt": "19 1920w",
+          "originalFilename": "19-1920w.webp",
+          "width": 1090,
+          "height": 866,
+          "mediaId": 609,
+          "linkHref": null,
+          "widget": "image",
+          "hiddenOn": []
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "Reparto outlet",
+          "links": []
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Abbigliamento bambino",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Ingromoda pensa anche ai più piccoli, con una linea di abbigliamento totalmente dedicata: una collezione interamente scelta per le occasioni più particolari, con abiti da cerimonia sofisticati ed eleganti. Da Ingromoda, lo stile non ha età!"
+        },
+        {
+          "type": "button",
+          "text": "BAMBINO",
+          "href": "https://www.ingromoda.com/bambino"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "anchorId": null,
+      "elementorId": "6e4fdac8",
+      "elementType": "section",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Dicono di noi"
+        },
+        {
+          "level": 2,
+          "text": "La passione... fa la differenza"
+        }
+      ],
+      "other": [
+        {
+          "type": "reviews-widget",
+          "provider": "Trustindex (Google reviews)",
+          "ratingLabel": "ECCELLENTE",
+          "summaryText": "In base a 513 recensioni",
+          "reviewsEmbedded": 7,
+          "verifiedBadgeText": "Verificato da Trustindex Il badge verificato di Trustindex è il Simbolo Universale di Fiducia. Solo le migliori aziende possono ottenere il badge verificato con un punteggio di recensione superiore a 4.5, basato sulle recensioni dei clienti degli ultimi 12 mesi. Per saperne di più",
+          "note": "full review data in content/raw/reviews.json"
+        },
+        {
+          "type": "testimonial-carousel",
+          "empty": true,
+          "text": null,
+          "note": "Elementor Pro testimonial-carousel widget renders empty (no slides) in both REST and full HTML"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Dicono di noi",
+          "links": []
+        },
+        {
+          "type": "reviews-widget",
+          "provider": "Trustindex (Google reviews)",
+          "ratingLabel": "ECCELLENTE",
+          "summaryText": "In base a 513 recensioni",
+          "reviewsEmbedded": 7,
+          "verifiedBadgeText": "Verificato da Trustindex Il badge verificato di Trustindex è il Simbolo Universale di Fiducia. Solo le migliori aziende possono ottenere il badge verificato con un punteggio di recensione superiore a 4.5, basato sulle recensioni dei clienti degli ultimi 12 mesi. Per saperne di più",
+          "note": "full review data in content/raw/reviews.json"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "La passione... fa la differenza",
+          "links": []
+        },
+        {
+          "type": "testimonial-carousel",
+          "empty": true,
+          "text": null,
+          "note": "Elementor Pro testimonial-carousel widget renders empty (no slides) in both REST and full HTML"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "anchorId": null,
+      "elementorId": "8441e2b",
+      "elementType": "section",
+      "backgroundImages": [
+        {
+          "elementId": "ecc0bf3",
+          "media": "all",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2026/08/ingromoda-home.jpg",
+          "originalFilename": "ingromoda-home.jpg",
+          "width": 922,
+          "height": 1146,
+          "mediaAlt": "Ingromoda abito donna"
+        }
+      ],
+      "headings": [
+        {
+          "level": 4,
+          "text": "I nostri contatti"
+        },
+        {
+          "level": 2,
+          "text": "Loredana: per videochiamate WhatsApp"
+        },
+        {
+          "level": 4,
+          "text": "Seguici tutti i giorni su TVM CH19"
+        },
+        {
+          "level": 4,
+          "text": "Seguici nelle dirette il martedì e venerdì dalle 17.00 su Facebook"
+        }
+      ],
+      "paragraphs": [
+        "LUN. ORE 12,00 -14,00 -22,30\nMAR. ORE 14,00 -18,00 -22,30\nMER. ORE 14,00 -18,00 -22,30\nGIO. ORE 12,00 -14,00 – 22,30\nVEN. ORE 12,00 -14,00 – 22,30\nSAB. ORE 14,00 -18,00 – 22,30\nDOM. ORE 12,00 -14,00 – 22,30"
+      ],
+      "listItems": [
+        "+39 091 445 150",
+        "ingromoda@gmail.com",
+        "Viale Regione Siciliana S.E. 4325",
+        "+39 3760096564"
+      ],
+      "links": [
+        {
+          "text": "+39 091 445 150",
+          "href": "tel:091445150",
+          "target": "_blank",
+          "inList": true
+        },
+        {
+          "text": "ingromoda@gmail.com",
+          "href": "mailto:ingromoda@gmail.com",
+          "target": "_blank",
+          "inList": true
+        },
+        {
+          "text": "Viale Regione Siciliana S.E. 4325",
+          "href": "https://maps.app.goo.gl/spZBRF3R9h3C8s9z5",
+          "target": "_blank",
+          "inList": true
+        },
+        {
+          "text": "+39 3760096564",
+          "href": "tel:3760096564",
+          "target": "_blank",
+          "inList": true
+        },
+        {
+          "text": "Facebook",
+          "href": "https://facebook.com/Ingromoda-srl-105357362908636",
+          "kind": "social"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://instagram.com/ingromoda/",
+          "kind": "social"
+        },
+        {
+          "text": "Tiktok",
+          "href": "https://www.tiktok.com/@ingromoda?_t=8hBdSY58yzQ&_r=1",
+          "kind": "social"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/logo-ingromoda-1.png",
+          "alt": "logo ingromoda 1",
+          "originalFilename": "logo-ingromoda-1.png",
+          "width": 1821,
+          "height": 909,
+          "linkHref": null,
+          "widget": "image"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "image",
+          "src": "https://www.ingromoda.com/wp-content/uploads/2023/11/logo-ingromoda-1.png",
+          "srcInHtml": "https://www.ingromoda.com/wp-content/uploads/2023/11/logo-ingromoda-1-120x60.png",
+          "alt": "logo ingromoda 1",
+          "originalFilename": "logo-ingromoda-1.png",
+          "width": 1821,
+          "height": 909,
+          "mediaId": 13,
+          "linkHref": null,
+          "widget": "image",
+          "hiddenOn": []
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "I nostri contatti",
+          "links": []
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            {
+              "text": "+39 091 445 150",
+              "links": [
+                {
+                  "text": "+39 091 445 150",
+                  "href": "tel:091445150",
+                  "target": "_blank"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            {
+              "text": "ingromoda@gmail.com",
+              "links": [
+                {
+                  "text": "ingromoda@gmail.com",
+                  "href": "mailto:ingromoda@gmail.com",
+                  "target": "_blank"
+                }
+              ]
+            },
+            {
+              "text": "Viale Regione Siciliana S.E. 4325",
+              "links": [
+                {
+                  "text": "Viale Regione Siciliana S.E. 4325",
+                  "href": "https://maps.app.goo.gl/spZBRF3R9h3C8s9z5",
+                  "target": "_blank"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Loredana: per videochiamate WhatsApp",
+          "links": []
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            {
+              "text": "+39 3760096564",
+              "links": [
+                {
+                  "text": "+39 3760096564",
+                  "href": "tel:3760096564",
+                  "target": "_blank"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "Seguici tutti i giorni su TVM CH19",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "LUN. ORE 12,00 -14,00 -22,30\nMAR. ORE 14,00 -18,00 -22,30\nMER. ORE 14,00 -18,00 -22,30\nGIO. ORE 12,00 -14,00 – 22,30\nVEN. ORE 12,00 -14,00 – 22,30\nSAB. ORE 14,00 -18,00 – 22,30\nDOM. ORE 12,00 -14,00 – 22,30"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "Seguici nelle dirette il martedì e venerdì dalle 17.00 su Facebook",
+          "links": []
+        },
+        {
+          "type": "social",
+          "text": "Facebook",
+          "href": "https://facebook.com/Ingromoda-srl-105357362908636",
+          "target": "_blank",
+          "network": "facebook"
+        },
+        {
+          "type": "social",
+          "text": "Instagram",
+          "href": "https://instagram.com/ingromoda/",
+          "target": "_blank",
+          "network": "instagram"
+        },
+        {
+          "type": "social",
+          "text": "Tiktok",
+          "href": "https://www.tiktok.com/@ingromoda?_t=8hBdSY58yzQ&_r=1",
+          "target": "_blank",
+          "network": "tiktok"
+        }
+      ]
+    }
+  ]
+}
