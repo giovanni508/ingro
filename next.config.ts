@@ -51,13 +51,10 @@ const nextConfig: NextConfig = {
     imageSizes: [96, 160, 256, 384],
     minimumCacheTTL: 60 * 60 * 24 * 30,
   },
-  turbopack: {
-    rules: {
-      "*.css": {
-        loaders: ["@tailwindcss/turbopack"],
-        as: "*.css",
-      },
-    },
+  experimental: {
+    // Shared hosting (Hostinger) limits processes and memory during the build.
+    cpus: 2,
+    webpackMemoryOptimizations: true,
   },
   async redirects() {
     return [

@@ -3,7 +3,7 @@
 Sito vetrina di Ingromoda srl, boutique di abbigliamento donna, uomo e bambino a Palermo (Viale Regione Siciliana S.E. 4325), specializzata in abiti da cerimonia.
 
 - **Repository:** https://github.com/giovanni508/ingro (ramo `main`; ogni modifica viene pubblicata qui).
-- **Stack:** Next.js 16 (App Router, Cache Components, Turbopack), React 19, TypeScript, Tailwind CSS 4, GSAP 3 (ScrollTrigger, SplitText, CustomEase) con Lenis, `next/image`, `next/font`.
+- **Stack:** Next.js 16 (App Router, Cache Components; Turbopack in sviluppo, webpack per la build di produzione), React 19, TypeScript, Tailwind CSS 4, GSAP 3 (ScrollTrigger, SplitText, CustomEase) con Lenis, `next/image`, `next/font`.
 - **Pagine:** home (9 scene), `/donna`, `/uomo`, `/bambino`, `/chi-siamo`, `/contatti`, `/privacy`, `/cookie`, `/accessibilita`, 404, `/styleguide` (interna, non indicizzata).
 - **Documenti:** [DESIGN.md](DESIGN.md) (sistema visivo e motion), [DECISIONS.md](DECISIONS.md) (scelte e motivi), [AUDIT.md](AUDIT.md) (vecchio sito), [PROGRESS.md](PROGRESS.md), [CRITIQUE.md](CRITIQUE.md), [PRESENTAZIONE.md](PRESENTAZIONE.md), [content/TODO-cliente.md](content/TODO-cliente.md).
 
@@ -41,7 +41,7 @@ npm run typecheck
 
 ## Variabili d'ambiente
 
-Copiate `.env.example` in `.env.local` (in locale) o impostatele su Vercel. Nessuna è obbligatoria per vedere il sito.
+Copiate `.env.example` in `.env.local` (in locale) o impostatele nel pannello dell'hosting (Hostinger o Vercel). Nessuna è obbligatoria per vedere il sito.
 
 | Variabile | A cosa serve |
 |---|---|
@@ -84,6 +84,26 @@ npm run media
 Lo script ridimensiona, comprime, ritaglia le bande nere degli screenshot (`"crop": true`) e aggiorna `content/media.json`. Nei testi si usa poi l'`id`.
 
 **Mappa:** è disegnata da dati OpenStreetMap con `node scripts/map.mjs` (rigenerare solo se cambia indirizzo).
+
+## Deploy su Hostinger (Node.js)
+
+Il sito si pubblica dal repository GitHub `giovanni508/ingro` (ramo `main`) come applicazione Node.js.
+
+| Impostazione | Valore |
+|---|---|
+| Versione di Node.js | 22.x (va bene anche 20.x; non la 18) |
+| Comando di installazione | `npm install` (oppure `npm ci`) |
+| Comando di build | `npm run build` |
+| Comando di avvio | `npm run start` |
+| Variabili d'ambiente | `CONTACT_TO`, `CONTACT_FROM`, `RESEND_API_KEY` (vedi sopra) |
+
+Il comando di build deve essere `npm run build`, non `next build`. Lo script usa **webpack** (`next build --webpack`) invece di Turbopack, il bundler predefinito di Next 16: sugli hosting condivisi Turbopack può fermarsi con "FATAL: An unexpected Turbopack error occurred" per i limiti di processi e memoria. Per lo stesso motivo la build usa al massimo 2 processi (`experimental.cpus`) e le ottimizzazioni di memoria di webpack.
+
+Se il pannello non permette di cambiare il comando e lancia comunque `next build`, aggiungete la variabile d'ambiente `IS_WEBPACK_TEST=1`: Next la legge e usa webpack.
+
+I pacchetti necessari alla build (Tailwind, TypeScript, tipi, sharp) sono tra le `dependencies`, così la build funziona anche se l'hosting installa senza le devDependencies. `npm run start` ascolta sulla porta indicata dall'hosting nella variabile `PORT`.
+
+In locale `npm run dev` resta su Turbopack (più veloce); `npm run build:turbopack` prova la build con Turbopack.
 
 ## Deploy di anteprima su Vercel
 

@@ -70,3 +70,11 @@ Ogni scelta presa in autonomia durante il restyling, con il motivo. Le domande a
 - **Bodoni Moda a dimensione ottica fissa (`opsz 14`) sotto i corpi display:** il taglio "testo" ha filetti più robusti, leggibili anche su schermi a densità 1x; i titoli grandi usano la dimensione ottica automatica.
 - **Cataloghi a ritmo editoriale:** foto guida grande, 8 capi, "Mostrate tutti". Le altre foto non vengono caricate finché non servono.
 - **Hero dei reparti su mobile a tutto schermo:** Chrome non considera LCP le immagini grandi quanto il viewport, quindi la foto a schermo pieno non rallenta la metrica (verificato: LCP 1,1 s).
+
+## Hosting (Hostinger)
+
+- **Build di produzione con webpack** (`next build --webpack`) invece di Turbopack: su Hostinger la build Turbopack si fermava con "FATAL: An unexpected Turbopack error occurred". Turbopack usa molti thread nativi e molta memoria, che gli hosting condivisi limitano. Verificato in locale: la build webpack produce lo stesso sito (screenshot identici), Lighthouse mobile home 95, Donna 98, Contatti 100; accessibilità, buone pratiche e SEO 100.
+- **Tailwind via PostCSS** (`@tailwindcss/postcss` + `postcss.config.mjs`) al posto del loader `@tailwindcss/turbopack`: la stessa pipeline CSS vale per Turbopack in sviluppo e per webpack in produzione.
+- **Build leggera:** al massimo 2 processi (`experimental.cpus: 2`) e `webpackMemoryOptimizations`.
+- **Dipendenze di build in `dependencies`** (tailwindcss, @tailwindcss/postcss, typescript, @types/*, sharp): alcuni hosting installano in modalità produzione, senza devDependencies.
+- **`.nvmrc` a 22** per indicare la versione di Node.js.
