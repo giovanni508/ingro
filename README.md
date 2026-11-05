@@ -2,6 +2,7 @@
 
 Sito vetrina di Ingromoda srl, boutique di abbigliamento donna, uomo e bambino a Palermo (Viale Regione Siciliana S.E. 4325), specializzata in abiti da cerimonia.
 
+- **Repository:** https://github.com/giovanni508/ingro (ramo `main`; ogni modifica viene pubblicata qui).
 - **Stack:** Next.js 16 (App Router, Cache Components, Turbopack), React 19, TypeScript, Tailwind CSS 4, GSAP 3 (ScrollTrigger, SplitText, CustomEase) con Lenis, `next/image`, `next/font`.
 - **Pagine:** home (9 scene), `/donna`, `/uomo`, `/bambino`, `/chi-siamo`, `/contatti`, `/privacy`, `/cookie`, `/accessibilita`, 404, `/styleguide` (interna, non indicizzata).
 - **Documenti:** [DESIGN.md](DESIGN.md) (sistema visivo e motion), [DECISIONS.md](DECISIONS.md) (scelte e motivi), [AUDIT.md](AUDIT.md) (vecchio sito), [PROGRESS.md](PROGRESS.md), [CRITIQUE.md](CRITIQUE.md), [PRESENTAZIONE.md](PRESENTAZIONE.md), [content/TODO-cliente.md](content/TODO-cliente.md).
@@ -86,7 +87,7 @@ Lo script ridimensiona, comprime, ritaglia le bande nere degli screenshot (`"cro
 
 ## Deploy di anteprima su Vercel
 
-1. Create un progetto su Vercel collegato a questo repository (framework: Next.js, impostazioni predefinite).
+1. Su Vercel: "Add New Project", importate il repository `giovanni508/ingro` (framework: Next.js, impostazioni predefinite). Da quel momento ogni push su `main` aggiorna il sito.
 2. Aggiungete le variabili d'ambiente (sopra) per gli ambienti Preview e Production.
 3. Ogni push crea un'anteprima con un URL dedicato; il dominio `www.ingromoda.com` va collegato solo dopo l'approvazione del cliente.
 
