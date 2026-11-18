@@ -34,7 +34,8 @@ export function DepartmentHero({ d }: { d: Department }) {
         </div>
 
         <SplitReveal as="h1" id="dept-title" trigger="stage" className="dept-title t-display text-ivory lg:text-[clamp(3rem,0.6rem+6vw,7.5rem)]">
-          {first} <span className="italic text-magenta-glow">{rest.join(" ")}</span>
+          {first} {/* Always on its own line: the break must not depend on which font has loaded (no layout shift). */}
+          <span className="block italic text-magenta-glow">{rest.join(" ")}</span>
         </SplitReveal>
 
         <div className="dept-body">

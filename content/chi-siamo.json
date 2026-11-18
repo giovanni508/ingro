@@ -1,22 +1,22 @@
 {
-  "_note": "Testi dalla pagina Chi siamo del vecchio sito (content/raw/chi-siamo.json) e dalla filosofia in home, uniformati al 'voi'. Nessuna data o tappa storica: non sono pubblicate (vedi TODO-cliente.md).",
+  "_note": "Pagina Chi siamo. Aggiornata il 18/11/2026 con i testi del cliente: il negozio esiste da oltre 40 anni, solo uomo e donna, linea curvy.",
   "seo": {
     "title": "Chi siamo: la boutique Ingromoda a Palermo",
-    "description": "Ingromoda è una boutique di abbigliamento donna, uomo e bambino a Palermo: abiti da cerimonia, personal shopper, dirette social, TV su TVM CH19 e spedizioni in Italia ed Europa."
+    "description": "Ingromoda è a Palermo da oltre 40 anni: abiti da cerimonia e casual per uomo e donna, linea curvy, personal shopper, dirette social, TV su TVM CH19 e spedizioni in Italia ed Europa."
   },
   "hero": {
     "title": "Chi siamo",
-    "lead": "Un'esperienza di abbigliamento completa, per tutta la famiglia.",
-    "image": "cs-palco",
-    "intro": "Ingromoda opera a Palermo nel mercato dell'abbigliamento per uomo, donna e bambino. Da diversi anni offriamo un'ampia gamma di proposte di moda, dalla cerimonia allo sportswear, anche nelle taglie calibrate."
+    "lead": "Da oltre 40 anni a Palermo, per l'uomo e per la donna.",
+    "image": "d-rosa",
+    "intro": "Il negozio è da anni un punto di riferimento a Palermo per gli abiti da cerimonia e il casual, uomo e donna. Siamo specializzati nella linea curvy, uomo e donna, e abbiamo abiti per tutte le tasche: Ingromoda vi accompagna in ogni momento della giornata e per tutte le occasioni."
   },
   "story": {
-    "title": "Una realtà nuova, per tutta la famiglia",
+    "title": "Oltre 40 anni di moda a Palermo",
     "paragraphs": [
-      "La nostra missione è da sempre creare una realtà nuova, con una vasta scelta di abbigliamento di alta qualità per tutta la famiglia. Abbiamo puntato, e continuiamo a farlo, sulla qualità dei prodotti e dei servizi: capi e accessori di un certo spessore, a prezzi convenienti e accessibili.",
-      "Dagli abiti per gli eventi speciali al casual di tutti i giorni, teniamo conto delle diverse fisicità e ci impegniamo a soddisfare ogni esigenza di stile."
+      "Il nostro negozio esiste da oltre 40 anni. In tutto questo tempo abbiamo puntato, e continuiamo a farlo, sulla qualità dei prodotti e dei servizi: capi e accessori di un certo spessore, per uomo e donna, con abiti per tutte le tasche.",
+      "Dagli abiti per gli eventi speciali al casual di tutti i giorni, siamo specializzati nella linea curvy, uomo e donna: teniamo conto delle diverse fisicità e ci impegniamo a soddisfare ogni esigenza di stile."
     ],
-    "image": "cs-serata",
+    "image": "d-azzurro",
     "quote": "Oggi Ingromoda è un punto di riferimento a Palermo, e non solo."
   },
   "philosophy": {
@@ -34,7 +34,7 @@
     "title": "In negozio, in TV, in diretta",
     "paragraphs": [
       "Le vendite non avvengono soltanto nel nostro punto vendita: da qualche anno siamo presenti anche nel mondo digitale, con le dirette sui social, un modo divertente e coinvolgente per far scoprire le nostre novità anche a chi è lontano.",
-      "Seguite le dirette programmate, selezionate i capi che più amate e in men che non si dica il vostro ordine arriverà a casa vostra, grazie al nostro servizio di spedizioni attivo in tutta Italia ed Europa. E ogni giorno ci trovate in TV, su TVM CH19."
+      "Seguiteci su Facebook, Instagram e TikTok per sapere quando andiamo in diretta: selezionate i capi che più amate e in men che non si dica il vostro ordine arriverà a casa vostra, grazie al nostro servizio di spedizioni attivo in tutta Italia ed Europa. E ogni giorno ci trovate in TV, su TVM CH19."
     ],
     "facts": [
       {
@@ -42,8 +42,8 @@
         "text": "In TV tutti i giorni"
       },
       {
-        "title": "Facebook",
-        "text": "In diretta martedì e venerdì dalle 17:00"
+        "title": "Dirette social",
+        "text": "Facebook, Instagram e TikTok"
       },
       {
         "title": "WhatsApp",
@@ -56,16 +56,16 @@
     ]
   },
   "gallery": {
-    "title": "Il negozio, da vicino",
+    "title": "Le nostre proposte, da vicino",
     "images": [
-      "cs-salottino",
-      "cs-sposa",
-      "cs-collane",
-      "cs-giara",
-      "cs-papillon",
-      "cs-perline",
-      "cs-scarpe",
-      "cs-terrazza"
+      "d-pizzo-nero",
+      "u-smoking-blu",
+      "d-beige",
+      "u-bordeaux-ritratto",
+      "d-lb",
+      "d-blusa",
+      "d-scamosciato",
+      "negozio-interno"
     ]
   }
 }

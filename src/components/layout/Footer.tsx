@@ -30,7 +30,7 @@ export function Footer() {
             <Logo className="h-[4.5rem] w-auto" decorative />
           </Link>
           <p className="mt-6 max-w-[34ch] text-ivory-dim">
-            Boutique di abbigliamento donna, uomo e bambino a Palermo. Abiti da cerimonia, casual e sportswear, anche nelle taglie calibrate.
+            Boutique di abbigliamento uomo e donna a Palermo da oltre 40 anni. Abiti da cerimonia e casual, specializzati nella linea curvy.
           </p>
         </div>
 

@@ -5,7 +5,6 @@ const ROUTES: Array<[string, number, MetadataRoute.Sitemap[number]["changeFreque
   ["", 1, "weekly"],
   ["/donna", 0.9, "weekly"],
   ["/uomo", 0.9, "weekly"],
-  ["/bambino", 0.9, "weekly"],
   ["/chi-siamo", 0.7, "monthly"],
   ["/contatti", 0.8, "monthly"],
   ["/privacy", 0.2, "yearly"],

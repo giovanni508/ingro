@@ -35,6 +35,8 @@ for (const it of map.items) {
   fs.mkdirSync(path.dirname(dest), { recursive: true });
   let img = sharp(src).rotate();
   if (it.crop) img = sharp(src).rotate().extract(await contentBox(src));
+  // One panel of a composite (triptych): { left, top, width, height } in source pixels.
+  if (it.extract) img = sharp(src).rotate().extract(it.extract);
   const buf = await img
     .resize({ width: it.max, height: Math.round(it.max * 1.6), fit: "inside", withoutEnlargement: true })
     .jpeg({ quality: 84, mozjpeg: true, chromaSubsampling: "4:4:4" })

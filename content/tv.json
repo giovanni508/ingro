@@ -1,20 +1,84 @@
 {
-  "_note": "Palinsesto riportato ESATTAMENTE come scritto sul vecchio sito. Il formato è ambiguo (orari di inizio delle messe in onda o fasce?). NON sono orari del negozio. La funzione 'prossima messa in onda' resta spenta finché il cliente non conferma (features.nextBroadcast in content/features.json).",
+  "_note": "Palinsesto TV riportato ESATTAMENTE come scritto sul vecchio sito. NON sono orari del negozio. Le dirette social non hanno più giorni fissi (richiesta del cliente, 18/11/2026): il sito invita a seguire i profili social. La funzione 'prossima messa in onda' resta spenta finché il cliente non conferma il palinsesto (features.nextBroadcast).",
   "channel": "TVM",
   "channelNumber": "CH19",
   "schedule": [
-    { "day": "LUN", "dayLong": "Lunedì", "dow": 1, "raw": "12,00-14,00-22,30", "times": ["12:00", "14:00", "22:30"] },
-    { "day": "MAR", "dayLong": "Martedì", "dow": 2, "raw": "14,00-18,00-22,30", "times": ["14:00", "18:00", "22:30"] },
-    { "day": "MER", "dayLong": "Mercoledì", "dow": 3, "raw": "14,00-18,00-22,30", "times": ["14:00", "18:00", "22:30"] },
-    { "day": "GIO", "dayLong": "Giovedì", "dow": 4, "raw": "12,00-14,00-22,30", "times": ["12:00", "14:00", "22:30"] },
-    { "day": "VEN", "dayLong": "Venerdì", "dow": 5, "raw": "12,00-14,00-22,30", "times": ["12:00", "14:00", "22:30"] },
-    { "day": "SAB", "dayLong": "Sabato", "dow": 6, "raw": "14,00-18,00-22,30", "times": ["14:00", "18:00", "22:30"] },
-    { "day": "DOM", "dayLong": "Domenica", "dow": 0, "raw": "12,00-14,00-22,30", "times": ["12:00", "14:00", "22:30"] }
-  ],
-  "facebookLive": {
-    "days": ["Martedì", "Venerdì"],
-    "dows": [2, 5],
-    "from": "17:00",
-    "label": "Dirette Facebook il martedì e il venerdì dalle 17:00"
-  }
+    {
+      "day": "LUN",
+      "dayLong": "Lunedì",
+      "dow": 1,
+      "raw": "12,00-14,00-22,30",
+      "times": [
+        "12:00",
+        "14:00",
+        "22:30"
+      ]
+    },
+    {
+      "day": "MAR",
+      "dayLong": "Martedì",
+      "dow": 2,
+      "raw": "14,00-18,00-22,30",
+      "times": [
+        "14:00",
+        "18:00",
+        "22:30"
+      ]
+    },
+    {
+      "day": "MER",
+      "dayLong": "Mercoledì",
+      "dow": 3,
+      "raw": "14,00-18,00-22,30",
+      "times": [
+        "14:00",
+        "18:00",
+        "22:30"
+      ]
+    },
+    {
+      "day": "GIO",
+      "dayLong": "Giovedì",
+      "dow": 4,
+      "raw": "12,00-14,00-22,30",
+      "times": [
+        "12:00",
+        "14:00",
+        "22:30"
+      ]
+    },
+    {
+      "day": "VEN",
+      "dayLong": "Venerdì",
+      "dow": 5,
+      "raw": "12,00-14,00-22,30",
+      "times": [
+        "12:00",
+        "14:00",
+        "22:30"
+      ]
+    },
+    {
+      "day": "SAB",
+      "dayLong": "Sabato",
+      "dow": 6,
+      "raw": "14,00-18,00-22,30",
+      "times": [
+        "14:00",
+        "18:00",
+        "22:30"
+      ]
+    },
+    {
+      "day": "DOM",
+      "dayLong": "Domenica",
+      "dow": 0,
+      "raw": "12,00-14,00-22,30",
+      "times": [
+        "12:00",
+        "14:00",
+        "22:30"
+      ]
+    }
+  ]
 }

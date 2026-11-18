@@ -10,14 +10,10 @@ import { gsap, useGSAP, ScrollTrigger } from "@/lib/gsap";
 import { getMedia } from "@/lib/media";
 import home from "../../../content/home.json";
 
-const LAYOUT = [
-  "md:col-span-5 md:mt-0",
-  "md:col-span-4 md:mt-28",
-  "md:col-span-3 md:mt-56",
-];
+const LAYOUT = ["md:col-span-6 lg:col-span-5 lg:col-start-2", "md:col-span-6 md:mt-28 lg:col-span-5 lg:col-start-8"];
 
 /**
- * Scene 5. Three fitting rooms. Each is closed by a velvet curtain on a brass
+ * Scene 6. Two fitting rooms, women and men. Each is closed by a velvet curtain on a brass
  * rod; it opens on hover or keyboard focus with a fine pointer, and by itself
  * as it reaches the middle of the screen on touch devices. Under reduced
  * motion the curtains are simply drawn back.

@@ -84,7 +84,7 @@ export default function ContattiPage() {
             <OpeningHours tone="light" />
             <div className="border-t border-[var(--line-light)] pt-8">
               <h2 className="font-display text-3xl text-char">Ci trovate anche in TV</h2>
-              <p className="mt-3 text-char-dim">Tutti i giorni su TVM CH19, e in diretta su Facebook il martedì e il venerdì dalle 17:00.</p>
+              <p className="mt-3 text-char-dim">Tutti i giorni su TVM CH19. Per sapere quando andiamo in diretta, seguiteci su Facebook, Instagram e TikTok.</p>
               <Link href="/#tv" className="link-trace is-underlined mt-4 inline-block text-char">
                 Il palinsesto delle messe in onda
               </Link>

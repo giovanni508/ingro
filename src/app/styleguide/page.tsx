@@ -35,8 +35,8 @@ const COLORS = [
 ];
 
 export default function StyleguidePage() {
-  const a = getMedia("rep-uomo");
-  const b = getMedia("d-acc-02");
+  const a = getMedia("u-bordeaux");
+  const b = getMedia("d-pizzo-gonna");
   return (
     <PageShell>
       <section className="surface-ink grain pt-header">

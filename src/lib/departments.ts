@@ -7,6 +7,8 @@ export type Category = {
   images: string[];
   message: string;
   sizes?: { from: string; to: string };
+  /** Text-only categories: what you find in the shop, set as a list. */
+  items?: string[];
 };
 
 export type Department = {
@@ -22,5 +24,5 @@ export type Department = {
   youtube?: { href: string; label: string };
 };
 
-export const DEPARTMENTS = data as unknown as Record<"donna" | "uomo" | "bambino", Department>;
+export const DEPARTMENTS = data as unknown as Record<"donna" | "uomo", Department>;
 export type DepartmentKey = keyof typeof DEPARTMENTS;

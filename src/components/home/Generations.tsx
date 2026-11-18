@@ -7,19 +7,19 @@ import { getMedia } from "@/lib/media";
 import home from "../../../content/home.json";
 
 /*
- * Pattern drawn in the photo's own coordinates (1091 x 1604), on the body
- * landmarks of the dress: shoulder, bust, waist, hips, hem.
+ * Pattern drawn in the photo's own coordinates (1024 x 1536, the navy chiffon
+ * gown), on the body landmarks of the dress: shoulder, bust, waist, hips, hem.
  */
 const DRESS =
-  "M455 316 C470 352 470 392 466 424 C462 470 466 520 470 560 C450 760 425 1100 402 1452 C500 1462 620 1462 716 1452 C694 1100 670 760 650 560 C652 520 656 470 653 424 C648 392 644 352 641 312 C612 360 588 420 565 476 C540 420 498 360 455 316 Z";
+  "M398 252 C402 310 405 370 407 420 C410 452 415 482 420 505 C372 720 262 1100 172 1398 C400 1446 668 1446 902 1394 C800 1100 664 720 615 505 C621 482 632 452 638 420 C642 370 650 310 660 250 L622 254 C596 300 560 350 524 390 C490 350 458 300 432 254 Z";
 const ALLOWANCE =
-  "M440 300 C452 352 451 392 447 424 C443 470 447 520 451 562 C431 760 405 1100 382 1472 C500 1484 620 1484 736 1472 C713 1100 689 760 669 562 C671 520 675 470 672 424 C668 392 664 352 660 296";
+  "M378 240 C383 302 386 366 388 420 C391 452 396 482 400 507 C352 720 240 1100 148 1418 C400 1470 668 1470 926 1414 C822 1100 684 720 635 507 C640 482 651 452 657 420 C661 366 669 302 680 238";
 const GUIDES = [
-  { y: 318, label: "SPALLA" },
-  { y: 432, label: "LINEA SENO" },
-  { y: 560, label: "LINEA VITA" },
-  { y: 722, label: "LINEA FIANCHI" },
-  { y: 1452, label: "ORLO" },
+  { y: 252, label: "SPALLA" },
+  { y: 420, label: "LINEA SENO" },
+  { y: 505, label: "LINEA VITA" },
+  { y: 648, label: "LINEA FIANCHI" },
+  { y: 1400, label: "ORLO" },
 ];
 
 /**
@@ -107,22 +107,22 @@ export function Generations() {
                 <path key={i} data-draw d={`M60 ${150 + i * 50} h${i % 2 === 0 ? 26 : 14}`} strokeWidth="2.5" />
               ))}
               {GUIDES.map((l) => (
-                <path key={l.y} data-grow d={`M100 ${l.y} H1030`} strokeDasharray="14 10" strokeWidth="2.2" />
+                <path key={l.y} data-grow d={`M90 ${l.y} H960`} strokeDasharray="14 10" strokeWidth="2.2" />
               ))}
-              <path data-grow-y d="M560 240 V1520" strokeDasharray="36 12 6 12" strokeWidth="2.2" />
+              <path data-grow-y d="M522 230 V1480" strokeDasharray="36 12 6 12" strokeWidth="2.2" />
               <path data-draw d={DRESS} strokeWidth="5" />
               <path data-fade d={ALLOWANCE} strokeDasharray="10 10" strokeWidth="3" stroke="var(--magenta-text)" />
-              <path data-draw d="M515 580 L525 700 L535 580 M595 580 L605 700 L615 580" strokeWidth="3" />
-              <path data-draw d="M610 820 V1180 M596 846 L610 820 L624 846 M596 1154 L610 1180 L624 1154" strokeWidth="3" />
-              <path data-draw d="M462 552 h-22 M658 552 h22 M444 718 h-22 M676 718 h22" strokeWidth="4" />
+              <path data-draw d="M462 520 L472 640 L482 520 M562 520 L572 640 L582 520" strokeWidth="3" />
+              <path data-draw d="M650 800 V1150 M636 826 L650 800 L664 826 M636 1124 L650 1150 L664 1124" strokeWidth="3" />
+              <path data-draw d="M420 505 h-22 M615 505 h22 M386 648 h-22 M652 648 h22" strokeWidth="4" />
             </g>
             <g fill="var(--char)" fontFamily="var(--font-jost)" fontSize="26" letterSpacing="4">
               {GUIDES.map((l) => (
-                <text key={l.y} data-label x="1030" y={l.y - 12} textAnchor="end">
+                <text key={l.y} data-label x="960" y={l.y - 12} textAnchor="end">
                   {l.label}
                 </text>
               ))}
-              <text data-label x="640" y="1010" transform="rotate(-90 640 1010)" fontSize="22">
+              <text data-label x="682" y="975" transform="rotate(-90 682 975)" fontSize="22">
                 DRITTOFILO
               </text>
               <text data-label x="88" y="132" fontSize="20">

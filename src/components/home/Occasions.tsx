@@ -136,7 +136,7 @@ export function Occasions() {
                     className="object-cover"
                     placeholder="blur"
                     blurDataURL={m.blur}
-                    loading={i === 0 ? "eager" : "lazy"}
+                    loading="lazy"
                   />
                   <div className="absolute inset-0 bg-[radial-gradient(120%_80%_at_50%_30%,transparent_40%,rgb(13_7_10/0.65)_100%)]" />
                 </div>

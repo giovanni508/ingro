@@ -8,7 +8,9 @@ import type { NextConfig } from "next";
 const MOVED: Array<[string, string]> = [
   ["/donna/", "/donna"],
   ["/uomo/", "/uomo"],
-  ["/bambino/", "/bambino"],
+  // The Bambino department closed in November 2026: old links go home.
+  ["/bambino", "/"],
+  ["/bambino/", "/"],
   ["/chi-siamo/", "/chi-siamo"],
   ["/contatti/", "/contatti"],
   ["/accessibilita/", "/accessibilita"],

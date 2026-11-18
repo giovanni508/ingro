@@ -1,8 +1,7 @@
 "use client";
 
 import { useRef } from "react";
-import { FacebookLogo, Television } from "@phosphor-icons/react";
-import { Button } from "@/components/ui/Button";
+import { Broadcast, FacebookLogo, InstagramLogo, Television, TiktokLogo } from "@phosphor-icons/react";
 import { SplitReveal } from "@/components/motion/SplitReveal";
 import { NextBroadcast } from "./NextBroadcast";
 import { gsap, useGSAP, MOTION_OK, EASE } from "@/lib/gsap";
@@ -21,14 +20,19 @@ const ORDER = [1, 2, 3, 4, 5, 6, 0];
 /**
  * Scene 7. TV and live. The weekly TVM CH19 schedule drawn as a timeline of
  * light points (exactly the times published on the old site, always labelled
- * as broadcast times, never as shop hours). Facebook lives on Tuesday and
- * Friday from 17:00 are the magenta points. The "next broadcast" line exists
- * but stays off (content/features.json) until the format is confirmed.
+ * as broadcast times, never as shop hours). Social lives have no fixed days:
+ * the box beside it sends people to Facebook, Instagram and TikTok to find out
+ * when the next one is. The "next broadcast" line exists but stays off
+ * (content/features.json) until the format is confirmed.
  */
 export function OnAir() {
   const t = home.tv;
   const root = useRef<HTMLElement>(null);
-  const fb = site.social.find((s) => s.id === "facebook")!;
+  const LIVE = [
+    { id: "facebook", Icon: FacebookLogo },
+    { id: "instagram", Icon: InstagramLogo },
+    { id: "tiktok", Icon: TiktokLogo },
+  ].map((l) => ({ ...l, ...site.social.find((x) => x.id === l.id)! }));
   const rows = ORDER.map((d) => tv.schedule.find((r) => r.dow === d)!);
 
   useGSAP(
@@ -107,7 +111,6 @@ export function OnAir() {
 
             <ul className="mt-4 divide-y divide-[var(--line-dark)] md:mt-2 md:divide-y-0">
               {rows.map((r) => {
-                const live = tv.facebookLive.dows.includes(r.dow);
                 return (
                   <li key={r.day} className="grid grid-cols-[5.5rem_1fr] items-center py-3.5 md:py-3">
                     <span className="font-display text-lg text-ivory">
@@ -120,12 +123,6 @@ export function OnAir() {
                           {tm}
                         </time>
                       ))}
-                      {live ? (
-                        <span className="tnum text-magenta-glow">
-                          <span className="sr-only">Diretta Facebook dalle </span>
-                          {tv.facebookLive.from} Facebook
-                        </span>
-                      ) : null}
                     </span>
                     {/* Desktop: timeline */}
                     <span className="relative hidden h-9 md:block">
@@ -136,15 +133,6 @@ export function OnAir() {
                           <span className="tv-time">{tm}</span>
                         </time>
                       ))}
-                      {live ? (
-                        <span data-mark className="tv-mark is-live tnum" style={{ left: `${pos(tv.facebookLive.from)}%` }}>
-                          <span className="tv-dot" aria-hidden="true" />
-                          <span className="tv-time">
-                            <span className="sr-only">Diretta Facebook dalle </span>
-                            {tv.facebookLive.from}
-                          </span>
-                        </span>
-                      ) : null}
                     </span>
                   </li>
                 );
@@ -154,25 +142,31 @@ export function OnAir() {
               <span className="inline-flex items-center gap-2">
                 <span className="size-2.5 rounded-full bg-ivory" /> In onda su TVM CH19
               </span>
-              <span className="inline-flex items-center gap-2">
-                <span className="size-2.5 rounded-full bg-magenta-glow" /> Diretta Facebook
-              </span>
             </p>
           </div>
 
-          {/* Facebook live */}
-          <div className="relative flex flex-col justify-between border border-[var(--line-dark)] p-7 lg:col-span-4 lg:p-9">
+          {/* Social lives: no fixed days, follow the profiles */}
+          <div id="dirette" className="relative flex scroll-mt-28 flex-col justify-between border border-[var(--line-dark)] p-7 lg:col-span-4 lg:p-9">
             <div>
-              <FacebookLogo size={30} className="text-magenta-glow" aria-hidden="true" />
-              <h3 className="mt-6 font-display text-3xl text-ivory">{t.facebookTitle}</h3>
-              <p className="mt-3 font-display text-[clamp(2rem,1.4rem+2vw,3.2rem)] italic leading-[1.05] text-ivory">{t.facebookText}</p>
-              <p className="mt-5 text-ivory-dim">Seguite le dirette, scegliete i capi che amate e ve li spediamo a casa.</p>
+              <Broadcast size={30} className="text-magenta-glow" aria-hidden="true" />
+              <h3 className="mt-6 font-display text-3xl text-ivory">{t.liveTitle}</h3>
+              <p className="mt-3 font-display text-[clamp(1.8rem,1.3rem+1.6vw,2.7rem)] italic leading-[1.08] text-ivory">{t.liveText}</p>
+              <p className="mt-5 text-ivory-dim">{t.liveNote}</p>
             </div>
-            <div className="mt-10">
-              <Button href={fb.href} variant="ghost" cursor="Guardate">
-                {t.facebookCta}
-              </Button>
-            </div>
+            <ul className="mt-10 grid gap-3">
+              {LIVE.map(({ id, Icon, href, label }) => (
+                <li key={id}>
+                  <a href={href} target="_blank" rel="noopener noreferrer" className="group flex items-center justify-between gap-4 rounded-full border border-[var(--line-dark)] px-5 py-3 text-ivory transition-colors duration-300 hover:border-magenta-glow hover:bg-magenta-deep focus-visible:bg-magenta-deep" data-cursor="Seguiteci">
+                    <span className="inline-flex items-center gap-3">
+                      <Icon size={22} aria-hidden="true" />
+                      {label}
+                    </span>
+                    <span className="text-sm text-ivory-dim group-hover:text-ivory">Seguiteci</span>
+                    <span className="sr-only">(si apre in una nuova scheda)</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>

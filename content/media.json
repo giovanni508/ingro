@@ -1,1010 +1,194 @@
 {
- "hero-palco": {
-  "src": "/media/home/negozio-abiti-cerimonia-pedana.jpg",
-  "width": 768,
-  "height": 1024,
-  "alt": "In negozio, tra due manichini con abito lungo blu di paillettes e abito arancio in raso, una donna indossa un abito fucsia con piume",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADwAQCdASoMABAAA4BaJbAC7ADZlwLJnQAA/uhggUdiudexc+DA9wz5hf50ViOD52prLNcWikfN8py4Em/NEHYvneLRBw2yBeA3G5LJ58MbcYSp19+E0esF+QGZldbIlbvaV3IwERCw7SckLxAAAA=="
- },
- "gen-celeste": {
-  "src": "/media/home/abito-lungo-celeste-laura-biagiotti.jpg",
-  "width": 1091,
-  "height": 1604,
-  "alt": "Abito lungo celeste con scollo a V della collezione Laura Biagiotti",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAwCdASoMABIAPu1kqk4ppaQiMAgBMB2JQBOmUABWW/yNf2yAAP7tX6o+b9y9AbWOkIPXr2PFkyHmJiaCuwc4GTL0QAAA"
- },
- "shopper-collana": {
-  "src": "/media/home/collana-perle-pietre-busto.jpg",
-  "width": 1000,
-  "height": 800,
-  "alt": "Collana lunga di perle e pietre verdi esposta su un busto in negozio",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoMAAoAA4BaJQBOj+ABzbmHwAD+7hIreV742OQBl1vHPAlAQzsb+isnCTjxjUu0p/OprTvAfew4AAAA"
- },
- "occ-matrimonio": {
-  "src": "/media/occasioni/matrimonio-sposa-damigelle.jpg",
-  "width": 679,
-  "height": 857,
-  "alt": "Una sposa con le damigelle in abiti lunghi verde acqua",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADwAQCdASoMAA8AA4BaJZgCdADc5vtmogAA/uzhhyxYdS8ZyFmlX1VBuVQQLOWm+vQZwy16ZyJ86NLnF5KvgBf16rPU4d51JsDCG3AMJuZ9MLqw/GYRbQUdybQ0rPBwBVK/OLswAAA="
- },
- "occ-comunione": {
-  "src": "/media/occasioni/comunione-abito-bianco-tulle.jpg",
-  "width": 576,
-  "height": 1024,
-  "alt": "Bambina in negozio con abito bianco in tulle per la comunione",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAABwAwCdASoMABUAPu1iqU2ppaOiMAgBMB2JYwC2yBWV8kCWQ0AA/u9whfkgwxP2E2dNlkN8cy/WR/U3vu1KU8Q7kCZDSpDcP3GWuYOVuhxoNsQeUmBjn4sZ/qyl78U7LzA9AAAA"
- },
- "occ-laurea": {
-  "src": "/media/occasioni/laurea-tailleur-verde-acqua.jpg",
-  "width": 552,
-  "height": 827,
-  "alt": "Tailleur pantalone verde acqua con giacca sciancrata",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAADQAwCdASoMABIAPu1iqU2ppaOiMAgBMB2JYgC7ABufBiy68v0+KOAA/u/GpBn7RelwzdF0npJ7+L2iKXwy0QiDSF/FWBDMN+rA5pGjBr/ivDMjj82CvVAEW6wpwdIBjL08URbbLSTNlU5mQAA="
- },
- "occ-diciotto": {
-  "src": "/media/occasioni/diciotto-anni-abito-raso-giallo.jpg",
-  "width": 469,
-  "height": 706,
-  "alt": "Abito lungo in raso giallo acido con spacco e strascico",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAwBACdASoMABIAPu1iqU2ppaQiMAgBMB2JagCdABu13smkOLlT3I9/qAAA/tx5QTgk8mTCWxyMtUUy8TmiSCt1uZghH0NiBnmbP22I6Pux1dV2yNiaO+hstlTsEB9+dv5X2tmPh8Z/Id3EHQnJBQibdqvfg7f/knOZgAAA"
- },
- "occ-elegante": {
-  "src": "/media/occasioni/elegante-smoking-blu.jpg",
-  "width": 732,
-  "height": 782,
-  "alt": "Smoking blu con revers a scialle, camicia bianca e papillon",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAQCdASoMAA0AA4BaJZACdADZmwUdQAD+w6bns4Bk0O97MGv9EUWgi9eaZzElhrL+p6XgXyg1QPaRmYGs5Y+rSjATZrGlRm4d6REsxGM2EzWm0lhxxPUAAAA="
- },
- "occ-casual": {
-  "src": "/media/occasioni/casual-due-amiche.jpg",
+ "hero-francesca": {
+  "src": "/media/home/abito-nero-spalle-scoperte.jpg",
   "width": 1600,
   "height": 900,
-  "alt": "Due amiche sorridenti in look casual color panna, con cappello di paglia e occhiali da sole",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoMAAcAA4BaJQBOgCB0r2JLcAAA/vOC4oeYxMBQFhhj7ffMTgzDffs+0wr2lSmK3J3EdBmAAAA="
+  "alt": "Donna sorridente in abito nero aderente a spalle scoperte, con maniche in tulle",
+  "look": "cliente",
+  "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACwAQCdASoMAAcAA4BaJZwAAlvLSYeAAP7038/+B9IliFvFbQu/034+U9hlJqtNENQcAA=="
  },
- "cer-tailleur": {
-  "src": "/media/cerimonia/tailleur-pantalone-bianco-doppiopetto.jpg",
-  "width": 555,
-  "height": 830,
-  "alt": "Tailleur pantalone bianco con giacca doppiopetto",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAwCdASoMABIAPu1iqk2ppaQiMAgBMB2JaQDMHB7HHwWE+HQFO4AA/ppzd/BnByr78e4UZGprQdaSn4PsAAAA"
+ "curvy-bordeaux": {
+  "src": "/media/home/linea-curvy-cappotto-bordeaux.jpg",
+  "width": 513,
+  "height": 639,
+  "alt": "Donna curvy in cappotto bordeaux con collo di pelliccia, pantaloni coordinati e borsa, in una via del centro storico",
+  "look": "cliente",
+  "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAABQAgCdASoMAA8AA4BaJZACdADdbga6bVt0JgAA/rhK9BNtMpRRV3WP1c5P3QG1F08OTELw0NsK5sfVI3fonTy95uv/fi+dLoAicUoVG/gcTChXWGt4uis/zQqq6J7KBRIW4AAA"
  },
- "cer-fiori": {
-  "src": "/media/cerimonia/tailleur-bianco-maniche-fiori.jpg",
-  "width": 555,
-  "height": 830,
-  "alt": "Tailleur bianco con maniche ricoperte di fiori in tessuto",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAwCdASoMABIAPu1iqU2ppaOiMAgBMB2JaQDM0BrXvUAA/ppzcPAkS5JiNTyuS+Nmv7Oe0NQC1H7NcUn+Z9aW5gA="
+ "d-blu": {
+  "src": "/media/donna/abito-lungo-blu-notte-chiffon.jpg",
+  "width": 1024,
+  "height": 1536,
+  "alt": "Abito lungo blu notte in chiffon con corpetto ricamato, maniche trasparenti e spacco",
+  "look": "cliente",
+  "blur": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAADwAwCdASoMABIAPu1iqU2ppaOiMAgBMB2JZwC90BuoI4YYhbe11oogAP6tIhXo08yIyAHCVdXeLY5fdq2mP8xQxdaZ/AZAb2e2JaSZGEZmF7cL/5c8JNhUXHfE3r2zXjVWLGkv7tVeTrl5qrKVm7zzP4s6PmRPQAA="
  },
- "cer-turchese": {
-  "src": "/media/cerimonia/abito-lungo-turchese-volant.jpg",
-  "width": 1091,
-  "height": 1604,
-  "alt": "Abito lungo turchese con scollo all'americana e volant asimmetrico",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQBACdASoMABIAPu1kq04ppaQiMAgBMB2JZgCdMoR4GCIJZ+30VmrFgAD+7V1LDrPbYOGAbPH1k8dyzP6Kn9/SWc+bEd2FhtoQ2AfoD5zaIZHRrQiibIi0AAA="
+ "d-piume": {
+  "src": "/media/donna/abito-lungo-nero-paillettes-piume.jpg",
+  "width": 922,
+  "height": 1146,
+  "alt": "Abito lungo nero a sirena, con paillettes e piume, su una scalinata",
+  "look": "cliente",
+  "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAQAgCdASoMAA8AA4BaJaACdADdKpEFHxdOAP7vq3dvxR6rcj5ZHlMlSNhj7sJTYmvuzuCT8tT2+F8+guFghmiC7DvNF3vM+ScEEhwnt/FA+uMhumSMfRdO2NZaAMAA"
  },
- "cer-raso": {
-  "src": "/media/cerimonia/abito-raso-ottanio-spalle-scoperte.jpg",
-  "width": 706,
-  "height": 1024,
-  "alt": "Abito da cerimonia in raso ottanio con spalle scoperte, maniche a sbuffo e spacco",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwBACdASoMABEAPu1iqU2ppaQiMAgBMB2JbACdMoRwN6AATGWgzntU1bAA/e0EHOn2iMoefCtH9QaCA38mIZQk0HTPLBDAKGjcuhC5Q7gZJyG+zAKEV3tKYLAAAA=="
+ "d-strass": {
+  "src": "/media/donna/abito-lungo-nero-strass-spacco.jpg",
+  "width": 1024,
+  "height": 1536,
+  "alt": "Abito lungo nero con spacco e decorazione di strass sul corpetto",
+  "look": "cliente",
+  "blur": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAwBACdASoMABIAPu1iqU2ppaOiMAgBMB2JZACdMoRwAB0D77sKIE/UkXAA/bRNwxkge9fcd0P4jxWB4DGEEUxDrS/avqKvThyaG0PW9C6Bf8+5mpAm5RvU/X3dEAv4VxkyhBQGOQdr5XZAAAA="
  },
- "cer-splendente": {
-  "src": "/media/cerimonia/abito-paillettes-rosa-strascico.jpg",
+ "d-rosa": {
+  "src": "/media/donna/abito-lungo-rosa-paillettes.jpg",
+  "width": 922,
+  "height": 1146,
+  "alt": "Abito lungo rosa cipria ricoperto di paillettes, indossato in negozio",
+  "look": "cliente",
+  "blur": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAABwAgCdASoMAA8AA4BaJQBOgMYT3HMrcRh7Qf2gAP6Fa7J/e0Zl1lXfh3Yv1i6mjTJ4rgYsPrpmJ6gGX9PynyCMRSOdMhgkGdixcnH2XJcvytVxuaRLfRKf4sIxpTnnignJvqvW1UBSmZYHpT0ujtYdl12DLAAA"
+ },
+ "d-azzurro": {
+  "src": "/media/donna/abito-lungo-azzurro-bustier.jpg",
+  "width": 922,
+  "height": 1146,
+  "alt": "Abito lungo azzurro con corpetto a bustier, all'ingresso del negozio Ingromoda",
+  "look": "cliente",
+  "blur": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAAAwAgCdASoMAA8AA4BaJQBOkCYwVRM8yNxoAAD+xdP+b5gHCOdXo6oOs+WsZdtnBWiJ4gaVeUcFCZ0/44RrQ4IS59+CRY/iNUhczpa/6XMODGCWv9Aoyv8i0v/aZnYgg5p2stoIraaK0AAA"
+ },
+ "d-pizzo-nero": {
+  "src": "/media/donna/abito-nero-pizzo-scollo-v.jpg",
+  "width": 922,
+  "height": 1146,
+  "alt": "Abito nero in pizzo con scollo a V e maniche corte, in negozio",
+  "look": "cliente",
+  "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADwAQCdASoMAA8AA4BaJQBOgMYYtO8YU4AA/fxozYmcj8dRmqZ6MpV/f682+tam/TO98vVZzSMFr+ejn5/0C77bt+CurWdMxkRaDVYQA0n2IaCpcDDrN9+rCjCralBQVIltwpCxEXKgAA=="
+ },
+ "d-pizzo-gonna": {
+  "src": "/media/donna/gonna-pizzo-nero-spilla-fiore.jpg",
+  "width": 922,
+  "height": 1146,
+  "alt": "Maglia nera con spilla a fiore rossa, gonna longuette in pizzo nero e borsa rossa",
+  "look": "cliente",
+  "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAQCdASoMAA8AA4BaJagCdADcNvL2loAA4hhAGAtW4bbDpMrNqBRa+QoQZ5LIfqusPnmBM6RqhlVsC7jS+cIK8kWHMtkgkuFPfZu03Yx4hUyCUijDj3g5AAA="
+ },
+ "d-gilet": {
+  "src": "/media/donna/completo-marrone-giacca-gilet.jpg",
+  "width": 922,
+  "height": 1146,
+  "alt": "Completo marrone con giacca corta dai revers lucidi, gilet abbottonato e pantaloni",
+  "look": "cliente",
+  "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADwAQCdASoMAA8AA4BaJQBOgBuVknCPDAAA/gt9i6pXRlyyLZMeGRDL97WDq3Q+xCUPyQM0QCo3+Fpg/3c9Os6eDOcYrSU9Gx0BE540nIbanaVo66cw0vM80o1XcnW5fl9gAA=="
+ },
+ "d-cintura": {
+  "src": "/media/donna/completo-marrone-giacca-cintura.jpg",
+  "width": 922,
+  "height": 1146,
+  "alt": "Completo marrone con giacca stretta in vita da una cintura e pantaloni ampi",
+  "look": "cliente",
+  "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQAgCdASoMAA8AA4BaJQBOgCfGFrvFFI0AAPuWp/JEz6xVBB7MScHN7DxdYKFXUb8Gg22h53ZlPAM5qRY+J1TRbcB0NS+zeIGqLbsSRUE9qGi9UCZ8gAAA"
+ },
+ "d-borsa": {
+  "src": "/media/donna/completo-marrone-dolcevita-borsa.jpg",
+  "width": 922,
+  "height": 1146,
+  "alt": "Completo marrone con dolcevita chiaro e borsa a mano, in una via del centro storico",
+  "look": "cliente",
+  "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoMAA8AA4BaJYgCdAD8LjNF3+dkAAD+waGW3jxn3mhdMtbORxeghQk6UcMHEClNuh3xJ4j04WXYfva2ocXgvlKbi+z2dJN1eBNellHJ8OIXpLoRMq9M/AAA"
+ },
+ "d-scamosciato": {
+  "src": "/media/donna/giacca-pantaloni-scamosciato-marrone.jpg",
+  "width": 922,
+  "height": 922,
+  "alt": "Giacca con tasche e pantaloni in scamosciato marrone",
+  "look": "cliente",
+  "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoMAAwAA4BaJZACdADF7T8sMADiVwMCK4A6xRdux11tFGgfwl+2vQphI77ckl71egicHF0mQ0Hq3wN117xefcnatWWn0QAA"
+ },
+ "d-blusa": {
+  "src": "/media/donna/blusa-pizzo-marrone-borsa.jpg",
+  "width": 922,
+  "height": 1146,
+  "alt": "Blusa marrone in pizzo con maniche ampie, pantaloni e borsa marrone, in negozio",
+  "look": "cliente",
+  "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQAgCdASoMAA8AA4BaJQBOgCFmTwET3W2AAPlhVAG6E9vSKz4HUzFUHAZuZJBErgByllvD1f14sKefeQPGBwVv7cU2FNHPj1UB80CQTQjjCnem+rOax7qmjVabLQm6YJAAAA=="
+ },
+ "d-gessato": {
+  "src": "/media/donna/tailleur-gessato-blu-bottoni-dorati.jpg",
+  "width": 968,
+  "height": 1776,
+  "alt": "Tailleur gessato blu con gilet e bottoni dorati",
+  "look": "cliente",
+  "blur": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAADQAwCdASoMABYAPu1iqU2ppaOiMAgBMB2JYgCdABtv6xTN9fx7j4AA/QJ8nHLgda0rjrx78aWoZ4SO5E+5GwvVk3J7FqYI+FQoTBhWavpkl7MCrWSpyfZZGWZjYmEDcmbJZDQhGl+8212UjHt/eO/LVwfHUEF4JbX9ZHjiiRkDe26f33TZI9BLg1l47yvpOi6sJEz7gHJrk/gAAAA="
+ },
+ "d-beige": {
+  "src": "/media/donna/giacca-biker-scamosciata-beige.jpg",
+  "width": 545,
+  "height": 800,
+  "alt": "Giacca biker in scamosciato beige con pantaloni coordinati, in negozio",
+  "look": "cliente",
+  "blur": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAADQAwCdASoMABIAPu1iqU2ppaOiMAgBMB2JQBdl4AAfNp04XDG8VsAA4gUj3fu0DwpPhUjogNE2ZsgA7cW0Sr6kD+r36MYfxQKMAKr1LX/6AYdJdoSlDFU2m+vMQYAEW1qXAUhZYJaeG20Ow+FIBzToFYEDU/WAAAA="
+ },
+ "d-lb": {
+  "src": "/media/donna/piumino-marrone-laura-biagiotti.jpg",
+  "width": 564,
+  "height": 800,
+  "alt": "Piumino marrone con collo alto della collezione Laura Biagiotti, in una piazza del centro storico",
+  "look": "cliente",
+  "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAACwAwCdASoMABEAPu1iqU2ppaOiMAgBMB2JYwCsABskcQvrXfsOgADct11VTEhluhoHsNzlNFQX56OSFZWX+FdnU7lp1izsLKZzmXJ661qfwZLkwaiLoFkaW+WHh05gmHsAAA=="
+ },
+ "u-smoking": {
+  "src": "/media/uomo/smoking-nero-papillon.jpg",
+  "width": 1024,
+  "height": 1379,
+  "alt": "Smoking nero con revers in raso, gilet e papillon, sotto le luci di una passerella",
+  "look": "cliente",
+  "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADQAQCdASoMABAAA4BaJZwAAli/o3fRuAD+9vi2QOjrto+uuJtZOah41chUyM9yrueLDHMNq/IszbhAgbjc8zdSNIDr3zRff9MZ6+M2Q3PGv3KUvhHmNUE8GgAAAA=="
+ },
+ "u-coreana": {
+  "src": "/media/uomo/abito-blu-collo-coreano.jpg",
+  "width": 1024,
+  "height": 1536,
+  "alt": "Abito blu con giacca a collo coreano, in passerella",
+  "look": "cliente",
+  "blur": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAACQAwCdASoMABIAPu1iqU2ppaOiMAgBMB2JZwC/OBnI8oWULc2wAP7tCIMzGs5UGVoGTEVLOvDyU/IaB8vyk0tK6jiJUS4Q8E2jTgeQHLHZfpWwJEomNm1SF84gSaj6oRzerkj5QAS0ynqWce2HoAAA"
+ },
+ "u-smoking-blu": {
+  "src": "/media/uomo/smoking-blu-revers-scialle.jpg",
   "width": 768,
-  "height": 1024,
-  "alt": "In negozio, un abito lungo di paillettes rosa con strascico in raso tra due manichini con abiti blu e arancio",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAwAgCdASoMABAAA4BaJbACdAYwTbHaXWf8AAD+uAgWx/bnF6LbDJbAXZrMLx6tVhgqhiR2e9+nBg4YP0t/Kh97LtPobL5cjIBsxHW4uPYeeDLJQ9wQDncgcdZ2YQ/xE7i5WOWqRJG/H897UcAAAA=="
- },
- "rep-donna": {
-  "src": "/media/reparti/donna-abito-bianco-nero.jpg",
-  "width": 1091,
-  "height": 1604,
-  "alt": "Abito lungo bianco e nero con stampa a pennellate della collezione Laura Biagiotti",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAACQAwCdASoMABIAPu1kqU2ppaOiMAgBMB2JQBadA3QUXW+UnDIAAP7tXR5QS4PDA2u1BqBjIfxOLbZbkKSyyn3Al3LtC1cbLxoBkg0UJ/QmKsVDGTyFYAAA"
- },
- "rep-uomo": {
-  "src": "/media/reparti/uomo-giacca-blu-terrazza.jpg",
-  "width": 830,
-  "height": 1173,
-  "alt": "Uomo in giacca blu e camicia bianca su una terrazza sul mare, accanto a una pigna in ceramica",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAwBACdASoMABEAPu1iqU2ppaOiMAgBMB2JYgCdMoACtbL5EKm7r3CCcAAA/tb/DjfEYftyfIr/H/4W9RZsOAigpHFhwn9K6XoelqQ9UxWqA1k7u9o3eGbQTWK0TWs6lAoSAa3V7SOd8JsTHe0F/oyHuRq2BRQA"
- },
- "rep-bambino": {
-  "src": "/media/reparti/bambino-abito-tulle-negozio.jpg",
-  "width": 768,
-  "height": 1024,
-  "alt": "Bambina seduta in negozio con un abito da cerimonia in tulle rosa cipria",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADwAQCdASoMABAAA4BaJYwCdACg+wGvxAAA/pFlTUKDHg8Q5+YDGAslqzi+/UFnMllSXyg9/30qlC1Xx71bph2Nwym24CgDmQ+aAd+sfoYojb/SKKsb5NyIohs11rAA"
- },
- "d-cer-01": {
-  "src": "/media/donna/cerimonia-raso-ottanio.jpg",
-  "width": 706,
-  "height": 1024,
-  "alt": "Abito in raso ottanio con spalle scoperte, maniche a sbuffo e spacco",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwBACdASoMABEAPu1iqU2ppaQiMAgBMB2JbACdMoRwN6AATGWgzntU1bAA/e0EHOn2iMoefCtH9QaCA38mIZQk0HTPLBDAKGjcuhC5Q7gZJyG+zAKEV3tKYLAAAA=="
- },
- "d-cer-02": {
-  "src": "/media/donna/cerimonia-giacca-fiori-bianca.jpg",
-  "width": 555,
-  "height": 830,
-  "alt": "Giacca bianca con maniche ricoperte di fiori in tessuto su top a fascia",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoMABIAPu1iqk2ppaQiMAgBMB2JZwDKABuHmeRGE/v6khpgAP7hi+CKm/dLKHyPsm81/L4qJMUEM8kd68qkieSR+A8NUvwJ94AAAA=="
- },
- "d-cer-03": {
-  "src": "/media/donna/cerimonia-abito-fucsia-piume.jpg",
-  "width": 768,
-  "height": 1024,
-  "alt": "Abito fucsia con piume sulle spalle, tra manichini con abiti da cerimonia",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADwAQCdASoMABAAA4BaJbAC7ADZlwLJnQAA/uhggUdiudexc+DA9wz5hf50ViOD52prLNcWikfN8py4Em/NEHYvneLRBw2yBeA3G5LJ58MbcYSp19+E0esF+QGZldbIlbvaV3IwERCw7SckLxAAAA=="
- },
- "d-cer-04": {
-  "src": "/media/donna/cerimonia-abito-turchese.jpg",
-  "width": 1091,
-  "height": 1604,
-  "alt": "Abito lungo turchese con volant asimmetrico, Laura Biagiotti",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQBACdASoMABIAPu1kq04ppaQiMAgBMB2JZgCdMoR4GCIJZ+30VmrFgAD+7V1LDrPbYOGAbPH1k8dyzP6Kn9/SWc+bEd2FhtoQ2AfoD5zaIZHRrQiibIi0AAA="
- },
- "d-cer-05": {
-  "src": "/media/donna/cerimonia-raso-verde-oliva.jpg",
-  "width": 469,
-  "height": 908,
-  "alt": "Abito lungo in raso verde oliva con scollo a V",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAADwAwCdASoMABcAPu1iqU2ppaOiMAgBMB2JQBYdguw6TKGJv0cq24kAAOIN7cQ8tBpHVrY3UAN6EdYvHMGXQ4cn2lJOCrKbcZRRt6FABtPFXye/hA6eBSlHk6uQkIbN0T2hbE7htUF5R0iovcI8iBz+Uqc+CrC1lZvCerXwcblhAAAA"
- },
- "d-cer-06": {
-  "src": "/media/donna/cerimonia-tailleur-bianco.jpg",
-  "width": 555,
-  "height": 830,
-  "alt": "Tailleur pantalone bianco con giacca doppiopetto",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAwCdASoMABIAPu1iqk2ppaQiMAgBMB2JaQDMHB7HHwWE+HQFO4AA/ppzd/BnByr78e4UZGprQdaSn4PsAAAA"
- },
- "d-cer-07": {
-  "src": "/media/donna/cerimonia-paillettes-rosa.jpg",
-  "width": 768,
-  "height": 1024,
-  "alt": "Abito lungo di paillettes rosa con strascico in raso",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAwAgCdASoMABAAA4BaJbACdAYwTbHaXWf8AAD+uAgWx/bnF6LbDJbAXZrMLx6tVhgqhiR2e9+nBg4YP0t/Kh97LtPobL5cjIBsxHW4uPYeeDLJQ9wQDncgcdZ2YQ/xE7i5WOWqRJG/H897UcAAAA=="
- },
- "d-cer-08": {
-  "src": "/media/donna/cerimonia-raso-giallo.jpg",
-  "width": 469,
-  "height": 706,
-  "alt": "Abito lungo in raso giallo con spacco e strascico",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAwBACdASoMABIAPu1iqU2ppaQiMAgBMB2JagCdABu13smkOLlT3I9/qAAA/tx5QTgk8mTCWxyMtUUy8TmiSCt1uZghH0NiBnmbP22I6Pux1dV2yNiaO+hstlTsEB9+dv5X2tmPh8Z/Id3EHQnJBQibdqvfg7f/knOZgAAA"
- },
- "d-cer-09": {
-  "src": "/media/donna/cerimonia-bianco-nero-laura-biagiotti.jpg",
-  "width": 1091,
-  "height": 1604,
-  "alt": "Abito lungo bianco e nero con stampa a pennellate, Laura Biagiotti",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAACQAwCdASoMABIAPu1kqU2ppaOiMAgBMB2JQBadA3QUXW+UnDIAAP7tXR5QS4PDA2u1BqBjIfxOLbZbkKSyyn3Al3LtC1cbLxoBkg0UJ/QmKsVDGTyFYAAA"
- },
- "d-cer-10": {
-  "src": "/media/donna/cerimonia-tailleur-verde-acqua.jpg",
-  "width": 552,
-  "height": 827,
-  "alt": "Tailleur pantalone verde acqua",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQBACdASoMABIAPu1kqU2ppaQiMAgBMB2JZAC06BufNFJcmUDS53qoAAD+78y6y5vHxJdrBdr7nO2jLCMNBM9UFDDgDkwDlkvb660N3q/XKNEfmZv6fp5Lsm/OEUvNggAAAA=="
- },
- "d-cer-11": {
-  "src": "/media/donna/cerimonia-paillettes-nero.jpg",
-  "width": 469,
-  "height": 628,
-  "alt": "Abito nero di paillettes con scollo profondo",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADQAQCdASoMABAAA4BaJQBOgBufBK4oAAD+rZBzXmX3E31wq/YAVqNC3KmeZ3fC0NHH+s+cgp5zaEOZ8N72LBTTewhSrpV7F80JdP4NTmWRM6dKR838jZ6BJPqgAA=="
- },
- "d-cer-12": {
-  "src": "/media/donna/cerimonia-top-fiori-bianco.jpg",
-  "width": 656,
-  "height": 931,
-  "alt": "Top a fascia bianco con fiori in rilievo e giacca sulle spalle",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAACwAwCdASoMABEAPu1iqU2ppaQiMAgBMB2JZwAASopSGfsIrxxLIAD+1x2b7gVmOg5Lmd1dttgpTWczuus+czNpGQRuc2/+sXXuH2prRM+J5/KxwN6g/gAA"
- },
- "d-cer-13": {
-  "src": "/media/donna/cerimonia-abito-celeste.jpg",
-  "width": 1091,
-  "height": 1604,
-  "alt": "Abito lungo celeste con scollo a V, Laura Biagiotti",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAwCdASoMABIAPu1kqk4ppaQiMAgBMB2JQBOmUABWW/yNf2yAAP7tX6o+b9y9AbWOkIPXr2PFkyHmJiaCuwc4GTL0QAAA"
- },
- "d-cer-14": {
-  "src": "/media/donna/cerimonia-raso-ottanio-ritratto.jpg",
-  "width": 665,
-  "height": 1024,
-  "alt": "Ritratto con abito in raso ottanio a spalle scoperte",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAADwAwCdASoMABMAPu1iqU2ppaOiMAgBMB2JZgCdABdHAU8NY1eJKTCAAPU/K5JpQrfcnDmpZJ1ZwyhIneAM6rWqCBRXwVrfjYNukv5AZZCCbBnYFOmVd+a0fmQFocigB1f06Dq9p8QLUn+lAiCjTg1jYXN+AA=="
- },
- "d-cer-15": {
-  "src": "/media/donna/cerimonia-abito-lungo-floreale.jpg",
-  "width": 1091,
-  "height": 1604,
-  "alt": "Abito lungo con stampa floreale e scollo all'americana, Laura Biagiotti",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAwCdASoMABIAPu1kq04ppaQiMAgBMB2JYwC06B6P5SVN6uE+GQAA/u1fvO1X2q+M6JfktzY705qg0lMhSIAAAAA="
- },
- "d-cer-16": {
-  "src": "/media/donna/cerimonia-tailleur-verde-camicia-stampata.jpg",
-  "width": 555,
-  "height": 830,
-  "alt": "Tailleur verde con camicia stampata",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAABwAwCdASoMABIAPu1iqU2ppaQiMAgBMB2JQAAJTLDvIQNIwYAA/u41Fukl6+dJJvgB6s1Ir4eUZjqCUrb5NCru0YWov0bmRw9ZmPvy4LiyDexwxCketOFnZ6MPwAAA"
- },
- "d-cas-01": {
-  "src": "/media/donna/casual-cardigan-blu-abito-stampato.jpg",
-  "width": 1091,
-  "height": 1604,
-  "alt": "Cardigan blu su abito con stampa a onde, Laura Biagiotti",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACQAwCdASoMABIAPu1iqk4ppaQiMAgBMB2JYwC7ABuZNMeOQCegAP7tYAvW4IQyzUG64sF12t7fWCWk78OZzkGF7BeAFWqXtmQKPbtSEbJjcNAA"
- },
- "d-cas-02": {
-  "src": "/media/donna/casual-abito-righe-multicolore.jpg",
-  "width": 1100,
-  "height": 1555,
-  "alt": "Abito lungo a righe multicolore con maniche a kimono",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAwCdASoMABEAPu1iqU2ppaQiMAgBMB2JZQDCgBqbaYAA/uBrBUIDPfERh+TTwFWHYXXSVp0VHiLSO0EfKgN0zm+XBcPSkQAAAA=="
- },
- "d-cas-03": {
-  "src": "/media/donna/casual-camicia-bianca-pantalone-blu.jpg",
-  "width": 1091,
-  "height": 1604,
-  "alt": "Camicia bianca e pantalone blu a gamba ampia, Laura Biagiotti",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACQAwCdASoMABIAPu1iqU2ppaQiMAgBMB2JQBOgA3MuJdDrcE9AAP7tX/t2D1/aIT/VcWCuW49L6tuOk1zCw2Ic4VB1WPlo1qeV1PkuAAA="
- },
- "d-cas-04": {
-  "src": "/media/donna/casual-amiche-cappello.jpg",
-  "width": 1400,
-  "height": 788,
-  "alt": "Due amiche in look casual color panna con cappello di paglia",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoMAAcAA4BaJQBOgCB0qlpsAAD+84Lih5jEwFAWGGPt98xN+T4TnDM2o/aOyEe4iL1GxOwAAAA="
- },
- "d-cas-05": {
-  "src": "/media/donna/casual-abito-stampa-onde-blu.jpg",
-  "width": 1100,
-  "height": 1556,
-  "alt": "Abito lungo con stampa a onde blu e azzurre",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAABQAwCdASoMABEAPu1iqk4ppaQiMAgBMB2JQAAFIHgcJx0NgAD+4G+lU35mJ7kdOhPSfz2b1QFFnQy5jz+t+V7QCmPV+U/J5HJ4mDijgJcAAA=="
- },
- "d-cas-06": {
-  "src": "/media/donna/casual-top-drappeggiato-pantalone-righe.jpg",
-  "width": 1091,
-  "height": 1604,
-  "alt": "Top drappeggiato beige e pantalone a righe, Laura Biagiotti",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoMABIAPu1iqU2ppaOiMAgBMB2JYwC7AB6P5HyS7sjdYAD+7V+87VirZuWEeh0HaxK9TAi9WmISiCrmI1dsvRkei010AAAA"
- },
- "d-cas-07": {
-  "src": "/media/donna/casual-pantalone-stampato-ocra.jpg",
-  "width": 1100,
-  "height": 1554,
-  "alt": "Top nero e pantalone ampio con stampa ocra",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAwCdASoMABEAPu1iqU2ppaOiMAgBMB2JZQDE2CL7Iq+8mFbrW1AA/uBiZFfWFaM04NKUC1+HJZaTNMKkm3yKZ2rRbYIgAAA="
- },
- "d-cas-08": {
-  "src": "/media/donna/casual-abito-bianco-nero.jpg",
-  "width": 1091,
-  "height": 1604,
-  "alt": "Abito lungo bianco e nero con stampa a macchie, Laura Biagiotti",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACQAwCdASoMABIAPu1kqk4ppaQiMAgBMB2JYwAASoYDEJ0S1DMgAP7tUezXtuqGiyEqpqGAS+KplUDV1N+U9HMVRaWPKBG7RuRrv9cfmVkZO23teYrgAA=="
- },
- "d-cas-09": {
-  "src": "/media/donna/casual-top-geometrico-pantalone-lilla.jpg",
-  "width": 1100,
-  "height": 1557,
-  "alt": "Top con stampa geometrica e pantalone lilla",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAwCdASoMABEAPu1kqU4ppaOiMAgBMB2JZQC7IIjCcxA1APnRDbAA/ufWfezLYsGvYJ6u3dZPpfONxGwApvaqldUFkU42C2NkLhlUJIVCaLCEAAA="
- },
- "d-cas-10": {
-  "src": "/media/donna/casual-completo-stampa-onde.jpg",
-  "width": 1091,
-  "height": 1604,
-  "alt": "Completo con stampa a onde celesti, Laura Biagiotti",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAwCdASoMABIAPu1iqk2ppaQiMAgBMB2JYwC7AB6P5SWnrTRFAAD+7WD3MrDJ4NrrT1i7yW6Y54iP8CM61iAX4mVtpOEAAAA="
- },
- "d-cas-11": {
-  "src": "/media/donna/casual-abito-stampa-animalier.jpg",
-  "width": 1100,
-  "height": 1555,
-  "alt": "Abito lungo con stampa animalier verde e nera",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoMABEAPu1iqU2ppaQiMAgBMB2JZQDHL/7AgFK1J007agAA/uBvpUTa+sKioS41vB8kdUK6Q5Z0/eLU8gaWvcHZPnXnXBTOFWBAAA=="
- },
- "d-cas-12": {
-  "src": "/media/donna/casual-camicia-righe-pantalone-bianco.jpg",
-  "width": 1091,
-  "height": 1604,
-  "alt": "Camicia a righe blu e pantalone bianco, Laura Biagiotti",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACQAwCdASoMABIAPu1iqU2ppaOiMAgBMB2JYwC06BuZNPv7pHHQAP7tX+AETbVyQ+gaFSZH9WnuAx0CmdyjMugQSdgAAA=="
- },
- "d-cas-13": {
-  "src": "/media/donna/casual-blusa-righe-multicolore.jpg",
-  "width": 1100,
-  "height": 1555,
-  "alt": "Blusa a righe multicolore con pantalone viola",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQBACdASoMABEAPu1iqU2ppaOiMAgBMB2JYwCsEf/gMXPQRYdWVA5jqAD+1ZqRR4PQqTCk1T4ALT7oW8n1OXV4D0RzdSy/55kvtkPttzVVImCCtWBA+AAA"
- },
- "d-cas-14": {
-  "src": "/media/donna/casual-poncho-stampato-pantalone-nero.jpg",
-  "width": 1091,
-  "height": 1604,
-  "alt": "Blusa a poncho con stampa bianca e nera su pantalone nero, Laura Biagiotti",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAwCdASoMABIAPu1iqk4ppaQiMAgBMB2JYwC7ABujyo5paXlgoAAA/u1ceSUIzJA0RjpJkuuZZw1XN1Y8wA/jFuOaV9iaSqMTaFJmvAe3Wja2t7j9FR6AAAA="
- },
- "d-cas-15": {
-  "src": "/media/donna/casual-abito-portafoglio-sfumato.jpg",
-  "width": 1100,
-  "height": 1553,
-  "alt": "Abito lungo a portafoglio con sfumature azzurre",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAABwAwCdASoMABEAPu1kqU4ppaOiMAgBMB2JQBdgA1masy+S78AA/usSmJpnipnI+YuaMl1QxuZ6CjgSx+CZGtWASF13M7nDogN3JgoA"
- },
- "d-cas-16": {
-  "src": "/media/donna/casual-tshirt-bermuda-blu.jpg",
-  "width": 1091,
-  "height": 1604,
-  "alt": "T-shirt bianca e bermuda blu con cintura, Laura Biagiotti",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAwAwCdASoMABIAPu1iqU2ppaOiMAgBMB2JZQC06B6No+0AAP7tX/uBKMTQ8yRz4wnbYW6257y4xqVQ0JjsDINw9gAAAA=="
- },
- "d-com-01": {
-  "src": "/media/donna/taglie-comode-tailleur-pervinca.jpg",
-  "width": 848,
-  "height": 1264,
-  "alt": "Tailleur pantalone color pervinca in taglia comoda",
-  "look": "generata",
-  "blur": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAADwAwCdASoMABIAPu1iqU2ppaQiMAgBMB2JYgCdABj08sQXpY1ydogAAOIl6H8/heUYBGoVFj0B3KWXI84/sQqChWz95O+2t4wMP/TNYlR0EYDEWQ+IsQpaVYLa94WIYuF6d8uPURcmPLCS/tEbFjDcMvNm71cXuoAAAA=="
- },
- "d-com-02": {
-  "src": "/media/donna/taglie-comode-blusa-fiori-blu.jpg",
-  "width": 848,
-  "height": 1264,
-  "alt": "Blusa a fiori blu con pantalone panna in taglia comoda",
-  "look": "generata",
-  "blur": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAwBACdASoMABIAPu1iqU2ppaOiMAgBMB2JZACdMoACtbbLaipRFMeknnAA/uaQBzQ7lGbVMGoW8szI7k6KX7I5wgo+G/p8LMFgKRKQoC+K4zIr78Jlk6LV1aumIjMl2UfvY2iIXOkCNfeRz03W0Ra+zeka5TA8paEJsSpAAAA="
- },
- "d-com-03": {
-  "src": "/media/donna/taglie-comode-abito-lungo-beige.jpg",
-  "width": 848,
-  "height": 1264,
-  "alt": "Abito lungo beige con dettaglio in vita, in taglia comoda",
-  "look": "generata",
-  "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACQAwCdASoMABIAPu1kqk4ppaQiMAgBMB2JZwC7ABrFUCP0eATwAP6M0hhvrKYw88yzSSgzcqbsRkuVk5NcW6DjQ27E2HV6Molh1NOjzqVgllgAAAA="
- },
- "d-com-04": {
-  "src": "/media/donna/taglie-comode-kimono-pizzo-nero.jpg",
-  "width": 848,
-  "height": 1264,
-  "alt": "Giacca kimono in pizzo nero su pantalone nero, in taglia comoda",
-  "look": "generata",
-  "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADQAwCdASoMABIAPu1iqU2ppaOiMAgBMB2JYgCdABrQ/NBzywrLzgAA6/W67j4bhRGst9FcKhlHWEBQDL7Gwv4zZSv1u7QB08mBbNKeZjFhOvoMtTv4T7a26G+rBVZumHmJOrm4hDkwAA=="
- },
- "d-com-05": {
-  "src": "/media/donna/taglie-comode-coordinato-palme.jpg",
-  "width": 848,
-  "height": 1264,
-  "alt": "Coordinato blusa e pantalone con stampa a foglie di palma, in taglia comoda",
-  "look": "generata",
-  "blur": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADwAwCdASoMABIAPu1iqU2ppaOiMAgBMB2JQBdnKAAXGoEbIlz/mPoAAP7m3/tCi7DBnB/X38EQ56jt5BlRpySvHaLXN4iuY4g2cqYLZLtgnPuRsaJLQGcKvRNSlj8j2Ruo2zfa7597oNXzYwaJSWp+eJUiSAAA"
- },
- "d-com-06": {
-  "src": "/media/donna/taglie-comode-giacca-geometrica.jpg",
-  "width": 848,
-  "height": 1264,
-  "alt": "Giacca con motivo geometrico blu, in taglia comoda",
-  "look": "generata",
-  "blur": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAAAwBACdASoMABIAPu1iqU2ppaOiMAgBMB2JQBOmUABuI3wCsKxT6ibTmAAA4nybx/qzCJ+d1NO+mp+c1IzqCWyY5bwxBMEx2Xn8hXUMChZY4q+qIeF/GrvrxFutmQMO+92SZYaaxhJaB2aNXZjN/XMhfW8IChaMBY1XC49TZVjC5Ok5eCwAAA=="
- },
- "d-acc-01": {
-  "src": "/media/donna/accessori-minaudiere-cristalli.jpg",
-  "width": 1000,
-  "height": 800,
-  "alt": "Minaudière dorata ricoperta di cristalli",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoMAAoAA4BaJZwAAxYUUvBVQ3AAAP7081JPDxTU5hYkuFYnCkqnvE7HTZOOSJElrDswGanPOmsUKYAA"
- },
- "d-acc-02": {
-  "src": "/media/donna/accessori-collana-corallo-perle.jpg",
-  "width": 1000,
-  "height": 800,
-  "alt": "Collana lunga con pietre rosse e perle su un busto",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAgCdASoMAAoAA4BaJYwCdAEDpE9WH+wAAP7qyY2uNJc/olNQUazctM8YidS0HcNc3huYkhNr0Vds6LdZfrsnwAA="
- },
- "d-acc-03": {
-  "src": "/media/donna/accessori-borsa-strass-oro.jpg",
-  "width": 1000,
-  "height": 800,
-  "alt": "Borsa a mano dorata ricoperta di strass",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoMAAoAA4BaJZQAAloaQaa+AAD+8nBgKlbR8OWjBgvU8WL17aTcDuNYICQIdaSrIADIXrLNAJ6lr6WdAAA="
- },
- "d-acc-04": {
-  "src": "/media/donna/accessori-orecchini-cuore-strass.jpg",
-  "width": 1000,
-  "height": 800,
-  "alt": "Orecchini pendenti a cuore con strass",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoMAAoAA4BaJZwAAtzOp/DKzAD+7VJnqV4S9K2gXbojcbiADImAMkljv6ou0rvFwAA="
- },
- "d-acc-05": {
-  "src": "/media/donna/accessori-borsa-rossa.jpg",
-  "width": 1000,
-  "height": 800,
-  "alt": "Borsa a mano rossa con chiusura dorata",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAABQAgCdASoMAAoAA4BaJbACdAEVVteqvfAiIAAA/vI0jMsB/lo1VMkoqhwxKsOcEz9wDjZ1WuI27K05XmHdUoaqWqJOhN5zuvlCZbw+5/Uex2eSzTx8ll6H7tteKMG+d0dF15J9Hz/+S6tCeAAAAA=="
- },
- "d-acc-06": {
-  "src": "/media/donna/accessori-collana-fiori.jpg",
-  "width": 1000,
-  "height": 800,
-  "alt": "Collana lunga con fiori smaltati su un busto",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAQAgCdASoMAAoAA4BaJZQCxC8ADphE7igAAP7he29kZW9iuXbiSFpCwF/j0Tg0UHjhy2Xxceo7AAAA"
- },
- "d-acc-07": {
-  "src": "/media/donna/accessori-borsa-azzurra.jpg",
-  "width": 1000,
-  "height": 800,
-  "alt": "Borsa a mano azzurra con patta",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoMAAoAA4BaJZwAAlmIzvV7kgAA/uIZSpskUsqfPlZzjoxZ5n+fTsNLlSk2qMvVqITPu6S5ZmSbM99qZPf5VMAo0AA="
- },
- "d-acc-08": {
-  "src": "/media/donna/accessori-manico-gioiello.jpg",
-  "width": 1000,
-  "height": 800,
-  "alt": "Dettaglio di un manico gioiello con cristalli",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQAgCdASoMAAoAA4BaJYgCdADdSBUv5m0AAP5oLEyaz20cVNCW7v7op4Fsiyswv3L3d/0nGYQF9HtXNzQnEvv/I1vB8ZefGzPehqLKubjLILsAAAA="
- },
- "d-acc-09": {
-  "src": "/media/donna/accessori-orecchini-strass-oro.jpg",
-  "width": 1000,
-  "height": 800,
-  "alt": "Orecchini rotondi dorati con strass",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADQAQCdASoMAAoAA4BaJZwAAt0NChhb4AD+7UoSlKWEaW8PQdqp74JPjkDF6AAA"
- },
- "d-acc-10": {
-  "src": "/media/donna/accessori-borsa-rossa-catene.jpg",
-  "width": 1000,
-  "height": 800,
-  "alt": "Borsa rossa con decoro di catene dorate",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAwAgCdASoMAAoAA4BaJbACdAEQ/SVSvLz5gAD+8lVEOAsOJUobv5zkce5jOdrasYGFWmnZmyrvAMjjrgDeOIDgo2k37UT4ZEn29AAA"
- },
- "d-acc-11": {
-  "src": "/media/donna/accessori-collana-catena-oro.jpg",
-  "width": 1000,
-  "height": 800,
-  "alt": "Collana a catena dorata con pendente, su un busto",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAQCdASoMAAoAA4BaJYgCdADGyE4oAP7x8d9K0cCiYPMdLesXdF6FIeK8UEdpMFAsT/CPqRcTeRSaJIAAAA=="
- },
- "d-acc-12": {
-  "src": "/media/donna/accessori-borsa-argento.jpg",
-  "width": 1000,
-  "height": 800,
-  "alt": "Borsa argento con manico annodato",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoMAAoAA4BaJaQAAtzgyn9KgAD+7UjGivXjiGo3tbgqupI1iQuvkqdn2XNAcNjYX9YAAA=="
- },
- "d-acc-13": {
-  "src": "/media/donna/accessori-pochette-oro.jpg",
-  "width": 1000,
-  "height": 800,
-  "alt": "Pochette dorata a busta",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAQCdASoMAAoAA4BaJYwAAlm393AAAP7uC8+7+tkQzI1cfRiP6DeC66A5iaYg9xJc1AKMA9Bz8AAA"
- },
- "d-acc-14": {
-  "src": "/media/donna/accessori-collana-perle-pietre-verdi.jpg",
-  "width": 1000,
-  "height": 800,
-  "alt": "Collana di perle e pietre verdi su un busto",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoMAAoAA4BaJQBOj+ABzbmHwAD+7hIreV742OQBl1vHPAlAQzsb+isnCTjxjUu0p/OprTvAfew4AAAA"
- },
- "u-cer-01": {
-  "src": "/media/uomo/cerimonia-smoking-jacquard-blu.jpg",
-  "width": 732,
-  "height": 781,
-  "alt": "Smoking blu notte in jacquard con gilet e papillon",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoMAA0AA4BaJagCdADcm/f1Hv6VAAD+jBBZt9MnogoifU7FkN8UY+81X2Rb8cn2uAyDjdG1S507O/ob4P1Jfb6eZnNwduzmxkcVQAAA"
- },
- "u-cer-02": {
-  "src": "/media/uomo/cerimonia-completo-blu.jpg",
-  "width": 634,
-  "height": 976,
-  "alt": "Completo blu elegante su una terrazza sul mare",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADQAwCdASoMABMAPu1iqU2ppaOiMAgBMB2JZACdAB+XHLOwlTZzh8AA/mfaz69kp4OeHWa6Z3mPPI1xngD342KW5MDso58jtaEH42MrFHXk4SQoOHJcjkIBuEVNeDuyoZ+oI4SS9e5Llia4LKChsAAA"
- },
- "u-cer-03": {
-  "src": "/media/uomo/cerimonia-giacca-doppiopetto-celeste.jpg",
-  "width": 732,
-  "height": 976,
-  "alt": "Giacca doppiopetto celeste con foulard al collo",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQAgCdASoMABAAA4BaJagCdAEegPmKJWeAAP7V66wFVZAuHai+1kmy9/0SRUlnBQ2Yv/Y0HUBL5heZFGm6PwXMHfps6Jz3nTAVPl4sPvvpgEHVrsfKE3BcNr4hBrXPSdYAAA=="
- },
- "u-cer-04": {
-  "src": "/media/uomo/cerimonia-smoking-nero.jpg",
-  "width": 732,
-  "height": 782,
-  "alt": "Smoking nero con papillon al tramonto",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoMAA0AA4BaJaACdAD0TAJqa4AA+Uf+vxKiMNkyCpYHQr+EaP9Zn56UFkAtvbUPNXWaFRnpg2iMIj1yYXSwC9U0ngAAAA=="
- },
- "u-cer-05": {
-  "src": "/media/uomo/cerimonia-doppiopetto-grigio-quadri.jpg",
-  "width": 830,
-  "height": 1173,
-  "alt": "Abito doppiopetto grigio a quadri con pochette",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAADQAwCdASoMABEAPu1iqU2ppaOiMAgBMB2JYgCdABl3ayfCCLSkwQAA/sUX4UUBx6+GLp5Pi0FLOcqjYcyll0y5y26iGXnlSu8xO9ORlq6vD9z61nub//qahV/f5tKufSXWRDU9W6kE+Hcgd86jVmCTsHAAAA=="
- },
- "u-cer-06": {
-  "src": "/media/uomo/cerimonia-completo-grigio-gilet.jpg",
-  "width": 634,
-  "height": 976,
-  "alt": "Completo grigio chiaro con gilet e papillon",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADQAwCdASoMABMAPu1iqU2ppaOiMAgBMB2JQBOmUABv6qC1uHy1xxgAzjH9HctubwugLt6/zBsoKMXK6ibUWdpCTGS2dwxZx+n6Nr9z/v03Xn5UrIZCcYshOJHC5wAA"
- },
- "u-cer-07": {
-  "src": "/media/uomo/cerimonia-completo-rosa.jpg",
-  "width": 831,
-  "height": 1173,
-  "alt": "Completo rosa antico con foulard, su una terrazza",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAABQBACdASoMABEAPu1iqU2ppaOiMAgBMB2JagCdMoRwAyG8kTbj5kDj4AfAAP7DnPXr6uFi8iFJiszXYKV+fP7AvLSx+o75auYONAlCGotxtzzE8ltK00fDOB2acD+drJUb+oLCOwFzZG0ery8AAA=="
- },
- "u-cer-08": {
-  "src": "/media/uomo/cerimonia-smoking-blu.jpg",
-  "width": 732,
-  "height": 782,
-  "alt": "Smoking blu con revers a scialle e papillon",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAQCdASoMAA0AA4BaJZACdADZmwUdQAD+w6bns4Bk0O97MGv9EUWgi9eaZzElhrL+p6XgXyg1QPaRmYGs5Y+rSjATZrGlRm4d6REsxGM2EzWm0lhxxPUAAAA="
- },
- "u-cer-09": {
-  "src": "/media/uomo/cerimonia-gessato-grigio.jpg",
-  "width": 732,
-  "height": 976,
-  "alt": "Abito gessato grigio con foulard e pochette",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQAgCdASoMABAAA4BaJaACdADdrjKz93cgAP7njau+KecXjGnYdJ96VjvFEND7ArQ6YHaOLpRPhDtcZOw/zwXUDd/XozDhPvRXD9OYzRc4WchwgFkAAA=="
- },
- "u-cer-10": {
-  "src": "/media/uomo/cerimonia-completo-verde-acqua.jpg",
-  "width": 634,
-  "height": 976,
-  "alt": "Completo verde acqua con maglia gialla",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAABQBACdASoMABMAPu1iqU2ppaOiMAgBMB2JbACdMoMYADverH+ADGGHWPEAAPfSGhAP5lzZtRpg8Qa1JmpzBzMKIk0U68dGpt000mBbksc2kqS4hn5Gi708Ec/cL9612FUjtFlGk1c4Cs2S//ih84E9FJih5QhAEPNk4u0Uoy6CZVGfoFgz4O7U6xXZO7U6wbfLGBiRV8XrnSA72AAAAA=="
- },
- "u-cer-11": {
-  "src": "/media/uomo/cerimonia-completo-beige.jpg",
-  "width": 633,
-  "height": 976,
-  "alt": "Completo beige con pochette, accanto a una pigna in ceramica",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAAAQBACdASoMABMAPu1iqU2ppaOiMAgBMB2JYgCdMoACsdlPYcbT8Ko9AAD+W9YXBfhbX3qvyJKNq1RJH48sXo8Z3NbLfSIF+LpyeoVN7sYrCjjsgMq10Zul7BDAnYwIWA6GMjAgvYM7vwmstrRi7VWPV1SIeawB6gdDWQNwKx+JkFwA"
- },
- "u-cer-12": {
-  "src": "/media/uomo/cerimonia-completo-blu-acceso.jpg",
-  "width": 831,
-  "height": 1173,
-  "alt": "Completo blu acceso con camicia bianca",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAAAQBACdASoMABEAPu1iqU2ppaOiMAgBMB2JZgCsAB6HcAgRcx0RdmV1gAD+6o8nbsDwtTxw/x7qCvoI9s+2J95PbHTeEH2UehCGV88bd+pQRNbOLREMomIcJ/eWyrgewKZOTex4ZjE1sxv5cJLhdJrwDf4NOkhvjCf4MfUDWYiNJjfG2UAAAA=="
- },
- "u-cas-01": {
-  "src": "/media/uomo/casual-due-giacche-mare.jpg",
-  "width": 634,
-  "height": 976,
-  "alt": "Due uomini in giacca casual celeste e panna, su una terrazza sul mare",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAQBACdASoMABMAPu1iqU2ppaOiMAgBMB2JbACdMoAC9IPfls3oM8zzAAD2uPcggk8J8+VVvY5gcnaD4E6eVWZOESUjUWAnm91xJGe+9PLFfk4T+tyldAZWPAqKtr+wQXsNBFWQ4gAAAA=="
- },
- "u-cas-02": {
-  "src": "/media/uomo/casual-giacca-azzurra-camicia-fantasia.jpg",
-  "width": 1300,
-  "height": 974,
-  "alt": "Giacca azzurra su camicia fantasia, tra le rocce",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoMAAkAA4BaJaACdACRF8AiAAD+a+wx0VO+a7W/VHWtAKr+j4DYtoaxvrYb8cQGN8h48HftV3HWj3U+IkxajZyfrFhCq0AA"
- },
- "u-cas-03": {
-  "src": "/media/uomo/casual-giacca-beige-maglia.jpg",
-  "width": 830,
-  "height": 1173,
-  "alt": "Giacca beige su maglia a righe",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADQAwCdASoMABEAPu1iqU2ppaOiMAgBMB2JZACdLwABPIDPM0gYaBAA/lRT4+nlzJ3469LBfYofIMDCY1/YaGsxLloDJWYff1oruRr1cOETrgKs4kCP5jd9jIz6d44cAAA="
- },
- "u-cas-04": {
-  "src": "/media/uomo/casual-camicia-rosa.jpg",
-  "width": 732,
-  "height": 976,
-  "alt": "Camicia rosa sbottonata su t-shirt, con vista sul golfo",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAwAgCdASoMABAAA4BaJbACdAYuvzlPQrz+AAD+WhCv9hxrkMVHhp48IMYWZSmLPomNYiMNdWQl1WWjyLmo1Uv4WbqPvPNzI1hQ41ZKkC6ezsmxgf8J21TTPFLNphVX7gtqyNQAAAA="
- },
- "u-cas-05": {
-  "src": "/media/uomo/casual-giacca-blu-camicia-righe.jpg",
-  "width": 732,
-  "height": 976,
-  "alt": "Giacca blu con camicia a righe tra i cactus",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAwAgCdASoMABAAA4BaJYgC7AYtfqfM23azwAD9xI692iX42uJ05IfRhqkvc3xvRpM0TGuVNFsSkv639lG7kYYcgJtUWCE0GhRUcjWFTV5O2o6ombVDhkrBk3opJfCqxBYt+PAvZMAAAA=="
- },
- "u-cas-06": {
-  "src": "/media/uomo/casual-camicia-jeans.jpg",
-  "width": 633,
-  "height": 976,
-  "alt": "Camicia in jeans e bermuda in riva al mare",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAQBACdASoMABMAPu1iqU2ppaOiMAgBMB2JZgCdMoMh1EtBzJAxGZHDAAD+00crBaqb+hHwSpRzDFoUg2Hrh1b+Qk+ytN9nVGO0VJOO6biR7ECv1ag3ZKRo0u/0vcr57TYpb9ICQAA="
- },
- "u-cas-07": {
-  "src": "/media/uomo/casual-camicia-viola-bianca.jpg",
+  "height": 1145,
+  "alt": "Smoking blu con revers a scialle, gilet e papillon nero",
+  "look": "cliente",
+  "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACQAwCdASoMABIAPu1iqU2ppaQiMAgBMB2JZQDG9CB7mawj5q4AAP6M2FX5lWgG8lcOwDihz//HGdCIV+h/rr/qYk+G6qEkQnL7AqhJMH9Y5thqXTCGAjAIlAAAAA=="
+ },
+ "u-bordeaux": {
+  "src": "/media/uomo/abito-scuro-camicia-bordeaux.jpg",
+  "width": 922,
+  "height": 1146,
+  "alt": "Abito scuro con camicia bordeaux, in una via del centro storico",
+  "look": "cliente",
+  "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoMAA8AA4BaJZgCdAYulaxvyx4IAAD+7mvKF9DfV71lwO+7h5P+Sd9SUkAc592HhNrtOc/uL9QY7xiYGnsPAcFOhK7vkBZBuAo+4NcrLSuhXoRYjbK4AAAA"
+ },
+ "u-bordeaux-ritratto": {
+  "src": "/media/uomo/giacca-scura-camicia-bordeaux-pochette.jpg",
+  "width": 922,
+  "height": 1146,
+  "alt": "Giacca scura con camicia bordeaux e pochette bianca",
+  "look": "cliente",
+  "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAQCdASoMAA8AA4BaJZgCdADHJd7YAAAA/mdkF/9yWEeu0RodhHwzyiy5SqJPycf5WkBa4LGdHLlDFygba3gbcmVPTestLWDu+0sutluRo+rfYcFNWIKYAAA="
+ },
+ "u-casual": {
+  "src": "/media/uomo/maglia-blu-zip-giacca-sportiva.jpg",
+  "width": 922,
+  "height": 921,
+  "alt": "Maglia blu con zip, giacca sportiva blu e pantaloni scuri, in una via del centro storico",
+  "look": "cliente",
+  "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoMAAwAA4BaJagCdAYuHax1yjkgAADieGVy1Ho5PpjRwk8RZfTkvdBoADtqgd/6J2pkfm3HmGiyIHxHZoAHBUpe7/NhUoWPORVj3p6Y4qgAAA=="
+ },
+ "negozio-interno": {
+  "src": "/media/negozio/interno-negozio-ingromoda.jpg",
   "width": 1200,
-  "height": 949,
-  "alt": "Camicia a motivi viola e bianchi",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoMAAkAA4BaJbACdAD7FR9UYAAA/rOxOttWI5DOWDY9MyQB2YZ5nNeht6lLLHgj25/PMfI/qDMHeR+wINqa6PpJliATfAooAAA="
- },
- "u-cas-08": {
-  "src": "/media/uomo/casual-maglia-bianca.jpg",
-  "width": 831,
-  "height": 1173,
-  "alt": "Maglia bianca a maniche corte e pantalone beige",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAADwAwCdASoMABEAPu1iqU2ppaOiMAgBMB2JQBOgAttt8iBWv9SPaOPAAPylp8BLPQdOEamcQJ+xI9RUTQzyGLFObqhG1U9rBZRhh1m2gvpfCi7D07n09GjdOfqrQwXhAnWcwsFvq3sa2CqS5zY974wIIDMgSG8AAAA="
- },
- "u-spo-01": {
-  "src": "/media/uomo/sportswear-giacca-camicia-fiori.jpg",
-  "width": 719,
-  "height": 960,
-  "alt": "Giacca in tessuto melange su camicia a fiori",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAQAgCdASoMABAAA4BaJZACdAD0t9JR0aAAAP3ThPJPl4XHHh9m4fQ228NrDeLQEp55XlQX2GX4yapuxVLpYkj6sgUpYQKctF2oENyCAKvoonxfUbVYzbFrrBNvFXwA"
- },
- "u-spo-02": {
-  "src": "/media/uomo/sportswear-giacca-blu-pantalone-giallo.jpg",
-  "width": 629,
-  "height": 960,
-  "alt": "Giacca blu con pantalone giallo",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAADwAwCdASoMABIAPu1iqU2ppaOiMAgBMB2JQBdgBC1PMkhQwnCc93wAAP7XNdmMyb6mzDkz4uFCiwflek/OvmKRceNMdc4cKfXL3KodCsHrAAVaewFdkfRWkkGmBwlmms0pB+g7+lDW336Hj55pSkKdwNqjISTW+IWBjbKAAAA="
- },
- "u-spo-03": {
-  "src": "/media/uomo/sportswear-giacca-beige-jeans.jpg",
-  "width": 604,
-  "height": 960,
-  "alt": "Giacca beige con t-shirt bianca e jeans",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADQAwCdASoMABMAPu1iqU2ppaQiMAgBMB2JQBWAA+VoEZytgfvn0gAA/sX+SC22HhSVDnTUzdk++HmH7t6B7e633kmJRCvC9f0M2Lw7uUGv8CiXU4rgAsR7JVQ/9Mz7USyQwAAA"
- },
- "u-spo-04": {
-  "src": "/media/uomo/sportswear-camicia-lino-ottanio.jpg",
-  "width": 445,
-  "height": 600,
-  "alt": "Camicia in lino color ottanio, in barca",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAACQAgCdASoMABAAA4BaJZgCdH8AgqzK6fy9CpuGaAD+9wyeGaCkd74D71nxtItF1+srKw9+GBvn2fqQC7TBBS3mBXSjBc9/Ze1MN9c22MOfvJvUyDid0BRcPeuLu1cTZbWHzkDHhuMCaFydjJizbJ4AAAA="
- },
- "u-spo-05": {
-  "src": "/media/uomo/sportswear-blazer-camicia-righe.jpg",
-  "width": 648,
-  "height": 960,
-  "alt": "Blazer blu con camicia a righe e jeans",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAwBACdASoMABIAPu1iqU2ppaOiMAgBMB2JYwCdAB6Rr5WBq/2F4T31fUAA37ds7f0rAEaehKRRz8B4lthK8/vQetpFoC2ieQht5j/kJ7i6VihiZAZo2/PePRes8iRELS7vAAAA"
- },
- "u-spo-06": {
-  "src": "/media/uomo/sportswear-giacca-quadri.jpg",
-  "width": 445,
-  "height": 600,
-  "alt": "Giacca a quadri con maglia arancio",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAABQAgCdASoMABAAA4BaJbAC7AYtzuKPtJoMRYAA/ujUtXvK36xA1RFryMlDCiJ5kknB4fVd5AZXjn1sHuGXlcAK8O8umCec7pHsGb6fJY+mDsUEiUgO9gAA"
- },
- "u-spo-07": {
-  "src": "/media/uomo/sportswear-tshirt-rossa.jpg",
-  "width": 445,
-  "height": 600,
-  "alt": "T-shirt rossa e bermuda, sul pontile",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAQCdASoMABAAA4BaJZgCw7Dp8z19mAAA/vN3T5qVguAoy9aWJBc7T53eD+aAUoV8o2/xt9dO4jUPqJiugGr4QpjZlNSLImzi4KhQbHrodKPa6tjT8m0AAAA="
- },
- "u-spo-08": {
-  "src": "/media/uomo/sportswear-due-look.jpg",
-  "width": 625,
-  "height": 960,
-  "alt": "Due look maschili con giacca blu e giacca beige",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAQBACdASoMABIAPu1iqU2ppaOiMAgBMB2JZQAAWpktPiyycR6yYKjjwAD+Z9kQGO2bIAMvS/h7fZtazLl0LRtsKEotRxXKKZIbTii7xWFAqib8DM7AKVO+Hi/HOIClAz+bCJLgLSlbYM5oHamVICq9fRNJEhYdC4ELat4AAAA="
- },
- "u-sca-01": {
-  "src": "/media/uomo/scarpe-mocassini-vernice.jpg",
-  "width": 1000,
   "height": 800,
-  "alt": "Mocassini neri in vernice",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoMAAoAA4BaJQAAS7tKY6jCxgAA/vYLXF/gYPArtt/pc0xqBA8/WhjMuPPVYe+cZsaW+yyaH2suONxUNi562VEj7eQ4AA=="
- },
- "u-sca-02": {
-  "src": "/media/uomo/scarpe-stringate-vernice-cintura.jpg",
-  "width": 1000,
-  "height": 800,
-  "alt": "Scarpe stringate nere in vernice con cintura coordinata",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoMAAoAA4BaJYwAD45PqrPqbAD+85FPcwDNv1oyQdwOcK7DIrx0eP4tUBOhvZX2PMORxXr+jy/ak5HRqjTfsy24WDr4ime1fItUK9jgAAA="
- },
- "u-sca-03": {
-  "src": "/media/uomo/scarpe-derby-pelle-nera.jpg",
-  "width": 1000,
-  "height": 800,
-  "alt": "Scarpa derby in pelle nera",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoMAAoAA4BaJQAAYqf4TTb4M0AA/u5qqp4voPJnxbPWkjoSkow/byM+mV2hvcEYZFH94+n7pG2eqSWZCVSrKr6/okvA8AAA"
- },
- "u-sca-04": {
-  "src": "/media/uomo/scarpe-mocassini-cintura.jpg",
-  "width": 1000,
-  "height": 800,
-  "alt": "Mocassini neri con cintura in vernice abbinata",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoMAAoAA4BaJQBWACP058Tzr8AAAP7z+jFpE2V5pyoluNpOpt1epgd79QrFesjjNxBJu5ST76uZZ7nZUeiI48WBc6lnOd7/GcVAAA=="
- },
- "u-sca-05": {
-  "src": "/media/uomo/scarpe-vernice-fibbia.jpg",
-  "width": 1000,
-  "height": 800,
-  "alt": "Scarpe in vernice nera con cintura a fibbia argentata",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoMAAoAA4BaJYwAD4ltV/Y50gAA/vTf6vpRY+yESqfIQneYcllTZHT7lPefsZYCnkaA4F0jA2Mt/Bwh+MApeOUA7uzv64AA"
- },
- "u-acc-01": {
-  "src": "/media/uomo/accessori-papillon-colorati.jpg",
-  "width": 1000,
-  "height": 800,
-  "alt": "Papillon in raso di tanti colori",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAwAgCdASoMAAoAA4BaJZgCdEf/gY8OmJb1AAD+mx1iIDl1nhsaF55t5gCs682C77l+9+KX5B4P0S/htGZtFeDgg29tdI0VCvOE6e87+9C5b0fzcjxKA0AA"
- },
- "u-acc-02": {
-  "src": "/media/uomo/accessori-gemelli-calice.jpg",
-  "width": 1000,
-  "height": 800,
-  "alt": "Gemelli a forma di calice di vino rosso nel loro astuccio",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAQCdASoMAAoAA4BaJaQAAtzQ8TsUAAD+9gosArtgubLXKEHnhzo9QacrKczSV9Fql1Egx8JVAAAA"
- },
- "u-acc-03": {
-  "src": "/media/uomo/accessori-pochette-colorate.jpg",
-  "width": 1000,
-  "height": 800,
-  "alt": "Pochette da taschino in seta di colori diversi",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoMAAoAA4BaJZACdADdKH5gfYAA/t7mIYYkYLE8THijwhlE8PsrCoOHpin6jRZX0gmNfMYfG+5Lnsnv+AA="
- },
- "u-acc-04": {
-  "src": "/media/uomo/accessori-cravatte.jpg",
-  "width": 1000,
-  "height": 800,
-  "alt": "Cravatte scure a righe e a pois",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoMAAoAA4BaJZwAAup6BK5tiEAA/sYHnlvngW0qx8KBIk7k3KOmUASJe5dekrap5boi+KGlTWpWkF04uUUowlpU54kQgGUAAAA="
- },
- "u-acc-05": {
-  "src": "/media/uomo/accessori-papillon-pois.jpg",
-  "width": 1000,
-  "height": 800,
-  "alt": "Dettaglio di un papillon nero a micro pois",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAQCdASoMAAoAA4BaJZQAD4fvqpz/IADOCa7+Zs2vyDuFgXArNYxrMzUipgDjFqbnFRcyVnvx0FcxZdG9a7p3zzP6/NMlBR7F9bQZbqxk9nMi6tsAAA=="
- },
- "u-acc-06": {
-  "src": "/media/uomo/accessori-pochette-pois.jpg",
-  "width": 1000,
-  "height": 800,
-  "alt": "Pochette da taschino blu, bordeaux e lilla a pois",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoMAAoAA4BaJagCdAEOpdGXJ8gA/uH1B3kGx6mwPNlrdCmWZSyMWsYiV0k2Rc/Q/jvoTp7EoOwSAjPQzvK/Vpnndgk5Hqb5SGBiVGmAAAA="
- },
- "b-cer-01": {
-  "src": "/media/bambino/cerimonia-tulle-rosa-divano.jpg",
-  "width": 576,
-  "height": 1024,
-  "alt": "Bambina in abito di tulle rosa cipria seduta su un divano del negozio",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAQBACdASoMABUAPu1iqU2ppaOiMAgBMB2JYwCw7Bue4dMmSLPNIknVAADN+5o3VZfhrRyg8SVwjCPdn+0IHV4Z2fAs/q+NaY6ZkZ5aUU6yM9sD5UGAHJjxtBfhQqohnsEM16b2Y+Sdyu6B7BzuIN6o4AAAAA=="
- },
- "b-cer-02": {
-  "src": "/media/bambino/cerimonia-comunione-spilla.jpg",
-  "width": 1090,
-  "height": 866,
-  "alt": "Bambina che sistema la spilla di un abito bianco per la comunione",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAQCdASoMAAoAA4BaJQBOgCKfJrhKfAAA/k6PozM6Gj4l8zYn9KWE9lznP2HNMGtTWw2Irm+UYIotjCp1t2SverJUlpZWZl0FOozOsxetzDm5XAAAAA=="
- },
- "b-cer-03": {
-  "src": "/media/bambino/cerimonia-giacca-azzurra-papillon.jpg",
-  "width": 1000,
-  "height": 1500,
-  "alt": "Bambino in giacca azzurra con papillon rosso",
-  "look": "generata",
-  "blur": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAACQAwCdASoMABIAPu1iqU2ppaOiMAgBMB2JZQAASnli5Kf8lVGcAP7vYpH4eXn5aVrud892ZWQhip0jXOp6MvZfYlymjcS+cFGSbnjLa4igDNWoq0uuMI5CGVUH6vOdQPrJH+bFkoUQbcUSgUU1cCim4EAAAA=="
- },
- "b-cer-04": {
-  "src": "/media/bambino/cerimonia-abito-bianco-tulle.jpg",
-  "width": 576,
-  "height": 1024,
-  "alt": "Bambina in abito bianco in tulle per la comunione",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAABwAwCdASoMABUAPu1iqU2ppaOiMAgBMB2JYwC2yBWV8kCWQ0AA/u9whfkgwxP2E2dNlkN8cy/WR/U3vu1KU8Q7kCZDSpDcP3GWuYOVuhxoNsQeUmBjn4sZ/qyl78U7LzA9AAAA"
- },
- "b-cer-05": {
-  "src": "/media/bambino/cerimonia-corpetto-perline.jpg",
-  "width": 1024,
-  "height": 767,
-  "alt": "Dettaglio di un corpetto ricamato con perline",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoMAAkAA4BaJYwCdAEDeGMWA4AA/vGCBD2WjgNrfIDdIdQ0+WE/J5DgbHkUS++zXQgYzWIkNTND4MGfBlAAAA=="
- },
- "b-cer-06": {
-  "src": "/media/bambino/cerimonia-abito-bianco-fiore.jpg",
-  "width": 1000,
-  "height": 1500,
-  "alt": "Bambina in abito bianco in tulle con un fiore in vita",
-  "look": "generata",
-  "blur": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADwAwCdASoMABIAPu1iqU2ppaOiMAgBMB2JZQC7ABuVY9pjqYOm6QigAP7bo1nwJfCUJzNeAN+nxFqt+Sfl84tthwaMT95/ZxWu9DLhBwRBl37KkJTcdKtVJPTmgEbxKyHOI+ERAAA="
- },
- "b-cer-07": {
-  "src": "/media/bambino/cerimonia-tulle-rosa-seduta.jpg",
-  "width": 1024,
-  "height": 767,
-  "alt": "Bambina seduta con un abito in tulle rosa cipria",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoMAAkAA4BaJZwAAwFW4bttzMAA/upIO5YOsEODPp9nxo+KWqPGqi7J97LiD4NMtaoLFB5hKdOY7AERDhsgAA=="
- },
- "b-cer-08": {
-  "src": "/media/bambino/cerimonia-tulle-rosa-negozio.jpg",
-  "width": 768,
-  "height": 1024,
-  "alt": "Bambina con abito in tulle rosa cipria nel salottino del negozio",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADwAQCdASoMABAAA4BaJYwCdACg+wGvxAAA/pFlTUKDHg8Q5+YDGAslqzi+/UFnMllSXyg9/30qlC1Xx71bph2Nwym24CgDmQ+aAd+sfoYojb/SKKsb5NyIohs11rAA"
- },
- "cs-palco": {
-  "src": "/media/chi-siamo/negozio-pedana-abiti.jpg",
-  "width": 768,
-  "height": 1024,
-  "alt": "In negozio, abiti da cerimonia su manichini e una cliente in abito di paillettes rosa",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAwAgCdASoMABAAA4BaJbACdAYwTbHaXWf8AAD+uAgWx/bnF6LbDJbAXZrMLx6tVhgqhiR2e9+nBg4YP0t/Kh97LtPobL5cjIBsxHW4uPYeeDLJQ9wQDncgcdZ2YQ/xE7i5WOWqRJG/H897UcAAAA=="
- },
- "cs-serata": {
-  "src": "/media/chi-siamo/serata-abito-nero.jpg",
-  "width": 1600,
-  "height": 1067,
-  "alt": "Donna sorridente in abito nero a una serata con palloncini argento",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoMAAgAA4BaJaACdAD8LQmpn8gA4n8LCT8/jtREJnGLM/RgBeEOEJm6iiaRzZTtBcOQIGu1624UnRmEo9mCn7gORE8GTIAA"
- },
- "cs-salottino": {
-  "src": "/media/chi-siamo/salottino-negozio.jpg",
-  "width": 768,
-  "height": 1024,
-  "alt": "Il salottino del negozio, con poltrone in pelle nera e una lampada bianca",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADwAQCdASoMABAAA4BaJYwCdACg+wGvxAAA/pFlTUKDHg8Q5+YDGAslqzi+/UFnMllSXyg9/30qlC1Xx71bph2Nwym24CgDmQ+aAd+sfoYojb/SKKsb5NyIohs11rAA"
- },
- "cs-scarpe": {
-  "src": "/media/chi-siamo/mocassini-cintura.jpg",
-  "width": 1000,
-  "height": 800,
-  "alt": "Mocassini neri e cintura in vernice fotografati in negozio",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoMAAoAA4BaJQBWABtsXztJ94AA/vJssKGws8fdNA7np1PcVlfMxzT6fNetOetii8/HvFOFhXiSds4d4obuAByM++B1klUjAAA="
- },
- "cs-collane": {
-  "src": "/media/chi-siamo/collana-busto.jpg",
-  "width": 1000,
-  "height": 800,
-  "alt": "Collana lunga dorata e nera su un busto in negozio",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoMAAoAA4BaJYwCdADdSOqf6AAA/vBA2XzDTVhqDU5SNSzpeqK7ATnJ03qw+zs7lfMU6Mi9LGsqAAAA"
- },
- "cs-papillon": {
-  "src": "/media/chi-siamo/papillon.jpg",
-  "width": 1000,
-  "height": 800,
-  "alt": "Papillon in raso di tanti colori",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAwAgCdASoMAAoAA4BaJZgCdEf/gY8OmJb1AAD+mx1iIDl1nhsaF55t5gCs682C77l+9+KX5B4P0S/htGZtFeDgg29tdI0VCvOE6e87+9C5b0fzcjxKA0AA"
- },
- "cs-giara": {
-  "src": "/media/chi-siamo/abito-nero-giara.jpg",
-  "width": 1000,
-  "height": 546,
-  "alt": "Donna in abito nero accanto a una giara di terracotta",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoMAAcAA4BaJYwCdADdpvsHcAAA/opD1E5rYwbt95csN5Z95tYSReAyxs+O13RIpSto8WJoGwL8USLfGcAAAA=="
- },
- "cs-perline": {
-  "src": "/media/chi-siamo/ricamo-perline.jpg",
-  "width": 1024,
-  "height": 767,
-  "alt": "Dettaglio di un ricamo di perline su un abito da cerimonia",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoMAAkAA4BaJYwCdAEDeGMWA4AA/vGCBD2WjgNrfIDdIdQ0+WE/J5DgbHkUS++zXQgYzWIkNTND4MGfBlAAAA=="
- },
- "cs-terrazza": {
-  "src": "/media/chi-siamo/giacche-terrazza-mare.jpg",
-  "width": 1460,
-  "height": 976,
-  "alt": "Due uomini in giacca beige e camicia a fiori su una terrazza sul mare",
-  "look": "catalogo",
-  "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQAgCdASoMAAgAA4BaJbACdAD8ZIwogdwAAP5Mqtx6Aj6by3h5F102RSUUbXhLj7cTgwRpoZUnwAu5yVwUtGHoeI3WYV0gU4ds2UAA"
- },
- "cs-sposa": {
-  "src": "/media/chi-siamo/sposa-damigelle.jpg",
-  "width": 679,
-  "height": 857,
-  "alt": "Una sposa con le damigelle in abiti verde acqua",
-  "look": "reale",
-  "blur": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADwAQCdASoMAA8AA4BaJZgCdADc5vtmogAA/uzhhyxYdS8ZyFmlX1VBuVQQLOWm+vQZwy16ZyJ86NLnF5KvgBf16rPU4d51JsDCG3AMJuZ9MLqw/GYRbQUdybQ0rPBwBVK/OLswAAA="
+  "alt": "L'interno del negozio Ingromoda: stender di giacche e cappotti, il bancone e una cliente",
+  "look": "cliente",
+  "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoMAAgAA4BaJQBOgMWWrNY2yWAA/uuF/6dJamu6lptCQ0TPQtvUG0mo+88faLD+Sou2DV9UZs6lro/I8/O5Gi3zqrezYVOAAAA="
  }
 }

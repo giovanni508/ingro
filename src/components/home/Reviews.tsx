@@ -1,4 +1,4 @@
-import { Star } from "@phosphor-icons/react/ssr";
+import { GoogleLogo, Star } from "@phosphor-icons/react/ssr";
 import { CountUp } from "@/components/motion/CountUp";
 import { FadeUp } from "@/components/motion/FadeUp";
 import { SplitReveal } from "@/components/motion/SplitReveal";
@@ -11,8 +11,9 @@ const PLACE = ["md:col-span-8", "md:col-span-7 md:col-start-6", "md:col-span-7 m
 const MONTHS = ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre"];
 
 /**
- * Scene 8. Real Google reviews set as editorial pull quotes. Text untouched
- * (shortened only with "…"), author and source shown. The count is the one
+ * Scene 10. Real Google reviews set as editorial pull quotes, each with its
+ * stars and the Google mark. Text untouched (shortened only with "…"),
+ * author and source shown. The count is the one
  * printed by the old widget; no average is shown because none is published.
  */
 export function Reviews() {
@@ -21,9 +22,15 @@ export function Reviews() {
     <section className="surface-light section relative overflow-hidden" aria-labelledby="rev-title">
       <div className="wrap">
         <div className="grid grid-cols-1 gap-10 md:grid-cols-12 md:items-end md:gap-x-[var(--gutter)]">
-          <SplitReveal as="h2" id="rev-title" className="t-display text-char md:col-span-6">
-            {r.title}
-          </SplitReveal>
+          <div className="md:col-span-6">
+            <p className="t-label inline-flex items-center gap-2 text-char-dim">
+              <GoogleLogo size={18} weight="bold" aria-hidden="true" />
+              Recensioni verificate su Google
+            </p>
+            <SplitReveal as="h2" id="rev-title" className="t-display mt-5 text-char">
+              {r.title}
+            </SplitReveal>
+          </div>
           <div className="md:col-span-5 md:col-start-8">
             <p className="flex items-baseline gap-4 text-char">
               <CountUp value={reviews.count} className="opsz-auto font-display text-[clamp(4rem,2.6rem+5vw,7.5rem)] leading-none" />
@@ -52,10 +59,17 @@ export function Reviews() {
                   <blockquote className="t-quote text-char">
                     <p>{q.excerpt}</p>
                   </blockquote>
-                  <figcaption className="mt-5 flex flex-wrap items-center gap-x-3 text-[0.9375rem] text-char-dim">
+                  <figcaption className="mt-5 flex flex-wrap items-center gap-x-3 gap-y-1 text-[0.9375rem] text-char-dim">
+                    <span className="flex gap-0.5 text-magenta-text" aria-hidden="true">
+                      {Array.from({ length: q.rating }).map((_, k) => (
+                        <Star key={k} size={15} weight="fill" />
+                      ))}
+                    </span>
+                    <span className="sr-only">{q.rating} stelle su 5,</span>
                     <span className="font-medium text-char">{q.author}</span>
                     <span aria-hidden="true">/</span>
                     <span>
+                      <GoogleLogo size={15} weight="bold" className="mr-1.5 inline -translate-y-px" aria-hidden="true" />
                       Recensione Google, {MONTHS[d.getUTCMonth()]} {d.getUTCFullYear()}
                     </span>
                   </figcaption>

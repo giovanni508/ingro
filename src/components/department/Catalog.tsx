@@ -180,6 +180,17 @@ function CategorySection({ c, d, dept, visible, all, onExpand }: { c: Category; 
             <div data-item className="mx-auto w-full max-w-[36rem] lg:col-span-6 lg:col-start-7 lg:max-w-none">
               <Item id={lead} label={c.label} dept={dept} sizes="(min-width: 1024px) 46vw, (min-width: 640px) 36rem, 92vw" eager big />
             </div>
+          ) : c.items ? (
+            <ul className="flex flex-wrap items-baseline gap-x-5 gap-y-2 border-t border-[var(--line-light)] pt-10 lg:col-span-6 lg:col-start-7 lg:self-center lg:border-t-0 lg:pt-0" aria-label={`${c.label}: cosa trovate in negozio`}>
+              {c.items.map((it, i) => (
+                <li key={it} className="font-display text-[clamp(1.9rem,1.3rem+2vw,3.4rem)] leading-[1.15] text-char">
+                  <span className={i % 2 ? "italic" : ""}>{it}</span>
+                  {i < c.items!.length - 1 ? (
+                    <span className="ml-5 inline-block size-2 -translate-y-[0.35em] rounded-full bg-magenta-text align-middle" aria-hidden="true" />
+                  ) : null}
+                </li>
+              ))}
+            </ul>
           ) : (
             <div className="grid grid-cols-1 items-end gap-8 border-t border-[var(--line-light)] pt-10 lg:col-span-6 lg:col-start-7 lg:border-t-0 lg:pt-0">
               <p className="opsz-auto font-display text-[clamp(4rem,2rem+8vw,10rem)] leading-[0.85] text-char" aria-hidden="true">
@@ -188,7 +199,7 @@ function CategorySection({ c, d, dept, visible, all, onExpand }: { c: Category; 
                 <span className="italic">{to}</span>
               </p>
               <p className="text-char-dim">
-                {c.sizes ? `Taglie comode dalla ${from} alla ${to}.` : `Tutti i capi dalla taglia ${from} alla ${to}.`} Passate in negozio o scriveteci su WhatsApp: vi aiutiamo a trovare la vestibilità giusta.
+                {c.id === "curvy" ? `Linea curvy dalla taglia ${from} alla ${to}.` : `Tutti i capi dalla taglia ${from} alla ${to}.`} Passate in negozio o scriveteci su WhatsApp: vi aiutiamo a trovare la vestibilità giusta.
               </p>
             </div>
           )}

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-export const OG_IMAGE = { url: "/og/ingromoda-palermo.jpg", width: 1200, height: 630, alt: "Abiti da cerimonia in negozio da Ingromoda, Palermo" };
+export const OG_IMAGE = { url: "/og/ingromoda-palermo.jpg", width: 1200, height: 630, alt: "Ingromoda, Palermo: donna sorridente in abito nero accanto al logo del negozio" };
 
 /**
  * Page metadata with canonical and a complete Open Graph block. Next replaces

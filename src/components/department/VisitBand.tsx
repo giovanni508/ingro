@@ -7,7 +7,6 @@ import { site, whatsappHref } from "@/lib/site";
 const ALL = [
   { href: "/donna", label: "Donna" },
   { href: "/uomo", label: "Uomo" },
-  { href: "/bambino", label: "Bambino" },
 ];
 
 /** Closing band of every department: come and try it on, or ask; then the other rooms. */

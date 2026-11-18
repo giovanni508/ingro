@@ -16,7 +16,7 @@ export function JsonLd() {
     logo: `${site.url}/brand/logo-ingromoda.png`,
     image: [`${site.url}/og/ingromoda-palermo.jpg`],
     description:
-      "Boutique di abbigliamento donna, uomo e bambino a Palermo, specializzata in abiti da cerimonia. Personal shopper, videochiamate WhatsApp e spedizioni in Italia ed Europa.",
+      "Boutique di abbigliamento uomo e donna a Palermo da oltre 40 anni, specializzata in abiti da cerimonia e nella linea curvy. Personal shopper, videochiamate WhatsApp e spedizioni in Italia ed Europa.",
     slogan: "…elegante tutto l'anno…",
     telephone: site.phone.e164,
     email: site.email,

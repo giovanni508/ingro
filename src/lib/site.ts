@@ -13,7 +13,6 @@ export function whatsappHref(message?: string) {
 export const NAV = [
   { href: "/donna", label: "Donna" },
   { href: "/uomo", label: "Uomo" },
-  { href: "/bambino", label: "Bambino" },
   { href: "/chi-siamo", label: "Chi siamo" },
   { href: "/contatti", label: "Contatti" },
 ] as const;

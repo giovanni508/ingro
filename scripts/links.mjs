@@ -1,7 +1,7 @@
 // Link check: every <a href> on every page. Internal links must answer 200,
 // tel:/mailto:/wa.me must be well formed, no empty or "#" hrefs, no WordPress leftovers.
 const base = process.argv[2] ?? "http://localhost:3200";
-const pages = ["/", "/donna", "/uomo", "/bambino", "/chi-siamo", "/contatti", "/privacy", "/cookie", "/accessibilita", "/styleguide"];
+const pages = ["/", "/donna", "/uomo", "/chi-siamo", "/contatti", "/privacy", "/cookie", "/accessibilita", "/styleguide"];
 const seen = new Map();
 const problems = [];
 const external = new Set();

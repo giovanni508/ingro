@@ -10,6 +10,7 @@
 | 6. SEO locale e tecnica | completata | metadata, OG con foto vera, JSON-LD ClothingStore, sitemap, robots, canonical, redirect 301 |
 | 7. Verifica e miglioramento | completata (3 giri) | vedi `CRITIQUE.md` |
 | 8. Consegna | completata | README, PRESENTAZIONE, TODO cliente |
+| Aggiornamento 18/11/2026 | completato | foto e video del cliente, niente Bambino, linea curvy, oltre 40 anni, dirette social, recensioni Google, spot |
 
 ## Diario
 
@@ -18,3 +19,4 @@
 - **Fasi 5-6.** Reparti con filtri e richiesta disponibilità per ogni capo, Chi siamo, Contatti, pagine legali, 404 col riflettore, SEO tecnica e locale.
 - **Fase 7.** Tre giri di screenshot reali (40 catture statiche a 4 larghezze, 42 catture a scene con movimento, stati interattivi), Lighthouse mobile su tutte le pagine, audit di navigazione e tastiera, controllo link, detector impeccable. Tutte le correzioni sono in `CRITIQUE.md`.
 - **Fase 8.** Documentazione per il cliente e per chi manterrà il sito.
+- **18/11/2026.** Modifiche richieste dal cliente: tutte le foto sostituite con quelle nuove, reparto Bambino tolto (redirect 301 alla home), scena "Specializzati nella linea curvy", spot in home, dirette senza giorni fissi con i tre social, recensioni con marchio Google, Chi siamo riscritto (oltre 40 anni, uomo e donna). Dettagli in DECISIONS.md.

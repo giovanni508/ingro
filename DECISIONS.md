@@ -78,3 +78,21 @@ Ogni scelta presa in autonomia durante il restyling, con il motivo. Le domande a
 - **Build leggera:** al massimo 2 processi (`experimental.cpus: 2`) e `webpackMemoryOptimizations`.
 - **Dipendenze di build in `dependencies`** (tailwindcss, @tailwindcss/postcss, typescript, @types/*, sharp): alcuni hosting installano in modalità produzione, senza devDependencies.
 - **`.nvmrc` a 22** per indicare la versione di Node.js.
+
+## Aggiornamento del 18/11/2026 (richieste del cliente)
+
+Il cliente ha inviato una cartella con le modifiche ("COSA MODIFICARE DA INGROMODA.txt"), 23 foto, tre clip e lo spot. Applicate così:
+
+- **Solo foto nuove.** Tutte le vecchie foto sono state tolte dal sito (restano in `assets/` come archivio, non pubblicate). Le 24 immagini del sito vengono dalla cartella del cliente (`assets/cliente-2026-11/`); dai trittici è ritagliato un solo pannello, senza deformare nulla; una foto del negozio è un fotogramma dello spot, ritagliato sopra il logo sovrimpresso.
+- **Copertina:** la foto orizzontale richiesta, sotto il faro della hero. Su telefono riempie lo schermo, come prima: così Chrome non la conta come LCP (il titolo resta l'elemento principale, LCP 1,1 s). Una cornice più bassa la rendeva l'elemento LCP e Lighthouse stimava 4 s. Perché resti nitida, `sizes` è calcolato sull'altezza dello schermo (178vh: la foto 16:9 riempie la cornice in altezza), non sulla larghezza.
+- **Cartamodello** ridisegnato sui punti di riferimento dell'abito lungo blu (spalla, seno, vita, fianchi, orlo), nelle coordinate della foto (1024 × 1536).
+- **Reparto Bambino tolto:** pagina, menu, footer, sitemap, dati strutturati e testi ("per tutta la famiglia"). `/bambino` e `/bambino/` rispondono 301 verso la home. L'occasione "Comunione" resta, riscritta per genitori, padrini e invitati.
+- **Linea curvy:** nuova scena in home (taglie da cerimonia e casual per lei e per lui, collegate a `/donna#curvy` e `/uomo#curvy`); "Taglie comode" diventa "Linea curvy" in entrambi i reparti; sottotitolo della hero, descrizioni SEO e Chi siamo lo dicono esplicitamente. Le taglie restano quelle pubblicate (38-70, 44-78), da riconfermare.
+- **Oltre 40 anni, uomo e donna:** "Una realtà nuova, per tutta la famiglia" è sostituito; la descrizione richiesta dal cliente è riportata quasi alla lettera in home e in Chi siamo.
+- **Dirette:** tolti martedì e venerdì ovunque (timeline, barra annunci, Chi siamo, Contatti, logica "prossimo appuntamento"). Al loro posto il riquadro "Dirette social" con Facebook, Instagram e TikTok (`#dirette`), raggiungibile anche dalla barra annunci.
+- **Recensioni Google:** la sezione dice esplicitamente "Le recensioni su Google", con stelle e marchio Google su ogni citazione. Il widget del vecchio sito è stato ricontrollato il 18/11/2026: nessuna recensione nuova; aggiunta la sesta recensione da 5 stelle (Isabella Pagano). La recensione da 3 stelle resta esclusa, come prima.
+- **Spot:** nuova scena in home. Il video (4,4 MB a 720p invece di 23 MB) non si scarica finché non si preme play; poi parte con audio e controlli nativi. Sotto c'è una descrizione scritta di ciò che mostra; i sottotitoli richiedono il testo della voce narrante (TODO).
+- **In vetrina (Donna):** le due vecchie clip di marchio sono sostituite dalle tre clip del cliente, mute e in loop solo quando visibili, mai con il movimento ridotto.
+- **Titolo dei reparti su due righe fisse** ("Abbigliamento" / "Uomo"): prima l'a capo dipendeva dal font caricato e su Uomo produceva uno spostamento (CLS 0,051).
+- **Categorie senza foto** (accessori, scarpe, linea curvy uomo): niente foto vecchie né inventate; un elenco tipografico di ciò che si trova in negozio, o le taglie.
+- **Immagine di condivisione** rifatta con la nuova copertina accanto al logo.

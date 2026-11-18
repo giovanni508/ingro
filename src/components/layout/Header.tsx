@@ -66,7 +66,7 @@ export function Header() {
           <div className="announce relative items-center justify-center gap-3 bg-magenta-deep px-10 text-center text-[0.8125rem] leading-tight text-[#fff8f3]" style={{ minHeight: "var(--announce-h)" }}>
             <p className="py-1.5">
               {a.text}{" "}
-              <a href={a.href} target="_blank" rel="noopener noreferrer" className="ml-1 font-medium underline decoration-1 underline-offset-[3px]">
+              <a href={a.href} {...(a.href.startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})} className="ml-1 font-medium underline decoration-1 underline-offset-[3px]">
                 {a.linkLabel}
               </a>
             </p>

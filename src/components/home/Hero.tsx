@@ -11,18 +11,18 @@ import { getMedia } from "@/lib/media";
 import { whatsappHref } from "@/lib/site";
 import home from "../../../content/home.json";
 
-/** Where the follow-spot stops, as fractions of the stage frame (the three dresses). */
+/** Where the follow-spot rests, as fractions of the stage frame: face, then the dress. */
 const STOPS = [
-  { x: 0.46, y: 0.42 },
-  { x: 0.8, y: 0.47 },
-  { x: 0.2, y: 0.5 },
-  { x: 0.46, y: 0.42 },
+  { x: 0.5, y: 0.3 },
+  { x: 0.56, y: 0.5 },
+  { x: 0.44, y: 0.56 },
+  { x: 0.5, y: 0.3 },
 ];
 
 /**
- * Scene 1. A dark stage: a single follow-spot travels across the real shop
- * floor (two mannequins and a client in fuchsia), lighting one dress at a
- * time, with a visible cone of light from the rig. The title is set like a
+ * Scene 1. A dark stage: a single follow-spot from the rig lights the cover
+ * photograph sent by the shop (a woman in a black off-shoulder dress) and
+ * sways slowly between her face and the dress. The title is set like a
  * playbill and rises line by line when the opening curtain parts.
  */
 export function Hero() {
@@ -129,8 +129,8 @@ export function Hero() {
           loading="eager"
           fetchPriority="high"
           quality={75}
-          sizes="(min-width: 1024px) 54vw, 100vw"
-          className="object-cover object-[46%_30%]"
+          sizes="178vh"
+          className="object-cover object-[50%_30%]"
         />
         <div ref={dark} className="spotlight-dark" aria-hidden="true" />
         <div ref={beam} className="hero-beam" aria-hidden="true" />

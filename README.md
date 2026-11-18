@@ -1,10 +1,10 @@
 # Ingromoda: nuovo sito "Sotto i riflettori"
 
-Sito vetrina di Ingromoda srl, boutique di abbigliamento donna, uomo e bambino a Palermo (Viale Regione Siciliana S.E. 4325), specializzata in abiti da cerimonia.
+Sito vetrina di Ingromoda srl, boutique di abbigliamento uomo e donna a Palermo (Viale Regione Siciliana S.E. 4325) da oltre 40 anni, specializzata in abiti da cerimonia e nella linea curvy.
 
 - **Repository:** https://github.com/giovanni508/ingro (ramo `main`; ogni modifica viene pubblicata qui).
 - **Stack:** Next.js 16 (App Router, Cache Components; Turbopack in sviluppo, webpack per la build di produzione), React 19, TypeScript, Tailwind CSS 4, GSAP 3 (ScrollTrigger, SplitText, CustomEase) con Lenis, `next/image`, `next/font`.
-- **Pagine:** home (9 scene), `/donna`, `/uomo`, `/bambino`, `/chi-siamo`, `/contatti`, `/privacy`, `/cookie`, `/accessibilita`, 404, `/styleguide` (interna, non indicizzata).
+- **Pagine:** home (11 scene), `/donna`, `/uomo`, `/chi-siamo`, `/contatti`, `/privacy`, `/cookie`, `/accessibilita`, 404, `/styleguide` (interna, non indicizzata).
 - **Documenti:** [DESIGN.md](DESIGN.md) (sistema visivo e motion), [DECISIONS.md](DECISIONS.md) (scelte e motivi), [AUDIT.md](AUDIT.md) (vecchio sito), [PROGRESS.md](PROGRESS.md), [CRITIQUE.md](CRITIQUE.md), [PRESENTAZIONE.md](PRESENTAZIONE.md), [content/TODO-cliente.md](content/TODO-cliente.md).
 
 ## Avvio in locale
@@ -63,8 +63,8 @@ Tutti i testi e i dati sono in `content/`, in file JSON e Markdown leggibili, pe
 | File | Contenuto |
 |---|---|
 | `content/site.json` | Dati aziendali: indirizzo, telefono, WhatsApp, email, social, orari del negozio, P. IVA |
-| `content/home.json` | Testi delle 9 scene della home |
-| `content/departments.json` | Reparti Donna, Uomo, Bambino: testi, taglie, categorie, foto, messaggi WhatsApp |
+| `content/home.json` | Testi delle 11 scene della home (compresi linea curvy e spot) |
+| `content/departments.json` | Reparti Donna e Uomo: testi, taglie, categorie, foto, video, messaggi WhatsApp |
 | `content/chi-siamo.json` | Pagina Chi siamo |
 | `content/reviews.json` | Recensioni Google mostrate (testo originale) e conteggio |
 | `content/tv.json` | Palinsesto TVM CH19 e dirette Facebook |
@@ -75,13 +75,21 @@ Tutti i testi e i dati sono in `content/`, in file JSON e Markdown leggibili, pe
 
 **Barra degli annunci:** in `content/features.json` impostate `enabled`, `start`, `end` (formato ISO con fuso orario), `text`, `linkLabel`, `href`. Fuori dalle date sparisce da sola, senza rifare il deploy.
 
-**Immagini:** mettete l'originale in `assets/library/` (o `assets/original/`), aggiungete una voce in `content/media-map.json` con `id`, `from`, `to`, `alt` in italiano, poi:
+**Immagini:** dal 18/11/2026 il sito usa solo le foto inviate dal cliente, in `assets/cliente-2026-11/` (le vecchie foto restano in `assets/original/` e `assets/library/` come archivio, non pubblicate). Per aggiungerne una, mettete l'originale in `assets/` (per esempio in una nuova cartella datata), aggiungete una voce in `content/media-map.json` con `id`, `from`, `to`, `alt` in italiano (e `extract` per ritagliare un pannello da un trittico), poi:
 
 ```bash
 npm run media
 ```
 
 Lo script ridimensiona, comprime, ritaglia le bande nere degli screenshot (`"crop": true`) e aggiorna `content/media.json`. Nei testi si usa poi l'`id`.
+
+**Video:** sono in `public/media/video/`. Lo spot (`spot-ingromoda.mp4`, 1280×720, con la copertina `spot-ingromoda.jpg`) è ricavato dal file originale di 23 MB con:
+
+```bash
+ffmpeg -i "INGROMODA 20sec NOv 2026.mp4" -vf scale=1280:-2 -c:v libx264 -preset slow -crf 24 -pix_fmt yuv420p -c:a aac -b:a 128k -movflags +faststart public/media/video/spot-ingromoda.mp4
+```
+
+Le tre clip "In vetrina" della pagina Donna (`vetrina-1..3.mp4`) sono senza audio; percorsi e titoli sono in `content/departments.json`.
 
 **Mappa:** è disegnata da dati OpenStreetMap con `node scripts/map.mjs` (rigenerare solo se cambia indirizzo).
 

@@ -1,15 +1,19 @@
 {
-  "_note": "Reparti. Testi dal vecchio sito (content/raw/donna.json, uomo.json, bambino.json), uniformati al 'voi' e corretti nei refusi ('-t-shirt', 'camice in lino'). Le categorie sono quelle reali del vecchio sito; gli id corrispondono alle vecchie ancore (#cerimonia, #casual, #comode, #accessori, #scarpe). Immagini = id di content/media.json.",
+  "_note": "Reparti Donna e Uomo (il reparto Bambino è stato tolto il 18/11/2026 su richiesta del cliente). Testi dal vecchio sito, uniformati al 'voi'; linea curvy, foto e video dal materiale inviato dal cliente (novembre 2026). Le categorie senza foto ('images' vuoto) mostrano solo testo: con 'items' l'elenco dei capi, altrimenti le taglie.",
   "donna": {
     "slug": "donna",
     "title": "Abbigliamento Donna",
     "seo": {
       "title": "Abbigliamento donna e abiti da cerimonia a Palermo",
-      "description": "Abiti da cerimonia, casual, taglie comode e accessori per donna a Palermo. Dalla taglia 38 alla 70, con le nostre personal shopper. Chiedete disponibilità su WhatsApp."
+      "description": "Abiti da cerimonia, casual e linea curvy per donna a Palermo, dalla taglia 38 alla 70, con le nostre personal shopper. Chiedete disponibilità su WhatsApp."
     },
     "intro": "Dai classici look di tutti i giorni, ideali per il lavoro, ai capi più ricercati e originali per le occasioni in cui volete uscire dai soliti schemi: un assortimento ampio e completo, per un guardaroba nuovo e tutto vostro.",
-    "sizes": { "from": "38", "to": "70", "text": "Tutti i nostri capi sono disponibili dalla taglia 38 alla 70, anche nei vari drop, cioè nelle diverse vestibilità." },
-    "heroImage": "d-cer-01",
+    "sizes": {
+      "from": "38",
+      "to": "70",
+      "text": "Tutti i nostri capi sono disponibili dalla taglia 38 alla 70, anche nei vari drop, cioè nelle diverse vestibilità."
+    },
+    "heroImage": "d-piume",
     "brands": "Tra le collezioni in negozio anche Laura Biagiotti e Romeo Gigli.",
     "categories": [
       {
@@ -19,7 +23,15 @@
           "Che sia un matrimonio, un battesimo o una laurea, da Ingromoda trovate l'abito che mette in risalto ogni vostra qualità. La nostra collezione da cerimonia è composta da capi selezionati in base alle tendenze del momento e alla stagione corrente: dagli abiti lunghi a quelli corti, fino agli splendidi e classici tailleur in ogni colorazione.",
           "Raso, pizzo e chiffon, arricchiti da ricami, applicazioni o strass. Per scegliere l'abito perfetto, le nostre personal shopper tengono conto dell'occasione, del vostro stile e della vostra fisicità, per valorizzare la vostra silhouette."
         ],
-        "images": ["d-cer-01", "d-cer-02", "d-cer-03", "d-cer-04", "d-cer-05", "d-cer-06", "d-cer-07", "d-cer-08", "d-cer-09", "d-cer-10", "d-cer-11", "d-cer-12", "d-cer-13", "d-cer-14", "d-cer-15", "d-cer-16"],
+        "images": [
+          "d-blu",
+          "d-strass",
+          "d-azzurro",
+          "d-rosa",
+          "d-pizzo-nero",
+          "d-pizzo-gonna",
+          "d-piume"
+        ],
         "message": "Ciao, vorrei informazioni sugli abiti da cerimonia donna."
       },
       {
@@ -28,17 +40,29 @@
         "text": [
           "L'abbigliamento casual è intramontabile: perfetto per tutti i giorni e per ogni occasione. Trovate un'ampia scelta di capi comodi e pratici, dai jeans in denim alle gonne e agli abiti di stagione, dalle t-shirt estrose alle camicie classiche. Per abbinamenti riusciti, affidatevi alle nostre stylist."
         ],
-        "images": ["d-cas-01", "d-cas-02", "d-cas-03", "d-cas-04", "d-cas-05", "d-cas-06", "d-cas-07", "d-cas-08", "d-cas-09", "d-cas-10", "d-cas-11", "d-cas-12", "d-cas-13", "d-cas-14", "d-cas-15", "d-cas-16"],
+        "images": [
+          "d-borsa",
+          "d-gessato",
+          "d-cintura",
+          "d-gilet",
+          "d-blusa",
+          "d-scamosciato",
+          "d-beige",
+          "d-lb"
+        ],
         "message": "Ciao, vorrei informazioni sui capi casual donna."
       },
       {
-        "id": "comode",
-        "label": "Taglie comode",
+        "id": "curvy",
+        "label": "Linea curvy",
         "text": [
-          "Vestire alla moda e sentirsi bene con sé stesse è possibile per tutte, a prescindere dalla taglia. I nostri modelli in taglie comode sono pensati per valorizzare le diverse forme del corpo e per far sentire ogni donna a suo agio: con il nostro aiuto trovate il look perfetto per ogni occasione, senza rinunciare alla vostra femminilità."
+          "Siamo specializzati nella linea curvy. Vestire alla moda e sentirsi bene con sé stesse è possibile per tutte, a prescindere dalla taglia: i nostri modelli sono pensati per valorizzare le diverse forme del corpo e per far sentire ogni donna a suo agio.",
+          "Con il nostro aiuto trovate il look giusto per ogni occasione, dalla cerimonia al casual, senza rinunciare alla vostra femminilità."
         ],
-        "images": ["d-com-01", "d-com-02", "d-com-03", "d-com-04", "d-com-05", "d-com-06"],
-        "message": "Ciao, vorrei informazioni sui capi in taglie comode donna."
+        "images": [
+          "curvy-bordeaux"
+        ],
+        "message": "Ciao, vorrei informazioni sulla linea curvy donna."
       },
       {
         "id": "accessori",
@@ -46,26 +70,53 @@
         "text": [
           "Per completare un look e renderlo perfetto servono gli accessori giusti: borse, collane, orecchini, foulard, bracciali, occhiali da sole e molto altro. Con i nostri suggerimenti diventate vere icone di stile."
         ],
-        "images": ["d-acc-01", "d-acc-02", "d-acc-03", "d-acc-04", "d-acc-05", "d-acc-06", "d-acc-07", "d-acc-08", "d-acc-09", "d-acc-10", "d-acc-11", "d-acc-12", "d-acc-13", "d-acc-14"],
-        "message": "Ciao, vorrei informazioni sugli accessori donna."
+        "images": [],
+        "message": "Ciao, vorrei informazioni sugli accessori donna.",
+        "items": [
+          "Borse",
+          "Collane",
+          "Orecchini",
+          "Foulard",
+          "Bracciali",
+          "Occhiali da sole"
+        ]
       }
     ],
     "videos": [
-      { "src": "/media/video/laura-biagiotti-collezione.mp4", "poster": "/media/video/laura-biagiotti-collezione.jpg", "title": "La collezione Laura Biagiotti", "ratio": "1 / 1" },
-      { "src": "/media/video/romeo-gigli-collezione.mp4", "poster": "/media/video/romeo-gigli-collezione.jpg", "title": "Romeo Gigli da Ingromoda", "ratio": "9 / 16" }
-    ],
-    "youtube": { "href": "https://www.youtube.com/watch?v=m2BwUzMrX8U", "label": "Guardate su YouTube il video della nuova collezione Laura Biagiotti" }
+      {
+        "src": "/media/video/vetrina-1.mp4",
+        "poster": "/media/video/vetrina-1.jpg",
+        "title": "In negozio, con la borsa Ingromoda",
+        "ratio": "2 / 3"
+      },
+      {
+        "src": "/media/video/vetrina-2.mp4",
+        "poster": "/media/video/vetrina-2.jpg",
+        "title": "L'abito lungo bordeaux",
+        "ratio": "2 / 3"
+      },
+      {
+        "src": "/media/video/vetrina-3.mp4",
+        "poster": "/media/video/vetrina-3.jpg",
+        "title": "L'abito nero con le piume",
+        "ratio": "2 / 3"
+      }
+    ]
   },
   "uomo": {
     "slug": "uomo",
     "title": "Abbigliamento Uomo",
     "seo": {
       "title": "Abbigliamento uomo, smoking e abiti da cerimonia a Palermo",
-      "description": "Abiti da cerimonia e smoking, casual, sportswear, scarpe e accessori per uomo a Palermo. Dalla taglia 44 alla 78. Chiedete disponibilità su WhatsApp."
+      "description": "Abiti da cerimonia e smoking, casual, sportswear e linea curvy per uomo a Palermo, dalla taglia 44 alla 78. Chiedete disponibilità su WhatsApp."
     },
     "intro": "Il nostro assortimento per uomo è pensato per chi ama vestire casual, con capi comodi e pratici per tutti i giorni; per chi cerca un modo di vestire raffinato, curato in ogni dettaglio, dalla cravatta al pantalone; e per chi vuole uno sportswear con t-shirt, felpe e pantaloni da jogging.",
-    "sizes": { "from": "44", "to": "78", "text": "Tutti i nostri capi sono disponibili dalla taglia 44 alla 78, anche nei vari drop, cioè nelle diverse vestibilità. Con il supporto del nostro staff scoprite gli abiti che più si avvicinano al vostro modo di essere." },
-    "heroImage": "u-cer-01",
+    "sizes": {
+      "from": "44",
+      "to": "78",
+      "text": "Tutti i nostri capi sono disponibili dalla taglia 44 alla 78, anche nei vari drop, cioè nelle diverse vestibilità. Con il supporto del nostro staff scoprite gli abiti che più si avvicinano al vostro modo di essere."
+    },
+    "heroImage": "u-smoking",
     "categories": [
       {
         "id": "cerimonia",
@@ -74,79 +125,54 @@
           "L'abito da cerimonia è un must-have per chi vuole apparire elegante e raffinato nelle occasioni speciali: matrimoni, battesimi, comunioni o eventi formali. I nostri abiti di alta sartoria si adattano al contesto e alla personalità di chi li indossa: dallo spezzato al classico completo, fino a uno splendido e fresco completo di lino.",
           "Con gli accessori giusti: gemelli, cravatte, papillon."
         ],
-        "images": ["u-cer-01", "u-cer-02", "u-cer-03", "u-cer-04", "u-cer-05", "u-cer-06", "u-cer-07", "u-cer-08", "u-cer-09", "u-cer-10", "u-cer-11", "u-cer-12"],
+        "images": [
+          "u-coreana",
+          "u-smoking-blu",
+          "u-bordeaux",
+          "u-bordeaux-ritratto",
+          "u-smoking"
+        ],
         "message": "Ciao, vorrei informazioni sugli abiti da cerimonia uomo."
       },
       {
         "id": "casual",
-        "label": "Casual",
+        "label": "Casual e sportswear",
         "text": [
-          "Un'ampia gamma di capi casual, dai modelli classici a quelli più moderni, in tessuti di alta qualità, comodi e pratici da indossare. Dai classici jeans in denim, t-shirt in cotone e camicie in lino, fino a capi più attuali come jeans strappati o pantaloni cargo oversize. Qualunque sia il vostro stile, qui trovate il casual perfetto per voi."
+          "Un'ampia gamma di capi casual, dai modelli classici a quelli più moderni, in tessuti di alta qualità, comodi e pratici da indossare. Dai classici jeans in denim, t-shirt in cotone e camicie in lino, fino a capi più attuali come jeans strappati o pantaloni cargo oversize. Qualunque sia il vostro stile, qui trovate il casual perfetto per voi.",
+          "Per chi desidera un abbigliamento sportswear: t-shirt, felpe, pantaloni da jogging e capi pensati per il tempo libero e il mondo dello sport. Tra i marchi in negozio anche Navigare."
         ],
-        "images": ["u-cas-01", "u-cas-02", "u-cas-03", "u-cas-04", "u-cas-05", "u-cas-06", "u-cas-07", "u-cas-08"],
-        "message": "Ciao, vorrei informazioni sui capi casual uomo."
+        "images": [
+          "u-casual"
+        ],
+        "message": "Ciao, vorrei informazioni sui capi casual e sportswear uomo."
       },
       {
-        "id": "sportswear",
-        "label": "Sportswear",
-        "text": ["Per chi desidera un abbigliamento sportswear: t-shirt, felpe, pantaloni da jogging e capi pensati per il tempo libero e il mondo dello sport."],
-        "images": ["u-spo-01", "u-spo-02", "u-spo-03", "u-spo-04", "u-spo-05", "u-spo-06", "u-spo-07", "u-spo-08"],
-        "message": "Ciao, vorrei informazioni sullo sportswear uomo."
-      },
-      {
-        "id": "comode",
-        "label": "Taglie comode",
+        "id": "curvy",
+        "label": "Linea curvy",
         "text": [
-          "Ci impegniamo a rendere la moda accessibile a tutti, indipendentemente dalla taglia. Per questo la nostra proposta comprende una sezione dedicata alle taglie comode: maglieria, camicie, pantaloni o completi eleganti pensati per far sentire a proprio agio chi li indossa, valorizzando la propria fisicità."
+          "Siamo specializzati nella linea curvy anche per l'uomo: la moda deve essere accessibile a tutti, indipendentemente dalla taglia.",
+          "Maglieria, camicie, pantaloni e completi eleganti pensati per far sentire a proprio agio chi li indossa, valorizzando la propria fisicità."
         ],
         "images": [],
-        "message": "Ciao, vorrei informazioni sui capi in taglie comode uomo."
-      },
-      {
-        "id": "scarpe",
-        "label": "Scarpe",
-        "text": ["Per completare il look abbiamo ampliato la nostra offerta con una vasta gamma di scarpe: eleganti, da ginnastica, sportive o casual. Ogni outfit merita di essere curato in ogni dettaglio."],
-        "images": ["u-sca-01", "u-sca-02", "u-sca-03", "u-sca-04", "u-sca-05"],
-        "message": "Ciao, vorrei informazioni sulle scarpe uomo."
+        "message": "Ciao, vorrei informazioni sulla linea curvy uomo."
       },
       {
         "id": "accessori",
-        "label": "Accessori",
-        "text": ["Il tocco finale per un look impeccabile: foulard, cravatte, gemelli, papillon, cinture o occhiali da sole. Una vasta scelta vi aspetta in negozio."],
-        "images": ["u-acc-01", "u-acc-02", "u-acc-03", "u-acc-04", "u-acc-05", "u-acc-06"],
-        "message": "Ciao, vorrei informazioni sugli accessori uomo."
-      }
-    ]
-  },
-  "bambino": {
-    "slug": "bambino",
-    "title": "Abbigliamento Bambino",
-    "seo": {
-      "title": "Abiti da cerimonia per bambini a Palermo: comunione e matrimoni",
-      "description": "Abiti da cerimonia per bambine e bambini dai 2 ai 16 anni a Palermo: comunioni, matrimoni, compleanni. Taglie comode dalla 44 alla 52. Chiedete su WhatsApp."
-    },
-    "intro": "I bambini sono sempre in movimento e hanno bisogno di capi comodi e pratici, ma vogliono anche sentirsi belli e alla moda. Per questo proponiamo abiti da cerimonia per bambine e bambini dai 2 ai 16 anni, in tessuti di alta qualità e con un'attenzione minuziosa ai dettagli.",
-    "sizes": { "from": "2", "to": "16", "unit": "anni", "text": "Abiti da cerimonia dai 2 ai 16 anni. Tessuti traspiranti e resistenti per il massimo comfort, tagli e vestibilità adatti alle diverse fisicità." },
-    "heroImage": "b-cer-08",
-    "categories": [
-      {
-        "id": "cerimonia",
-        "label": "Cerimonia",
+        "label": "Scarpe e accessori",
         "text": [
-          "Le nostre collezioni di abiti da cerimonia seguono sempre le ultime tendenze, per rendere i vostri piccoli protagonisti di ogni evento speciale: comunioni, matrimoni o compleanni."
+          "Per completare il look: scarpe eleganti, da ginnastica, sportive o casual, e il tocco finale degli accessori. Ogni outfit merita di essere curato in ogni dettaglio: una vasta scelta vi aspetta in negozio."
         ],
-        "images": ["b-cer-01", "b-cer-02", "b-cer-03", "b-cer-04", "b-cer-05", "b-cer-06", "b-cer-07", "b-cer-08"],
-        "message": "Ciao, vorrei informazioni sugli abiti da cerimonia per bambini."
-      },
-      {
-        "id": "comode",
-        "label": "Taglie comode",
-        "text": [
-          "La nostra selezione per bambine e bambini comprende anche capi in taglie comode, dalla 44 alla 52, per far sentire ognuno a proprio agio con vestiti che ne valorizzino la figura."
-        ],
-        "sizes": { "from": "44", "to": "52" },
         "images": [],
-        "message": "Ciao, vorrei informazioni sui capi in taglie comode per bambini."
+        "message": "Ciao, vorrei informazioni su scarpe e accessori uomo.",
+        "items": [
+          "Scarpe",
+          "Cravatte",
+          "Papillon",
+          "Gemelli",
+          "Cinture",
+          "Foulard",
+          "Occhiali da sole"
+        ]
       }
     ]
   }

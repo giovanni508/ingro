@@ -5,9 +5,9 @@
     "enabled": true,
     "start": "2026-10-01T00:00:00+02:00",
     "end": "2026-12-31T23:59:59+01:00",
-    "text": "Ogni martedì e venerdì dalle 17:00 siamo in diretta su Facebook",
-    "linkLabel": "Seguiteci",
-    "href": "https://www.facebook.com/Ingromoda-srl-105357362908636"
+    "text": "Seguiteci su Facebook, Instagram e TikTok per sapere quando andiamo in diretta.",
+    "linkLabel": "I nostri social",
+    "href": "/#dirette"
   },
   "fabricShader": true,
   "openNow": false

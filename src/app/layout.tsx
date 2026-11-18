@@ -24,18 +24,20 @@ const bodoni = Bodoni_Moda({
 
 const jost = Jost({
   subsets: ["latin"],
-  display: "swap",
+  // Body text: if the (preloaded) font is not ready for the first paint, keep the
+  // metric-matched fallback for that view instead of swapping mid-read (no layout shift).
+  display: "optional",
   variable: "--font-jost",
 });
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: "Abiti da cerimonia e moda a Palermo | Ingromoda",
+    default: "Abiti da cerimonia e linea curvy a Palermo | Ingromoda",
     template: "%s | Ingromoda Palermo",
   },
   description:
-    "Boutique a Palermo per donna, uomo e bambino: abiti da cerimonia unici, casual e sportswear, taglie comode, personal shopper e videochiamate WhatsApp.",
+    "Da oltre 40 anni a Palermo: abiti da cerimonia e casual per uomo e donna, specializzati nella linea curvy. Personal shopper e videochiamate WhatsApp.",
   applicationName: "Ingromoda",
   formatDetection: { telephone: false, address: false, email: false },
   openGraph: {

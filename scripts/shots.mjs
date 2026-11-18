@@ -7,7 +7,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 const [base = "http://localhost:3200", out = ".impeccable/review", mode = "static", ...pagesArg] = process.argv.slice(2);
-const pages = pagesArg.length ? pagesArg : ["/", "/donna", "/uomo", "/bambino", "/chi-siamo", "/contatti", "/privacy", "/cookie", "/accessibilita", "/pagina-che-non-esiste"];
+const pages = pagesArg.length ? pagesArg : ["/", "/donna", "/uomo", "/chi-siamo", "/contatti", "/privacy", "/cookie", "/accessibilita", "/pagina-che-non-esiste"];
 const widths = (process.env.WIDTHS ?? "390,768,1440,1920").split(",").map(Number);
 fs.mkdirSync(out, { recursive: true });
 

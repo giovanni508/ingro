@@ -24,13 +24,13 @@ Far scegliere Ingromoda per la propria occasione e portare il visitatore a un co
 
 ## Positioning
 
-Boutique di famiglia a Palermo specializzata in abiti da cerimonia "unici e originali", per tutta la famiglia, a prezzi convenienti e in tutte le taglie (donna 38-70, uomo 44-78, bambino 2-16 anni, taglie comode 44-52), con personal shopper, presenza quotidiana in TV, dirette Facebook e videochiamate. Promessa: "farvi sentire sempre al centro dell'attenzione".
+Boutique a Palermo da oltre 40 anni, per uomo e donna, specializzata in abiti da cerimonia "unici e originali" e nella linea curvy, con abiti per tutte le tasche (donna 38-70, uomo 44-78; il reparto bambino non c'è più dal novembre 2026), con personal shopper, presenza quotidiana in TV, dirette Facebook e videochiamate. Promessa: "farvi sentire sempre al centro dell'attenzione".
 
 ## Operating Context
 
 - Negozio fisico in Viale Regione Siciliana S.E. 4325, Palermo, con ampio parcheggio interno privato.
 - Orari pubblicati: lunedì-sabato 8:30-13:00 e 15:30-20:00; prima domenica del mese 10:00-13:00 e 16:00-20:00, esclusi agosto e settembre (da riconfermare).
-- TV: TVM CH19 ogni giorno (palinsesto da confermare nel formato). Dirette Facebook martedì e venerdì dalle 17:00.
+- TV: TVM CH19 ogni giorno (palinsesto da confermare nel formato). Dirette su Facebook, Instagram e TikTok senza giorni fissi (si annunciano sui social).
 - Contatti: +39 091 445 150, WhatsApp +39 376 0096564 (Loredana), ingromoda@gmail.com.
 
 ## Capabilities and Constraints

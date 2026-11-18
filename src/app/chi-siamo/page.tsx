@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { FacebookLogo, Package, Television, WhatsappLogo } from "@phosphor-icons/react/ssr";
+import { Broadcast, Package, Television, WhatsappLogo } from "@phosphor-icons/react/ssr";
 import { PageShell } from "@/components/layout/PageShell";
 import { SplitReveal } from "@/components/motion/SplitReveal";
 import { FadeUp } from "@/components/motion/FadeUp";
@@ -14,13 +14,13 @@ import c from "../../../content/chi-siamo.json";
 
 export const metadata: Metadata = pageMeta({ title: c.seo.title, description: c.seo.description, path: "/chi-siamo" });
 
-const FACT_ICONS = [Television, FacebookLogo, WhatsappLogo, Package];
+const FACT_ICONS = [Television, Broadcast, WhatsappLogo, Package];
 const GALLERY = [
   "col-span-2 md:col-span-5 aspect-[4/5]",
   "md:col-span-4 aspect-[4/5] md:mt-16",
   "md:col-span-3 aspect-[3/4] md:mt-32",
   "md:col-span-3 aspect-[3/4]",
-  "md:col-span-4 aspect-[4/3] md:-mt-10",
+  "md:col-span-4 aspect-[4/5] md:-mt-10",
   "md:col-span-4 aspect-[4/5]",
   "md:col-span-3 aspect-[3/4] md:mt-20",
   "col-span-2 md:col-span-5 aspect-[3/2]",

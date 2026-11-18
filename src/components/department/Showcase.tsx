@@ -68,7 +68,7 @@ function ShowcaseVideo({ v }: { v: Video }) {
   );
 }
 
-/** "In vetrina": the brand videos the shop published, muted and with a pause control. */
+/** "In vetrina": short clips sent by the shop, muted and with a pause control. */
 export function Showcase({ videos, youtube, brands }: { videos: Video[]; youtube?: { href: string; label: string }; brands?: string }) {
   return (
     <section className="surface-ink grain section relative overflow-hidden" aria-labelledby="showcase-title">
@@ -81,7 +81,7 @@ export function Showcase({ videos, youtube, brands }: { videos: Video[]; youtube
         </div>
         <div className="mt-14 grid grid-cols-1 items-end gap-10 md:grid-cols-12 md:gap-x-[var(--gutter)]">
           {videos.map((v, i) => (
-            <div key={v.src} className={i === 0 ? "md:col-span-7" : "md:col-span-4 md:col-start-9"}>
+            <div key={v.src} className={videos.length > 2 ? "md:col-span-4" : i === 0 ? "md:col-span-7" : "md:col-span-4 md:col-start-9"}>
               <ShowcaseVideo v={v} />
             </div>
           ))}

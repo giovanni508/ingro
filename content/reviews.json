@@ -1,5 +1,5 @@
 {
-  "_note": "Recensioni Google reali, come mostrate dal widget del vecchio sito (content/raw/reviews.json). 'excerpt' è il testo originale, accorciato solo con '…'; i nomi delle commesse diverse da Loredana sono omessi in attesa di consenso. 'full' è il testo integrale, invariato.",
+  "_note": "Recensioni Google reali, come mostrate dal widget del vecchio sito (content/raw/reviews.json). 'excerpt' è il testo originale, accorciato solo con '…'; i nomi delle commesse diverse da Loredana sono omessi in attesa di consenso. 'full' è il testo integrale, invariato. Sono tutte le recensioni da 5 stelle mostrate dal widget del vecchio sito (ricontrollato il 18/11/2026: nessuna recensione nuova).",
   "source": "Google",
   "count": 513,
   "countAsPrinted": "In base a 513 recensioni",
@@ -41,6 +41,13 @@
       "date": "2026-08-28",
       "excerpt": "Grazie infinite mi sono trovata benissimo grazie alla professionalità di Loredana complimenti",
       "full": "Grazie infinite mi sono trovata benissimo grazie alla professionalità di Loredana complimenti"
+    },
+    {
+      "author": "Isabella Pagano",
+      "rating": 5,
+      "date": "2026-08-12",
+      "excerpt": "Negozio ben fornito e commesse molto gentili e disponibili…",
+      "full": "Negozio ben fornito e commesse molto gentili e disponibili, in particolar modo la sign.ra Barbara"
     }
   ]
 }

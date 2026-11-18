@@ -22,7 +22,7 @@ export function NextBroadcast() {
   return (
     <p className="mt-10 inline-flex items-center gap-3 rounded-full border border-[var(--line-dark)] px-5 py-2.5 text-ivory" aria-live="polite">
       <span className="size-2 rounded-full bg-magenta-glow" aria-hidden="true" />
-      Prossimo appuntamento: {n.kind === "tv" ? "in TV su TVM CH19" : "in diretta su Facebook"}, {when} alle {n.time}
+      Prossimo appuntamento in TV su TVM CH19: {when} alle {n.time}
     </p>
   );
 }
