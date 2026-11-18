@@ -62,7 +62,7 @@ Tutti i testi e i dati sono in `content/`, in file JSON e Markdown leggibili, pe
 
 | File | Contenuto |
 |---|---|
-| `content/site.json` | Dati aziendali: indirizzo, telefono, WhatsApp, email, social, orari del negozio, P. IVA |
+| `content/site.json` | Dati aziendali: indirizzo, telefono, WhatsApp, email, social, orari del negozio, P. IVA, nota sul pagamento con Klarna (footer) |
 | `content/home.json` | Testi delle 11 scene della home (compresi linea curvy e spot) |
 | `content/departments.json` | Reparti Donna e Uomo: testi, taglie, categorie, foto, video, messaggi WhatsApp |
 | `content/chi-siamo.json` | Pagina Chi siamo |

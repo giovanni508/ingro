@@ -32,7 +32,7 @@ Aggiornato il 18/11/2026 dopo le modifiche richieste dal cliente (cartella "FILE
 
 14. **Anno di apertura e tappe del negozio.** Il sito ora dice "da oltre 40 anni", come richiesto. Con l'anno esatto possiamo aggiungerlo ai dati strutturati per Google (`foundingDate`) e, con qualche tappa, creare una linea del tempo in "Chi siamo".
 15. **Media delle recensioni Google verificata.** Il vecchio widget mostrava "ECCELLENTE" e "In base a 513 recensioni", senza un numero medio. Il sito mostra le 6 recensioni da 5 stelle presenti nel widget (ricontrollato il 18/11/2026: nessuna nuova). Con la media verificata (e la data di rilevazione) si può aggiungere ai dati strutturati (`aggregateRating`); con un accesso a Google Business Profile si possono mostrare recensioni più recenti.
-16. **Spedizioni**: costi, tempi e modalità per Italia ed Europa (il vecchio sito dice solo che il servizio è attivo).
+16. **Spedizioni**: costi, tempi e modalità per Italia ed Europa (il vecchio sito dice solo che il servizio è attivo). Per Klarna (nel footer: "Con una spesa minima di 300 € potete pagare con Klarna in 3 rate, senza interessi a vostro carico"), confermare se vale solo in negozio o anche per gli ordini a distanza (dirette, WhatsApp).
 17. **Annunci**: la barra in alto invita a seguire Facebook, Instagram e TikTok per sapere quando andate in diretta, fino al 31/12/2026. Testo, link e date si cambiano in `content/features.json`.
 
 ## Accessi e aspetti tecnici

@@ -95,6 +95,12 @@
     "lng": 13.3739767
   },
   "parking": "Ampio parcheggio interno privato",
+  "klarna": {
+    "_note": "Richiesta del cliente (18/11/2026). Mostrato in piccolo nel footer di tutte le pagine.",
+    "minimum": 300,
+    "installments": 3,
+    "text": "Con una spesa minima di 300 € potete pagare con Klarna in 3 rate, senza interessi a vostro carico."
+  },
   "shipping": "Spedizioni in tutta Italia ed Europa",
   "messenger": "https://m.me/ingromodasrl",
   "accessibilityEmail": "accessibilita@ingromoda.com",

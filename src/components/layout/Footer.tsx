@@ -32,6 +32,8 @@ export function Footer() {
           <p className="mt-6 max-w-[34ch] text-ivory-dim">
             Boutique di abbigliamento uomo e donna a Palermo da oltre 40 anni. Abiti da cerimonia e casual, specializzati nella linea curvy.
           </p>
+          {/* Klarna: small print, as the client asked. */}
+          <p className="mt-5 max-w-[38ch] border-l border-magenta-glow pl-4 text-sm leading-relaxed text-ivory-dim">{site.klarna.text}</p>
         </div>
 
         <div className="lg:col-span-3">

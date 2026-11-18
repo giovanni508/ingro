@@ -96,3 +96,4 @@ Il cliente ha inviato una cartella con le modifiche ("COSA MODIFICARE DA INGROMO
 - **Titolo dei reparti su due righe fisse** ("Abbigliamento" / "Uomo"): prima l'a capo dipendeva dal font caricato e su Uomo produceva uno spostamento (CLS 0,051).
 - **Categorie senza foto** (accessori, scarpe, linea curvy uomo): niente foto vecchie né inventate; un elenco tipografico di ciò che si trova in negozio, o le taglie.
 - **Immagine di condivisione** rifatta con la nuova copertina accanto al logo.
+- **Klarna** (richiesta del 18/11/2026): una riga in piccolo nel footer di tutte le pagine, in minuscolo e col "voi" del sito: "Con una spesa minima di 300 € potete pagare con Klarna in 3 rate, senza interessi a vostro carico." Il testo è in `content/site.json` (`klarna`). Niente logo Klarna (nessun file ufficiale ricevuto) e niente dati strutturati sui pagamenti, perché non conosciamo gli altri metodi accettati.
